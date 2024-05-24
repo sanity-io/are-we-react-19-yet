@@ -4,7 +4,8 @@
   on:
     push:
       branches: [main]
-      paths: ['website/**/*.{ts,tsx,json}']
+      paths:
+        - 'website/**'
     workflow_dispatch:
   
   concurrency:
@@ -29,6 +30,9 @@
             node-version: lts/*
         - run: pnpm install --ignore-scripts
         - run: pnpm typegen
+          env:
+            NEXT_PUBLIC_SANITY_DATASET: ${{secrets.NEXT_PUBLIC_SANITY_DATASET}}
+            NEXT_PUBLIC_SANITY_PROJECT_ID: ${{secrets.NEXT_PUBLIC_SANITY_PROJECT_ID}}
         - uses: actions/create-github-app-token@v1
           id: generate-token
           with:
