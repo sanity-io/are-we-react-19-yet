@@ -741,13 +741,6 @@
                 },
                 "optional": true
               },
-              "url": {
-                "type": "objectAttribute",
-                "value": {
-                  "type": "string"
-                },
-                "optional": true
-              },
               "pass": {
                 "type": "objectAttribute",
                 "value": {
