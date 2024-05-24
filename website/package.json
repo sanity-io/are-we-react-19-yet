@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "@sanity/icons": "^2.11.8",
-    "@sanity/image-url": "^1.0.2",
     "@sanity/preview-url-secret": "^1.6.13",
     "@sanity/vision": "^3.42.1",
     "@types/node": "^20.12.12",
@@ -20,7 +19,7 @@
     "@vercel/speed-insights": "^1.0.10",
     "date-fns": "^3.6.0",
     "next": "^14.2.3",
-    "next-sanity": "^9.0.18",
+    "next-sanity": "9.4.0-canary.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "sanity": "^3.42.1",

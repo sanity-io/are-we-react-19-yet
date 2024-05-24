@@ -4,6 +4,14 @@ import {draftMode} from 'next/headers'
 import {client} from '@/sanity/lib/client'
 import {token} from '@/sanity/lib/token'
 
+/*
+const token = process.env.SANITY_API_READ_TOKEN
+
+if (!token) {
+  throw new Error('The `SANITY_API_READ_TOKEN` environment variable is required.')
+}
+// */
+
 /**
  * Used to fetch data in Server Components, it has built in support for handling Draft Mode and perspectives.
  * When using the "published" perspective then time-based revalidation is used, set to match the time-to-live on Sanity's API CDN (60 seconds)
