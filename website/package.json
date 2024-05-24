@@ -9,7 +9,7 @@
     "lint": "next lint",
     "typegen": "sanity schema extract && sanity typegen generate"
   },
-  "packageManager": "pnpm@9.1.2",
+  "packageManager": "pnpm@9.0.4",
   "dependencies": {
     "@sanity/assist": "^3.0.4",
     "@sanity/icons": "^2.11.8",
