@@ -10,9 +10,11 @@ import AlertBanner from './alert-banner'
 
 import {sanityFetch} from '@/sanity/lib/fetch'
 import {reportQuery} from '@/sanity/lib/queries'
+import type {ReportQueryResult} from '@/sanity.types'
 
 export async function generateMetadata(): Promise<Metadata> {
-  const report = await sanityFetch({query: reportQuery})
+  const report = await sanityFetch<ReportQueryResult>({query: reportQuery})
+  console.log({report})
   return {
     title: `Are We React 19 Yet? No (0% tests passing)`,
   }
