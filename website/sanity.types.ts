@@ -147,7 +147,7 @@ export type Report = {
 export declare const internalGroqTypeReferenceTo: unique symbol
 // Source: ./sanity/lib/queries.ts
 // Variable: reportQuery
-// Query:   *[_type == "report" && count(test) > 0] | order(_createdAt desc)[0]{    _createdAt,    test,  }
+// Query:   *[_type == "report" && defined(test)] | order(_createdAt desc)[0]{    _createdAt,    test,    "total": count(test),    "passing": coalesce(count(test[pass == true]), 0),  }
 export type ReportQueryResult = {
   _createdAt: string
   test: Array<{
@@ -156,4 +156,6 @@ export type ReportQueryResult = {
     pass?: boolean
     _key: string
   }> | null
+  total: number | null
+  passing: number | 0
 } | null
