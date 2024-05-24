@@ -5,6 +5,6 @@ module.exports = {
     taint: true,
   },
   logging: {
-    fetches: { fullUrl: false },
+    fetches: {fullUrl: false},
   },
-};
+}
