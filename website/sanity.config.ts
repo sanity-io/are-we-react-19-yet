@@ -9,12 +9,11 @@ import {structureTool} from 'sanity/structure'
 
 import {apiVersion, dataset, projectId} from '@/sanity/lib/api'
 import report from '@/sanity/schemas/documents/report'
-import pkg from '@/sanity/schemas/objects/package'
 
 export default defineConfig({
   projectId,
   dataset,
-  schema: {types: [report, pkg]},
+  schema: {types: [report]},
   scheduledPublishing: {enabled: false},
   plugins: [
     presentationTool({previewUrl: {previewMode: {enable: '/api/draft'}}}),

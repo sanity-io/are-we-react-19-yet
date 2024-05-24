@@ -1,6 +1,5 @@
-import {CloseCircleIcon, CheckmarkCircleIcon} from '@sanity/icons'
-import {defineField, defineType} from 'sanity'
-import pkg from '../objects/package'
+import {CloseCircleIcon, CheckmarkCircleIcon, CheckmarkIcon, CloseIcon} from '@sanity/icons'
+import {defineArrayMember, defineField, defineType} from 'sanity'
 import {format, parseISO} from 'date-fns'
 
 export default defineType({
@@ -11,7 +10,42 @@ export default defineType({
     defineField({
       name: 'test',
       type: 'array',
-      of: [{type: pkg.name}],
+      of: [
+        defineArrayMember({
+          type: 'object',
+          fields: [
+            defineField({
+              name: 'name',
+              type: 'string',
+              validation: (Rule) => Rule.required(),
+            }),
+            defineField({
+              title: 'URL',
+              name: 'url',
+              type: 'url',
+              validation: (Rule) => Rule.required(),
+            }),
+            defineField({
+              name: 'pass',
+              type: 'boolean',
+              validation: (Rule) => Rule.required(),
+            }),
+          ],
+          preview: {
+            select: {
+              title: 'name',
+              pass: 'pass',
+            },
+            prepare({title, pass}) {
+              return {
+                title,
+                media: pass ? CheckmarkIcon : CloseIcon,
+                subtitle: pass ? 'passed' : 'failed',
+              }
+            },
+          },
+        }),
+      ],
       validation: (Rule) =>
         Rule.custom((values) => {
           if (!Array.isArray(values)) {

@@ -2,7 +2,7 @@ import {defineField, defineType} from 'sanity'
 import {CheckmarkIcon, CloseIcon} from '@sanity/icons'
 
 export default defineType({
-  name: 'package',
+  name: 'test',
   type: 'object',
   fields: [
     defineField({
