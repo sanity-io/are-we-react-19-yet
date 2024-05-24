@@ -9,7 +9,7 @@ export default async function Page({
 }: {
   searchParams: {[key: string]: string | string[] | undefined}
 }) {
-  const [report] = await sanityFetch<ReportQueryResult>({
+  const [report, LiveSubscription] = await sanityFetch<ReportQueryResult>({
     query: reportQuery,
     lastLiveEventId,
   })
@@ -46,6 +46,7 @@ export default async function Page({
           </p>
         </footer>
       )}
+      <LiveSubscription />
     </>
   )
 }
