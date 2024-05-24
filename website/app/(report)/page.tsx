@@ -1,10 +1,31 @@
 import {CheckmarkCircleIcon, CloseCircleIcon} from '@sanity/icons'
+import type {Metadata} from 'next'
 
 import type {ReportQueryResult} from '@/sanity.types'
 import {reportQuery} from '@/sanity/lib/queries'
 import {sanityFetch} from '@/sanity/lib/fetch'
 
 import DateComponent from './date'
+
+export async function generateMetadata({
+  searchParams: {lastLiveEventId},
+}: {
+  searchParams: {[key: string]: string | string[] | undefined}
+}): Promise<Metadata> {
+  const [report] = await sanityFetch<ReportQueryResult>({
+    query: reportQuery,
+    stega: false,
+    lastLiveEventId,
+  })
+  let title = 'Are We React 19 Yet?'
+  if (report && report.total > 0) {
+    title +=
+      report.passing === report.total
+        ? ' ✨ YES ✨'
+        : ` No (${Math.floor((report.passing / report.total) * 100)}% complete)`
+  }
+  return {title}
+}
 
 export default async function Page({
   searchParams: {lastLiveEventId},
