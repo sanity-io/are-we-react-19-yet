@@ -1,0 +1,46 @@
+---
+  name: TypeGen
+  
+  on:
+    push:
+      branches: [main]
+      paths: ['website/**/*.{ts,tsx,json}']
+    workflow_dispatch:
+  
+  concurrency:
+    group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
+    cancel-in-progress: true
+  
+  permissions:
+    contents: read # for checkout
+  
+  jobs:
+    run:
+      defaults:
+        run:
+          working-directory: ./website
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v4
+        - uses: pnpm/action-setup@v2
+        - uses: actions/setup-node@v4
+          with:
+            cache: pnpm
+            node-version: lts/*
+        - run: pnpm install --ignore-scripts
+        - run: pnpm typegen
+        - uses: actions/create-github-app-token@v1
+          id: generate-token
+          with:
+            app-id: ${{ secrets.ECOSPARK_APP_ID }}
+            private-key: ${{ secrets.ECOSPARK_APP_PRIVATE_KEY }}
+        - uses: peter-evans/create-pull-request@6d6857d36972b65feb161a90e484f2984215f83e # v6
+          with:
+            author: github-actions <41898282+github-actions[bot]@users.noreply.github.com>
+            body: I ran `pnpm typegen` 🧑‍💻
+            branch: actions/typegen
+            commit-message: 'fix(typegen): 🤖 ✨'
+            labels: 🤖 bot
+            title: 'fix(typegen): 🤖 ✨'
+            token: ${{ steps.generate-token.outputs.token }}
+  
