@@ -8,12 +8,12 @@ import {presentationTool} from 'sanity/presentation'
 import {structureTool} from 'sanity/structure'
 
 import {apiVersion, dataset, projectId} from '@/sanity/lib/api'
-import report from '@/sanity/schemas/documents/report'
+import {types} from '@/sanity/schemas'
 
 export default defineConfig({
   projectId,
   dataset,
-  schema: {types: [report]},
+  schema: {types},
   scheduledPublishing: {enabled: false},
   plugins: [
     presentationTool({previewUrl: {previewMode: {enable: '/api/draft'}}}),

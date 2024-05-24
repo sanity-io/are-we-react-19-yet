@@ -13,11 +13,20 @@ import {reportQuery} from '@/sanity/lib/queries'
 import type {ReportQueryResult} from '@/sanity.types'
 
 export async function generateMetadata(): Promise<Metadata> {
-  const report = await sanityFetch<ReportQueryResult>({query: reportQuery})
-  console.log({report})
-  return {
-    title: `Are We React 19 Yet? No (0% tests passing)`,
+  const [report] = await sanityFetch<ReportQueryResult>({
+    query: reportQuery,
+    stega: false,
+    perspective: 'published',
+    lastLiveEventId: undefined,
+  })
+  let title = 'Are We React 19 Yet?'
+  if (report && report.total > 0) {
+    title +=
+      report.passing === report.total
+        ? ' ✨ YES ✨'
+        : ` No (${Math.floor((report.passing / report.total) * 100)}% complete)`
   }
+  return {title}
 }
 
 const inter = Inter({

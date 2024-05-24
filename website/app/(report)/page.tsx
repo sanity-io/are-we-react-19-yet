@@ -1,6 +1,19 @@
+import type {ReportQueryResult} from '@/sanity.types'
+import {reportQuery} from '@/sanity/lib/queries'
+import {sanityFetch} from '@/sanity/lib/fetch'
+
 import DateComponent from './date'
 
-export default async function Page() {
+export default async function Page({
+  searchParams: {lastLiveEventId},
+}: {
+  searchParams: {[key: string]: string | string[] | undefined}
+}) {
+  const [report] = await sanityFetch<ReportQueryResult>({
+    query: reportQuery,
+    lastLiveEventId,
+  })
+  console.log({report}, report?.test)
   return (
     <>
       <main className="container mx-auto px-5">
