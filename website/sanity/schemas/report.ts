@@ -10,6 +10,7 @@ export default defineType({
     defineField({
       name: 'test',
       type: 'array',
+      options: {sortable: false},
       of: [
         defineArrayMember({
           type: 'object',
