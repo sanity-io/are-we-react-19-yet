@@ -14,14 +14,11 @@ permissions:
   contents: read # for checkout
 
 jobs:
-  run:
+  test:
     runs-on: ubuntu-latest
-    strategy:
-      matrix: 
-        working-directory: [./test, ./website]
     defaults:
       run:
-        working-directory: ${{ matrix.working-directory }}
+        working-directory: ./test
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v2
@@ -44,7 +41,40 @@ jobs:
         with:
           author: github-actions <41898282+github-actions[bot]@users.noreply.github.com>
           body: I ran `pnpm format` 🧑‍💻
-          branch: actions/prettier
+          branch: actions/prettier-test
+          commit-message: 'chore(prettier): 🤖 ✨'
+          labels: 🤖 bot
+          title: 'chore(prettier): 🤖 ✨'
+          token: ${{ steps.generate-token.outputs.token }}
+
+  website:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./website
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v2
+      - uses: actions/setup-node@v4
+        with:
+          cache: pnpm
+          node-version: lts/*
+      - run: pnpm install --dev --ignore-scripts
+      - uses: actions/cache@v4
+        with:
+          path: node_modules/.cache/prettier/.prettier-cache
+          key: prettier-${{ hashFiles('pnpm-lock.yaml') }}-${{ hashFiles('.prettierignore') }}-${{ hashFiles('package.json') }}
+      - run: pnpm format
+      - uses: actions/create-github-app-token@v1
+        id: generate-token
+        with:
+          app-id: ${{ secrets.ECOSPARK_APP_ID }}
+          private-key: ${{ secrets.ECOSPARK_APP_PRIVATE_KEY }}
+      - uses: peter-evans/create-pull-request@6d6857d36972b65feb161a90e484f2984215f83e # v6
+        with:
+          author: github-actions <41898282+github-actions[bot]@users.noreply.github.com>
+          body: I ran `pnpm format` 🧑‍💻
+          branch: actions/prettier-website
           commit-message: 'chore(prettier): 🤖 ✨'
           labels: 🤖 bot
           title: 'chore(prettier): 🤖 ✨'
