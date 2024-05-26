@@ -15,10 +15,13 @@ permissions:
 
 jobs:
   run:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix: 
+        working-directory: [./test, ./website]
     defaults:
       run:
-        working-directory: ./website
-    runs-on: ubuntu-latest
+        working-directory: ${{ matrix.working-directory }}
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v2
