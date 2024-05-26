@@ -3,5 +3,5 @@
   "extends": [
     "local>sanity-io/renovate-config"
   ],
-  "ignorePresets": ["github>sanity-io/renovate-config:group-non-major"]
+  "ignorePresets": ["github>sanity-io/renovate-config:group-non-major", ":ignoreModulesAndTests"]
 }
