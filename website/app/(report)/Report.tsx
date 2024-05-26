@@ -30,8 +30,8 @@ export default function Report(props: {test: Exclude<ReportQueryResult, null>['t
     }
   }, [filterBy, props.test])
   return (
-    <section className="grid grid-cols-1 gap-4 p-4 text-sm leading-6 sm:grid-cols-2 sm:px-8 sm:pb-8 sm:pt-6 lg:grid-cols-1 lg:p-4 xl:grid-cols-2 xl:px-8 xl:pb-8 xl:pt-6">
-      <fieldset className="pb-6">
+    <>
+      <fieldset className="px-4 pb-6">
         <legend className="text-sm font-semibold leading-6 text-gray-900">Filter</legend>
         <div className="mt-6 space-y-6 sm:flex sm:items-center sm:space-x-10 sm:space-y-0">
           {filters.map((filter) => (
@@ -53,25 +53,27 @@ export default function Report(props: {test: Exclude<ReportQueryResult, null>['t
           ))}
         </div>
       </fieldset>
-      {filtered.map((test) => {
-        return (
-          <a
-            key={test._key}
-            className="g-blue-500 group relative rounded-md bg-white p-3 shadow-sm ring-1 ring-slate-200 hover:shadow-md hover:ring-blue-500"
-            rel="noreferrer noopener"
-            target="_blank"
-            href={test.name ? stegaClean(`https://npmjs.com/package/${test.name}`) : undefined}
-            title={test.name || ''}
-          >
-            <span
-              className={`absolute right-1.5 top-1.5 -z-0 scale-150 text-4xl opacity-25 ${test.pass ? 'text-green-800' : 'text-red-800'}`}
+      <section className="grid grid-cols-1 gap-4 p-4 text-sm leading-6 sm:grid-cols-2 sm:px-8 sm:pb-8 sm:pt-6 lg:grid-cols-1 lg:p-4 xl:grid-cols-2 xl:px-8 xl:pb-8 xl:pt-6">
+        {filtered.map((test) => {
+          return (
+            <a
+              key={test._key}
+              className={`group relative rounded-md bg-white p-3 shadow-sm ring-1 ring-slate-200 hover:shadow-md hover:ring-blue-500`}
+              rel="noreferrer noopener"
+              target="_blank"
+              href={test.name ? stegaClean(`https://npmjs.com/package/${test.name}`) : undefined}
+              title={test.name || ''}
             >
-              {test.pass ? <CheckmarkCircleIcon /> : <CloseCircleIcon />}
-            </span>
-            <span className="relative z-10">{test.name || 'No name'}</span>
-          </a>
-        )
-      })}
-    </section>
+              <span
+                className={`absolute left-1.5 top-1.5 -z-0 scale-150 text-4xl opacity-25 ${test.pass ? 'text-green-800' : 'text-red-800'}`}
+              >
+                {test.pass ? <CheckmarkCircleIcon /> : <CloseCircleIcon />}
+              </span>
+              <span className="relative z-10 ml-1 pl-8">{test.name || 'No name'}</span>
+            </a>
+          )
+        })}
+      </section>
+    </>
   )
 }
