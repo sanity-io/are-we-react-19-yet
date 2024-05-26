@@ -17,8 +17,6 @@ export default function Report(props: {test: Exclude<ReportQueryResult, null>['t
   const filtered = useMemo(() => {
     const copied = [...props.test]
     copied.sort((a, b) => {
-      if (a.pass && !b.pass) return -1
-      if (!a.pass && b.pass) return 1
       if (a.name && b.name) return a.name.localeCompare(b.name)
       return 0
     })
