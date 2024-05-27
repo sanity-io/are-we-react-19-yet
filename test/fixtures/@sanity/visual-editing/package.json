@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@sanity/visual-editing": "1.8.21",
+    "@sanity/visual-editing": "1.8.22",
     "react": ">=19.0.0-rc",
     "react-dom": ">=19.0.0-rc"
   },
