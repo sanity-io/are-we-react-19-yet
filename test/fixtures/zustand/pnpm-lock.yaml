@@ -1,0 +1,74 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      react:
+        specifier: '>=19.0.0-rc'
+        version: 19.0.0-rc-f994737d14-20240522
+      react-dom:
+        specifier: '>=19.0.0-rc'
+        version: 19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522)
+      zustand:
+        specifier: 4.5.2
+        version: 4.5.2(react@19.0.0-rc-f994737d14-20240522)
+
+packages:
+
+  react-dom@19.0.0-rc-f994737d14-20240522:
+    resolution: {integrity: sha512-J4CsfTSptPKkhaPbaR6n/KohQiHZTrRZ8GL4H8rbAqN/Qpy69g2MIoLBr5/PUX21ye6JxC1ZRWJFna7Xdg1pdA==}
+    peerDependencies:
+      react: 19.0.0-rc-f994737d14-20240522
+
+  react@19.0.0-rc-f994737d14-20240522:
+    resolution: {integrity: sha512-SeU2v5Xy6FotVhKz0pMS2gvYP7HlkF0qgTskj3JzA1vlxcb3dQjxlm9t0ZlJqcgoyI3VFAw7bomuDMdgy1nBuw==}
+    engines: {node: '>=0.10.0'}
+
+  scheduler@0.25.0-rc-f994737d14-20240522:
+    resolution: {integrity: sha512-qS+xGFF7AljP2APO2iJe8zESNsK20k25MACz+WGOXPybUsRdi1ssvaoF93im2nSX2q/XT3wKkjdz6RQfbmaxdw==}
+
+  use-sync-external-store@1.2.0:
+    resolution: {integrity: sha512-eEgnFxGQ1Ife9bzYs6VLi8/4X6CObHMw9Qr9tPY43iKwsPw8xE8+EFsf/2cFZ5S3esXgpWgtSCtLNS41F+sKPA==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+
+  zustand@4.5.2:
+    resolution: {integrity: sha512-2cN1tPkDVkwCy5ickKrI7vijSjPksFRfqS6237NzT0vqSsztTNnQdHw9mmN7uBdk3gceVXU0a+21jFzFzAc9+g==}
+    engines: {node: '>=12.7.0'}
+    peerDependencies:
+      '@types/react': '>=16.8'
+      immer: '>=9.0.6'
+      react: '>=16.8'
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+      immer:
+        optional: true
+      react:
+        optional: true
+
+snapshots:
+
+  react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522):
+    dependencies:
+      react: 19.0.0-rc-f994737d14-20240522
+      scheduler: 0.25.0-rc-f994737d14-20240522
+
+  react@19.0.0-rc-f994737d14-20240522: {}
+
+  scheduler@0.25.0-rc-f994737d14-20240522: {}
+
+  use-sync-external-store@1.2.0(react@19.0.0-rc-f994737d14-20240522):
+    dependencies:
+      react: 19.0.0-rc-f994737d14-20240522
+
+  zustand@4.5.2(react@19.0.0-rc-f994737d14-20240522):
+    dependencies:
+      use-sync-external-store: 1.2.0(react@19.0.0-rc-f994737d14-20240522)
+    optionalDependencies:
+      react: 19.0.0-rc-f994737d14-20240522
