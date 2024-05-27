@@ -63,7 +63,9 @@ export default function Report(props: {test: Exclude<ReportQueryResult, null>['t
               target="_blank"
               href={
                 test.name
-                  ? stegaClean(`https://npmjs.com/package/${test.name}/${test.version || ''}`)
+                  ? stegaClean(
+                      `https://npmjs.com/package/${test.name}${test.version ? `/v/${test.version}` : ''}`,
+                    )
                   : undefined
               }
               title={test.name || ''}
