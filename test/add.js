@@ -29,16 +29,21 @@ for (const pkg of packageNames) {
     const createDir = await mkdir(fixtureFolder, {recursive: true})
     console.log('Created fixture folder', createDir)
   }
-  await writeFile(`fixtures/${pkgName}/package.json`, '{}')
+  await writeFile(
+    `fixtures/${pkgName}/package.json`,
+    JSON.stringify(
+      {
+        dependencies: {
+          'react': '>=19.0.0-rc',
+          'react-dom': '>=19.0.0-rc',
+        },
+        packageManager: 'pnpm@9.0.4',
+      },
+      null,
+      2,
+    ),
+  )
   await $`cd fixtures/${pkgName} && pnpm add ${pkgName}@${distTag} --save-exact`
-  const pkgJson = (await readFile(`fixtures/${pkgName}/package.json`)).toString()
-  const fixtureJson = JSON.parse(pkgJson)
-  Object.assign(fixtureJson.dependencies, {
-    'react': '>=19.0.0-rc',
-    'react-dom': '>=19.0.0-rc',
-  })
-  Object.assign(fixtureJson, {packageManager: 'pnpm@9.0.4'})
-  await writeFile(`fixtures/${pkgName}/package.json`, JSON.stringify(fixtureJson, null, 2))
   await $`prettier --write fixtures/${pkgName}/package.json`
   console.log(`Finished adding fixtures/${pkgName}/package.json`)
 }
