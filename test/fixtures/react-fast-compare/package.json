@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "react": ">=19.0.0-rc",
+    "react-dom": ">=19.0.0-rc",
+    "react-fast-compare": "3.2.2"
+  },
+  "packageManager": "pnpm@9.0.4"
+}
