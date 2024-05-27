@@ -741,6 +741,13 @@
                 },
                 "optional": true
               },
+              "version": {
+                "type": "objectAttribute",
+                "value": {
+                  "type": "string"
+                },
+                "optional": true
+              },
               "pass": {
                 "type": "objectAttribute",
                 "value": {

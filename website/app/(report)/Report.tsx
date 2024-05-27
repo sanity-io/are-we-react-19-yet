@@ -61,7 +61,11 @@ export default function Report(props: {test: Exclude<ReportQueryResult, null>['t
               className={`group relative rounded-md bg-white p-3 shadow-sm ring-1 ring-slate-200 hover:shadow-md hover:ring-blue-500`}
               rel="noreferrer noopener"
               target="_blank"
-              href={test.name ? stegaClean(`https://npmjs.com/package/${test.name}`) : undefined}
+              href={
+                test.name
+                  ? stegaClean(`https://npmjs.com/package/${test.name}/${test.version || ''}`)
+                  : undefined
+              }
               title={test.name || ''}
             >
               <span

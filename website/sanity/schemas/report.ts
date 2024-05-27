@@ -11,12 +11,18 @@ export default defineType({
       name: 'test',
       type: 'array',
       options: {sortable: false},
+      readOnly: true,
       of: [
         defineArrayMember({
           type: 'object',
           fields: [
             defineField({
               name: 'name',
+              type: 'string',
+              validation: (Rule) => Rule.required(),
+            }),
+            defineField({
+              name: 'version',
               type: 'string',
               validation: (Rule) => Rule.required(),
             }),
@@ -29,13 +35,14 @@ export default defineType({
           preview: {
             select: {
               title: 'name',
+              version: 'version',
               pass: 'pass',
             },
-            prepare({title, pass}) {
+            prepare({title, pass, version}) {
               return {
                 title,
                 media: pass ? CheckmarkIcon : CloseIcon,
-                subtitle: pass ? 'passed' : 'failed',
+                subtitle: `${pass ? 'passed' : 'failed'} on v${version}`,
               }
             },
           },

@@ -6,6 +6,7 @@ export const reportQuery = groq`
     "test": coalesce(test[]{
       _key,
       name,
+      version,
       "pass": coalesce(pass, false)
     }, []),
     "total": coalesce(count(test), 0),
