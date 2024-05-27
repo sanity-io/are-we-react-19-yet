@@ -1236,11 +1236,11 @@ packages:
       react:
         optional: true
 
-  '@sanity/preview-url-secret@1.6.13':
-    resolution: {integrity: sha512-3ZAadWN0bKtoa5A0ZDTerjaBRbxUNpIWWKEl/FF5s6rH84+Hx5ugtqVt0hjzK8SnWwHiq5KQsPuB8T+lqFomGA==}
+  '@sanity/preview-url-secret@1.6.14':
+    resolution: {integrity: sha512-BWbv9kcPRbWaUhrBrlgOfIuxnxeVGCjtfX7kTiwMP6NGGDJ8cxFCYPtzhz/7BfKAjkwY9avgz1tyEjqIxk0nEQ==}
     engines: {node: '>=18'}
     peerDependencies:
-      '@sanity/client': ^6.18.2
+      '@sanity/client': ^6.18.3
 
   '@sanity/schema@3.43.0':
     resolution: {integrity: sha512-qFVjmZm+C2wsX7xEQHG+g+8emV6TLB126XBTkHC7e4H1F3TcYTEkMCF6lUV6Lq22tZi+YJdwO9guv5M5dk1qUQ==}
@@ -4946,7 +4946,7 @@ snapshots:
     dependencies:
       '@sanity/client': 6.18.3(debug@4.3.4)
       '@sanity/icons': 2.11.8(react@19.0.0-rc-f994737d14-20240522)
-      '@sanity/preview-url-secret': 1.6.13(@sanity/client@6.18.3(debug@4.3.4))
+      '@sanity/preview-url-secret': 1.6.14(@sanity/client@6.18.3(debug@4.3.4))
       '@sanity/ui': 2.1.12(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))
       '@sanity/uuid': 3.0.2
       '@types/lodash.isequal': 4.5.8
@@ -4977,12 +4977,12 @@ snapshots:
     optionalDependencies:
       react: 19.0.0-rc-f994737d14-20240522
 
-  '@sanity/preview-url-secret@1.6.13(@sanity/client@6.18.3(debug@4.3.4))':
+  '@sanity/preview-url-secret@1.6.14(@sanity/client@6.18.3(debug@4.3.4))':
     dependencies:
       '@sanity/client': 6.18.3(debug@4.3.4)
       '@sanity/uuid': 3.0.2
 
-  '@sanity/preview-url-secret@1.6.13(@sanity/client@6.18.3)':
+  '@sanity/preview-url-secret@1.6.14(@sanity/client@6.18.3)':
     dependencies:
       '@sanity/client': 6.18.3
       '@sanity/uuid': 3.0.2
@@ -5100,7 +5100,7 @@ snapshots:
 
   '@sanity/visual-editing@1.8.21(@sanity/client@6.18.3)(next@14.2.3(@babel/core@7.24.6)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))':
     dependencies:
-      '@sanity/preview-url-secret': 1.6.13(@sanity/client@6.18.3)
+      '@sanity/preview-url-secret': 1.6.14(@sanity/client@6.18.3)
       '@vercel/stega': 0.1.2
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)

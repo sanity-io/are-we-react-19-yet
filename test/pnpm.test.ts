@@ -1,7 +1,17 @@
-import {describe, test} from 'vitest'
+import {describe, expect, test} from 'vitest'
 import {glob} from 'glob'
+import {execa} from 'execa'
 
-describe('pnpm install --resolution-only', async () => {
-  const pkgfiles = await glob('fixtures/**/package.json', {ignore: '**/node_modules/**'})
-  console.log(pkgfiles)
+const pkgfiles = await glob('fixtures/**/package.json', {ignore: '**/node_modules/**'})
+
+describe.concurrent('pnpm install --resolution-only', () => {
+  test.each(pkgfiles.map((pkg) => pkg.replace(/^fixtures\//, '').replace(/\/package.json$/, '')))(
+    '%s',
+    async (pkg) => {
+      const {stdout} = await execa({
+        cwd: `fixtures/${pkg}`,
+      })`pnpm install --resolution-only`
+      expect(stdout).not.toMatch('unmet peer react')
+    },
+  )
 })
