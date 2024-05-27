@@ -1,0 +1,28 @@
+---
+name: Test PR
+
+on:
+  pull_request: 
+    branches: [main]
+    paths:
+      - 'test/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read # for checkout
+
+jobs:
+  add-test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v2
+      - uses: actions/setup-node@v4
+        with:
+          cache: pnpm
+          node-version: lts/*
+      - run: pnpm install
+      - run: pnpm test --reporter=default --reporter=vitest-github-actions-reporter
