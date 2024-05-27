@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@sanity/presentation':
-        specifier: 1.15.8
-        version: 1.15.8(@sanity/client@6.18.3)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))
+        specifier: 1.15.9
+        version: 1.15.9(@sanity/client@6.18.3)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))
       react:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-f994737d14-20240522
@@ -67,11 +67,11 @@ packages:
     peerDependencies:
       react: ^18
 
-  '@sanity/presentation@1.15.8':
-    resolution: {integrity: sha512-SY2lBMl3x48WytJ0fGVFBP48hxN2dJHdWFoqV4cud7mkYOaqKnMz5E2vgYsyKv50/dU+5AzwXg03OrjZHgryvw==}
+  '@sanity/presentation@1.15.9':
+    resolution: {integrity: sha512-hscmbvhk6+czrnAZ9PqpHFDrGxec8GgsK30DjRI7kAEY69fTlJYok5BVNnmhQhThewLtfmxFlxg3p4Cm0LSj6A==}
     engines: {node: '>=16.14'}
     peerDependencies:
-      '@sanity/client': ^6.18.2
+      '@sanity/client': ^6.18.3
 
   '@sanity/preview-url-secret@1.6.14':
     resolution: {integrity: sha512-BWbv9kcPRbWaUhrBrlgOfIuxnxeVGCjtfX7kTiwMP6NGGDJ8cxFCYPtzhz/7BfKAjkwY9avgz1tyEjqIxk0nEQ==}
@@ -411,7 +411,7 @@ snapshots:
     dependencies:
       react: 19.0.0-rc-f994737d14-20240522
 
-  '@sanity/presentation@1.15.8(@sanity/client@6.18.3)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))':
+  '@sanity/presentation@1.15.9(@sanity/client@6.18.3)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))':
     dependencies:
       '@sanity/client': 6.18.3
       '@sanity/icons': 2.11.8(react@19.0.0-rc-f994737d14-20240522)

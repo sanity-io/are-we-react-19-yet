@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@sanity/presentation": "1.15.8",
+    "@sanity/presentation": "1.15.9",
     "react": ">=19.0.0-rc",
     "react-dom": ">=19.0.0-rc"
   },
