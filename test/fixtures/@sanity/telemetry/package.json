@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "react-focus-lock": "2.12.1",
+    "@sanity/telemetry": "0.7.8",
     "react": ">=19.0.0-rc",
     "react-dom": ">=19.0.0-rc"
   },

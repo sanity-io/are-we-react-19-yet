@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "react-focus-lock": "2.12.1",
+    "@rexxars/react-json-inspector": "8.0.1",
     "react": ">=19.0.0-rc",
     "react-dom": ">=19.0.0-rc"
   },

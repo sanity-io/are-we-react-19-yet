@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "react-focus-lock": "2.12.1",
+    "next": "15.0.0-rc.0",
     "react": ">=19.0.0-rc",
     "react-dom": ">=19.0.0-rc"
   },

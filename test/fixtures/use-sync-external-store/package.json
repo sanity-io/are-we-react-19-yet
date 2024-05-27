@@ -1,8 +1,8 @@
 {
   "dependencies": {
+    "use-sync-external-store": "1.4.0-rc-935180c7e0-20240524",
     "react": ">=19.0.0-rc",
-    "react-dom": ">=19.0.0-rc",
-    "use-sync-external-store": "1.2.2"
+    "react-dom": ">=19.0.0-rc"
   },
   "packageManager": "pnpm@9.0.4"
 }

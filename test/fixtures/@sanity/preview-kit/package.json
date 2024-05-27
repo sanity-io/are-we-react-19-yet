@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "react-focus-lock": "2.12.1",
+    "@sanity/preview-kit": "5.0.59",
     "react": ">=19.0.0-rc",
     "react-dom": ">=19.0.0-rc"
   },
