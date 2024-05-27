@@ -39,5 +39,6 @@ for (const pkg of packageNames) {
   })
   Object.assign(fixtureJson, {packageManager: 'pnpm@9.0.4'})
   await writeFile(`fixtures/${pkgName}/package.json`, JSON.stringify(fixtureJson, null, 2))
+  await $`prettier --write fixtures/${pkgName}/package.json`
   console.log(`Finished adding fixtures/${pkgName}/package.json`)
 }
