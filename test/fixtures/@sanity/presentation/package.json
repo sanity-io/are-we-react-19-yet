@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@sanity/presentation": "1.15.8",
+    "react": ">=19.0.0-rc",
+    "react-dom": ">=19.0.0-rc"
+  },
+  "packageManager": "pnpm@9.0.4"
+}
