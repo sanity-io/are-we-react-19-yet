@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "@tanem/react-nprogress": "5.0.51",
-    "react": ">=19.0.0-rc",
-    "react-dom": ">=19.0.0-rc"
-  },
-  "packageManager": "pnpm@9.0.4"
-}

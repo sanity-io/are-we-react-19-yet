@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "react": ">=19.0.0-rc",
-    "react-dom": ">=19.0.0-rc",
-    "react-redux": "9.1.2"
-  },
-  "packageManager": "pnpm@9.0.4"
-}

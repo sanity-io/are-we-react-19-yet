@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "react": ">=19.0.0-rc",
-    "react-dom": ">=19.0.0-rc",
-    "react-focus-lock": "2.12.1"
-  },
-  "packageManager": "pnpm@9.0.4"
-}

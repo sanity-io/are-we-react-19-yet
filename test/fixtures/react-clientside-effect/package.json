@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "react": ">=19.0.0-rc",
-    "react-clientside-effect": "1.2.6",
-    "react-dom": ">=19.0.0-rc"
-  },
-  "packageManager": "pnpm@9.0.4"
-}

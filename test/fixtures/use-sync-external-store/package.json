@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "react": ">=19.0.0-rc",
-    "react-dom": ">=19.0.0-rc",
-    "use-sync-external-store": "1.4.0-rc-f994737d14-20240522"
-  },
-  "packageManager": "pnpm@9.0.4"
-}
