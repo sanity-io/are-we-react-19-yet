@@ -26,7 +26,7 @@ jobs:
           node-version: lts/*
       - run: corepack enable && pnpm --version
       - run: pnpm install
-      - run: pnpm test --reporter=json --outputFile=./result.json
+      - run: pnpm test -- --reporter=json --outputFile=./result.json
       - run: pnpm upload
         env:
           SANITY_TOKEN: ${{ secrets.SANITY_API_WRITE_TOKEN }}
