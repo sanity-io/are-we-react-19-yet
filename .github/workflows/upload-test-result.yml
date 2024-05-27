@@ -28,4 +28,7 @@ jobs:
       - run: pnpm test -- --max-concurrency=2 --test-timeout=30000 --reporter=json --outputFile=./result.json
       - run: pnpm upload
         env:
+          NEXT_PUBLIC_SANITY_DATASET: ${{secrets.NEXT_PUBLIC_SANITY_DATASET}}
+          NEXT_PUBLIC_SANITY_PROJECT_ID: ${{secrets.NEXT_PUBLIC_SANITY_PROJECT_ID}}
           SANITY_TOKEN: ${{ secrets.SANITY_API_WRITE_TOKEN }}
+          
