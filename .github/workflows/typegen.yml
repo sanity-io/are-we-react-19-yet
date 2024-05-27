@@ -28,6 +28,7 @@
           with:
             cache: pnpm
             node-version: lts/*
+        - run: corepack enable && pnpm --version
         - run: pnpm install --ignore-scripts
         - run: pnpm typegen
           env:
