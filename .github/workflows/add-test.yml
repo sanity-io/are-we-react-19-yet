@@ -35,7 +35,7 @@ jobs:
         with:
           author: github-actions <41898282+github-actions[bot]@users.noreply.github.com>
           branch: 'actions/add-test'
-          branch-suffix: short-commit-hash
+          branch-suffix: random
           commit-message: 'chore(test): add ${{ github.event.inputs.packages }}'
           labels: 🤖 bot
           title: 'chore(test): add ${{ github.event.inputs.packages }}'
