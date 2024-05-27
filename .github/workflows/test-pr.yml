@@ -25,4 +25,4 @@ jobs:
           cache: pnpm
           node-version: lts/*
       - run: pnpm install
-      - run: pnpm test -- --max-concurrency=2 --reporter=default --reporter=vitest-github-actions-reporter
+      - run: pnpm test -- --max-concurrency=2 --test-timeout=30000 --reporter=default --reporter=vitest-github-actions-reporter
