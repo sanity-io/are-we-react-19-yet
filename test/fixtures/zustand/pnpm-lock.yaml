@@ -15,8 +15,8 @@ importers:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522)
       zustand:
-        specifier: 4.5.2
-        version: 4.5.2(react@19.0.0-rc-f994737d14-20240522)
+        specifier: 5.0.0-beta.0
+        version: 5.0.0-beta.0(react@19.0.0-rc-f994737d14-20240522)(use-sync-external-store@1.2.0(react@19.0.0-rc-f994737d14-20240522))
 
 packages:
 
@@ -37,19 +37,22 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
 
-  zustand@4.5.2:
-    resolution: {integrity: sha512-2cN1tPkDVkwCy5ickKrI7vijSjPksFRfqS6237NzT0vqSsztTNnQdHw9mmN7uBdk3gceVXU0a+21jFzFzAc9+g==}
-    engines: {node: '>=12.7.0'}
+  zustand@5.0.0-beta.0:
+    resolution: {integrity: sha512-Ri/E3SZtNDtyRx+XjE8X6LZzO6SnD4F0sumYEXiYbvHj5mPQ7KCEkIjh2jm2+fxmjmI8u27BKzG8UipURIIMqQ==}
+    engines: {node: '>=12.20.0'}
     peerDependencies:
-      '@types/react': '>=16.8'
+      '@types/react': '>=18.0.0'
       immer: '>=9.0.6'
-      react: '>=16.8'
+      react: '>=18.0.0'
+      use-sync-external-store: '>=1.2.0'
     peerDependenciesMeta:
       '@types/react':
         optional: true
       immer:
         optional: true
       react:
+        optional: true
+      use-sync-external-store:
         optional: true
 
 snapshots:
@@ -66,9 +69,9 @@ snapshots:
   use-sync-external-store@1.2.0(react@19.0.0-rc-f994737d14-20240522):
     dependencies:
       react: 19.0.0-rc-f994737d14-20240522
+    optional: true
 
-  zustand@4.5.2(react@19.0.0-rc-f994737d14-20240522):
-    dependencies:
-      use-sync-external-store: 1.2.0(react@19.0.0-rc-f994737d14-20240522)
+  zustand@5.0.0-beta.0(react@19.0.0-rc-f994737d14-20240522)(use-sync-external-store@1.2.0(react@19.0.0-rc-f994737d14-20240522)):
     optionalDependencies:
       react: 19.0.0-rc-f994737d14-20240522
+      use-sync-external-store: 1.2.0(react@19.0.0-rc-f994737d14-20240522)
