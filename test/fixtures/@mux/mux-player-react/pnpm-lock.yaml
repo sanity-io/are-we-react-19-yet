@@ -1,0 +1,162 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@mux/mux-player-react':
+        specifier: 2.6.0
+        version: 2.6.0(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
+      react:
+        specifier: '>=19.0.0-rc'
+        version: 19.0.0-rc-f994737d14-20240522
+      react-dom:
+        specifier: '>=19.0.0-rc'
+        version: 19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522)
+
+packages:
+
+  '@mux/mux-player-react@2.6.0':
+    resolution: {integrity: sha512-OtT44Mv3vhhMAuAFLGR1SVuohsCa1hWedW4ro108Z83kzEb0DW7p4q4Z+44eih4N8fkHunn2vKDoszNhCc83zw==}
+    peerDependencies:
+      '@types/react': ^17.0.0 || ^18
+      '@types/react-dom': '*'
+      react: ^17.0.2 || ^18
+      react-dom: ^17.0.2 || ^18
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+      '@types/react-dom':
+        optional: true
+
+  '@mux/mux-player@2.6.0':
+    resolution: {integrity: sha512-UYDBa1t+3B81Gd0ksOMROd2kx0U6auGOGW1PHh7m74EB+HMYTgYx8PtMYT4kqbQ83evAFBTMxedNuJ14FyzmlA==}
+
+  '@mux/mux-video@0.18.1':
+    resolution: {integrity: sha512-Q8dc8h4Kv9rEDQJzNOs/bmu8iMBRyd6VDOkvyGYgUNt0ddgeMl1IFFM2Keiq9tJ6JeHpyFqXRMFeo3mZxMzCrw==}
+
+  '@mux/playback-core@0.23.1':
+    resolution: {integrity: sha512-2sPwjUkxZ4vQLr9igAEw0P7fwPC0PmVORn/Mlewlsbn2fPlYkv1XNKFQ5eFny9HLkNSlRCI9cJDg0xVRIXdpMw==}
+
+  castable-video@1.0.9:
+    resolution: {integrity: sha512-VOdme8f2FPSj7Ej+xC/zy1pRlngbqdz/IGHB36dAfj5RNiMCU2eLfVAKN+fi/wSz0+f1PTvee/bM54SaNBV8QQ==}
+
+  custom-media-element@1.2.3:
+    resolution: {integrity: sha512-xr9Hbrslkjm1fapJP5hL98pySeZmNepBSefQS/XTxynamqPTfRBK5MnhReMOiAj8xvJApVPrVnlYxIrknay8jg==}
+
+  custom-media-element@1.3.1:
+    resolution: {integrity: sha512-SOBa/dtxVgEoEu0JMictlnXx0nNUgvuTuZ7ggFeOIzJWmQUPF4gQ/fsvEZycIyQ7JEnwfyEn74+n1a+mzU3A9A==}
+
+  hls.js@1.5.8:
+    resolution: {integrity: sha512-hJYMPfLhWO7/7+n4f9pn6bOheCGx0WgvVz7k3ouq3Pp1bja48NN+HeCQu3XCGYzqWQF/wo7Sk6dJAyWVJD8ECA==}
+
+  js-tokens@4.0.0:
+    resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
+
+  loose-envify@1.4.0:
+    resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
+    hasBin: true
+
+  media-chrome@3.2.3:
+    resolution: {integrity: sha512-DlOlyciT5YgOn5cwGvLWz+OVUVgvyxsRLtfpIQJ11F10+Ix7tDjEqMWsnkL81be9iD3uh/SN35TIk2pRvvEAig==}
+
+  media-tracks@0.3.2:
+    resolution: {integrity: sha512-qz1MLcXPm0DuzeKm5vWm0kxHROSbwJJw/01h+pvanMAEwR8K4z3tzpLTZoF8sNNa1cy0FbQ8QzNDNU3Hwh0kJw==}
+
+  mux-embed@5.2.1:
+    resolution: {integrity: sha512-NukHw91xeEVDBeXVDBpi2BvXNix7gSuvdtyvOph5yR/ROn1hHbTlcYWoKQyCyJX9frsF00UROEul+S8wPzU3aQ==}
+
+  object-assign@4.1.1:
+    resolution: {integrity: sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==}
+    engines: {node: '>=0.10.0'}
+
+  prop-types@15.8.1:
+    resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
+
+  react-dom@19.0.0-rc-f994737d14-20240522:
+    resolution: {integrity: sha512-J4CsfTSptPKkhaPbaR6n/KohQiHZTrRZ8GL4H8rbAqN/Qpy69g2MIoLBr5/PUX21ye6JxC1ZRWJFna7Xdg1pdA==}
+    peerDependencies:
+      react: 19.0.0-rc-f994737d14-20240522
+
+  react-is@16.13.1:
+    resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
+
+  react@19.0.0-rc-f994737d14-20240522:
+    resolution: {integrity: sha512-SeU2v5Xy6FotVhKz0pMS2gvYP7HlkF0qgTskj3JzA1vlxcb3dQjxlm9t0ZlJqcgoyI3VFAw7bomuDMdgy1nBuw==}
+    engines: {node: '>=0.10.0'}
+
+  scheduler@0.25.0-rc-f994737d14-20240522:
+    resolution: {integrity: sha512-qS+xGFF7AljP2APO2iJe8zESNsK20k25MACz+WGOXPybUsRdi1ssvaoF93im2nSX2q/XT3wKkjdz6RQfbmaxdw==}
+
+snapshots:
+
+  '@mux/mux-player-react@2.6.0(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)':
+    dependencies:
+      '@mux/mux-player': 2.6.0
+      '@mux/playback-core': 0.23.1
+      prop-types: 15.8.1
+      react: 19.0.0-rc-f994737d14-20240522
+      react-dom: 19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522)
+
+  '@mux/mux-player@2.6.0':
+    dependencies:
+      '@mux/mux-video': 0.18.1
+      '@mux/playback-core': 0.23.1
+      media-chrome: 3.2.3
+
+  '@mux/mux-video@0.18.1':
+    dependencies:
+      '@mux/playback-core': 0.23.1
+      castable-video: 1.0.9
+      custom-media-element: 1.2.3
+      media-tracks: 0.3.2
+
+  '@mux/playback-core@0.23.1':
+    dependencies:
+      hls.js: 1.5.8
+      mux-embed: 5.2.1
+
+  castable-video@1.0.9:
+    dependencies:
+      custom-media-element: 1.3.1
+
+  custom-media-element@1.2.3: {}
+
+  custom-media-element@1.3.1: {}
+
+  hls.js@1.5.8: {}
+
+  js-tokens@4.0.0: {}
+
+  loose-envify@1.4.0:
+    dependencies:
+      js-tokens: 4.0.0
+
+  media-chrome@3.2.3: {}
+
+  media-tracks@0.3.2: {}
+
+  mux-embed@5.2.1: {}
+
+  object-assign@4.1.1: {}
+
+  prop-types@15.8.1:
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      react-is: 16.13.1
+
+  react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522):
+    dependencies:
+      react: 19.0.0-rc-f994737d14-20240522
+      scheduler: 0.25.0-rc-f994737d14-20240522
+
+  react-is@16.13.1: {}
+
+  react@19.0.0-rc-f994737d14-20240522: {}
+
+  scheduler@0.25.0-rc-f994737d14-20240522: {}
