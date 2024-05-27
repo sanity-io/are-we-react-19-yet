@@ -1,7 +1,7 @@
 {
   "dependencies": {
-    "react": ">=19.0.0-rc",
     "react-copy-to-clipboard": "5.1.0",
+    "react": ">=19.0.0-rc",
     "react-dom": ">=19.0.0-rc"
   },
   "packageManager": "pnpm@9.0.4"
