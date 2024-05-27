@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "react": ">=19.0.0-rc",
-    "react-dom": ">=19.0.0-rc",
-    "sanity-image": "0.1.7"
-  },
-  "packageManager": "pnpm@9.0.4"
-}
