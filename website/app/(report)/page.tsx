@@ -52,10 +52,10 @@ export default async function Page({
         </section>
         {report?.test && <Report test={report.test} />}
       </main>
-      {report?._createdAt && (
+      {report?.updatedAt && (
         <footer className="container mx-auto px-5">
           <p className="text-muted text-center text-sm">
-            Last update: <DateComponent dateString={report._createdAt} />
+            Last update: <DateComponent dateString={report.updatedAt} />
           </p>
         </footer>
       )}
