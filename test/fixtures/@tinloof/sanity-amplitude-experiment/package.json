@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "@tinloof/sanity-amplitude-experiment": "0.0.3",
-    "react": ">=19.0.0-rc",
-    "react-dom": ">=19.0.0-rc"
-  },
-  "packageManager": "pnpm@9.0.4"
-}
