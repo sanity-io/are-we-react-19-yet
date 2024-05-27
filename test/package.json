@@ -2,6 +2,7 @@
   "type": "module",
   "scripts": {
     "add-test": "node add.js",
+    "upload": "node upload.js",
     "format": "prettier --cache --write .",
     "test": "vitest"
   },
