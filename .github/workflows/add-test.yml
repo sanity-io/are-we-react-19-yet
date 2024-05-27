@@ -24,7 +24,6 @@ jobs:
         with:
           cache: pnpm
           node-version: lts/*
-      - run: corepack enable && pnpm --version
       - run: pnpm install
       - run: pnpm add-test ${{ github.event.inputs.packages }}
       - uses: actions/create-github-app-token@v1

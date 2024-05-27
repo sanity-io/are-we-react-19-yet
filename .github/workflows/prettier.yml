@@ -26,7 +26,6 @@ jobs:
         with:
           cache: pnpm
           node-version: lts/*
-      - run: corepack enable && pnpm --version
       - run: pnpm install --dev --ignore-scripts
       - uses: actions/cache@v4
         with:

@@ -24,6 +24,5 @@ jobs:
         with:
           cache: pnpm
           node-version: lts/*
-      - run: corepack enable && pnpm --version
       - run: pnpm install
-      - run: pnpm test -- --reporter=default --reporter=vitest-github-actions-reporter
+      - run: pnpm test -- --max-concurrency=2 --reporter=default --reporter=vitest-github-actions-reporter
