@@ -10,7 +10,7 @@ describe.concurrent('pnpm install --resolution-only', () => {
     async (pkg) => {
       const {stdout} = await execa({
         cwd: `fixtures/${pkg}`,
-      })`pnpm install --resolution-only`
+      })`pnpm install --resolution-only --no-frozen-lockfile`
       expect(stdout).not.toMatch('unmet peer react')
     },
   )
