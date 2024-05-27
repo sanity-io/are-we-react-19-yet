@@ -34,7 +34,8 @@ jobs:
       - uses: peter-evans/create-pull-request@6d6857d36972b65feb161a90e484f2984215f83e # v6
         with:
           author: github-actions <41898282+github-actions[bot]@users.noreply.github.com>
-          branch: 'actions/add-test-${{ github.event.inputs.packages }}'
+          branch: 'actions/add-test'
+          branch-suffix: shot-commit-hash
           commit-message: 'chore(test): add ${{ github.event.inputs.packages }}'
           labels: 🤖 bot
           title: 'chore(test): add ${{ github.event.inputs.packages }}'
