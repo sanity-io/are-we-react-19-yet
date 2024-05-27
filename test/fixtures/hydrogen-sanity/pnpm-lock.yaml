@@ -1,0 +1,759 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      hydrogen-sanity:
+        specifier: 4.0.4
+        version: 4.0.4(@remix-run/react@2.9.2(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))(@sanity/client@6.18.3)(@shopify/hydrogen@2024.4.2(@remix-run/react@2.9.2(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))(@remix-run/server-runtime@2.9.2)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))(@shopify/remix-oxygen@2.0.4(@remix-run/server-runtime@2.9.2)(@shopify/oxygen-workers-types@4.0.0))(groq@3.43.0)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
+      react:
+        specifier: '>=19.0.0-rc'
+        version: 19.0.0-rc-f994737d14-20240522
+      react-dom:
+        specifier: '>=19.0.0-rc'
+        version: 19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522)
+
+packages:
+
+  '@google/model-viewer@1.12.1':
+    resolution: {integrity: sha512-GOf/By81rbxSmwWRVxBtlY5b3050msJ+BDWqonPj7M0/I7rNS/vVNjbLxTofbGjZObS3n0ELHj8TZ47UtkZbtg==}
+    engines: {node: '>=6.0.0'}
+
+  '@juggle/resize-observer@3.4.0':
+    resolution: {integrity: sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==}
+
+  '@lit-labs/ssr-dom-shim@1.2.0':
+    resolution: {integrity: sha512-yWJKmpGE6lUURKAaIltoPIE/wrbY3TEkqQt+X0m+7fQNnAv0keydnYvbiJFP1PnMhizmIWRWOG5KLhYyc/xl+g==}
+
+  '@lit/reactive-element@1.6.3':
+    resolution: {integrity: sha512-QuTgnG52Poic7uM1AN5yJ09QMe0O28e10XzSvWDz02TJiiKee4stsiownEIadWm8nYzyDAyT+gKzUoZmiWQtsQ==}
+
+  '@remix-run/react@2.9.2':
+    resolution: {integrity: sha512-DcZDzm68MBxGn8hjf/VsuUpjxDYZ8VOOH79P1zWu4hb3hBr90WV1Sa/gIAFUEGpOCcSQ0EG/ci8MaFxcAaPz2Q==}
+    engines: {node: '>=18.0.0'}
+    peerDependencies:
+      react: ^18.0.0
+      react-dom: ^18.0.0
+      typescript: ^5.1.0
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+
+  '@remix-run/router@1.16.1':
+    resolution: {integrity: sha512-es2g3dq6Nb07iFxGk5GuHN20RwBZOsuDQN7izWIisUcv9r+d2C5jQxqmgkdebXgReWfiyUabcki6Fg77mSNrig==}
+    engines: {node: '>=14.0.0'}
+
+  '@remix-run/server-runtime@2.9.2':
+    resolution: {integrity: sha512-dX37FEeMVVg7KUbpRhX4hD0nUY0Sscz/qAjU4lYCdd6IzwJGariTmz+bQTXKCjploZuXj09OQZHSOS/ydkUVDA==}
+    engines: {node: '>=18.0.0'}
+    peerDependencies:
+      typescript: ^5.1.0
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+
+  '@sanity/client@6.18.3':
+    resolution: {integrity: sha512-kSXbl83gGvGv6xD9kD/3z/3siPL3PWBDOPfsBeysdam+/aD32GJa7WciIsIlKm2TmghVHuvKJZQvY6yk4U7ZTw==}
+    engines: {node: '>=14.18'}
+
+  '@sanity/core-loader@1.6.15':
+    resolution: {integrity: sha512-PSdJfP+QZYSAZzJ/AliYlrpZiTAeHBQXVBMHpStYOb1JIJE2CAlU9ReanTZPN/iaUbtD7shEUAPa9N5h/LVpiQ==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      '@sanity/client': ^6.18.3
+
+  '@sanity/eventsource@5.0.2':
+    resolution: {integrity: sha512-/B9PMkUvAlUrpRq0y+NzXgRv5lYCLxZNsBJD2WXVnqZYOfByL9oQBV7KiTaARuObp5hcQYuPfOAVjgXe3hrixA==}
+
+  '@sanity/preview-url-secret@1.6.14':
+    resolution: {integrity: sha512-BWbv9kcPRbWaUhrBrlgOfIuxnxeVGCjtfX7kTiwMP6NGGDJ8cxFCYPtzhz/7BfKAjkwY9avgz1tyEjqIxk0nEQ==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      '@sanity/client': ^6.18.3
+
+  '@sanity/react-loader@1.9.20':
+    resolution: {integrity: sha512-Lmu2750i3Xszsbst4V4WFVnwgqCoVdO1XUnmjNPX1Jj8GJa+u8BSPTAtiB/ztNZTcodKGibbt71+JCQ26eUbkg==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      '@sanity/client': ^6.18.3
+      react: ^18.2.0
+
+  '@sanity/uuid@3.0.2':
+    resolution: {integrity: sha512-vzdhqOrX7JGbMyK40KuIwwyXHm7GMLOGuYgn3xlC09e4ZVNofUO5mgezQqnRv0JAMthIRhofqs9f6ufUjMKOvw==}
+
+  '@sanity/visual-editing@1.8.22':
+    resolution: {integrity: sha512-GeGP7HajEUKP6Myv1hjVkr6gpWJLWTPSqrsWRTYeiz5qHWjvedweQdTw2y82eTPE2Q7//HKO8+aAg/YGPlGwQQ==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      '@remix-run/react': '>= 2'
+      '@sanity/client': ^6.18.3
+      '@sveltejs/kit': '>= 2'
+      next: '>= 13 || >=14.3.0-canary.0 <14.3.0'
+      svelte: '>= 4'
+    peerDependenciesMeta:
+      '@remix-run/react':
+        optional: true
+      '@sanity/client':
+        optional: true
+      '@sveltejs/kit':
+        optional: true
+      next:
+        optional: true
+      svelte:
+        optional: true
+
+  '@shopify/hydrogen-react@2024.4.2':
+    resolution: {integrity: sha512-92QHXN6GqEayOMCdNvE8KYEBdaAwrmWTLPZ+oB3UkFC4SVt/12m5mXWDfYHVyMxrAb1/T1HxkQWMmEMWAOmDhQ==}
+    engines: {node: '>=18.0.0'}
+    peerDependencies:
+      react: ^18.0.0
+      react-dom: ^18.0.0
+
+  '@shopify/hydrogen@2024.4.2':
+    resolution: {integrity: sha512-BC9i6WcQKzaSZx8whP4Ha9C+uxrpenF7QW6/dCaC6ifOkA8nLuXr/dTe18TNed8XtEDTMrSmbsbRoZNtJok4bg==}
+    peerDependencies:
+      '@remix-run/react': ^2.1.0
+      '@remix-run/server-runtime': ^2.1.0
+      react: ^18.2.0
+      vite: ^5.1.0
+    peerDependenciesMeta:
+      vite:
+        optional: true
+
+  '@shopify/oxygen-workers-types@4.0.0':
+    resolution: {integrity: sha512-9MiXUSu0kXA9mNPMDK6+S8eRuGZ6o0HB4/P1ebZzFlsxFYxfvTu29KDJv/RYKoJufniv/WNSvwHKFyDgEmkJnw==}
+
+  '@shopify/remix-oxygen@2.0.4':
+    resolution: {integrity: sha512-B5an8tvbr02ncNdaZQaAOyfJZL0FguJ46umC20Vk+JPbTmoJ5bMsnYU5Y+9sLMlNZY32TtRmpl5R3LPWrEFcDg==}
+    peerDependencies:
+      '@remix-run/server-runtime': ^2.1.0
+      '@shopify/oxygen-workers-types': ^3.17.3 || ^4.0.0
+
+  '@types/cookie@0.6.0':
+    resolution: {integrity: sha512-4Kh9a6B2bQciAhf7FSuMRRkUWecJgJu9nPnx3yzpsfXX/c50REIqpHY4C82bXP90qrLtXtkDxTZosYO3UpOwlA==}
+
+  '@types/event-source-polyfill@1.0.5':
+    resolution: {integrity: sha512-iaiDuDI2aIFft7XkcwMzDWLqo7LVDixd2sR6B4wxJut9xcp/Ev9bO4EFg4rm6S9QxATLBj5OPxdeocgmhjwKaw==}
+
+  '@types/eventsource@1.1.15':
+    resolution: {integrity: sha512-XQmGcbnxUNa06HR3VBVkc9+A2Vpi9ZyLJcdS5dwaQQ/4ZMWFO+5c90FnMUpbtMZwB/FChoYHwuVg8TvkECacTA==}
+
+  '@types/trusted-types@2.0.7':
+    resolution: {integrity: sha512-ScaPdn1dQczgbl0QFTeTOmVHFULt394XJgOQNoyVhZ6r2vLnMLJfBPd53SB52T/3G36VI1/g2MZaX0cwDuXsfw==}
+
+  '@types/uuid@8.3.4':
+    resolution: {integrity: sha512-c/I8ZRb51j+pYGAu5CrFMRxqZ2ke4y2grEBO5AUjgSkSk+qT2Ea+OdWElz/OiMf5MNpn2b17kuVBwZLQJXzihw==}
+
+  '@vercel/stega@0.1.2':
+    resolution: {integrity: sha512-P7mafQXjkrsoyTRppnt0N21udKS9wUmLXHRyP9saLXLHw32j/FgUJ3FscSWgvSqRs4cj7wKZtwqJEvWJ2jbGmA==}
+
+  '@web3-storage/multipart-parser@1.0.0':
+    resolution: {integrity: sha512-BEO6al7BYqcnfX15W2cnGR+Q566ACXAT9UQykORCWW80lmkpWsnEob6zJS1ZVBKsSJC8+7vJkHwlp+lXG1UCdw==}
+
+  '@xstate/fsm@2.1.0':
+    resolution: {integrity: sha512-oJlc0iD0qZvAM7If/KlyJyqUt7wVI8ocpsnlWzAPl97evguPbd+oJbRM9R4A1vYJffYH96+Bx44nLDE6qS8jQg==}
+
+  '@xstate/react@3.2.2':
+    resolution: {integrity: sha512-feghXWLedyq8JeL13yda3XnHPZKwYDN5HPBLykpLeuNpr9178tQd2/3d0NrH6gSd0sG5mLuLeuD+ck830fgzLQ==}
+    peerDependencies:
+      '@xstate/fsm': ^2.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      xstate: ^4.37.2
+    peerDependenciesMeta:
+      '@xstate/fsm':
+        optional: true
+      xstate:
+        optional: true
+
+  buffer-from@1.1.2:
+    resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
+
+  compute-scroll-into-view@3.1.0:
+    resolution: {integrity: sha512-rj8l8pD4bJ1nx+dAkMhV1xB5RuZEyVysfxJqB1pRchh1KVvwOv9b7CGB8ZfjTImVv2oF+sYMUkMZq6Na5Ftmbg==}
+
+  content-security-policy-builder@2.2.0:
+    resolution: {integrity: sha512-IZhbHYV3O6xBpbvuMJz0FP8s79aTz7ymq4JQVC8TMzTdRToxrupCY1C/GlzC6GaDfKvD7AceewH+LsTV5OO/Kg==}
+    engines: {node: '>=18.0.0'}
+
+  cookie@0.6.0:
+    resolution: {integrity: sha512-U71cyTamuh1CRNCfpGY6to28lxvNwPG4Guz/EVjgf3Jmzv0vlDp1atT9eS5dDjMYHucpHbWns6Lwf3BKz6svdw==}
+    engines: {node: '>= 0.6'}
+
+  core-util-is@1.0.3:
+    resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
+
+  decompress-response@7.0.0:
+    resolution: {integrity: sha512-6IvPrADQyyPGLpMnUh6kfKiqy7SrbXbjoUuZ90WMBJKErzv2pCiwlGEXjRX9/54OnTq+XFVnkOnOMzclLI5aEA==}
+    engines: {node: '>=10'}
+
+  event-source-polyfill@1.0.31:
+    resolution: {integrity: sha512-4IJSItgS/41IxN5UVAVuAyczwZF7ZIEsM1XAoUzIHA6A+xzusEZUutdXz2Nr+MQPLxfTiCvqE79/C8HT8fKFvA==}
+
+  eventsource@2.0.2:
+    resolution: {integrity: sha512-IzUmBGPR3+oUG9dUeXynyNmf91/3zUSJg1lCktzKw47OXuhco54U3r9B7O4XX+Rb1Itm9OZ2b0RkTs10bICOxA==}
+    engines: {node: '>=12.0.0'}
+
+  follow-redirects@1.15.6:
+    resolution: {integrity: sha512-wWN62YITEaOpSK584EZXJafH1AGpO8RVgElfkuXbTOrPX4fIfOyEpW/CsiNd8JdYrAoOvafRTOEnvsO++qCqFA==}
+    engines: {node: '>=4.0'}
+    peerDependencies:
+      debug: '*'
+    peerDependenciesMeta:
+      debug:
+        optional: true
+
+  get-it@8.5.0:
+    resolution: {integrity: sha512-OHrFT+2Nxk7PbzSnRHUMFjF83zqCvfc/t5l+ysSEK1MhvN26BtRt/AcZeA7uDs8TGtVPDKdGqLeqENKsM6GTDg==}
+    engines: {node: '>=14.0.0'}
+
+  graphql@16.8.1:
+    resolution: {integrity: sha512-59LZHPdGZVh695Ud9lRzPBVTtlX9ZCV150Er2W43ro37wVof0ctenSaskPPjN7lVTIN8mSZt8PHUNKZuNQUuxw==}
+    engines: {node: ^12.22.0 || ^14.16.0 || ^16.0.0 || >=17.0.0}
+
+  groq@3.43.0:
+    resolution: {integrity: sha512-W9Ho7RGp7BNaOYVtax5r6jDfDmG6zIdQRvsOXjxMLOpwuGCJtzSoJSzyWAqPLnk0NQRJq+Ct5XxdmMWFBLA7ww==}
+    engines: {node: '>=18'}
+
+  hydrogen-sanity@4.0.4:
+    resolution: {integrity: sha512-afM3ZTWpxGR7keASCQ8aLvzy/Z+X8D8Q5Lco+vw2nVnrpF3uS3a5aMMTvbPBDEmBJE1G4/6u3+GGkDbwd0Wx3A==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      '@sanity/client': ^6.18.0
+      '@shopify/hydrogen': ^2023.7.0 || ~2024.1.0 || ~2024.4.0
+      '@shopify/remix-oxygen': ^1.0.0 || ^2.0.0
+      groq: ^3.41.0
+      react: ^18.0.0
+      react-dom: ^18.0.0
+
+  inherits@2.0.4:
+    resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
+
+  is-retry-allowed@2.2.0:
+    resolution: {integrity: sha512-XVm7LOeLpTW4jV19QSH38vkswxoLud8sQ57YwJVTPWdiaI9I8keEhGFpBlslyVsgdQy4Opg8QOLb8YRgsyZiQg==}
+    engines: {node: '>=10'}
+
+  isarray@1.0.0:
+    resolution: {integrity: sha512-VLghIWNM6ELQzo7zwmcg0NmTVyWKYjvIeM83yjp0wRDTmUnrM678fQbcKBo6n2CJEF0szoG//ytg+TKla89ALQ==}
+
+  js-tokens@4.0.0:
+    resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
+
+  lit-element@3.3.3:
+    resolution: {integrity: sha512-XbeRxmTHubXENkV4h8RIPyr8lXc+Ff28rkcQzw3G6up2xg5E8Zu1IgOWIwBLEQsu3cOVFqdYwiVi0hv0SlpqUA==}
+
+  lit-html@2.8.0:
+    resolution: {integrity: sha512-o9t+MQM3P4y7M7yNzqAyjp7z+mQGa4NS4CxiyLqFPyFWyc4O+nodLrkrxSaCTrla6M5YOLaT3RpbbqjszB5g3Q==}
+
+  lit@2.8.0:
+    resolution: {integrity: sha512-4Sc3OFX9QHOJaHbmTMk28SYgVxLN3ePDjg7hofEft2zWlehFL3LiAuapWc4U/kYwMYJSh2hTCPZ6/LIC7ii0MA==}
+
+  loose-envify@1.4.0:
+    resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
+    hasBin: true
+
+  mimic-response@3.1.0:
+    resolution: {integrity: sha512-z0yWI+4FDrrweS8Zmt4Ej5HdJmky15+L2e6Wgn3+iK5fWzb6T3fhNFq2+MeTRb064c6Wr4N/wv0DzQTjNzHNGQ==}
+    engines: {node: '>=10'}
+
+  process-nextick-args@2.0.1:
+    resolution: {integrity: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==}
+
+  progress-stream@2.0.0:
+    resolution: {integrity: sha512-xJwOWR46jcXUq6EH9yYyqp+I52skPySOeHfkxOZ2IY1AiBi/sFJhbhAKHoV3OTw/omQ45KTio9215dRJ2Yxd3Q==}
+
+  react-dom@18.3.1:
+    resolution: {integrity: sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==}
+    peerDependencies:
+      react: ^18.3.1
+
+  react-dom@19.0.0-rc-f994737d14-20240522:
+    resolution: {integrity: sha512-J4CsfTSptPKkhaPbaR6n/KohQiHZTrRZ8GL4H8rbAqN/Qpy69g2MIoLBr5/PUX21ye6JxC1ZRWJFna7Xdg1pdA==}
+    peerDependencies:
+      react: 19.0.0-rc-f994737d14-20240522
+
+  react-router-dom@6.23.1:
+    resolution: {integrity: sha512-utP+K+aSTtEdbWpC+4gxhdlPFwuEfDKq8ZrPFU65bbRJY+l706qjR7yaidBpo3MSeA/fzwbXWbKBI6ftOnP3OQ==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      react: '>=16.8'
+      react-dom: '>=16.8'
+
+  react-router@6.23.1:
+    resolution: {integrity: sha512-fzcOaRF69uvqbbM7OhvQyBTFDVrrGlsFdS3AL+1KfIBtGETibHzi3FkoTRyiDJnWNc2VxrfvR+657ROHjaNjqQ==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      react: '>=16.8'
+
+  react@18.3.1:
+    resolution: {integrity: sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==}
+    engines: {node: '>=0.10.0'}
+
+  react@19.0.0-rc-f994737d14-20240522:
+    resolution: {integrity: sha512-SeU2v5Xy6FotVhKz0pMS2gvYP7HlkF0qgTskj3JzA1vlxcb3dQjxlm9t0ZlJqcgoyI3VFAw7bomuDMdgy1nBuw==}
+    engines: {node: '>=0.10.0'}
+
+  readable-stream@2.3.8:
+    resolution: {integrity: sha512-8p0AUk4XODgIewSi0l8Epjs+EVnWiK7NoDIEGU0HhE7+ZyY8D1IMY7odu5lRrFXGg71L15KG8QrPmum45RTtdA==}
+
+  regexparam@2.0.2:
+    resolution: {integrity: sha512-A1PeDEYMrkLrfyOwv2jwihXbo9qxdGD3atBYQA9JJgreAx8/7rC6IUkWOw2NQlOxLp2wL0ifQbh1HuidDfYA6w==}
+    engines: {node: '>=8'}
+
+  rxjs@7.8.1:
+    resolution: {integrity: sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==}
+
+  safe-buffer@5.1.2:
+    resolution: {integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==}
+
+  safe-buffer@5.2.1:
+    resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==}
+
+  scheduler@0.23.2:
+    resolution: {integrity: sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==}
+
+  scheduler@0.25.0-rc-f994737d14-20240522:
+    resolution: {integrity: sha512-qS+xGFF7AljP2APO2iJe8zESNsK20k25MACz+WGOXPybUsRdi1ssvaoF93im2nSX2q/XT3wKkjdz6RQfbmaxdw==}
+
+  scroll-into-view-if-needed@3.1.0:
+    resolution: {integrity: sha512-49oNpRjWRvnU8NyGVmUaYG4jtTkNonFZI86MmGRDqBphEK2EXT9gdEUoQPZhuBM8yWHxCWbobltqYO5M4XrUvQ==}
+
+  set-cookie-parser@2.6.0:
+    resolution: {integrity: sha512-RVnVQxTXuerk653XfuliOxBP81Sf0+qfQE73LIYKcyMYHG94AuH0kgrQpRDuTZnSmjpysHmzxJXKNfa6PjFhyQ==}
+
+  source-map-support@0.5.21:
+    resolution: {integrity: sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==}
+
+  source-map@0.6.1:
+    resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
+    engines: {node: '>=0.10.0'}
+
+  source-map@0.7.4:
+    resolution: {integrity: sha512-l3BikUxvPOcn5E74dZiq5BGsTb5yEwhaTSzccU6t4sDOH8NWJCstKO5QT2CvtFoK6F0saL7p9xHAqHOlCPJygA==}
+    engines: {node: '>= 8'}
+
+  speedometer@1.0.0:
+    resolution: {integrity: sha512-lgxErLl/7A5+vgIIXsh9MbeukOaCb2axgQ+bKCdIE+ibNT4XNYGNCR1qFEGq6F+YDASXK3Fh/c5FgtZchFolxw==}
+
+  string_decoder@1.1.1:
+    resolution: {integrity: sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==}
+
+  three@0.139.2:
+    resolution: {integrity: sha512-gV7q7QY8rogu7HLFZR9cWnOQAUedUhu2WXAnpr2kdXZP9YDKsG/0ychwQvWkZN5PlNw9mv5MoCTin6zNTXoONg==}
+
+  through2@2.0.5:
+    resolution: {integrity: sha512-/mrRod8xqpA+IHSLyGCQ2s8SPHiCDEeQJSep1jqLYeEUClOFG2Qsh+4FU6G9VeqpZnGW/Su8LQGc4YKni5rYSQ==}
+
+  tiny-invariant@1.3.3:
+    resolution: {integrity: sha512-+FbBPE1o9QAYvviau/qC5SE3caw21q3xkvWKBtja5vgqOWIHHJ3ioaq1VPfn/Szqctz2bU/oYeKd9/z5BL+PVg==}
+
+  tslib@2.6.2:
+    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
+
+  tunnel-agent@0.6.0:
+    resolution: {integrity: sha512-McnNiV1l8RYeY8tBgEpuodCC1mLUdbSN+CYBL7kJsJNInOP8UjDDEwdk6Mw60vdLLrr5NHKZhMAOSrR2NZuQ+w==}
+
+  turbo-stream@2.0.1:
+    resolution: {integrity: sha512-sm0ZtcX9YWh28p5X8t5McxC2uthrt9p+g0bGE0KTVFhnhNWefpSVCr+67zRNDUOfo4bpXwiOp7otO+dyQ7/y/A==}
+
+  type-fest@4.18.3:
+    resolution: {integrity: sha512-Q08/0IrpvM+NMY9PA2rti9Jb+JejTddwmwmVQGskAlhtcrw1wsRzoR6ode6mR+OAabNa75w/dxedSUY2mlphaQ==}
+    engines: {node: '>=16'}
+
+  use-isomorphic-layout-effect@1.1.2:
+    resolution: {integrity: sha512-49L8yCO3iGT/ZF9QttjwLF/ZD9Iwto5LnH5LmEdk/6cFmXddqi2ulF0edxTwjj+7mqvpVVGQWvbXZdn32wRSHA==}
+    peerDependencies:
+      '@types/react': '*'
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+
+  use-resize-observer@9.1.0:
+    resolution: {integrity: sha512-R25VqO9Wb3asSD4eqtcxk8sJalvIOYBqS8MNZlpDSQ4l4xMQxC/J7Id9HoTqPq8FwULIn0PVW+OAqF2dyYbjow==}
+    peerDependencies:
+      react: 16.8.0 - 18
+      react-dom: 16.8.0 - 18
+
+  use-sync-external-store@1.2.2:
+    resolution: {integrity: sha512-PElTlVMwpblvbNqQ82d2n6RjStvdSoNe9FG28kNfz3WiXilJm4DdNkEzRhCZuIDwY8U08WVihhGR5iRqAwfDiw==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+
+  util-deprecate@1.0.2:
+    resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
+
+  uuid@8.3.2:
+    resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
+    hasBin: true
+
+  valibot@0.30.0:
+    resolution: {integrity: sha512-5POBdbSkM+3nvJ6ZlyQHsggisfRtyT4tVTo1EIIShs6qCdXJnyWU5TJ68vr8iTg5zpOLjXLRiBqNx+9zwZz/rA==}
+
+  worktop@0.7.3:
+    resolution: {integrity: sha512-WBHP1hk8pLP7ahAw13fugDWcO0SUAOiCD6DHT/bfLWoCIA/PL9u7GKdudT2nGZ8EGR1APbGCAI6ZzKG1+X+PnQ==}
+    engines: {node: '>=12'}
+
+  xtend@4.0.2:
+    resolution: {integrity: sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==}
+    engines: {node: '>=0.4'}
+
+snapshots:
+
+  '@google/model-viewer@1.12.1':
+    dependencies:
+      lit: 2.8.0
+      three: 0.139.2
+
+  '@juggle/resize-observer@3.4.0': {}
+
+  '@lit-labs/ssr-dom-shim@1.2.0': {}
+
+  '@lit/reactive-element@1.6.3':
+    dependencies:
+      '@lit-labs/ssr-dom-shim': 1.2.0
+
+  '@remix-run/react@2.9.2(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)':
+    dependencies:
+      '@remix-run/router': 1.16.1
+      '@remix-run/server-runtime': 2.9.2
+      react: 19.0.0-rc-f994737d14-20240522
+      react-dom: 19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522)
+      react-router: 6.23.1(react@19.0.0-rc-f994737d14-20240522)
+      react-router-dom: 6.23.1(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
+      turbo-stream: 2.0.1
+
+  '@remix-run/router@1.16.1': {}
+
+  '@remix-run/server-runtime@2.9.2':
+    dependencies:
+      '@remix-run/router': 1.16.1
+      '@types/cookie': 0.6.0
+      '@web3-storage/multipart-parser': 1.0.0
+      cookie: 0.6.0
+      set-cookie-parser: 2.6.0
+      source-map: 0.7.4
+      turbo-stream: 2.0.1
+
+  '@sanity/client@6.18.3':
+    dependencies:
+      '@sanity/eventsource': 5.0.2
+      get-it: 8.5.0
+      rxjs: 7.8.1
+    transitivePeerDependencies:
+      - debug
+
+  '@sanity/core-loader@1.6.15(@sanity/client@6.18.3)':
+    dependencies:
+      '@sanity/client': 6.18.3
+
+  '@sanity/eventsource@5.0.2':
+    dependencies:
+      '@types/event-source-polyfill': 1.0.5
+      '@types/eventsource': 1.1.15
+      event-source-polyfill: 1.0.31
+      eventsource: 2.0.2
+
+  '@sanity/preview-url-secret@1.6.14(@sanity/client@6.18.3)':
+    dependencies:
+      '@sanity/client': 6.18.3
+      '@sanity/uuid': 3.0.2
+
+  '@sanity/react-loader@1.9.20(@sanity/client@6.18.3)(react@19.0.0-rc-f994737d14-20240522)':
+    dependencies:
+      '@sanity/client': 6.18.3
+      '@sanity/core-loader': 1.6.15(@sanity/client@6.18.3)
+      react: 19.0.0-rc-f994737d14-20240522
+
+  '@sanity/uuid@3.0.2':
+    dependencies:
+      '@types/uuid': 8.3.4
+      uuid: 8.3.2
+
+  '@sanity/visual-editing@1.8.22(@remix-run/react@2.9.2(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))(@sanity/client@6.18.3)':
+    dependencies:
+      '@sanity/preview-url-secret': 1.6.14(@sanity/client@6.18.3)
+      '@vercel/stega': 0.1.2
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      scroll-into-view-if-needed: 3.1.0
+      valibot: 0.30.0
+    optionalDependencies:
+      '@remix-run/react': 2.9.2(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
+      '@sanity/client': 6.18.3
+
+  '@shopify/hydrogen-react@2024.4.2(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)':
+    dependencies:
+      '@google/model-viewer': 1.12.1
+      '@xstate/fsm': 2.1.0
+      '@xstate/react': 3.2.2(@xstate/fsm@2.1.0)(react@19.0.0-rc-f994737d14-20240522)
+      graphql: 16.8.1
+      react: 19.0.0-rc-f994737d14-20240522
+      react-dom: 19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522)
+      type-fest: 4.18.3
+      worktop: 0.7.3
+    transitivePeerDependencies:
+      - '@types/react'
+      - xstate
+
+  '@shopify/hydrogen@2024.4.2(@remix-run/react@2.9.2(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))(@remix-run/server-runtime@2.9.2)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)':
+    dependencies:
+      '@remix-run/react': 2.9.2(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
+      '@remix-run/server-runtime': 2.9.2
+      '@shopify/hydrogen-react': 2024.4.2(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
+      content-security-policy-builder: 2.2.0
+      react: 19.0.0-rc-f994737d14-20240522
+      source-map-support: 0.5.21
+      tiny-invariant: 1.3.3
+      type-fest: 4.18.3
+      use-resize-observer: 9.1.0(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
+    transitivePeerDependencies:
+      - '@types/react'
+      - react-dom
+      - xstate
+
+  '@shopify/oxygen-workers-types@4.0.0': {}
+
+  '@shopify/remix-oxygen@2.0.4(@remix-run/server-runtime@2.9.2)(@shopify/oxygen-workers-types@4.0.0)':
+    dependencies:
+      '@remix-run/server-runtime': 2.9.2
+      '@shopify/oxygen-workers-types': 4.0.0
+
+  '@types/cookie@0.6.0': {}
+
+  '@types/event-source-polyfill@1.0.5': {}
+
+  '@types/eventsource@1.1.15': {}
+
+  '@types/trusted-types@2.0.7': {}
+
+  '@types/uuid@8.3.4': {}
+
+  '@vercel/stega@0.1.2': {}
+
+  '@web3-storage/multipart-parser@1.0.0': {}
+
+  '@xstate/fsm@2.1.0': {}
+
+  '@xstate/react@3.2.2(@xstate/fsm@2.1.0)(react@19.0.0-rc-f994737d14-20240522)':
+    dependencies:
+      react: 19.0.0-rc-f994737d14-20240522
+      use-isomorphic-layout-effect: 1.1.2(react@19.0.0-rc-f994737d14-20240522)
+      use-sync-external-store: 1.2.2(react@19.0.0-rc-f994737d14-20240522)
+    optionalDependencies:
+      '@xstate/fsm': 2.1.0
+    transitivePeerDependencies:
+      - '@types/react'
+
+  buffer-from@1.1.2: {}
+
+  compute-scroll-into-view@3.1.0: {}
+
+  content-security-policy-builder@2.2.0: {}
+
+  cookie@0.6.0: {}
+
+  core-util-is@1.0.3: {}
+
+  decompress-response@7.0.0:
+    dependencies:
+      mimic-response: 3.1.0
+
+  event-source-polyfill@1.0.31: {}
+
+  eventsource@2.0.2: {}
+
+  follow-redirects@1.15.6: {}
+
+  get-it@8.5.0:
+    dependencies:
+      decompress-response: 7.0.0
+      follow-redirects: 1.15.6
+      is-retry-allowed: 2.2.0
+      progress-stream: 2.0.0
+      tunnel-agent: 0.6.0
+    transitivePeerDependencies:
+      - debug
+
+  graphql@16.8.1: {}
+
+  groq@3.43.0: {}
+
+  hydrogen-sanity@4.0.4(@remix-run/react@2.9.2(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))(@sanity/client@6.18.3)(@shopify/hydrogen@2024.4.2(@remix-run/react@2.9.2(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))(@remix-run/server-runtime@2.9.2)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))(@shopify/remix-oxygen@2.0.4(@remix-run/server-runtime@2.9.2)(@shopify/oxygen-workers-types@4.0.0))(groq@3.43.0)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522):
+    dependencies:
+      '@sanity/client': 6.18.3
+      '@sanity/preview-url-secret': 1.6.14(@sanity/client@6.18.3)
+      '@sanity/react-loader': 1.9.20(@sanity/client@6.18.3)(react@19.0.0-rc-f994737d14-20240522)
+      '@sanity/visual-editing': 1.8.22(@remix-run/react@2.9.2(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))(@sanity/client@6.18.3)
+      '@shopify/hydrogen': 2024.4.2(@remix-run/react@2.9.2(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))(@remix-run/server-runtime@2.9.2)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
+      '@shopify/remix-oxygen': 2.0.4(@remix-run/server-runtime@2.9.2)(@shopify/oxygen-workers-types@4.0.0)
+      groq: 3.43.0
+      react: 19.0.0-rc-f994737d14-20240522
+      react-dom: 19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522)
+    transitivePeerDependencies:
+      - '@remix-run/react'
+      - '@sveltejs/kit'
+      - next
+      - svelte
+
+  inherits@2.0.4: {}
+
+  is-retry-allowed@2.2.0: {}
+
+  isarray@1.0.0: {}
+
+  js-tokens@4.0.0: {}
+
+  lit-element@3.3.3:
+    dependencies:
+      '@lit-labs/ssr-dom-shim': 1.2.0
+      '@lit/reactive-element': 1.6.3
+      lit-html: 2.8.0
+
+  lit-html@2.8.0:
+    dependencies:
+      '@types/trusted-types': 2.0.7
+
+  lit@2.8.0:
+    dependencies:
+      '@lit/reactive-element': 1.6.3
+      lit-element: 3.3.3
+      lit-html: 2.8.0
+
+  loose-envify@1.4.0:
+    dependencies:
+      js-tokens: 4.0.0
+
+  mimic-response@3.1.0: {}
+
+  process-nextick-args@2.0.1: {}
+
+  progress-stream@2.0.0:
+    dependencies:
+      speedometer: 1.0.0
+      through2: 2.0.5
+
+  react-dom@18.3.1(react@18.3.1):
+    dependencies:
+      loose-envify: 1.4.0
+      react: 18.3.1
+      scheduler: 0.23.2
+
+  react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522):
+    dependencies:
+      react: 19.0.0-rc-f994737d14-20240522
+      scheduler: 0.25.0-rc-f994737d14-20240522
+
+  react-router-dom@6.23.1(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522):
+    dependencies:
+      '@remix-run/router': 1.16.1
+      react: 19.0.0-rc-f994737d14-20240522
+      react-dom: 19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522)
+      react-router: 6.23.1(react@19.0.0-rc-f994737d14-20240522)
+
+  react-router@6.23.1(react@19.0.0-rc-f994737d14-20240522):
+    dependencies:
+      '@remix-run/router': 1.16.1
+      react: 19.0.0-rc-f994737d14-20240522
+
+  react@18.3.1:
+    dependencies:
+      loose-envify: 1.4.0
+
+  react@19.0.0-rc-f994737d14-20240522: {}
+
+  readable-stream@2.3.8:
+    dependencies:
+      core-util-is: 1.0.3
+      inherits: 2.0.4
+      isarray: 1.0.0
+      process-nextick-args: 2.0.1
+      safe-buffer: 5.1.2
+      string_decoder: 1.1.1
+      util-deprecate: 1.0.2
+
+  regexparam@2.0.2: {}
+
+  rxjs@7.8.1:
+    dependencies:
+      tslib: 2.6.2
+
+  safe-buffer@5.1.2: {}
+
+  safe-buffer@5.2.1: {}
+
+  scheduler@0.23.2:
+    dependencies:
+      loose-envify: 1.4.0
+
+  scheduler@0.25.0-rc-f994737d14-20240522: {}
+
+  scroll-into-view-if-needed@3.1.0:
+    dependencies:
+      compute-scroll-into-view: 3.1.0
+
+  set-cookie-parser@2.6.0: {}
+
+  source-map-support@0.5.21:
+    dependencies:
+      buffer-from: 1.1.2
+      source-map: 0.6.1
+
+  source-map@0.6.1: {}
+
+  source-map@0.7.4: {}
+
+  speedometer@1.0.0: {}
+
+  string_decoder@1.1.1:
+    dependencies:
+      safe-buffer: 5.1.2
+
+  three@0.139.2: {}
+
+  through2@2.0.5:
+    dependencies:
+      readable-stream: 2.3.8
+      xtend: 4.0.2
+
+  tiny-invariant@1.3.3: {}
+
+  tslib@2.6.2: {}
+
+  tunnel-agent@0.6.0:
+    dependencies:
+      safe-buffer: 5.2.1
+
+  turbo-stream@2.0.1: {}
+
+  type-fest@4.18.3: {}
+
+  use-isomorphic-layout-effect@1.1.2(react@19.0.0-rc-f994737d14-20240522):
+    dependencies:
+      react: 19.0.0-rc-f994737d14-20240522
+
+  use-resize-observer@9.1.0(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522):
+    dependencies:
+      '@juggle/resize-observer': 3.4.0
+      react: 19.0.0-rc-f994737d14-20240522
+      react-dom: 19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522)
+
+  use-sync-external-store@1.2.2(react@19.0.0-rc-f994737d14-20240522):
+    dependencies:
+      react: 19.0.0-rc-f994737d14-20240522
+
+  util-deprecate@1.0.2: {}
+
+  uuid@8.3.2: {}
+
+  valibot@0.30.0: {}
+
+  worktop@0.7.3:
+    dependencies:
+      regexparam: 2.0.2
+
+  xtend@4.0.2: {}
