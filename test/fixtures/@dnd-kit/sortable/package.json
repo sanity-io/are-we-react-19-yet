@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@dnd-kit/sortable": "8.0.0",
+    "react": ">=19.0.0-rc",
+    "react-dom": ">=19.0.0-rc"
+  },
+  "packageManager": "pnpm@9.0.4"
+}
