@@ -2,9 +2,9 @@
   "type": "module",
   "scripts": {
     "add-test": "node add.js",
-    "upload": "node upload.js",
     "format": "prettier --cache --write .",
-    "test": "vitest"
+    "test": "vitest",
+    "upload": "node upload.js"
   },
   "prettier": "@sanity/prettier-config",
   "dependencies": {
