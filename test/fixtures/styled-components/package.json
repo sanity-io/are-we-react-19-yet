@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "styled-components": "6.1.11",
+    "react": ">=19.0.0-rc",
+    "react-dom": ">=19.0.0-rc"
+  },
+  "packageManager": "pnpm@9.0.4"
+}
