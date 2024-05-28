@@ -8,6 +8,10 @@ on:
       - 'test/**'
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: read # for checkout
 
