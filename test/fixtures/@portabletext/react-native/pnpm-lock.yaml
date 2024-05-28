@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@portabletext/react-native':
-        specifier: 1.1.10
-        version: 1.1.10(react-native@0.73.8(@babel/core@7.24.6)(@babel/preset-env@7.24.6(@babel/core@7.24.6))(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
+        specifier: 1.1.12
+        version: 1.1.12(react-native@0.73.8(@babel/core@7.24.6)(@babel/preset-env@7.24.6(@babel/core@7.24.6))(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
       react:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-f994737d14-20240522
@@ -794,11 +794,11 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@portabletext/react-native@1.1.10':
-    resolution: {integrity: sha512-6Sez3B0AX3ubfvl84cbi+UyuGMMPB8fGMZoAYiuzu3fPO1G8ta6nHkn6dbhyo728sIMxWAURJ8p84TVzKsQyJg==}
+  '@portabletext/react-native@1.1.12':
+    resolution: {integrity: sha512-uxgoSgSJpVz3FtWinHd1H67uJQwJim0JAwl63o8wqA5l1+9Kx58SQctUhJBQ7nvZL2JU6PrDRutxbLfroqqqJw==}
     peerDependencies:
       react: ^17 || ^18
-      react-native: ^0.66 || ^0.67 || ^0.68 || ^0.69 || ^0.70 || ^0.71 || ^0.72 || ^0.73.0
+      react-native: ^0.66 || ^0.67 || ^0.68 || ^0.69 || ^0.70 || ^0.71 || ^0.72 || ^0.73.0 || ^0.74.0
 
   '@portabletext/react@3.1.0':
     resolution: {integrity: sha512-ZGHlvS+NvId9RSqnflN8xF2KVZgAgD399dK1GaycurnGNZGZYTd5nZmc8by1yL76Ar8n/dbVtouUDJIkO4Tupw==}
@@ -3327,7 +3327,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  '@portabletext/react-native@1.1.10(react-native@0.73.8(@babel/core@7.24.6)(@babel/preset-env@7.24.6(@babel/core@7.24.6))(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)':
+  '@portabletext/react-native@1.1.12(react-native@0.73.8(@babel/core@7.24.6)(@babel/preset-env@7.24.6(@babel/core@7.24.6))(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)':
     dependencies:
       '@portabletext/react': 3.1.0(react@19.0.0-rc-f994737d14-20240522)
       '@portabletext/types': 2.0.13
