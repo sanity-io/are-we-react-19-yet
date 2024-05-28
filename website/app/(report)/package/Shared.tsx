@@ -1,7 +1,7 @@
 import {CheckmarkCircleIcon, CloseCircleIcon} from '@sanity/icons'
 import {stegaClean} from '@sanity/client/stega'
 import {Code} from 'bright'
-import {notFound, redirect} from 'next/navigation'
+import {notFound} from 'next/navigation'
 import type {Metadata} from 'next'
 import Link from 'next/link'
 
@@ -9,22 +9,20 @@ import {sanityFetch} from '@/sanity/lib/fetch'
 import {packageQuery} from '@/sanity/lib/queries'
 import type {PackageQueryResult} from '@/sanity.types'
 
-import {Footer} from '../../Footer'
+import {Footer} from '../Footer'
 
 Code.theme = 'github-dark-dimmed'
 
-export async function generateMetadata({
-  params,
-  searchParams: {lastLiveEventId},
+export async function generateSharedMetadata({
+  name,
+  lastLiveEventId,
 }: {
-  params: {name: string[]}
-  searchParams: {[key: string]: string | string[] | undefined}
+  name: string
+  lastLiveEventId: string | string[] | null | undefined
 }): Promise<Metadata> {
-  const [maybeOrg, maybeName] = params.name
-  const packageName = maybeName ? `${decodeURIComponent(maybeOrg)}/${maybeName}` : maybeOrg
   const [report] = await sanityFetch<PackageQueryResult>({
     query: packageQuery,
-    params: {name: packageName},
+    params: {name},
     stega: false,
     lastLiveEventId,
   })
@@ -35,23 +33,16 @@ export async function generateMetadata({
   return {title}
 }
 
-export default async function PackageReport({
-  params,
-  searchParams: {lastLiveEventId},
+export async function SharedPackageReport({
+  name,
+  lastLiveEventId,
 }: {
-  params: {name: string[]}
-  searchParams: {[key: string]: string | string[] | undefined}
+  name: string
+  lastLiveEventId: string | string[] | null | undefined
 }) {
-  const [maybeOrg, maybeName, ...invalid] = params.name
-
-  if (invalid.length > 0) {
-    redirect(`/package/${decodeURIComponent(maybeOrg)}/${maybeName}`)
-  }
-
-  const packageName = maybeName ? `${decodeURIComponent(maybeOrg)}/${maybeName}` : maybeOrg
   const [report, LiveSubscription] = await sanityFetch<PackageQueryResult>({
     query: packageQuery,
-    params: {name: packageName},
+    params: {name},
     lastLiveEventId,
   })
   if (!report?.package) {
@@ -109,5 +100,32 @@ ${report.package.log}`}</Code>
       {report?.updatedAt && <Footer dateString={report.updatedAt} />}
       <LiveSubscription />
     </>
+  )
+}
+
+export function Favicon({pass}: {pass: boolean}) {
+  return (
+    <svg
+      style={{
+        background: pass ? 'rgb(22,101,52)' : 'rgb(153,27,27)',
+        borderRadius: '50%',
+      }}
+      width="25"
+      height="25"
+      viewBox="0 0 25 25"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      {pass ? (
+        <path
+          d="M5.5 11.5L10.5 16.5L19.5 7.60001"
+          stroke="#fff"
+          stroke-width="1.2"
+          stroke-linejoin="round"
+        />
+      ) : (
+        <path d="M18 7L7 18M7 7L18 18" stroke="#fff" stroke-width="1.2" stroke-linejoin="round" />
+      )}
+    </svg>
   )
 }
