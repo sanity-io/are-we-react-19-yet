@@ -4,8 +4,8 @@ import type {ReportQueryResult} from '@/sanity.types'
 import {reportQuery} from '@/sanity/lib/queries'
 import {sanityFetch} from '@/sanity/lib/fetch'
 
-import DateComponent from './date'
 import Report from './Report'
+import {Footer} from './Footer'
 
 export async function generateMetadata({
   searchParams: {lastLiveEventId},
@@ -52,13 +52,7 @@ export default async function Page({
         </section>
         {report?.test && <Report test={report.test} />}
       </main>
-      {report?.updatedAt && (
-        <footer className="container mx-auto px-5">
-          <p className="text-muted text-center text-sm">
-            Last update: <DateComponent dateString={report.updatedAt} />
-          </p>
-        </footer>
-      )}
+      {report?.updatedAt && <Footer dateString={report.updatedAt} />}
       <LiveSubscription />
     </>
   )

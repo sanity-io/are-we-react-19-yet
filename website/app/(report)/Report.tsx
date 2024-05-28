@@ -5,6 +5,7 @@ import {stegaClean} from '@sanity/client/stega'
 
 import type {ReportQueryResult} from '@/sanity.types'
 import {useMemo, useState} from 'react'
+import Link from 'next/link'
 
 const filters = [
   {id: 'all', title: 'Show all'},
@@ -55,19 +56,15 @@ export default function Report(props: {test: Exclude<ReportQueryResult, null>['t
       </fieldset>
       <section className="grid grid-cols-1 gap-4 p-4 text-sm leading-6 sm:grid-cols-2 sm:px-8 sm:pb-8 sm:pt-6 lg:grid-cols-1 lg:p-4 xl:grid-cols-2 xl:px-8 xl:pb-8 xl:pt-6">
         {filtered.map((test) => {
+          if (!test._key) throw new Error('No key')
+          if (!test.name) throw new Error('No name')
+          if (!test.version) throw new Error('No version')
           return (
-            <a
+            <Link
               key={test._key}
+              data-sanity-edit-target
               className={`group relative rounded-md bg-white p-3 shadow-sm ring-1 ring-slate-200 hover:shadow-md hover:ring-blue-500`}
-              rel="noreferrer noopener"
-              target="_blank"
-              href={
-                test.name
-                  ? stegaClean(
-                      `https://npmjs.com/package/${test.name}${test.version ? `/v/${test.version}` : ''}`,
-                    )
-                  : undefined
-              }
+              href={stegaClean(`/package/${test.name}`)}
               title={test.name || ''}
             >
               <span
@@ -76,7 +73,7 @@ export default function Report(props: {test: Exclude<ReportQueryResult, null>['t
                 {test.pass ? <CheckmarkCircleIcon /> : <CloseCircleIcon />}
               </span>
               <span className="relative z-10 ml-1 pl-8">{test.name || 'No name'}</span>
-            </a>
+            </Link>
           )
         })}
       </section>
