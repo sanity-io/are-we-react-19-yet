@@ -1,6 +1,6 @@
 // @ts-check
 
-import {writeFile, stat, mkdir, readFile} from 'node:fs/promises'
+import {readFile} from 'node:fs/promises'
 import {createRequire} from 'node:module'
 import {createClient} from '@sanity/client'
 
@@ -39,7 +39,11 @@ if (!pnpmTests) {
 const {assertionResults} = pnpmTests
 const result = []
 for (const {title, status} of assertionResults) {
-  const pkgResult = {_key: title, name: title, pass: status === 'passed'}
+  const pkgResult = {
+    _key: title.replace(/^\@/, '').replace(/\//, '__'),
+    name: title,
+    pass: status === 'passed',
+  }
   const version = require(`./fixtures/${title}/package.json`).dependencies[title]
   let log = ''
   try {
