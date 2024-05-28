@@ -26,6 +26,12 @@ jobs:
           node-version: lts/*
       - run: pnpm install
       - run: pnpm test -- -u --test-timeout=30000 --reporter=json --outputFile=./result.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: report
+          path: test/result.json
+          if-no-files-found: error
       - run: pnpm upload
         if: always()
         env:
