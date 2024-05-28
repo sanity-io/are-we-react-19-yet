@@ -1,16 +1,39 @@
 import {CheckmarkCircleIcon, CloseCircleIcon} from '@sanity/icons'
 import {stegaClean} from '@sanity/client/stega'
-import {notFound, redirect} from 'next/navigation'
 import {Code} from 'bright'
+import {notFound, redirect} from 'next/navigation'
+import type {Metadata} from 'next'
+import Link from 'next/link'
 
 import {sanityFetch} from '@/sanity/lib/fetch'
 import {packageQuery} from '@/sanity/lib/queries'
 import type {PackageQueryResult} from '@/sanity.types'
 
 import {Footer} from '../../Footer'
-import Link from 'next/link'
 
 Code.theme = 'github-dark-dimmed'
+
+export async function generateMetadata({
+  params,
+  searchParams: {lastLiveEventId},
+}: {
+  params: {name: string[]}
+  searchParams: {[key: string]: string | string[] | undefined}
+}): Promise<Metadata> {
+  const [maybeOrg, maybeName] = params.name
+  const packageName = maybeName ? `${decodeURIComponent(maybeOrg)}/${maybeName}` : maybeOrg
+  const [report] = await sanityFetch<PackageQueryResult>({
+    query: packageQuery,
+    params: {name: packageName},
+    stega: false,
+    lastLiveEventId,
+  })
+  let title = 'Are We React 19 Yet?'
+  if (report?.package?.name && report?.package?.version) {
+    title = `${report.package.name}@${report.package.version}`
+  }
+  return {title}
+}
 
 export default async function PackageReport({
   params,
