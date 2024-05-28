@@ -141,6 +141,7 @@ export type Report = {
     name?: string
     version?: string
     pass?: boolean
+    log?: string
     _key: string
   }>
 }
