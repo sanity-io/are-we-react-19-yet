@@ -28,7 +28,7 @@ const client = createClient({
   useCdn: false,
   apiVersion: '2024-05-27',
 })
-const regex = /WARN Issues with peer dependencies found([\s\S]*?)Done in/
+const regex = /Issues with peer dependencies found([\s\S]*?)Done in/
 
 const {testResults} = JSON.parse((await readFile('./result.json', 'utf8')).toString())
 
