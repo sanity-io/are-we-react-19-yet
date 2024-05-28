@@ -2,8 +2,23 @@
 
 exports[`pnpm install --resolution-only > @portabletext/react 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 305, reused 0, downloaded 0, added 0
-Progress: resolved 801, reused 0, downloaded 0, added 0
+Progress: resolved 6, reused 0, downloaded 0, added 0, done
+
+ WARN  Issues with peer dependencies found
+.
+└─┬ @portabletext/react 3.0.18
+  └── ✕ unmet peer react@"^17 || ^18": found 19.0.0-rc-f994737d14-20240522
+
+Done in 222ms"
+`;
+
+exports[`pnpm install --resolution-only > @sanity/assist 1`] = `
+"Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 154, reused 0, downloaded 0, added 0
+Progress: resolved 243, reused 0, downloaded 0, added 0
+Progress: resolved 419, reused 0, downloaded 0, added 0
+Progress: resolved 581, reused 0, downloaded 0, added 0
+Progress: resolved 743, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
 Progress: resolved 826, reused 0, downloaded 0, added 0, done
 
@@ -55,25 +70,16 @@ Progress: resolved 826, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 2.3s"
+Done in 5.8s"
 `;
 
-exports[`pnpm install --resolution-only > @rexxars/react-json-inspector 1`] = `
+exports[`pnpm install --resolution-only > @sanity/code-input 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 11, reused 0, downloaded 0, added 0, done
-
- WARN  Issues with peer dependencies found
-.
-└─┬ @rexxars/react-json-inspector 8.0.1
-  └── ✕ unmet peer react@"^15 || ^16 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-
-Done in 242ms"
-`;
-
-exports[`pnpm install --resolution-only > @sanity/assist 1`] = `
-"Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 267, reused 0, downloaded 0, added 0
-Progress: resolved 714, reused 0, downloaded 0, added 0
+Progress: resolved 186, reused 0, downloaded 0, added 0
+Progress: resolved 310, reused 0, downloaded 0, added 0
+Progress: resolved 458, reused 0, downloaded 0, added 0
+Progress: resolved 684, reused 0, downloaded 0, added 0
+Progress: resolved 861, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
 Progress: resolved 862, reused 0, downloaded 0, added 0, done
 
@@ -133,13 +139,22 @@ Progress: resolved 862, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 2.7s"
+Done in 5.3s"
 `;
 
-exports[`pnpm install --resolution-only > @sanity/code-input 1`] = `
+exports[`pnpm install --resolution-only > @sanity/color 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 267, reused 0, downloaded 0, added 0
-Progress: resolved 749, reused 0, downloaded 0, added 0
+Progress: resolved 4, reused 0, downloaded 0, added 0, done
+
+Done in 221ms"
+`;
+
+exports[`pnpm install --resolution-only > @sanity/color-input 1`] = `
+"Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 109, reused 0, downloaded 0, added 0
+Progress: resolved 228, reused 0, downloaded 0, added 0
+Progress: resolved 523, reused 0, downloaded 0, added 0
+Progress: resolved 723, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
 Progress: resolved 830, reused 0, downloaded 0, added 0, done
 
@@ -191,20 +206,17 @@ Progress: resolved 830, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 2.6s"
+Done in 4.9s"
 `;
 
-exports[`pnpm install --resolution-only > @sanity/color 1`] = `
+exports[`pnpm install --resolution-only > @sanity/dashboard 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 4, reused 0, downloaded 0, added 0, done
-
-Done in 238ms"
-`;
-
-exports[`pnpm install --resolution-only > @sanity/color-input 1`] = `
-"Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 256, reused 0, downloaded 0, added 0
-Progress: resolved 692, reused 0, downloaded 0, added 0
+Progress: resolved 135, reused 0, downloaded 0, added 0
+Progress: resolved 169, reused 0, downloaded 0, added 0
+Progress: resolved 330, reused 0, downloaded 0, added 0
+Progress: resolved 464, reused 0, downloaded 0, added 0
+Progress: resolved 640, reused 0, downloaded 0, added 0
+Progress: resolved 799, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
 Progress: resolved 828, reused 0, downloaded 0, added 0, done
 
@@ -263,20 +275,17 @@ Progress: resolved 828, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 2.6s"
+Done in 6.8s"
 `;
 
-exports[`pnpm install --resolution-only > @sanity/components 1`] = `
+exports[`pnpm install --resolution-only > @sanity/document-internationalization 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 4, reused 0, downloaded 0, added 0, done
-
-Done in 242ms"
-`;
-
-exports[`pnpm install --resolution-only > @sanity/dashboard 1`] = `
-"Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 221, reused 0, downloaded 0, added 0
-Progress: resolved 740, reused 0, downloaded 0, added 0
+Progress: resolved 155, reused 0, downloaded 0, added 0
+Progress: resolved 296, reused 0, downloaded 0, added 0
+Progress: resolved 517, reused 0, downloaded 0, added 0
+Progress: resolved 648, reused 0, downloaded 0, added 0
+Progress: resolved 782, reused 0, downloaded 0, added 0
+Progress: resolved 820, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
 Progress: resolved 827, reused 0, downloaded 0, added 0, done
 
@@ -338,13 +347,16 @@ Progress: resolved 827, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 2.6s"
+Done in 6.3s"
 `;
 
-exports[`pnpm install --resolution-only > @sanity/document-internationalization 1`] = `
+exports[`pnpm install --resolution-only > @sanity/embeddings-index-ui 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 298, reused 0, downloaded 0, added 0
-Progress: resolved 662, reused 0, downloaded 0, added 0
+Progress: resolved 165, reused 0, downloaded 0, added 0
+Progress: resolved 307, reused 0, downloaded 0, added 0
+Progress: resolved 562, reused 0, downloaded 0, added 0
+Progress: resolved 693, reused 0, downloaded 0, added 0
+Progress: resolved 822, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
 Progress: resolved 828, reused 0, downloaded 0, added 0, done
 
@@ -403,13 +415,15 @@ Progress: resolved 828, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 2.7s"
+Done in 5.5s"
 `;
 
-exports[`pnpm install --resolution-only > @sanity/embeddings-index-ui 1`] = `
+exports[`pnpm install --resolution-only > @sanity/google-maps-input 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 307, reused 0, downloaded 0, added 0
-Progress: resolved 782, reused 0, downloaded 0, added 0
+Progress: resolved 161, reused 0, downloaded 0, added 0
+Progress: resolved 353, reused 0, downloaded 0, added 0
+Progress: resolved 607, reused 0, downloaded 0, added 0
+Progress: resolved 738, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
 Progress: resolved 824, reused 0, downloaded 0, added 0, done
 
@@ -461,13 +475,16 @@ Progress: resolved 824, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 2.5s"
+Done in 5.1s"
 `;
 
-exports[`pnpm install --resolution-only > @sanity/google-maps-input 1`] = `
+exports[`pnpm install --resolution-only > @sanity/hierarchical-document-list 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 317, reused 0, downloaded 0, added 0
-Progress: resolved 739, reused 0, downloaded 0, added 0
+Progress: resolved 207, reused 0, downloaded 0, added 0
+Progress: resolved 352, reused 0, downloaded 0, added 0
+Progress: resolved 550, reused 0, downloaded 0, added 0
+Progress: resolved 768, reused 0, downloaded 0, added 0
+Progress: resolved 843, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
 Progress: resolved 844, reused 0, downloaded 0, added 0, done
 
@@ -532,13 +549,46 @@ Progress: resolved 844, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 2.6s"
+Done in 5.4s"
 `;
 
-exports[`pnpm install --resolution-only > @sanity/hierarchical-document-list 1`] = `
+exports[`pnpm install --resolution-only > @sanity/icons 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 328, reused 0, downloaded 0, added 0
-Progress: resolved 822, reused 0, downloaded 0, added 0
+Progress: resolved 4, reused 0, downloaded 0, added 0, done
+
+ WARN  Issues with peer dependencies found
+.
+└─┬ @sanity/icons 2.11.8
+  └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
+
+Done in 217ms"
+`;
+
+exports[`pnpm install --resolution-only > @sanity/incompatible-plugin 1`] = `
+"Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 13, reused 0, downloaded 0, added 0, done
+
+ WARN  Issues with peer dependencies found
+.
+└─┬ @sanity/incompatible-plugin 1.0.4
+  ├── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
+  ├── ✕ unmet peer react-dom@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
+  ├─┬ @sanity/icons 1.3.10
+  │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
+  └─┬ react-copy-to-clipboard 5.1.0
+    └── ✕ unmet peer react@"^15.3.0 || 16 || 17 || 18": found 19.0.0-rc-f994737d14-20240522
+
+Done in 247ms"
+`;
+
+exports[`pnpm install --resolution-only > @sanity/language-filter 1`] = `
+"Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 143, reused 0, downloaded 0, added 0
+Progress: resolved 259, reused 0, downloaded 0, added 0
+Progress: resolved 388, reused 0, downloaded 0, added 0
+Progress: resolved 576, reused 0, downloaded 0, added 0
+Progress: resolved 666, reused 0, downloaded 0, added 0
+Progress: resolved 777, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
 Progress: resolved 824, reused 0, downloaded 0, added 0, done
 
@@ -591,45 +641,7 @@ Progress: resolved 824, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 2.4s"
-`;
-
-exports[`pnpm install --resolution-only > @sanity/icons 1`] = `
-"Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 4, reused 0, downloaded 0, added 0, done
-
- WARN  Issues with peer dependencies found
-.
-└─┬ @sanity/icons 2.11.8
-  └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-
-Done in 239ms"
-`;
-
-exports[`pnpm install --resolution-only > @sanity/incompatible-plugin 1`] = `
-"Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 13, reused 0, downloaded 0, added 0, done
-
- WARN  Issues with peer dependencies found
-.
-└─┬ @sanity/incompatible-plugin 1.0.4
-  ├── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├── ✕ unmet peer react-dom@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/icons 1.3.10
-  │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  └─┬ react-copy-to-clipboard 5.1.0
-    └── ✕ unmet peer react@"^15.3.0 || 16 || 17 || 18": found 19.0.0-rc-f994737d14-20240522
-
-Done in 251ms"
-`;
-
-exports[`pnpm install --resolution-only > @sanity/language-filter 1`] = `
-"Progress: resolved 1, reused 0, downloaded 0, added 0
- WARN  3 deprecated subdependencies found: glob@7.2.3, glob@8.1.0, inflight@1.0.6
-Progress: resolved 516, reused 0, downloaded 0, added 0
-Progress: resolved 516, reused 0, downloaded 0, added 0, done
-
-Done in 1.2s"
+Done in 7s"
 `;
 
 exports[`pnpm install --resolution-only > @sanity/logos 1`] = `
@@ -641,10 +653,30 @@ Progress: resolved 5, reused 0, downloaded 0, added 0, done
 └─┬ @sanity/logos 2.1.11
   └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
 
-Done in 403ms"
+Done in 215ms"
 `;
 
 exports[`pnpm install --resolution-only > @sanity/plugin-kit 1`] = `
+"Progress: resolved 1, reused 0, downloaded 0, added 0
+ WARN  3 deprecated subdependencies found: glob@7.2.3, glob@8.1.0, inflight@1.0.6
+Progress: resolved 516, reused 0, downloaded 0, added 0, done
+
+Done in 932ms"
+`;
+
+exports[`pnpm install --resolution-only > @sanity/portable-text-editor 1`] = `
+"Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 85, reused 0, downloaded 0, added 0, done
+
+ WARN  Issues with peer dependencies found
+.
+└─┬ @sanity/portable-text-editor 3.43.0
+  └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
+
+Done in 518ms"
+`;
+
+exports[`pnpm install --resolution-only > @sanity/presentation 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
 Progress: resolved 92, reused 0, downloaded 0, added 0, done
 
@@ -660,68 +692,7 @@ Progress: resolved 92, reused 0, downloaded 0, added 0, done
       ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
       └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
 
-Done in 547ms"
-`;
-
-exports[`pnpm install --resolution-only > @sanity/portable-text-editor 1`] = `
-"Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 85, reused 0, downloaded 0, added 0, done
-
- WARN  Issues with peer dependencies found
-.
-└─┬ @sanity/portable-text-editor 3.43.0
-  └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-
-Done in 438ms"
-`;
-
-exports[`pnpm install --resolution-only > @sanity/presentation 1`] = `
-"Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 163, reused 0, downloaded 0, added 0
-Progress: resolved 250, reused 0, downloaded 0, added 0
- WARN  1 deprecated subdependencies found: popper-max-size-modifier@0.2.0
-Progress: resolved 251, reused 0, downloaded 0, added 0, done
-
- WARN  Issues with peer dependencies found
-.
-├─┬ @sanity/react-hooks 2.36.2
-│ ├── ✕ unmet peer react@"^16.9 || ^17": found 19.0.0-rc-f994737d14-20240522
-│ └─┬ react-rx 1.0.1
-│   └── ✕ unmet peer react@"^16.8 || ^17": found 19.0.0-rc-f994737d14-20240522
-└─┬ @sanity/base 2.36.2
-  ├── ✕ unmet peer react@"^16.9 || ^17": found 19.0.0-rc-f994737d14-20240522
-  ├── ✕ unmet peer react-dom@"^16.9 || ^17": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @reach/auto-id 0.13.2
-  │ ├── ✕ unmet peer react@"^16.8.0 || 17.x": found 19.0.0-rc-f994737d14-20240522
-  │ ├── ✕ unmet peer react-dom@"^16.8.0 || 17.x": found 19.0.0-rc-f994737d14-20240522
-  │ └─┬ @reach/utils 0.13.2
-  │   ├── ✕ unmet peer react@"^16.8.0 || 17.x": found 19.0.0-rc-f994737d14-20240522
-  │   └── ✕ unmet peer react-dom@"^16.8.0 || 17.x": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/icons 1.3.10
-  │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/state-router 2.35.3
-  │ ├── ✕ unmet peer react@"^16.9 || ^17": found 19.0.0-rc-f994737d14-20240522
-  │ └── ✕ unmet peer react-dom@"^16.9 || ^17": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/ui 0.37.22
-  │ ├── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  │ ├── ✕ unmet peer react-dom@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  │ ├─┬ @reach/auto-id 0.16.0
-  │ │ ├── ✕ unmet peer react@"^16.8.0 || 17.x": found 19.0.0-rc-f994737d14-20240522
-  │ │ ├── ✕ unmet peer react-dom@"^16.8.0 || 17.x": found 19.0.0-rc-f994737d14-20240522
-  │ │ └─┬ @reach/utils 0.16.0
-  │ │   ├── ✕ unmet peer react@"^16.8.0 || 17.x": found 19.0.0-rc-f994737d14-20240522
-  │ │   └── ✕ unmet peer react-dom@"^16.8.0 || 17.x": found 19.0.0-rc-f994737d14-20240522
-  │ └─┬ react-popper 2.3.0
-  │   ├── ✕ unmet peer react@"^16.8.0 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  │   └── ✕ unmet peer react-dom@"^16.8.0 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ react-sortable-hoc 1.11.0
-  │ ├── ✕ unmet peer react@"^0.14.0 || ^15.0.0 || ^16.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ └── ✕ unmet peer react-dom@"^0.14.0 || ^15.0.0 || ^16.0.0": found 19.0.0-rc-f994737d14-20240522
-  └─┬ react-split-pane 0.1.92
-    ├── ✕ unmet peer react@^16.0.0-0: found 19.0.0-rc-f994737d14-20240522
-    └── ✕ unmet peer react-dom@^16.0.0-0: found 19.0.0-rc-f994737d14-20240522
-
-Done in 2.2s"
+Done in 593ms"
 `;
 
 exports[`pnpm install --resolution-only > @sanity/preview-kit 1`] = `
@@ -735,7 +706,7 @@ Progress: resolved 33, reused 0, downloaded 0, added 0, done
   └─┬ @sanity/preview-kit-compat 1.4.23
     └── ✕ unmet peer react@^18.2.0: found 19.0.0-rc-f994737d14-20240522
 
-Done in 516ms"
+Done in 519ms"
 `;
 
 exports[`pnpm install --resolution-only > @sanity/preview-kit-compat 1`] = `
@@ -747,17 +718,17 @@ Progress: resolved 31, reused 0, downloaded 0, added 0, done
 └─┬ @sanity/preview-kit-compat 1.4.24
   └── ✕ unmet peer react@^18.2.0: found 19.0.0-rc-f994737d14-20240522
 
-Done in 465ms"
+Done in 501ms"
 `;
 
 exports[`pnpm install --resolution-only > @sanity/preview-url-secret 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
 Progress: resolved 34, reused 0, downloaded 0, added 0, done
 
-Done in 504ms"
+Done in 495ms"
 `;
 
-exports[`pnpm install --resolution-only > @sanity/react-hooks 1`] = `
+exports[`pnpm install --resolution-only > @sanity/react-loader 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
 Progress: resolved 32, reused 0, downloaded 0, added 0, done
 
@@ -766,13 +737,13 @@ Progress: resolved 32, reused 0, downloaded 0, added 0, done
 └─┬ @sanity/react-loader 1.9.20
   └── ✕ unmet peer react@^18.2.0: found 19.0.0-rc-f994737d14-20240522
 
-Done in 543ms"
+Done in 514ms"
 `;
 
-exports[`pnpm install --resolution-only > @sanity/react-loader 1`] = `
+exports[`pnpm install --resolution-only > @sanity/rich-date-input 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 239, reused 0, downloaded 0, added 0
-Progress: resolved 781, reused 0, downloaded 0, added 0
+Progress: resolved 346, reused 0, downloaded 0, added 0
+Progress: resolved 824, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
 Progress: resolved 826, reused 0, downloaded 0, added 0, done
 
@@ -824,13 +795,13 @@ Progress: resolved 826, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 2.4s"
+Done in 2.3s"
 `;
 
-exports[`pnpm install --resolution-only > @sanity/rich-date-input 1`] = `
+exports[`pnpm install --resolution-only > @sanity/studio-secrets 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 245, reused 0, downloaded 0, added 0
-Progress: resolved 750, reused 0, downloaded 0, added 0
+Progress: resolved 311, reused 0, downloaded 0, added 0
+Progress: resolved 822, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
 Progress: resolved 824, reused 0, downloaded 0, added 0, done
 
@@ -882,14 +853,14 @@ Progress: resolved 824, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 2.5s"
+Done in 2.3s"
 `;
 
-exports[`pnpm install --resolution-only > @sanity/studio-secrets 1`] = `
+exports[`pnpm install --resolution-only > @sanity/table 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 237, reused 0, downloaded 0, added 0
-Progress: resolved 706, reused 0, downloaded 0, added 0
+Progress: resolved 319, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
+Progress: resolved 828, reused 0, downloaded 0, added 0
 Progress: resolved 828, reused 0, downloaded 0, added 0, done
 
  WARN  Issues with peer dependencies found
@@ -948,13 +919,25 @@ Progress: resolved 828, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 2.6s"
+Done in 2.2s"
 `;
 
-exports[`pnpm install --resolution-only > @sanity/table 1`] = `
+exports[`pnpm install --resolution-only > @sanity/telemetry 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 536, reused 0, downloaded 0, added 0
-Progress: resolved 875, reused 0, downloaded 0, added 0
+Progress: resolved 9, reused 0, downloaded 0, added 0, done
+
+ WARN  Issues with peer dependencies found
+.
+└─┬ @sanity/telemetry 0.7.8
+  └── ✕ unmet peer react@^18.2: found 19.0.0-rc-f994737d14-20240522
+
+Done in 231ms"
+`;
+
+exports[`pnpm install --resolution-only > @sanity/tsdoc 1`] = `
+"Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 585, reused 0, downloaded 0, added 0
+Progress: resolved 1032, reused 0, downloaded 0, added 0
  WARN  4 deprecated subdependencies found: glob@7.2.3, glob@8.1.0, inflight@1.0.6, rimraf@3.0.2
 Progress: resolved 1034, reused 0, downloaded 0, added 0, done
 
@@ -1002,26 +985,55 @@ Progress: resolved 1034, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 2.7s"
+Done in 2.3s"
 `;
 
-exports[`pnpm install --resolution-only > @sanity/telemetry 1`] = `
+exports[`pnpm install --resolution-only > @sanity/ui 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 9, reused 0, downloaded 0, added 0, done
+Progress: resolved 53, reused 0, downloaded 0, added 0, done
 
  WARN  Issues with peer dependencies found
 .
-└─┬ @sanity/telemetry 0.7.8
-  └── ✕ unmet peer react@^18.2: found 19.0.0-rc-f994737d14-20240522
+└─┬ @sanity/ui 2.1.12
+  ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
+  ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
+  ├─┬ @sanity/icons 2.11.8
+  │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
+  └─┬ framer-motion 11.0.8
+    ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
+    └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
 
-Done in 236ms"
+Done in 442ms"
 `;
 
-exports[`pnpm install --resolution-only > @sanity/tsdoc 1`] = `
+exports[`pnpm install --resolution-only > @sanity/ui-workshop 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 350, reused 0, downloaded 0, added 0
+ WARN  9 deprecated subdependencies found: chokidar@1.7.0, core-js@2.6.12, fsevents@1.2.13, glob@7.2.3, inflight@1.0.6, resolve-url@0.2.1, source-map-resolve@0.5.3, source-map-url@0.4.1, urix@0.1.0
+Progress: resolved 417, reused 0, downloaded 0, added 0, done
+
+ WARN  Issues with peer dependencies found
+.
+├─┬ @sanity/ui-workshop 2.0.13
+│ ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
+│ └── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
+├─┬ @sanity/icons 2.11.8
+│ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
+└─┬ @sanity/ui 2.1.12
+  ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
+  ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
+  └─┬ framer-motion 11.0.8
+    ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
+    └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
+
+Done in 793ms"
+`;
+
+exports[`pnpm install --resolution-only > @sanity/ui-workshop-plugin-sanity 1`] = `
+"Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 103, reused 0, downloaded 0, added 0
+Progress: resolved 483, reused 0, downloaded 0, added 0
+Progress: resolved 829, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
-Progress: resolved 909, reused 0, downloaded 0, added 0
 Progress: resolved 909, reused 0, downloaded 0, added 0, done
 
  WARN  Issues with peer dependencies found
@@ -1074,54 +1086,7 @@ Progress: resolved 909, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 2.2s"
-`;
-
-exports[`pnpm install --resolution-only > @sanity/ui 1`] = `
-"Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 53, reused 0, downloaded 0, added 0, done
-
- WARN  Issues with peer dependencies found
-.
-└─┬ @sanity/ui 2.1.12
-  ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/icons 2.11.8
-  │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  └─┬ framer-motion 11.0.8
-    ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-    └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-
-Done in 389ms"
-`;
-
-exports[`pnpm install --resolution-only > @sanity/ui-workshop 1`] = `
-"Progress: resolved 1, reused 0, downloaded 0, added 0
- WARN  9 deprecated subdependencies found: chokidar@1.7.0, core-js@2.6.12, fsevents@1.2.13, glob@7.2.3, inflight@1.0.6, resolve-url@0.2.1, source-map-resolve@0.5.3, source-map-url@0.4.1, urix@0.1.0
-Progress: resolved 417, reused 0, downloaded 0, added 0, done
-
- WARN  Issues with peer dependencies found
-.
-├─┬ @sanity/ui-workshop 2.0.13
-│ ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ └── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-├─┬ @sanity/icons 2.11.8
-│ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-└─┬ @sanity/ui 2.1.12
-  ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-  └─┬ framer-motion 11.0.8
-    ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-    └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-
-Done in 789ms"
-`;
-
-exports[`pnpm install --resolution-only > @sanity/ui-workshop-plugin-sanity 1`] = `
-"Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 44, reused 0, downloaded 0, added 0, done
-
-Done in 512ms"
+Done in 3.6s"
 `;
 
 exports[`pnpm install --resolution-only > @sanity/vision 1`] = `
@@ -1147,13 +1112,20 @@ Progress: resolved 95, reused 0, downloaded 0, added 0, done
       ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
       └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
 
-Done in 515ms"
+Done in 524ms"
 `;
 
 exports[`pnpm install --resolution-only > @sanity/visual-editing 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 71, reused 0, downloaded 0, added 0
+Progress: resolved 44, reused 0, downloaded 0, added 0, done
+
+Done in 699ms"
+`;
+
+exports[`pnpm install --resolution-only > hydrogen-sanity 1`] = `
+"Progress: resolved 1, reused 0, downloaded 0, added 0
 Progress: resolved 73, reused 0, downloaded 0, added 0
+Progress: resolved 74, reused 0, downloaded 0, added 0
 Progress: resolved 86, reused 0, downloaded 0, added 0, done
 
  WARN  Issues with peer dependencies found
@@ -1181,13 +1153,16 @@ Progress: resolved 86, reused 0, downloaded 0, added 0, done
     ├── ✕ unmet peer react@"16.8.0 - 18": found 19.0.0-rc-f994737d14-20240522
     └── ✕ unmet peer react-dom@"16.8.0 - 18": found 19.0.0-rc-f994737d14-20240522
 
-Done in 2.4s"
+Done in 2.6s"
 `;
 
-exports[`pnpm install --resolution-only > hydrogen-sanity 1`] = `
+exports[`pnpm install --resolution-only > next-sanity 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 289, reused 0, downloaded 0, added 0
-Progress: resolved 845, reused 0, downloaded 0, added 0
+Progress: resolved 155, reused 0, downloaded 0, added 0
+Progress: resolved 316, reused 0, downloaded 0, added 0
+Progress: resolved 474, reused 0, downloaded 0, added 0
+Progress: resolved 618, reused 0, downloaded 0, added 0
+Progress: resolved 833, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
 Progress: resolved 848, reused 0, downloaded 0, added 0, done
 
@@ -1240,20 +1215,13 @@ Progress: resolved 848, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 2.3s"
+Done in 5.7s"
 `;
 
-exports[`pnpm install --resolution-only > next-sanity 1`] = `
+exports[`pnpm install --resolution-only > sanity 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 26, reused 0, downloaded 0, added 0, done
-
-Done in 236ms"
-`;
-
-exports[`pnpm install --resolution-only > react-refractor 1`] = `
-"Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 806, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
-Progress: resolved 821, reused 0, downloaded 0, added 0
 Progress: resolved 821, reused 0, downloaded 0, added 0, done
 
  WARN  Issues with peer dependencies found
@@ -1298,26 +1266,15 @@ Progress: resolved 821, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 1.2s"
+Done in 1.3s"
 `;
 
-exports[`pnpm install --resolution-only > react-rx 1`] = `
+exports[`pnpm install --resolution-only > sanity-plugin-asset-source-unsplash 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 8, reused 0, downloaded 0, added 0, done
-
- WARN  Issues with peer dependencies found
-.
-└─┬ react-rx 2.1.3
-  ├── ✕ unmet peer react@"^16.8 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  └─┬ use-sync-external-store 1.2.2
-    └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-
-Done in 325ms"
-`;
-
-exports[`pnpm install --resolution-only > sanity 1`] = `
-"Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 352, reused 0, downloaded 0, added 0
+Progress: resolved 168, reused 0, downloaded 0, added 0
+Progress: resolved 350, reused 0, downloaded 0, added 0
+Progress: resolved 592, reused 0, downloaded 0, added 0
+Progress: resolved 757, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
 Progress: resolved 827, reused 0, downloaded 0, added 0, done
 
@@ -1369,48 +1326,16 @@ Progress: resolved 827, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 2.2s"
+Done in 4.7s"
 `;
 
-exports[`pnpm install --resolution-only > sanity-plugin-asset-source-giphy 1`] = `
+exports[`pnpm install --resolution-only > sanity-plugin-cloudinary 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
- WARN  4 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, popper-max-size-modifier@0.2.0, rimraf@3.0.2
-Progress: resolved 855, reused 0, downloaded 0, added 0
-Progress: resolved 855, reused 0, downloaded 0, added 0, done
-
- WARN  Issues with peer dependencies found
-.
-└─┬ sanity-plugin-asset-source-giphy 4.0.3
-  ├─┬ @sanity/incompatible-plugin 0.0.1
-  │ ├── ✕ unmet peer react-dom@"^16.9.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ └─┬ @sanity/ui 0.37.22
-  │   ├── ✕ unmet peer react-dom@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  │   ├─┬ @reach/auto-id 0.16.0
-  │   │ ├── ✕ unmet peer react@"^16.8.0 || 17.x": found 18.3.1 in sanity-plugin-asset-source-giphy
-  │   │ ├── ✕ unmet peer react-dom@"^16.8.0 || 17.x": found 19.0.0-rc-f994737d14-20240522
-  │   │ └─┬ @reach/utils 0.16.0
-  │   │   ├── ✕ unmet peer react@"^16.8.0 || 17.x": found 18.3.1 in sanity-plugin-asset-source-giphy
-  │   │   └── ✕ unmet peer react-dom@"^16.8.0 || 17.x": found 19.0.0-rc-f994737d14-20240522
-  │   └─┬ react-popper 2.3.0
-  │     └── ✕ unmet peer react-dom@"^16.8.0 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  └─┬ sanity 3.43.0
-    ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-    ├── ✕ unmet peer styled-components@^6.1: found 5.3.11 in sanity-plugin-asset-source-giphy
-    ├─┬ @sanity/presentation 1.15.8
-    │ └─┬ @sanity/ui 2.1.12
-    │   ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-    │   └─┬ framer-motion 11.0.8
-    │     └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-    └─┬ @sanity/portable-text-editor 3.43.0
-      └── ✕ unmet peer styled-components@^6.1: found 5.3.11 in sanity-plugin-asset-source-giphy
-
-Done in 1.3s"
-`;
-
-exports[`pnpm install --resolution-only > sanity-plugin-asset-source-unsplash 1`] = `
-"Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 230, reused 0, downloaded 0, added 0
-Progress: resolved 738, reused 0, downloaded 0, added 0
+Progress: resolved 153, reused 0, downloaded 0, added 0
+Progress: resolved 270, reused 0, downloaded 0, added 0
+Progress: resolved 471, reused 0, downloaded 0, added 0
+Progress: resolved 674, reused 0, downloaded 0, added 0
+Progress: resolved 830, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
 Progress: resolved 831, reused 0, downloaded 0, added 0, done
 
@@ -1474,14 +1399,17 @@ Progress: resolved 831, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 2.5s"
+Done in 5.3s"
 `;
 
-exports[`pnpm install --resolution-only > sanity-plugin-cloudinary 1`] = `
+exports[`pnpm install --resolution-only > sanity-plugin-dashboard-widget-document-list 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 240, reused 0, downloaded 0, added 0
-Progress: resolved 727, reused 0, downloaded 0, added 0
+Progress: resolved 166, reused 0, downloaded 0, added 0
+Progress: resolved 360, reused 0, downloaded 0, added 0
+Progress: resolved 568, reused 0, downloaded 0, added 0
+Progress: resolved 678, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
+Progress: resolved 831, reused 0, downloaded 0, added 0
 Progress: resolved 831, reused 0, downloaded 0, added 0, done
 
  WARN  Issues with peer dependencies found
@@ -1541,83 +1469,16 @@ Progress: resolved 831, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 2.5s"
-`;
-
-exports[`pnpm install --resolution-only > sanity-plugin-dashboard-widget-document-list 1`] = `
-"Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 252, reused 0, downloaded 0, added 0
-Progress: resolved 276, reused 1, downloaded 0, added 0
-Progress: resolved 302, reused 1, downloaded 0, added 0
-Progress: resolved 472, reused 1, downloaded 0, added 0
-Progress: resolved 905, reused 1, downloaded 0, added 0
- WARN  4 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, phin@2.9.3, rimraf@3.0.2
-Progress: resolved 1003, reused 1, downloaded 0, added 0, done
-
- WARN  Issues with peer dependencies found
-.
-├─┬ sanity-plugin-graph-view 2.0.1
-│ ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ ├─┬ @sanity/incompatible-plugin 1.0.4
-│ │ ├── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ ├── ✕ unmet peer react-dom@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ ├─┬ @sanity/icons 1.3.10
-│ │ │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ └─┬ react-copy-to-clipboard 5.1.0
-│ │   └── ✕ unmet peer react@"^15.3.0 || 16 || 17 || 18": found 19.0.0-rc-f994737d14-20240522
-│ └─┬ @sanity/ui 1.9.3
-│   ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│   ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-│   ├─┬ @sanity/icons 2.11.8
-│   │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│   └─┬ framer-motion 10.18.0
-│     ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-│     └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-└─┬ sanity 3.43.0
-  ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-  ├── ✕ unmet peer styled-components@^6.1: found 5.3.11 in sanity-plugin-graph-view
-  ├─┬ @portabletext/react 3.0.18
-  │ └── ✕ unmet peer react@"^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @rexxars/react-json-inspector 8.0.1
-  │ └── ✕ unmet peer react@"^15 || ^16 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/cli 3.43.0
-  │ └─┬ @sanity/telemetry 0.7.8
-  │   └── ✕ unmet peer react@^18.2: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/logos 2.1.11
-  │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/portable-text-editor 3.43.0
-  │ ├── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  │ └── ✕ unmet peer styled-components@^6.1: found 5.3.11 in sanity-plugin-graph-view
-  ├─┬ @sanity/presentation 1.15.8
-  │ └─┬ @sanity/ui 2.1.12
-  │   ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  │   ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-  │   └─┬ framer-motion 11.0.8
-  │     ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-  │     └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @tanstack/react-virtual 3.0.0-beta.54
-  │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ react-focus-lock 2.12.1
-  │ ├── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ ├─┬ react-clientside-effect 1.2.6
-  │ │ └── ✕ unmet peer react@"^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ ├─┬ use-callback-ref 1.3.2
-  │ │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ └─┬ use-sidecar 1.1.2
-  │   └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  └─┬ react-rx 2.1.3
-    ├── ✕ unmet peer react@"^16.8 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-    └─┬ use-sync-external-store 1.2.2
-      └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-
-Done in 5.5s"
+Done in 5.3s"
 `;
 
 exports[`pnpm install --resolution-only > sanity-plugin-dashboard-widget-vercel 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 277, reused 0, downloaded 0, added 0
-Progress: resolved 700, reused 0, downloaded 0, added 0
+Progress: resolved 194, reused 0, downloaded 0, added 0
+Progress: resolved 339, reused 0, downloaded 0, added 0
+Progress: resolved 481, reused 0, downloaded 0, added 0
+Progress: resolved 671, reused 0, downloaded 0, added 0
+Progress: resolved 830, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
 Progress: resolved 860, reused 0, downloaded 0, added 0, done
 
@@ -1689,12 +1550,17 @@ Progress: resolved 860, reused 0, downloaded 0, added 0, done
   └─┬ react-rx 2.1.3
     └── ✕ unmet peer react@"^16.8 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
 
-Done in 2.6s"
+Done in 6.2s"
 `;
 
 exports[`pnpm install --resolution-only > sanity-plugin-documents-pane 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 351, reused 0, downloaded 0, added 0
+Progress: resolved 123, reused 0, downloaded 0, added 0
+Progress: resolved 209, reused 0, downloaded 0, added 0
+Progress: resolved 398, reused 0, downloaded 0, added 0
+Progress: resolved 562, reused 0, downloaded 0, added 0
+Progress: resolved 716, reused 0, downloaded 0, added 0
+Progress: resolved 788, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
 Progress: resolved 826, reused 0, downloaded 0, added 0, done
 
@@ -1750,19 +1616,24 @@ Progress: resolved 826, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 2.1s"
+Done in 6.8s"
 `;
 
 exports[`pnpm install --resolution-only > sanity-plugin-graph-view 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 223, reused 0, downloaded 0, added 0
-Progress: resolved 605, reused 0, downloaded 0, added 0
- WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
-Progress: resolved 860, reused 0, downloaded 0, added 0, done
+Progress: resolved 252, reused 0, downloaded 0, added 0
+Progress: resolved 276, reused 1, downloaded 0, added 0
+Progress: resolved 300, reused 1, downloaded 0, added 0
+Progress: resolved 442, reused 1, downloaded 0, added 0
+Progress: resolved 592, reused 1, downloaded 0, added 0
+Progress: resolved 835, reused 1, downloaded 0, added 0
+Progress: resolved 997, reused 1, downloaded 0, added 0
+ WARN  4 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, phin@2.9.3, rimraf@3.0.2
+Progress: resolved 1003, reused 1, downloaded 0, added 0, done
 
  WARN  Issues with peer dependencies found
 .
-├─┬ sanity-plugin-groq-snippet 1.1.0
+├─┬ sanity-plugin-graph-view 2.0.1
 │ ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
 │ ├─┬ @sanity/incompatible-plugin 1.0.4
 │ │ ├── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
@@ -1771,20 +1642,18 @@ Progress: resolved 860, reused 0, downloaded 0, added 0, done
 │ │ │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
 │ │ └─┬ react-copy-to-clipboard 5.1.0
 │ │   └── ✕ unmet peer react@"^15.3.0 || 16 || 17 || 18": found 19.0.0-rc-f994737d14-20240522
-│ ├─┬ @sanity/ui 1.9.3
-│ │ ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ │ ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-│ │ ├─┬ @sanity/icons 2.11.8
-│ │ │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ │ └─┬ framer-motion 10.18.0
-│ │   ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-│ │   └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-│ └─┬ zustand 4.5.2
-│   └─┬ use-sync-external-store 1.2.0
-│     └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
+│ └─┬ @sanity/ui 1.9.3
+│   ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
+│   ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
+│   ├─┬ @sanity/icons 2.11.8
+│   │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
+│   └─┬ framer-motion 10.18.0
+│     ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
+│     └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
 └─┬ sanity 3.43.0
   ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
   ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
+  ├── ✕ unmet peer styled-components@^6.1: found 5.3.11 in sanity-plugin-graph-view
   ├─┬ @portabletext/react 3.0.18
   │ └── ✕ unmet peer react@"^17 || ^18": found 19.0.0-rc-f994737d14-20240522
   ├─┬ @rexxars/react-json-inspector 8.0.1
@@ -1795,7 +1664,8 @@ Progress: resolved 860, reused 0, downloaded 0, added 0, done
   ├─┬ @sanity/logos 2.1.11
   │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
   ├─┬ @sanity/portable-text-editor 3.43.0
-  │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
+  │ ├── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
+  │ └── ✕ unmet peer styled-components@^6.1: found 5.3.11 in sanity-plugin-graph-view
   ├─┬ @sanity/presentation 1.15.8
   │ └─┬ @sanity/ui 2.1.12
   │   ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
@@ -1818,14 +1688,14 @@ Progress: resolved 860, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 2.9s"
+Done in 7.4s"
 `;
 
-exports[`pnpm install --resolution-only > sanity-plugin-groq-snippet 1`] = `
+exports[`pnpm install --resolution-only > sanity-plugin-hotspot-array 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 249, reused 0, downloaded 0, added 0
-Progress: resolved 696, reused 0, downloaded 0, added 0
+Progress: resolved 335, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
+Progress: resolved 827, reused 0, downloaded 0, added 0
 Progress: resolved 827, reused 0, downloaded 0, added 0, done
 
  WARN  Issues with peer dependencies found
@@ -1879,224 +1749,12 @@ Progress: resolved 827, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 2.6s"
+Done in 2.2s"
 `;
 
-exports[`pnpm install --resolution-only > sanity-plugin-hotspot-array 1`] = `
+exports[`pnpm install --resolution-only > sanity-plugin-iframe-pane 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 269, reused 0, downloaded 0, added 0
-Progress: resolved 756, reused 0, downloaded 0, added 0
- WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
-Progress: resolved 849, reused 0, downloaded 0, added 0, done
-
- WARN  Issues with peer dependencies found
-.
-├─┬ sanity-plugin-icon-manager 1.4.0
-│ ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ ├─┬ @sanity/incompatible-plugin 1.0.4
-│ │ ├── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ ├── ✕ unmet peer react-dom@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ ├─┬ @sanity/icons 1.3.10
-│ │ │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ └─┬ react-copy-to-clipboard 5.1.0
-│ │   └── ✕ unmet peer react@"^15.3.0 || 16 || 17 || 18": found 19.0.0-rc-f994737d14-20240522
-│ ├─┬ @sanity/ui 1.9.3
-│ │ ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ │ ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-│ │ ├─┬ @sanity/icons 2.11.8
-│ │ │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ │ └─┬ framer-motion 10.18.0
-│ │   ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-│ │   └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-│ └─┬ zustand 4.5.2
-│   └─┬ use-sync-external-store 1.2.0
-│     └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-└─┬ sanity 3.43.0
-  ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @portabletext/react 3.0.18
-  │ └── ✕ unmet peer react@"^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @rexxars/react-json-inspector 8.0.1
-  │ └── ✕ unmet peer react@"^15 || ^16 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/cli 3.43.0
-  │ └─┬ @sanity/telemetry 0.7.8
-  │   └── ✕ unmet peer react@^18.2: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/logos 2.1.11
-  │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/portable-text-editor 3.43.0
-  │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/presentation 1.15.8
-  │ └─┬ @sanity/ui 2.1.12
-  │   ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  │   ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-  │   └─┬ framer-motion 11.0.8
-  │     ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-  │     └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @tanstack/react-virtual 3.0.0-beta.54
-  │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ react-focus-lock 2.12.1
-  │ ├── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ ├─┬ react-clientside-effect 1.2.6
-  │ │ └── ✕ unmet peer react@"^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ ├─┬ use-callback-ref 1.3.2
-  │ │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ └─┬ use-sidecar 1.1.2
-  │   └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  └─┬ react-rx 2.1.3
-    ├── ✕ unmet peer react@"^16.8 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-    └─┬ use-sync-external-store 1.2.2
-      └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-
-Done in 2.5s"
-`;
-
-exports[`pnpm install --resolution-only > sanity-plugin-icon-manager 1`] = `
-"Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 204, reused 0, downloaded 0, added 0
-Progress: resolved 595, reused 0, downloaded 0, added 0
- WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
-Progress: resolved 833, reused 0, downloaded 0, added 0, done
-
- WARN  Issues with peer dependencies found
-.
-├─┬ sanity-plugin-icon-picker 3.3.0
-│ ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ ├─┬ @sanity/incompatible-plugin 1.0.4
-│ │ ├── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ ├── ✕ unmet peer react-dom@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ ├─┬ @sanity/icons 1.3.10
-│ │ │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ └─┬ react-copy-to-clipboard 5.1.0
-│ │   └── ✕ unmet peer react@"^15.3.0 || 16 || 17 || 18": found 19.0.0-rc-f994737d14-20240522
-│ ├─┬ react-virtualized-auto-sizer 1.0.24
-│ │ ├── ✕ unmet peer react@"^15.3.0 || ^16.0.0-alpha || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-│ │ └── ✕ unmet peer react-dom@"^15.3.0 || ^16.0.0-alpha || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-│ └─┬ react-window 1.8.10
-│   ├── ✕ unmet peer react@"^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-│   └── ✕ unmet peer react-dom@"^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-└─┬ sanity 3.43.0
-  ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @portabletext/react 3.0.18
-  │ └── ✕ unmet peer react@"^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @rexxars/react-json-inspector 8.0.1
-  │ └── ✕ unmet peer react@"^15 || ^16 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/cli 3.43.0
-  │ └─┬ @sanity/telemetry 0.7.8
-  │   └── ✕ unmet peer react@^18.2: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/icons 2.11.8
-  │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/logos 2.1.11
-  │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/portable-text-editor 3.43.0
-  │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/presentation 1.15.8
-  │ └─┬ @sanity/ui 2.1.12
-  │   ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  │   ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-  │   └─┬ framer-motion 11.0.8
-  │     ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-  │     └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @tanstack/react-virtual 3.0.0-beta.54
-  │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ react-focus-lock 2.12.1
-  │ ├── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ ├─┬ react-clientside-effect 1.2.6
-  │ │ └── ✕ unmet peer react@"^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ ├─┬ use-callback-ref 1.3.2
-  │ │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ └─┬ use-sidecar 1.1.2
-  │   └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  └─┬ react-rx 2.1.3
-    ├── ✕ unmet peer react@"^16.8 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-    └─┬ use-sync-external-store 1.2.2
-      └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-
-Done in 2.8s"
-`;
-
-exports[`pnpm install --resolution-only > sanity-plugin-icon-picker 1`] = `
-"Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 197, reused 0, downloaded 0, added 0
-Progress: resolved 490, reused 0, downloaded 0, added 0
-Progress: resolved 807, reused 0, downloaded 0, added 0
- WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
-Progress: resolved 854, reused 0, downloaded 0, added 0, done
-
- WARN  Issues with peer dependencies found
-.
-├─┬ sanity-plugin-iconify 1.1.2
-│ ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ ├─┬ @headlessui/react 1.7.19
-│ │ ├── ✕ unmet peer react@"^16 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ ├── ✕ unmet peer react-dom@"^16 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ └─┬ @tanstack/react-virtual 3.5.0
-│ │   ├── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-│ │   └── ✕ unmet peer react-dom@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-│ ├─┬ @sanity/icons 2.11.8
-│ │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ ├─┬ @sanity/incompatible-plugin 1.0.4
-│ │ ├── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ ├── ✕ unmet peer react-dom@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ ├─┬ @sanity/icons 1.3.10
-│ │ │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ └─┬ react-copy-to-clipboard 5.1.0
-│ │   └── ✕ unmet peer react@"^15.3.0 || 16 || 17 || 18": found 19.0.0-rc-f994737d14-20240522
-│ ├─┬ @sanity/ui 1.9.3
-│ │ ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ │ ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-│ │ └─┬ framer-motion 10.18.0
-│ │   ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-│ │   └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-│ └─┬ @tanstack/react-query 5.39.0
-│   └── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-└─┬ sanity 3.43.0
-  ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @portabletext/react 3.0.18
-  │ └── ✕ unmet peer react@"^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @rexxars/react-json-inspector 8.0.1
-  │ └── ✕ unmet peer react@"^15 || ^16 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/cli 3.43.0
-  │ └─┬ @sanity/telemetry 0.7.8
-  │   └── ✕ unmet peer react@^18.2: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/logos 2.1.11
-  │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/portable-text-editor 3.43.0
-  │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/presentation 1.15.8
-  │ └─┬ @sanity/ui 2.1.12
-  │   ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  │   ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-  │   └─┬ framer-motion 11.0.8
-  │     ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-  │     └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @tanstack/react-virtual 3.0.0-beta.54
-  │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ react-focus-lock 2.12.1
-  │ ├── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ ├─┬ react-clientside-effect 1.2.6
-  │ │ └── ✕ unmet peer react@"^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ ├─┬ use-callback-ref 1.3.2
-  │ │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ └─┬ use-sidecar 1.1.2
-  │   └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  └─┬ react-rx 2.1.3
-    ├── ✕ unmet peer react@"^16.8 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-    └─┬ use-sync-external-store 1.2.2
-      └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-
-Done in 3.5s"
-`;
-
-exports[`pnpm install --resolution-only > sanity-plugin-iconify 1`] = `
-"Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 164, reused 0, downloaded 0, added 0
-Progress: resolved 172, reused 0, downloaded 0, added 0
-Progress: resolved 173, reused 0, downloaded 0, added 0
-Progress: resolved 299, reused 0, downloaded 0, added 0
-Progress: resolved 541, reused 0, downloaded 0, added 0
-Progress: resolved 809, reused 0, downloaded 0, added 0
+Progress: resolved 364, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
 Progress: resolved 825, reused 0, downloaded 0, added 0, done
 
@@ -2150,24 +1808,14 @@ Progress: resolved 825, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 11.4s"
+Done in 2.1s"
 `;
 
-exports[`pnpm install --resolution-only > sanity-plugin-iframe-pane 1`] = `
+exports[`pnpm install --resolution-only > sanity-plugin-internationalized-array 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 100, reused 0, downloaded 0, added 0
-Progress: resolved 149, reused 0, downloaded 0, added 0
-Progress: resolved 153, reused 0, downloaded 0, added 0
-Progress: resolved 154, reused 0, downloaded 0, added 0
-Progress: resolved 155, reused 0, downloaded 0, added 0
-Progress: resolved 292, reused 0, downloaded 0, added 0
-Progress: resolved 355, reused 0, downloaded 0, added 0
-Progress: resolved 571, reused 0, downloaded 0, added 0
-Progress: resolved 672, reused 0, downloaded 0, added 0
-Progress: resolved 806, reused 0, downloaded 0, added 0
-Progress: resolved 810, reused 0, downloaded 0, added 0
-Progress: resolved 811, reused 0, downloaded 0, added 0
+Progress: resolved 353, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
+Progress: resolved 825, reused 0, downloaded 0, added 0
 Progress: resolved 825, reused 0, downloaded 0, added 0, done
 
  WARN  Issues with peer dependencies found
@@ -2222,81 +1870,14 @@ Progress: resolved 825, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 15.3s"
+Done in 2.2s"
 `;
 
-exports[`pnpm install --resolution-only > sanity-plugin-image-options 1`] = `
+exports[`pnpm install --resolution-only > sanity-plugin-markdown 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 123, reused 0, downloaded 0, added 0
-Progress: resolved 299, reused 0, downloaded 0, added 0
-Progress: resolved 461, reused 0, downloaded 0, added 0
-Progress: resolved 597, reused 0, downloaded 0, added 0
-Progress: resolved 742, reused 0, downloaded 0, added 0
-Progress: resolved 809, reused 0, downloaded 0, added 0
+Progress: resolved 337, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
-Progress: resolved 824, reused 0, downloaded 0, added 0, done
-
- WARN  Issues with peer dependencies found
-.
-├─┬ sanity-plugin-image-options 1.1.1
-│ ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ └─┬ @sanity/incompatible-plugin 1.0.4
-│   ├── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│   ├── ✕ unmet peer react-dom@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│   ├─┬ @sanity/icons 1.3.10
-│   │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│   └─┬ react-copy-to-clipboard 5.1.0
-│     └── ✕ unmet peer react@"^15.3.0 || 16 || 17 || 18": found 19.0.0-rc-f994737d14-20240522
-└─┬ sanity 3.43.0
-  ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @portabletext/react 3.0.18
-  │ └── ✕ unmet peer react@"^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @rexxars/react-json-inspector 8.0.1
-  │ └── ✕ unmet peer react@"^15 || ^16 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/cli 3.43.0
-  │ └─┬ @sanity/telemetry 0.7.8
-  │   └── ✕ unmet peer react@^18.2: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/icons 2.11.8
-  │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/logos 2.1.11
-  │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/portable-text-editor 3.43.0
-  │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/presentation 1.15.8
-  │ └─┬ @sanity/ui 2.1.12
-  │   ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  │   ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-  │   └─┬ framer-motion 11.0.8
-  │     ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-  │     └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @tanstack/react-virtual 3.0.0-beta.54
-  │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ react-focus-lock 2.12.1
-  │ ├── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ ├─┬ react-clientside-effect 1.2.6
-  │ │ └── ✕ unmet peer react@"^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ ├─┬ use-callback-ref 1.3.2
-  │ │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ └─┬ use-sidecar 1.1.2
-  │   └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  └─┬ react-rx 2.1.3
-    ├── ✕ unmet peer react@"^16.8 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-    └─┬ use-sync-external-store 1.2.2
-      └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-
-Done in 6.9s"
-`;
-
-exports[`pnpm install --resolution-only > sanity-plugin-internationalized-array 1`] = `
-"Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 163, reused 0, downloaded 0, added 0
-Progress: resolved 312, reused 0, downloaded 0, added 0
-Progress: resolved 424, reused 0, downloaded 0, added 0
-Progress: resolved 596, reused 0, downloaded 0, added 0
-Progress: resolved 739, reused 0, downloaded 0, added 0
-Progress: resolved 825, reused 0, downloaded 0, added 0
- WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
+Progress: resolved 838, reused 0, downloaded 0, added 0
 Progress: resolved 838, reused 0, downloaded 0, added 0, done
 
  WARN  Issues with peer dependencies found
@@ -2354,80 +1935,13 @@ Progress: resolved 838, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 6.4s"
+Done in 2.2s"
 `;
 
-exports[`pnpm install --resolution-only > sanity-plugin-link-field 1`] = `
+exports[`pnpm install --resolution-only > sanity-plugin-media 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 154, reused 0, downloaded 0, added 0
-Progress: resolved 235, reused 0, downloaded 0, added 0
-Progress: resolved 457, reused 0, downloaded 0, added 0
-Progress: resolved 591, reused 0, downloaded 0, added 0
-Progress: resolved 741, reused 0, downloaded 0, added 0
- WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
-Progress: resolved 825, reused 0, downloaded 0, added 0, done
-
- WARN  Issues with peer dependencies found
-.
-├─┬ sanity-plugin-link-field 1.1.3
-│ ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ ├─┬ @sanity/incompatible-plugin 1.0.4
-│ │ ├── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ ├── ✕ unmet peer react-dom@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ ├─┬ @sanity/icons 1.3.10
-│ │ │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ └─┬ react-copy-to-clipboard 5.1.0
-│ │   └── ✕ unmet peer react@"^15.3.0 || 16 || 17 || 18": found 19.0.0-rc-f994737d14-20240522
-│ ├─┬ @sanity/ui 2.1.12
-│ │ ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ │ ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-│ │ ├─┬ @sanity/icons 2.11.8
-│ │ │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ │ └─┬ framer-motion 11.0.8
-│ │   ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-│ │   └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-│ └─┬ lucide-react 0.368.0
-│   └── ✕ unmet peer react@"^16.5.1 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-└─┬ sanity 3.43.0
-  ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @portabletext/react 3.0.18
-  │ └── ✕ unmet peer react@"^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @rexxars/react-json-inspector 8.0.1
-  │ └── ✕ unmet peer react@"^15 || ^16 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/cli 3.43.0
-  │ └─┬ @sanity/telemetry 0.7.8
-  │   └── ✕ unmet peer react@^18.2: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/logos 2.1.11
-  │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/portable-text-editor 3.43.0
-  │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @tanstack/react-virtual 3.0.0-beta.54
-  │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ react-focus-lock 2.12.1
-  │ ├── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ ├─┬ react-clientside-effect 1.2.6
-  │ │ └── ✕ unmet peer react@"^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ ├─┬ use-callback-ref 1.3.2
-  │ │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ └─┬ use-sidecar 1.1.2
-  │   └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  └─┬ react-rx 2.1.3
-    ├── ✕ unmet peer react@"^16.8 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-    └─┬ use-sync-external-store 1.2.2
-      └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-
-Done in 6.2s"
-`;
-
-exports[`pnpm install --resolution-only > sanity-plugin-markdown 1`] = `
-"Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 222, reused 0, downloaded 0, added 0
-Progress: resolved 331, reused 0, downloaded 0, added 0
-Progress: resolved 486, reused 0, downloaded 0, added 0
-Progress: resolved 646, reused 0, downloaded 0, added 0
-Progress: resolved 797, reused 0, downloaded 0, added 0
-Progress: resolved 920, reused 0, downloaded 0, added 0
+Progress: resolved 375, reused 0, downloaded 0, added 0
+Progress: resolved 776, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
 Progress: resolved 950, reused 0, downloaded 0, added 0, done
 
@@ -2497,91 +2011,13 @@ Progress: resolved 950, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 7s"
+Done in 3s"
 `;
 
-exports[`pnpm install --resolution-only > sanity-plugin-media 1`] = `
+exports[`pnpm install --resolution-only > sanity-plugin-mux-input 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 363, reused 0, downloaded 0, added 0
-Progress: resolved 405, reused 0, downloaded 0, added 0
-Progress: resolved 591, reused 0, downloaded 0, added 0
-Progress: resolved 785, reused 0, downloaded 0, added 0
-Progress: resolved 893, reused 0, downloaded 0, added 0
-Progress: resolved 964, reused 0, downloaded 0, added 0
-Progress: resolved 973, reused 0, downloaded 0, added 0
-Progress: resolved 974, reused 0, downloaded 0, added 0
- WARN  4 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, puppeteer@18.2.1, rimraf@3.0.2
-Progress: resolved 999, reused 0, downloaded 0, added 0, done
-
- WARN  Issues with peer dependencies found
-.
-├─┬ sanity-plugin-mermaid-input 1.0.1
-│ ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ ├─┬ @sanity/incompatible-plugin 1.0.4
-│ │ ├── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ ├── ✕ unmet peer react-dom@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ ├─┬ @sanity/icons 1.3.10
-│ │ │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ └─┬ react-copy-to-clipboard 5.1.0
-│ │   └── ✕ unmet peer react@"^15.3.0 || 16 || 17 || 18": found 19.0.0-rc-f994737d14-20240522
-│ ├─┬ @sanity/ui 1.9.3
-│ │ ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ │ ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-│ │ ├─┬ @sanity/icons 2.11.8
-│ │ │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ │ └─┬ framer-motion 10.18.0
-│ │   ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-│ │   └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-│ └─┬ mdx-mermaid 2.0.0
-│   └── ✕ unmet peer react@"^16.8.4 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-└─┬ sanity 3.43.0
-  ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @portabletext/react 3.0.18
-  │ └── ✕ unmet peer react@"^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @rexxars/react-json-inspector 8.0.1
-  │ └── ✕ unmet peer react@"^15 || ^16 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/cli 3.43.0
-  │ └─┬ @sanity/telemetry 0.7.8
-  │   └── ✕ unmet peer react@^18.2: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/logos 2.1.11
-  │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/portable-text-editor 3.43.0
-  │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/presentation 1.15.8
-  │ └─┬ @sanity/ui 2.1.12
-  │   ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  │   ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-  │   └─┬ framer-motion 11.0.8
-  │     ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-  │     └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @tanstack/react-virtual 3.0.0-beta.54
-  │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ react-focus-lock 2.12.1
-  │ ├── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ ├─┬ react-clientside-effect 1.2.6
-  │ │ └── ✕ unmet peer react@"^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ ├─┬ use-callback-ref 1.3.2
-  │ │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ └─┬ use-sidecar 1.1.2
-  │   └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  └─┬ react-rx 2.1.3
-    ├── ✕ unmet peer react@"^16.8 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-    └─┬ use-sync-external-store 1.2.2
-      └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-
-Done in 9s"
-`;
-
-exports[`pnpm install --resolution-only > sanity-plugin-mermaid-input 1`] = `
-"Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 172, reused 0, downloaded 0, added 0
-Progress: resolved 195, reused 0, downloaded 0, added 0
-Progress: resolved 260, reused 0, downloaded 0, added 0
-Progress: resolved 421, reused 0, downloaded 0, added 0
-Progress: resolved 611, reused 0, downloaded 0, added 0
-Progress: resolved 721, reused 0, downloaded 0, added 0
-Progress: resolved 840, reused 0, downloaded 0, added 0
+Progress: resolved 246, reused 0, downloaded 0, added 0
+Progress: resolved 592, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
 Progress: resolved 845, reused 0, downloaded 0, added 0, done
 
@@ -2638,143 +2074,14 @@ Progress: resolved 845, reused 0, downloaded 0, added 0, done
     └─┬ use-sidecar 1.1.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 7.4s"
-`;
-
-exports[`pnpm install --resolution-only > sanity-plugin-mux-input 1`] = `
-"Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 213, reused 0, downloaded 0, added 0
-Progress: resolved 376, reused 0, downloaded 0, added 0
-Progress: resolved 575, reused 0, downloaded 0, added 0
-Progress: resolved 730, reused 0, downloaded 0, added 0
- WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
-Progress: resolved 829, reused 0, downloaded 0, added 0
-Progress: resolved 829, reused 0, downloaded 0, added 0, done
-
- WARN  Issues with peer dependencies found
-.
-├─┬ sanity-plugin-plausible-analytics 1.0.0
-│ ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ └─┬ @sanity/dashboard 3.1.6
-│   ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│   ├─┬ @sanity/icons 2.11.8
-│   │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│   ├─┬ @sanity/incompatible-plugin 1.0.4
-│   │ ├── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│   │ ├── ✕ unmet peer react-dom@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│   │ ├─┬ @sanity/icons 1.3.10
-│   │ │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│   │ └─┬ react-copy-to-clipboard 5.1.0
-│   │   └── ✕ unmet peer react@"^15.3.0 || 16 || 17 || 18": found 19.0.0-rc-f994737d14-20240522
-│   └─┬ @sanity/ui 1.9.3
-│     ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│     ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-│     └─┬ framer-motion 10.18.0
-│       ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-│       └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-└─┬ sanity 3.43.0
-  ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @portabletext/react 3.0.18
-  │ └── ✕ unmet peer react@"^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @rexxars/react-json-inspector 8.0.1
-  │ └── ✕ unmet peer react@"^15 || ^16 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/cli 3.43.0
-  │ └─┬ @sanity/telemetry 0.7.8
-  │   └── ✕ unmet peer react@^18.2: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/logos 2.1.11
-  │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/portable-text-editor 3.43.0
-  │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/presentation 1.15.8
-  │ └─┬ @sanity/ui 2.1.12
-  │   ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  │   ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-  │   └─┬ framer-motion 11.0.8
-  │     ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-  │     └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @tanstack/react-virtual 3.0.0-beta.54
-  │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ react-focus-lock 2.12.1
-  │ ├── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ ├─┬ react-clientside-effect 1.2.6
-  │ │ └── ✕ unmet peer react@"^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ ├─┬ use-callback-ref 1.3.2
-  │ │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ └─┬ use-sidecar 1.1.2
-  │   └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  └─┬ react-rx 2.1.3
-    ├── ✕ unmet peer react@"^16.8 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-    └─┬ use-sync-external-store 1.2.2
-      └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-
-Done in 5.2s"
-`;
-
-exports[`pnpm install --resolution-only > sanity-plugin-plausible-analytics 1`] = `
-"Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 124, reused 0, downloaded 0, added 0
-Progress: resolved 436, reused 0, downloaded 0, added 0
- WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
-Progress: resolved 824, reused 0, downloaded 0, added 0
-Progress: resolved 824, reused 0, downloaded 0, added 0, done
-
- WARN  Issues with peer dependencies found
-.
-├─┬ sanity-plugin-singleton-tools 1.0.1
-│ ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ ├─┬ @sanity/icons 2.11.8
-│ │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ └─┬ @sanity/incompatible-plugin 1.0.4
-│   ├── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│   ├── ✕ unmet peer react-dom@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│   ├─┬ @sanity/icons 1.3.10
-│   │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│   └─┬ react-copy-to-clipboard 5.1.0
-│     └── ✕ unmet peer react@"^15.3.0 || 16 || 17 || 18": found 19.0.0-rc-f994737d14-20240522
-└─┬ sanity 3.43.0
-  ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @portabletext/react 3.0.18
-  │ └── ✕ unmet peer react@"^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @rexxars/react-json-inspector 8.0.1
-  │ └── ✕ unmet peer react@"^15 || ^16 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/cli 3.43.0
-  │ └─┬ @sanity/telemetry 0.7.8
-  │   └── ✕ unmet peer react@^18.2: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/logos 2.1.11
-  │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/portable-text-editor 3.43.0
-  │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/presentation 1.15.8
-  │ └─┬ @sanity/ui 2.1.12
-  │   ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  │   ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-  │   └─┬ framer-motion 11.0.8
-  │     ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-  │     └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @tanstack/react-virtual 3.0.0-beta.54
-  │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ react-focus-lock 2.12.1
-  │ ├── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ ├─┬ react-clientside-effect 1.2.6
-  │ │ └── ✕ unmet peer react@"^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ ├─┬ use-callback-ref 1.3.2
-  │ │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ └─┬ use-sidecar 1.1.2
-  │   └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  └─┬ react-rx 2.1.3
-    ├── ✕ unmet peer react@"^16.8 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-    └─┬ use-sync-external-store 1.2.2
-      └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-
-Done in 3.2s"
+Done in 3s"
 `;
 
 exports[`pnpm install --resolution-only > sanity-plugin-shopify-assets 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 209, reused 0, downloaded 0, added 0
-Progress: resolved 564, reused 0, downloaded 0, added 0
+Progress: resolved 208, reused 0, downloaded 0, added 0
+Progress: resolved 457, reused 0, downloaded 0, added 0
+Progress: resolved 848, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
 Progress: resolved 854, reused 0, downloaded 0, added 0, done
 
@@ -2833,38 +2140,33 @@ Progress: resolved 854, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 3.1s"
+Done in 3.3s"
 `;
 
 exports[`pnpm install --resolution-only > sanity-plugin-singleton-tools 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 211, reused 0, downloaded 0, added 0
-Progress: resolved 491, reused 0, downloaded 0, added 0
-Progress: resolved 816, reused 0, downloaded 0, added 0
+Progress: resolved 192, reused 0, downloaded 0, added 0
+Progress: resolved 526, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
-Progress: resolved 828, reused 0, downloaded 0, added 0, done
+Progress: resolved 824, reused 0, downloaded 0, added 0
+Progress: resolved 824, reused 0, downloaded 0, added 0, done
 
  WARN  Issues with peer dependencies found
 .
-├─┬ sanity-plugin-transifex 4.0.0
+├─┬ sanity-plugin-singleton-tools 1.0.1
 │ ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ ├─┬ @sanity/incompatible-plugin 1.0.4
-│ │ ├── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ ├── ✕ unmet peer react-dom@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ ├─┬ @sanity/icons 1.3.10
-│ │ │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ └─┬ react-copy-to-clipboard 5.1.0
-│ │   └── ✕ unmet peer react@"^15.3.0 || 16 || 17 || 18": found 19.0.0-rc-f994737d14-20240522
-│ └─┬ sanity-translations-tab 4.3.0
-│   ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│   ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-│   ├── ✕ unmet peer @sanity/ui@^1: found 2.1.12
-│   └─┬ sanity-naive-html-serializer 3.1.8
-│     └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
+│ ├─┬ @sanity/icons 2.11.8
+│ │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
+│ └─┬ @sanity/incompatible-plugin 1.0.4
+│   ├── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
+│   ├── ✕ unmet peer react-dom@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
+│   ├─┬ @sanity/icons 1.3.10
+│   │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
+│   └─┬ react-copy-to-clipboard 5.1.0
+│     └── ✕ unmet peer react@"^15.3.0 || 16 || 17 || 18": found 19.0.0-rc-f994737d14-20240522
 └─┬ sanity 3.43.0
   ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
   ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-  ├── ✕ unmet peer styled-components@^6.1: found 5.3.11
   ├─┬ @portabletext/react 3.0.18
   │ └── ✕ unmet peer react@"^17 || ^18": found 19.0.0-rc-f994737d14-20240522
   ├─┬ @rexxars/react-json-inspector 8.0.1
@@ -2872,13 +2174,10 @@ Progress: resolved 828, reused 0, downloaded 0, added 0, done
   ├─┬ @sanity/cli 3.43.0
   │ └─┬ @sanity/telemetry 0.7.8
   │   └── ✕ unmet peer react@^18.2: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/icons 2.11.8
-  │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
   ├─┬ @sanity/logos 2.1.11
   │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
   ├─┬ @sanity/portable-text-editor 3.43.0
-  │ ├── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  │ └── ✕ unmet peer styled-components@^6.1: found 5.3.11
+  │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
   ├─┬ @sanity/presentation 1.15.8
   │ └─┬ @sanity/ui 2.1.12
   │   ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
@@ -2901,13 +2200,16 @@ Progress: resolved 828, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 3.4s"
+Done in 3.2s"
 `;
 
 exports[`pnpm install --resolution-only > sanity-plugin-studio-smartling 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 203, reused 0, downloaded 0, added 0
-Progress: resolved 517, reused 0, downloaded 0, added 0
+Progress: resolved 93, reused 0, downloaded 0, added 0
+Progress: resolved 143, reused 0, downloaded 0, added 0
+Progress: resolved 258, reused 0, downloaded 0, added 0
+Progress: resolved 513, reused 0, downloaded 0, added 0
+Progress: resolved 768, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
 Progress: resolved 828, reused 0, downloaded 0, added 0, done
 
@@ -2968,14 +2270,80 @@ Progress: resolved 828, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 3.1s"
+Done in 5.6s"
 `;
 
 exports[`pnpm install --resolution-only > sanity-plugin-transifex 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 133, reused 0, downloaded 0, added 0
-Progress: resolved 381, reused 0, downloaded 0, added 0
-Progress: resolved 667, reused 0, downloaded 0, added 0
+Progress: resolved 249, reused 0, downloaded 0, added 0
+Progress: resolved 643, reused 0, downloaded 0, added 0
+ WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
+Progress: resolved 828, reused 0, downloaded 0, added 0, done
+
+ WARN  Issues with peer dependencies found
+.
+├─┬ sanity-plugin-transifex 4.0.0
+│ ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
+│ ├─┬ @sanity/incompatible-plugin 1.0.4
+│ │ ├── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
+│ │ ├── ✕ unmet peer react-dom@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
+│ │ ├─┬ @sanity/icons 1.3.10
+│ │ │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
+│ │ └─┬ react-copy-to-clipboard 5.1.0
+│ │   └── ✕ unmet peer react@"^15.3.0 || 16 || 17 || 18": found 19.0.0-rc-f994737d14-20240522
+│ └─┬ sanity-translations-tab 4.3.0
+│   ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
+│   ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
+│   ├── ✕ unmet peer @sanity/ui@^1: found 2.1.12
+│   └─┬ sanity-naive-html-serializer 3.1.8
+│     └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
+└─┬ sanity 3.43.0
+  ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
+  ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
+  ├── ✕ unmet peer styled-components@^6.1: found 5.3.11
+  ├─┬ @portabletext/react 3.0.18
+  │ └── ✕ unmet peer react@"^17 || ^18": found 19.0.0-rc-f994737d14-20240522
+  ├─┬ @rexxars/react-json-inspector 8.0.1
+  │ └── ✕ unmet peer react@"^15 || ^16 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
+  ├─┬ @sanity/cli 3.43.0
+  │ └─┬ @sanity/telemetry 0.7.8
+  │   └── ✕ unmet peer react@^18.2: found 19.0.0-rc-f994737d14-20240522
+  ├─┬ @sanity/icons 2.11.8
+  │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
+  ├─┬ @sanity/logos 2.1.11
+  │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
+  ├─┬ @sanity/portable-text-editor 3.43.0
+  │ ├── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
+  │ └── ✕ unmet peer styled-components@^6.1: found 5.3.11
+  ├─┬ @sanity/presentation 1.15.8
+  │ └─┬ @sanity/ui 2.1.12
+  │   ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
+  │   ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
+  │   └─┬ framer-motion 11.0.8
+  │     ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
+  │     └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
+  ├─┬ @tanstack/react-virtual 3.0.0-beta.54
+  │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
+  ├─┬ react-focus-lock 2.12.1
+  │ ├── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
+  │ ├─┬ react-clientside-effect 1.2.6
+  │ │ └── ✕ unmet peer react@"^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
+  │ ├─┬ use-callback-ref 1.3.2
+  │ │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
+  │ └─┬ use-sidecar 1.1.2
+  │   └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
+  └─┬ react-rx 2.1.3
+    ├── ✕ unmet peer react@"^16.8 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
+    └─┬ use-sync-external-store 1.2.2
+      └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
+
+Done in 2.9s"
+`;
+
+exports[`pnpm install --resolution-only > sanity-plugin-utils 1`] = `
+"Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 255, reused 0, downloaded 0, added 0
+Progress: resolved 608, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
 Progress: resolved 824, reused 0, downloaded 0, added 0, done
 
@@ -3028,74 +2396,13 @@ Progress: resolved 824, reused 0, downloaded 0, added 0, done
     └─┬ use-sync-external-store 1.2.2
       └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
 
-Done in 3.9s"
+Done in 3s"
 `;
 
-exports[`pnpm install --resolution-only > sanity-plugin-umami-analytics-tool 1`] = `
+exports[`pnpm install --resolution-only > sanity-plugin-walkthrough 1`] = `
 "Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 125, reused 0, downloaded 0, added 0
-Progress: resolved 411, reused 0, downloaded 0, added 0
-Progress: resolved 744, reused 0, downloaded 0, added 0
- WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
-Progress: resolved 824, reused 0, downloaded 0, added 0, done
-
- WARN  Issues with peer dependencies found
-.
-├─┬ sanity-plugin-umami-analytics-tool 1.0.2
-│ ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ └─┬ @sanity/incompatible-plugin 1.0.4
-│   ├── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│   ├── ✕ unmet peer react-dom@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│   ├─┬ @sanity/icons 1.3.10
-│   │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│   └─┬ react-copy-to-clipboard 5.1.0
-│     └── ✕ unmet peer react@"^15.3.0 || 16 || 17 || 18": found 19.0.0-rc-f994737d14-20240522
-└─┬ sanity 3.43.0
-  ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @portabletext/react 3.0.18
-  │ └── ✕ unmet peer react@"^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @rexxars/react-json-inspector 8.0.1
-  │ └── ✕ unmet peer react@"^15 || ^16 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/cli 3.43.0
-  │ └─┬ @sanity/telemetry 0.7.8
-  │   └── ✕ unmet peer react@^18.2: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/icons 2.11.8
-  │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/logos 2.1.11
-  │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/portable-text-editor 3.43.0
-  │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/presentation 1.15.8
-  │ └─┬ @sanity/ui 2.1.12
-  │   ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  │   ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-  │   └─┬ framer-motion 11.0.8
-  │     ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-  │     └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @tanstack/react-virtual 3.0.0-beta.54
-  │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ react-focus-lock 2.12.1
-  │ ├── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ ├─┬ react-clientside-effect 1.2.6
-  │ │ └── ✕ unmet peer react@"^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ ├─┬ use-callback-ref 1.3.2
-  │ │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ └─┬ use-sidecar 1.1.2
-  │   └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  └─┬ react-rx 2.1.3
-    ├── ✕ unmet peer react@"^16.8 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-    └─┬ use-sync-external-store 1.2.2
-      └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-
-Done in 3.6s"
-`;
-
-exports[`pnpm install --resolution-only > sanity-plugin-utils 1`] = `
-"Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 187, reused 0, downloaded 0, added 0
-Progress: resolved 487, reused 0, downloaded 0, added 0
-Progress: resolved 779, reused 0, downloaded 0, added 0
+Progress: resolved 236, reused 0, downloaded 0, added 0
+Progress: resolved 599, reused 0, downloaded 0, added 0
  WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
 Progress: resolved 832, reused 0, downloaded 0, added 0, done
 
@@ -3148,191 +2455,5 @@ Progress: resolved 832, reused 0, downloaded 0, added 0, done
   └─┬ react-rx 2.1.3
     └── ✕ unmet peer react@"^16.8 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
 
-Done in 3.5s"
-`;
-
-exports[`pnpm install --resolution-only > sanity-plugin-vimeo-field 1`] = `
-"Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 177, reused 0, downloaded 0, added 0
-Progress: resolved 489, reused 0, downloaded 0, added 0
-Progress: resolved 772, reused 0, downloaded 0, added 0
- WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
-Progress: resolved 824, reused 0, downloaded 0, added 0, done
-
- WARN  Issues with peer dependencies found
-.
-├─┬ sanity-plugin-vimeo-field 1.0.1
-│ ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ ├─┬ @sanity/icons 2.11.8
-│ │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ ├─┬ @sanity/incompatible-plugin 1.0.4
-│ │ ├── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ ├── ✕ unmet peer react-dom@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ ├─┬ @sanity/icons 1.3.10
-│ │ │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ └─┬ react-copy-to-clipboard 5.1.0
-│ │   └── ✕ unmet peer react@"^15.3.0 || 16 || 17 || 18": found 19.0.0-rc-f994737d14-20240522
-│ └─┬ @sanity/ui 2.1.12
-│   ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│   ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-│   └─┬ framer-motion 11.0.8
-│     ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-│     └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-└─┬ sanity 3.43.0
-  ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @portabletext/react 3.0.18
-  │ └── ✕ unmet peer react@"^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @rexxars/react-json-inspector 8.0.1
-  │ └── ✕ unmet peer react@"^15 || ^16 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/cli 3.43.0
-  │ └─┬ @sanity/telemetry 0.7.8
-  │   └── ✕ unmet peer react@^18.2: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/logos 2.1.11
-  │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/portable-text-editor 3.43.0
-  │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @tanstack/react-virtual 3.0.0-beta.54
-  │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ react-focus-lock 2.12.1
-  │ ├── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ ├─┬ react-clientside-effect 1.2.6
-  │ │ └── ✕ unmet peer react@"^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ ├─┬ use-callback-ref 1.3.2
-  │ │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ └─┬ use-sidecar 1.1.2
-  │   └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  └─┬ react-rx 2.1.3
-    ├── ✕ unmet peer react@"^16.8 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-    └─┬ use-sync-external-store 1.2.2
-      └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-
-Done in 3.4s"
-`;
-
-exports[`pnpm install --resolution-only > sanity-plugin-walkthrough 1`] = `
-"Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 169, reused 0, downloaded 0, added 0
-Progress: resolved 469, reused 0, downloaded 0, added 0
-Progress: resolved 756, reused 0, downloaded 0, added 0
- WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
-Progress: resolved 827, reused 0, downloaded 0, added 0, done
-
- WARN  Issues with peer dependencies found
-.
-├─┬ sanity-plugin-webhooks 1.1.0
-│ ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ ├─┬ @sanity/icons 2.11.8
-│ │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ ├─┬ @sanity/incompatible-plugin 1.0.4
-│ │ ├── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ ├── ✕ unmet peer react-dom@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ ├─┬ @sanity/icons 1.3.10
-│ │ │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ └─┬ react-copy-to-clipboard 5.1.0
-│ │   └── ✕ unmet peer react@"^15.3.0 || 16 || 17 || 18": found 19.0.0-rc-f994737d14-20240522
-│ ├─┬ @sanity/ui 2.1.12
-│ │ ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ │ ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-│ │ └─┬ framer-motion 11.0.8
-│ │   ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-│ │   └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-│ └─┬ swr 2.2.5
-│   ├── ✕ unmet peer react@"^16.11.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-│   └─┬ use-sync-external-store 1.2.2
-│     └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-└─┬ sanity 3.43.0
-  ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @portabletext/react 3.0.18
-  │ └── ✕ unmet peer react@"^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @rexxars/react-json-inspector 8.0.1
-  │ └── ✕ unmet peer react@"^15 || ^16 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/cli 3.43.0
-  │ └─┬ @sanity/telemetry 0.7.8
-  │   └── ✕ unmet peer react@^18.2: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/logos 2.1.11
-  │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/portable-text-editor 3.43.0
-  │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @tanstack/react-virtual 3.0.0-beta.54
-  │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ react-focus-lock 2.12.1
-  │ ├── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ ├─┬ react-clientside-effect 1.2.6
-  │ │ └── ✕ unmet peer react@"^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ ├─┬ use-callback-ref 1.3.2
-  │ │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ └─┬ use-sidecar 1.1.2
-  │   └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  └─┬ react-rx 2.1.3
-    └── ✕ unmet peer react@"^16.8 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-
-Done in 3.6s"
-`;
-
-exports[`pnpm install --resolution-only > sanity-plugin-webhooks 1`] = `
-"Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 168, reused 0, downloaded 0, added 0
-Progress: resolved 422, reused 0, downloaded 0, added 0
-Progress: resolved 741, reused 0, downloaded 0, added 0
- WARN  3 deprecated subdependencies found: glob@7.2.3, inflight@1.0.6, rimraf@3.0.2
-Progress: resolved 828, reused 0, downloaded 0, added 0, done
-
- WARN  Issues with peer dependencies found
-.
-├─┬ sanity-plugin-youtube-input 0.2.0
-│ ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ ├─┬ @sanity/icons 2.11.8
-│ │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│ ├─┬ @sanity/incompatible-plugin 1.0.4
-│ │ ├── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ ├── ✕ unmet peer react-dom@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ ├─┬ @sanity/icons 1.3.10
-│ │ │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-│ │ └─┬ react-copy-to-clipboard 5.1.0
-│ │   └── ✕ unmet peer react@"^15.3.0 || 16 || 17 || 18": found 19.0.0-rc-f994737d14-20240522
-│ └─┬ @sanity/ui 1.9.3
-│   ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-│   ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-│   └─┬ framer-motion 10.18.0
-│     ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-│     └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-└─┬ sanity 3.43.0
-  ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @portabletext/react 3.0.18
-  │ └── ✕ unmet peer react@"^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @rexxars/react-json-inspector 8.0.1
-  │ └── ✕ unmet peer react@"^15 || ^16 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/cli 3.43.0
-  │ └─┬ @sanity/telemetry 0.7.8
-  │   └── ✕ unmet peer react@^18.2: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/logos 2.1.11
-  │ └── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/portable-text-editor 3.43.0
-  │ └── ✕ unmet peer react@"^16.9 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @sanity/presentation 1.15.8
-  │ └─┬ @sanity/ui 2.1.12
-  │   ├── ✕ unmet peer react@^18: found 19.0.0-rc-f994737d14-20240522
-  │   ├── ✕ unmet peer react-dom@^18: found 19.0.0-rc-f994737d14-20240522
-  │   └─┬ framer-motion 11.0.8
-  │     ├── ✕ unmet peer react@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-  │     └── ✕ unmet peer react-dom@^18.0.0: found 19.0.0-rc-f994737d14-20240522
-  ├─┬ @tanstack/react-virtual 3.0.0-beta.54
-  │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  ├─┬ react-focus-lock 2.12.1
-  │ ├── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ ├─┬ react-clientside-effect 1.2.6
-  │ │ └── ✕ unmet peer react@"^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ ├─┬ use-callback-ref 1.3.2
-  │ │ └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  │ └─┬ use-sidecar 1.1.2
-  │   └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-  └─┬ react-rx 2.1.3
-    ├── ✕ unmet peer react@"^16.8 || ^17 || ^18": found 19.0.0-rc-f994737d14-20240522
-    └─┬ use-sync-external-store 1.2.2
-      └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.0.0-rc-f994737d14-20240522
-
-Done in 3.6s"
+Done in 3s"
 `;
