@@ -41,7 +41,13 @@ const result = []
 for (const {title, status} of assertionResults) {
   const pkgResult = {_key: title, name: title, pass: status === 'passed'}
   const version = require(`./fixtures/${title}/package.json`).dependencies[title]
-  Object.assign(pkgResult, {version})
+  let log = ''
+  try {
+    log = await readFile(`./fixtures/${title}/install.log`, 'utf8')
+  } catch {
+    // ignore
+  }
+  Object.assign(pkgResult, {version, log})
   result.push(pkgResult)
 }
 const document = {

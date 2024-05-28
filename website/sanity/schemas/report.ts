@@ -31,6 +31,10 @@ export default defineType({
               type: 'boolean',
               validation: (Rule) => Rule.required(),
             }),
+            defineField({
+              name: 'log',
+              type: 'text',
+            }),
           ],
           preview: {
             select: {
