@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "@sanity/color": "3.0.6",
-    "react": ">=19.0.0-rc",
-    "react-dom": ">=19.0.0-rc"
-  },
-  "packageManager": "pnpm@9.0.4"
-}
