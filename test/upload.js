@@ -40,12 +40,15 @@ if (!pnpmTests) {
 const {assertionResults} = pnpmTests
 const result = []
 for (const {title, status} of assertionResults) {
+  const testJson = require(`./fixtures/${title}/package.json`)
+  const version = testJson.dependencies[title]
   const pkgResult = {
     _key: title.replace(/^\@/, '').replace(/\//, '__'),
     name: title,
     pass: status === 'passed',
+    version,
+    testJson: JSON.stringify(testJson, null, 2),
   }
-  const version = require(`./fixtures/${title}/package.json`).dependencies[title]
   let log = ''
   try {
     log = await readFile(`./fixtures/${title}/install.log`, 'utf8')
@@ -56,7 +59,7 @@ for (const {title, status} of assertionResults) {
   } catch {
     // ignore
   }
-  Object.assign(pkgResult, {version, log})
+  Object.assign(pkgResult, {log})
   result.push(pkgResult)
 }
 const document = {

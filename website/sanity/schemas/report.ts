@@ -35,6 +35,10 @@ export default defineType({
               name: 'log',
               type: 'text',
             }),
+            defineField({
+              name: 'testJson',
+              type: 'text',
+            }),
           ],
           preview: {
             select: {

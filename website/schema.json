@@ -761,6 +761,13 @@
                   "type": "string"
                 },
                 "optional": true
+              },
+              "testJson": {
+                "type": "objectAttribute",
+                "value": {
+                  "type": "string"
+                },
+                "optional": true
               }
             },
             "rest": {
