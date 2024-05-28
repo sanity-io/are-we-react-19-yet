@@ -28,6 +28,7 @@ const client = createClient({
   useCdn: false,
   apiVersion: '2024-05-27',
 })
+const regex = /WARN Issues with peer dependencies found([\s\S]*?)Done in/
 
 const {testResults} = JSON.parse((await readFile('./result.json', 'utf8')).toString())
 
@@ -48,6 +49,10 @@ for (const {title, status} of assertionResults) {
   let log = ''
   try {
     log = await readFile(`./fixtures/${title}/install.log`, 'utf8')
+    const match = log.match(regex)
+    if (match && match[1]) {
+      log = match[1].trim()
+    }
   } catch {
     // ignore
   }
