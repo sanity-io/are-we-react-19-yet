@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@sanity/visual-editing':
         specifier: 2.0.0
-        version: 2.0.0(@sanity/client@6.18.3)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
+        version: 2.0.0(@sanity/client@6.19.0)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
       react:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-f994737d14-20240522
@@ -20,8 +20,8 @@ importers:
 
 packages:
 
-  '@sanity/client@6.18.3':
-    resolution: {integrity: sha512-kSXbl83gGvGv6xD9kD/3z/3siPL3PWBDOPfsBeysdam+/aD32GJa7WciIsIlKm2TmghVHuvKJZQvY6yk4U7ZTw==}
+  '@sanity/client@6.19.0':
+    resolution: {integrity: sha512-TAqthXojzGHRm6Cke7mwBCLck9C6I/cT7p4ojjf3c+iHt0TqQDl1BXU9Q8qhz+TOvP8OESjXNawAKXvwnP7vQg==}
     engines: {node: '>=14.18'}
 
   '@sanity/eventsource@5.0.2':
@@ -179,7 +179,7 @@ packages:
 
 snapshots:
 
-  '@sanity/client@6.18.3':
+  '@sanity/client@6.19.0':
     dependencies:
       '@sanity/eventsource': 5.0.2
       get-it: 8.5.0
@@ -194,9 +194,9 @@ snapshots:
       event-source-polyfill: 1.0.31
       eventsource: 2.0.2
 
-  '@sanity/preview-url-secret@1.6.14(@sanity/client@6.18.3)':
+  '@sanity/preview-url-secret@1.6.14(@sanity/client@6.19.0)':
     dependencies:
-      '@sanity/client': 6.18.3
+      '@sanity/client': 6.19.0
       '@sanity/uuid': 3.0.2
 
   '@sanity/uuid@3.0.2':
@@ -204,16 +204,16 @@ snapshots:
       '@types/uuid': 8.3.4
       uuid: 8.3.2
 
-  '@sanity/visual-editing@2.0.0(@sanity/client@6.18.3)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)':
+  '@sanity/visual-editing@2.0.0(@sanity/client@6.19.0)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)':
     dependencies:
-      '@sanity/preview-url-secret': 1.6.14(@sanity/client@6.18.3)
+      '@sanity/preview-url-secret': 1.6.14(@sanity/client@6.19.0)
       '@vercel/stega': 0.1.2
       react: 19.0.0-rc-f994737d14-20240522
       react-dom: 19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522)
       scroll-into-view-if-needed: 3.1.0
       valibot: 0.30.0
     optionalDependencies:
-      '@sanity/client': 6.18.3
+      '@sanity/client': 6.19.0
 
   '@types/event-source-polyfill@1.0.5': {}
 
