@@ -13,7 +13,11 @@ const filters = [
   {id: 'failing', title: 'Failing'},
 ] as const
 
-export default function Report(props: {test: Exclude<ReportQueryResult, null>['test']}) {
+export default function Report(props: {
+  test: Exclude<ReportQueryResult, null>['test']
+  lastLiveEventId: string | undefined
+}) {
+  const {lastLiveEventId} = props
   const [filterBy, setFilterBy] = useState<(typeof filters)[number]['id']>(filters[0].id)
   const filtered = useMemo(() => {
     const copied = [...props.test]
@@ -64,7 +68,9 @@ export default function Report(props: {test: Exclude<ReportQueryResult, null>['t
               key={test._key}
               data-sanity-edit-target
               className={`group relative rounded-md bg-white p-3 shadow-sm ring-1 ring-slate-200 hover:shadow-md hover:ring-blue-500`}
-              href={stegaClean(`/package/${test.name}`)}
+              href={stegaClean(
+                `/package/${test.name}${lastLiveEventId ? `?lastLiveEventId=${lastLiveEventId}` : ''}`,
+              )}
               title={test.name || ''}
             >
               <span

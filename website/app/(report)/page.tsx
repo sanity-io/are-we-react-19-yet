@@ -50,7 +50,12 @@ export default async function Page({
             </h2>
           )}
         </section>
-        {report?.test && <Report test={report.test} />}
+        {report?.test && (
+          <Report
+            test={report.test}
+            lastLiveEventId={Array.isArray(lastLiveEventId) ? lastLiveEventId[0] : lastLiveEventId}
+          />
+        )}
       </main>
       {report?.updatedAt && <Footer dateString={report.updatedAt} />}
       <LiveSubscription />

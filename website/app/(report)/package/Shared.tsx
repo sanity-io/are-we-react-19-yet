@@ -57,7 +57,13 @@ export async function SharedPackageReport({
 
   return (
     <>
-      <Link className="sticky left-2 top-2 rounded bg-white px-2 py-1" href="/">
+      <Link
+        className="sticky left-2 top-2 rounded bg-white px-2 py-1"
+        href={{
+          pathname: '/',
+          query: {lastLiveEventId},
+        }}
+      >
         Back
       </Link>
       <main className="container mx-auto px-5">
