@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "react": ">=19.0.0-rc",
-    "react-dom": ">=19.0.0-rc",
-    "sanity-plugin-youtube-input": "0.2.0"
-  },
-  "packageManager": "pnpm@9.0.4"
-}
