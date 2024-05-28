@@ -18,5 +18,5 @@ export const packageQuery = groq`
 *[_type == "report" && defined(test)] | order(_createdAt desc)[0]{
   _id,
   "updatedAt": coalesce(_updatedAt, _createdAt),
-  "package": test[name == $name][0]{name, version, pass, log},
+  "package": test[name == $name][0]{name, version, pass, log, testJson},
 }`

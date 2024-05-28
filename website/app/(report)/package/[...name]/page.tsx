@@ -95,7 +95,16 @@ export default async function PackageReport({
             View npm
           </a>
         </section>
-        {!report.package.pass && report.package.log && <Code lang="zsh">{report.package.log}</Code>}
+        {!report.package.pass && report.package.log && (
+          <Code lang="zsh">{`pnpm install --resolution-only
+WARN Issues with peer dependencies found
+${report.package.log}`}</Code>
+        )}
+        {report.package.testJson && (
+          <Code lang="json" title="package.json">
+            {report.package.testJson}
+          </Code>
+        )}
       </main>
       {report?.updatedAt && <Footer dateString={report.updatedAt} />}
       <LiveSubscription />

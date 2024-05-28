@@ -164,7 +164,7 @@ export type ReportQueryResult = {
   passing: number | 0
 } | null
 // Variable: packageQuery
-// Query: *[_type == "report" && defined(test)] | order(_createdAt desc)[0]{  _id,  "updatedAt": coalesce(_updatedAt, _createdAt),  "package": test[name == $name][0]{name, version, pass, log},}
+// Query: *[_type == "report" && defined(test)] | order(_createdAt desc)[0]{  _id,  "updatedAt": coalesce(_updatedAt, _createdAt),  "package": test[name == $name][0]{name, version, pass, log, testJson},}
 export type PackageQueryResult = {
   _id: string
   updatedAt: string
@@ -173,5 +173,6 @@ export type PackageQueryResult = {
     version: string | null
     pass: boolean | null
     log: string | null
+    testJson: string | null
   } | null
 } | null
