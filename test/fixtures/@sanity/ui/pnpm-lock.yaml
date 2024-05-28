@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@sanity/ui':
-        specifier: 2.1.12
-        version: 2.1.12(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))
+        specifier: 2.1.13
+        version: 2.1.13(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))
       react:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-f994737d14-20240522
@@ -60,8 +60,8 @@ packages:
     peerDependencies:
       react: ^18
 
-  '@sanity/ui@2.1.12':
-    resolution: {integrity: sha512-vn1fGeRDazWw8Xm3M0Gp1WNg0YKMarflt/pNgbSPkMqc5p6E1mNIK9GnEIjWU7hhtUhhQ1VOL4p7uoTYAnFN0Q==}
+  '@sanity/ui@2.1.13':
+    resolution: {integrity: sha512-VMQgCgj8NKKfjE49yhqN/K1Y94QdKt0HxURVPClGC7ebRXpk0caZ9zBCs/oprXAQBOSgCLkAR5m1RTQGPu3NDw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       react: ^18
@@ -257,7 +257,7 @@ snapshots:
     dependencies:
       react: 19.0.0-rc-f994737d14-20240522
 
-  '@sanity/ui@2.1.12(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))':
+  '@sanity/ui@2.1.13(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))':
     dependencies:
       '@floating-ui/react-dom': 2.1.0(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
       '@sanity/color': 3.0.6
