@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@sanity/client": "^6.18.3",
-    "@sanity/icons": "^2.11.8",
+    "@sanity/icons": "^3.0.0",
     "@sanity/preview-url-secret": "^1.6.13",
     "@sanity/vision": "^3.42.1",
     "@types/node": "^20.12.12",
