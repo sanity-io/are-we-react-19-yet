@@ -67,6 +67,12 @@ packages:
     peerDependencies:
       react: ^18
 
+  '@sanity/icons@3.0.0':
+    resolution: {integrity: sha512-tvAxP5XaqZ6lG3JpAe+ZHWF4JqjFHnvtheY64VyLLO/8lwbiy7Q/Xhh0hYw9Anm0k0HCONcahyMvO+Q18n05tw==}
+    engines: {node: '>=14.0.0'}
+    peerDependencies:
+      react: ^18.3 || >=19.0.0-rc
+
   '@sanity/presentation@1.15.10':
     resolution: {integrity: sha512-3WG86hT6Ie938giBDpbwWpTJyhsM2JWPlprcM/JBDeUFQ7GXqMfGe4EXYf4mmwNllSY23lgsk8V2CjLm8UQZlw==}
     engines: {node: '>=16.14'}
@@ -79,8 +85,8 @@ packages:
     peerDependencies:
       '@sanity/client': ^6.19.0
 
-  '@sanity/ui@2.1.13':
-    resolution: {integrity: sha512-VMQgCgj8NKKfjE49yhqN/K1Y94QdKt0HxURVPClGC7ebRXpk0caZ9zBCs/oprXAQBOSgCLkAR5m1RTQGPu3NDw==}
+  '@sanity/ui@2.1.14':
+    resolution: {integrity: sha512-aWrFbB94yeK1han9PL88wP/Ytd2RlsLKjpaX+da1yBkxY//JEr7EltiEuz6+9cMFulTmSC0FkouhemoVtB9zPw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       react: ^18
@@ -411,12 +417,16 @@ snapshots:
     dependencies:
       react: 19.0.0-rc-f994737d14-20240522
 
+  '@sanity/icons@3.0.0(react@19.0.0-rc-f994737d14-20240522)':
+    dependencies:
+      react: 19.0.0-rc-f994737d14-20240522
+
   '@sanity/presentation@1.15.10(@sanity/client@6.19.0)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))':
     dependencies:
       '@sanity/client': 6.19.0
       '@sanity/icons': 2.11.8(react@19.0.0-rc-f994737d14-20240522)
       '@sanity/preview-url-secret': 1.6.15(@sanity/client@6.19.0)
-      '@sanity/ui': 2.1.13(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))
+      '@sanity/ui': 2.1.14(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))
       '@sanity/uuid': 3.0.2
       '@types/lodash.isequal': 4.5.8
       fast-deep-equal: 3.1.3
@@ -438,11 +448,11 @@ snapshots:
       '@sanity/client': 6.19.0
       '@sanity/uuid': 3.0.2
 
-  '@sanity/ui@2.1.13(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))':
+  '@sanity/ui@2.1.14(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))':
     dependencies:
       '@floating-ui/react-dom': 2.1.0(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
       '@sanity/color': 3.0.6
-      '@sanity/icons': 2.11.8(react@19.0.0-rc-f994737d14-20240522)
+      '@sanity/icons': 3.0.0(react@19.0.0-rc-f994737d14-20240522)
       csstype: 3.1.3
       framer-motion: 11.0.8(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
       react: 19.0.0-rc-f994737d14-20240522

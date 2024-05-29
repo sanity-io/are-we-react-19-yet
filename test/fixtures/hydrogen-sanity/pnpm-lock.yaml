@@ -61,26 +61,26 @@ packages:
     resolution: {integrity: sha512-TAqthXojzGHRm6Cke7mwBCLck9C6I/cT7p4ojjf3c+iHt0TqQDl1BXU9Q8qhz+TOvP8OESjXNawAKXvwnP7vQg==}
     engines: {node: '>=14.18'}
 
-  '@sanity/core-loader@1.6.15':
-    resolution: {integrity: sha512-PSdJfP+QZYSAZzJ/AliYlrpZiTAeHBQXVBMHpStYOb1JIJE2CAlU9ReanTZPN/iaUbtD7shEUAPa9N5h/LVpiQ==}
+  '@sanity/core-loader@1.6.16':
+    resolution: {integrity: sha512-h7OyCEf3XW4uAIMEdT8UT2nCoxW2sDWiqM4gwK3dg250yEteW31XXF2peSFjc6OhPdzwHpd118dPZ5+23iDFdQ==}
     engines: {node: '>=18'}
     peerDependencies:
-      '@sanity/client': ^6.18.3
+      '@sanity/client': ^6.19.0
 
   '@sanity/eventsource@5.0.2':
     resolution: {integrity: sha512-/B9PMkUvAlUrpRq0y+NzXgRv5lYCLxZNsBJD2WXVnqZYOfByL9oQBV7KiTaARuObp5hcQYuPfOAVjgXe3hrixA==}
 
-  '@sanity/preview-url-secret@1.6.14':
-    resolution: {integrity: sha512-BWbv9kcPRbWaUhrBrlgOfIuxnxeVGCjtfX7kTiwMP6NGGDJ8cxFCYPtzhz/7BfKAjkwY9avgz1tyEjqIxk0nEQ==}
+  '@sanity/preview-url-secret@1.6.15':
+    resolution: {integrity: sha512-ccq6B2m1OYb3x1nFWLFQGpzMwA68M2qvWXwrXHqSoRXaDnT7gDXqi3gbaYgEdXMNuqnHCFnecK4cOZNY2QqVuQ==}
     engines: {node: '>=18'}
     peerDependencies:
-      '@sanity/client': ^6.18.3
+      '@sanity/client': ^6.19.0
 
-  '@sanity/react-loader@1.9.20':
-    resolution: {integrity: sha512-Lmu2750i3Xszsbst4V4WFVnwgqCoVdO1XUnmjNPX1Jj8GJa+u8BSPTAtiB/ztNZTcodKGibbt71+JCQ26eUbkg==}
+  '@sanity/react-loader@1.9.21':
+    resolution: {integrity: sha512-AFPnMN6cyeuTCHsZ7uNUQYz9TUeA9dgNu5SCpE5qb14Q9XkUiE36sFcXsEODy+6WElizMZ4yq49J1Gm7kyURsA==}
     engines: {node: '>=18'}
     peerDependencies:
-      '@sanity/client': ^6.18.3
+      '@sanity/client': ^6.19.0
       react: ^18.2.0
 
   '@sanity/uuid@3.0.2':
@@ -447,7 +447,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@sanity/core-loader@1.6.15(@sanity/client@6.19.0)':
+  '@sanity/core-loader@1.6.16(@sanity/client@6.19.0)':
     dependencies:
       '@sanity/client': 6.19.0
 
@@ -458,15 +458,15 @@ snapshots:
       event-source-polyfill: 1.0.31
       eventsource: 2.0.2
 
-  '@sanity/preview-url-secret@1.6.14(@sanity/client@6.19.0)':
+  '@sanity/preview-url-secret@1.6.15(@sanity/client@6.19.0)':
     dependencies:
       '@sanity/client': 6.19.0
       '@sanity/uuid': 3.0.2
 
-  '@sanity/react-loader@1.9.20(@sanity/client@6.19.0)(react@19.0.0-rc-f994737d14-20240522)':
+  '@sanity/react-loader@1.9.21(@sanity/client@6.19.0)(react@19.0.0-rc-f994737d14-20240522)':
     dependencies:
       '@sanity/client': 6.19.0
-      '@sanity/core-loader': 1.6.15(@sanity/client@6.19.0)
+      '@sanity/core-loader': 1.6.16(@sanity/client@6.19.0)
       react: 19.0.0-rc-f994737d14-20240522
 
   '@sanity/uuid@3.0.2':
@@ -476,7 +476,7 @@ snapshots:
 
   '@sanity/visual-editing@1.8.22(@remix-run/react@2.9.2(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))(@sanity/client@6.19.0)':
     dependencies:
-      '@sanity/preview-url-secret': 1.6.14(@sanity/client@6.19.0)
+      '@sanity/preview-url-secret': 1.6.15(@sanity/client@6.19.0)
       '@vercel/stega': 0.1.2
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -586,8 +586,8 @@ snapshots:
   hydrogen-sanity@4.0.4(@remix-run/react@2.9.2(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))(@sanity/client@6.19.0)(@shopify/hydrogen@2024.4.2(@remix-run/react@2.9.2(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))(@remix-run/server-runtime@2.9.2)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))(@shopify/remix-oxygen@2.0.4(@remix-run/server-runtime@2.9.2)(@shopify/oxygen-workers-types@4.0.0))(groq@3.43.0)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522):
     dependencies:
       '@sanity/client': 6.19.0
-      '@sanity/preview-url-secret': 1.6.14(@sanity/client@6.19.0)
-      '@sanity/react-loader': 1.9.20(@sanity/client@6.19.0)(react@19.0.0-rc-f994737d14-20240522)
+      '@sanity/preview-url-secret': 1.6.15(@sanity/client@6.19.0)
+      '@sanity/react-loader': 1.9.21(@sanity/client@6.19.0)(react@19.0.0-rc-f994737d14-20240522)
       '@sanity/visual-editing': 1.8.22(@remix-run/react@2.9.2(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))(@sanity/client@6.19.0)
       '@shopify/hydrogen': 2024.4.2(@remix-run/react@2.9.2(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))(@remix-run/server-runtime@2.9.2)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
       '@shopify/remix-oxygen': 2.0.4(@remix-run/server-runtime@2.9.2)(@shopify/oxygen-workers-types@4.0.0)
