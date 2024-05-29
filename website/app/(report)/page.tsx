@@ -40,7 +40,8 @@ export default async function Page({
     <>
       <main className="container mx-auto px-5">
         <section className="mb-16 mt-16 flex flex-col items-center lg:mb-12 lg:flex-row lg:justify-between">
-          <h1 className="text-balance text-6xl font-bold leading-tight tracking-tighter lg:pr-8 lg:text-8xl">
+          <h1 className="text-center text-6xl font-bold leading-tight tracking-tighter lg:pr-8 lg:text-8xl">
+            <span className="block text-sm leading-none tracking-normal">Are We React 19 Yet?</span>
             {report && report.total > 0 && report.passing === report.total ? ' ✨ YES ✨' : 'No'}
           </h1>
           {report && report.total > 0 && (
