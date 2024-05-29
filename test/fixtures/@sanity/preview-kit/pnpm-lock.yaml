@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@sanity/preview-kit':
         specifier: 5.0.61
-        version: 5.0.61(@sanity/client@6.19.0)(react@19.0.0-rc-f994737d14-20240522)
+        version: 5.0.61(@sanity/client@6.19.1)(react@19.0.0-rc-f994737d14-20240522)
       react:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-f994737d14-20240522
@@ -20,8 +20,8 @@ importers:
 
 packages:
 
-  '@sanity/client@6.19.0':
-    resolution: {integrity: sha512-TAqthXojzGHRm6Cke7mwBCLck9C6I/cT7p4ojjf3c+iHt0TqQDl1BXU9Q8qhz+TOvP8OESjXNawAKXvwnP7vQg==}
+  '@sanity/client@6.19.1':
+    resolution: {integrity: sha512-D3ZDc1xj0a+lAnsAd5oXc4+JStJ92Z1GlkgL2+6PoKcqiK6xAQUXwcrUwgniWzzSmafXxBJYokpg/i1VuI/mCA==}
     engines: {node: '>=14.18'}
 
   '@sanity/eventsource@5.0.2':
@@ -149,7 +149,7 @@ packages:
 
 snapshots:
 
-  '@sanity/client@6.19.0':
+  '@sanity/client@6.19.1':
     dependencies:
       '@sanity/eventsource': 5.0.2
       get-it: 8.5.0
@@ -164,15 +164,15 @@ snapshots:
       event-source-polyfill: 1.0.31
       eventsource: 2.0.2
 
-  '@sanity/preview-kit-compat@1.5.0(@sanity/client@6.19.0)(react@19.0.0-rc-f994737d14-20240522)':
+  '@sanity/preview-kit-compat@1.5.0(@sanity/client@6.19.1)(react@19.0.0-rc-f994737d14-20240522)':
     dependencies:
-      '@sanity/client': 6.19.0
+      '@sanity/client': 6.19.1
       react: 19.0.0-rc-f994737d14-20240522
 
-  '@sanity/preview-kit@5.0.61(@sanity/client@6.19.0)(react@19.0.0-rc-f994737d14-20240522)':
+  '@sanity/preview-kit@5.0.61(@sanity/client@6.19.1)(react@19.0.0-rc-f994737d14-20240522)':
     dependencies:
-      '@sanity/client': 6.19.0
-      '@sanity/preview-kit-compat': 1.5.0(@sanity/client@6.19.0)(react@19.0.0-rc-f994737d14-20240522)
+      '@sanity/client': 6.19.1
+      '@sanity/preview-kit-compat': 1.5.0(@sanity/client@6.19.1)(react@19.0.0-rc-f994737d14-20240522)
       mendoza: 3.0.7
     optionalDependencies:
       react: 19.0.0-rc-f994737d14-20240522
