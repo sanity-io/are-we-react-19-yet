@@ -16,7 +16,7 @@ importers:
         version: 3.0.0(react@18.3.1)
       '@sanity/preview-url-secret':
         specifier: ^1.6.13
-        version: 1.6.15(@sanity/client@6.19.0)
+        version: 1.6.16(@sanity/client@6.19.0)
       '@sanity/vision':
         specifier: ^3.42.1
         version: 3.43.0(@babel/runtime@7.24.6)(@codemirror/lint@6.8.0)(@codemirror/theme-one-dark@6.1.2)(@lezer/common@1.2.1)(codemirror@6.0.1(@lezer/common@1.2.1))(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
@@ -1419,8 +1419,8 @@ packages:
       react:
         optional: true
 
-  '@sanity/preview-url-secret@1.6.15':
-    resolution: {integrity: sha512-ccq6B2m1OYb3x1nFWLFQGpzMwA68M2qvWXwrXHqSoRXaDnT7gDXqi3gbaYgEdXMNuqnHCFnecK4cOZNY2QqVuQ==}
+  '@sanity/preview-url-secret@1.6.16':
+    resolution: {integrity: sha512-iZaE8LNrt9InD9R3yxhpPAluMVnZkN2NC46OaciruKrW/juot3lGBAi7JK0CrqH8iOGNWjBCDlmhDfG0CogCGg==}
     engines: {node: '>=18'}
     peerDependencies:
       '@sanity/client': ^6.19.0
@@ -6257,7 +6257,7 @@ snapshots:
     dependencies:
       '@sanity/client': 6.19.0(debug@4.3.4)
       '@sanity/icons': 2.11.8(react@18.3.1)
-      '@sanity/preview-url-secret': 1.6.15(@sanity/client@6.19.0(debug@4.3.4))
+      '@sanity/preview-url-secret': 1.6.16(@sanity/client@6.19.0(debug@4.3.4))
       '@sanity/ui': 2.1.14(react-dom@18.3.1(react@18.3.1))(react-is@18.3.1)(react@18.3.1)(styled-components@6.1.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@sanity/uuid': 3.0.2
       '@types/lodash.isequal': 4.5.8
@@ -6293,12 +6293,12 @@ snapshots:
     optionalDependencies:
       react: 18.3.1
 
-  '@sanity/preview-url-secret@1.6.15(@sanity/client@6.19.0(debug@4.3.4))':
+  '@sanity/preview-url-secret@1.6.16(@sanity/client@6.19.0(debug@4.3.4))':
     dependencies:
       '@sanity/client': 6.19.0(debug@4.3.4)
       '@sanity/uuid': 3.0.2
 
-  '@sanity/preview-url-secret@1.6.15(@sanity/client@6.19.0)':
+  '@sanity/preview-url-secret@1.6.16(@sanity/client@6.19.0)':
     dependencies:
       '@sanity/client': 6.19.0
       '@sanity/uuid': 3.0.2
@@ -6449,7 +6449,7 @@ snapshots:
 
   '@sanity/visual-editing@1.8.21(@sanity/client@6.19.0)(next@14.2.3(@babel/core@7.24.6)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
     dependencies:
-      '@sanity/preview-url-secret': 1.6.15(@sanity/client@6.19.0)
+      '@sanity/preview-url-secret': 1.6.16(@sanity/client@6.19.0)
       '@vercel/stega': 0.1.2
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
