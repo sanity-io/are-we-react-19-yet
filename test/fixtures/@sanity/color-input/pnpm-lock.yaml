@@ -1419,8 +1419,8 @@ packages:
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
 
-  bare-events@2.3.0:
-    resolution: {integrity: sha512-zHKMzU6+S4bX8f2dWWO7HuO2F8+xStipndfj9jwxkVFrxr1xyWW8BesxGwIZfIMOV0uyxNeKqkiABDrB37JgDA==}
+  bare-events@2.3.1:
+    resolution: {integrity: sha512-sJnSOTVESURZ61XgEleqmP255T6zTYwHPwE4r6SssIh0U9/uDvfpdoJYpVUerJJZH2fueO+CdT8ZT+OC/7aZDA==}
 
   base64-js@1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
@@ -5148,7 +5148,7 @@ snapshots:
 
   balanced-match@1.0.2: {}
 
-  bare-events@2.3.0:
+  bare-events@2.3.1:
     optional: true
 
   base64-js@1.5.1: {}
@@ -6979,7 +6979,7 @@ snapshots:
       fast-fifo: 1.3.2
       queue-tick: 1.0.1
     optionalDependencies:
-      bare-events: 2.3.0
+      bare-events: 2.3.1
 
   string-width@4.2.3:
     dependencies:
