@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "next-sanity": "9.3.6",
+    "next-sanity": "9.3.7",
     "react": ">=19.0.0-rc",
     "react-dom": ">=19.0.0-rc"
   },
