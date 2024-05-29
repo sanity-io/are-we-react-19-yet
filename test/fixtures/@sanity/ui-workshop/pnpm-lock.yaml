@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@sanity/ui-workshop':
-        specifier: 2.0.14
-        version: 2.0.14(@sanity/icons@3.0.0(react@19.0.0-rc-f994737d14-20240522))(@sanity/ui@2.1.14(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)))(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))
+        specifier: 2.0.15
+        version: 2.0.15(@sanity/icons@3.0.0(react@19.0.0-rc-f994737d14-20240522))(@sanity/ui@2.1.14(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)))(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))
       react:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-f994737d14-20240522
@@ -553,11 +553,11 @@ packages:
     peerDependencies:
       react: ^18.3 || >=19.0.0-rc
 
-  '@sanity/ui-workshop@2.0.14':
-    resolution: {integrity: sha512-tHgWMdX9ntdlK6OOUBUd4qRRS9Ak8Dv0h/tFEDnJVjQJWnL7m08hoDqAJPrM90kGJF63qIzzP7xptWlvKM/QIA==}
+  '@sanity/ui-workshop@2.0.15':
+    resolution: {integrity: sha512-mlfD85OzEf35wZMMriX56S91Iu84oavbjAfj2Rs0xTCrkCuAzAmiaua0Szh+8+C9mnWSsqht3t7rn4SWjtQD6Q==}
     hasBin: true
     peerDependencies:
-      '@sanity/icons': ^2
+      '@sanity/icons': ^2 || ^3.0.0
       '@sanity/ui': ^1 || ^2.0.0
       react: ^18
       react-dom: ^18
@@ -2262,7 +2262,7 @@ snapshots:
     dependencies:
       react: 19.0.0-rc-f994737d14-20240522
 
-  '@sanity/ui-workshop@2.0.14(@sanity/icons@3.0.0(react@19.0.0-rc-f994737d14-20240522))(@sanity/ui@2.1.14(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)))(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))':
+  '@sanity/ui-workshop@2.0.15(@sanity/icons@3.0.0(react@19.0.0-rc-f994737d14-20240522))(@sanity/ui@2.1.14(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)))(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))':
     dependencies:
       '@sanity/icons': 3.0.0(react@19.0.0-rc-f994737d14-20240522)
       '@sanity/ui': 2.1.14(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))
