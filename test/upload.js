@@ -55,6 +55,8 @@ for (const {title, status} of assertionResults) {
     const match = log.match(regex)
     if (match && match[1]) {
       log = match[1].trim()
+    } else {
+      log = ''
     }
   } catch {
     // ignore
