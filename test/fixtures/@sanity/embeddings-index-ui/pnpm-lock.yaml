@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@sanity/embeddings-index-ui':
         specifier: 1.1.8
-        version: 1.1.8(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@16.13.1)(react@19.0.0-rc-f994737d14-20240522)(sanity@3.43.0(@types/node@20.12.12)(@types/react@18.3.3)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)))(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))
+        version: 1.1.8(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(sanity@3.43.0(@types/node@20.12.12)(@types/react@18.3.3)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)))(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))
       react:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-f994737d14-20240522
@@ -1430,8 +1430,8 @@ packages:
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
 
-  bare-events@2.3.0:
-    resolution: {integrity: sha512-zHKMzU6+S4bX8f2dWWO7HuO2F8+xStipndfj9jwxkVFrxr1xyWW8BesxGwIZfIMOV0uyxNeKqkiABDrB37JgDA==}
+  bare-events@2.3.1:
+    resolution: {integrity: sha512-sJnSOTVESURZ61XgEleqmP255T6zTYwHPwE4r6SssIh0U9/uDvfpdoJYpVUerJJZH2fueO+CdT8ZT+OC/7aZDA==}
 
   base64-js@1.5.1:
     resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==}
@@ -4683,11 +4683,11 @@ snapshots:
     dependencies:
       '@sanity/diff-match-patch': 3.1.1
 
-  '@sanity/embeddings-index-ui@1.1.8(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@16.13.1)(react@19.0.0-rc-f994737d14-20240522)(sanity@3.43.0(@types/node@20.12.12)(@types/react@18.3.3)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)))(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))':
+  '@sanity/embeddings-index-ui@1.1.8(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(sanity@3.43.0(@types/node@20.12.12)(@types/react@18.3.3)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)))(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))':
     dependencies:
       '@sanity/icons': 2.11.8(react@19.0.0-rc-f994737d14-20240522)
       '@sanity/incompatible-plugin': 1.0.4(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
-      '@sanity/ui': 1.9.3(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@16.13.1)(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))
+      '@sanity/ui': 1.9.3(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))
       react: 19.0.0-rc-f994737d14-20240522
       sanity: 3.43.0(@types/node@20.12.12)(@types/react@18.3.3)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))
     transitivePeerDependencies:
@@ -4906,7 +4906,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@sanity/ui@1.9.3(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@16.13.1)(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))':
+  '@sanity/ui@1.9.3(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(styled-components@6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522))':
     dependencies:
       '@floating-ui/react-dom': 2.0.0(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
       '@sanity/color': 2.2.5
@@ -4915,7 +4915,7 @@ snapshots:
       framer-motion: 10.18.0(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
       react: 19.0.0-rc-f994737d14-20240522
       react-dom: 19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522)
-      react-is: 16.13.1
+      react-is: 18.3.1
       react-refractor: 2.2.0(react@19.0.0-rc-f994737d14-20240522)
       styled-components: 6.1.11(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
 
@@ -5167,7 +5167,7 @@ snapshots:
 
   balanced-match@1.0.2: {}
 
-  bare-events@2.3.0:
+  bare-events@2.3.1:
     optional: true
 
   base64-js@1.5.1: {}
@@ -6986,7 +6986,7 @@ snapshots:
       fast-fifo: 1.3.2
       queue-tick: 1.0.1
     optionalDependencies:
-      bare-events: 2.3.0
+      bare-events: 2.3.1
 
   string-width@4.2.3:
     dependencies:
