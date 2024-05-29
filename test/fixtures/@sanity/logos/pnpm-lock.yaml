@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@sanity/logos':
-        specifier: 2.1.11
-        version: 2.1.11(@sanity/color@3.0.6)(react@19.0.0-rc-f994737d14-20240522)
+        specifier: 2.1.12
+        version: 2.1.12(@sanity/color@3.0.6)(react@19.0.0-rc-f994737d14-20240522)
       react:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-f994737d14-20240522
@@ -24,12 +24,12 @@ packages:
     resolution: {integrity: sha512-2TjYEvOftD0v7ukx3Csdh9QIu44P2z7NDJtlC3qITJRYV36J7R6Vfd3trVhFnN77/7CZrGjqngrtohv8VqO5nw==}
     engines: {node: '>=18.0.0'}
 
-  '@sanity/logos@2.1.11':
-    resolution: {integrity: sha512-hgLnNCBV4BAfI+3ScD+48ZUwhk8xjALg/60tm3G5v2UYysi0N+S4xTnUNS9KFpDq+j9tOxKHanuSFWT2DCsQmw==}
+  '@sanity/logos@2.1.12':
+    resolution: {integrity: sha512-2cj3EwTTyAN9OurOYpcQi5f3OFZURdhxmTcKFOou3I8JSzxLqEuY9EywArekwgrUMDfZ+sSorv4UEu9rMtqatQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       '@sanity/color': ^2.0 || ^3.0 || ^3.0.0-beta
-      react: ^18
+      react: ^18.3 || >=19.0.0-rc
 
   react-dom@19.0.0-rc-f994737d14-20240522:
     resolution: {integrity: sha512-J4CsfTSptPKkhaPbaR6n/KohQiHZTrRZ8GL4H8rbAqN/Qpy69g2MIoLBr5/PUX21ye6JxC1ZRWJFna7Xdg1pdA==}
@@ -47,7 +47,7 @@ snapshots:
 
   '@sanity/color@3.0.6': {}
 
-  '@sanity/logos@2.1.11(@sanity/color@3.0.6)(react@19.0.0-rc-f994737d14-20240522)':
+  '@sanity/logos@2.1.12(@sanity/color@3.0.6)(react@19.0.0-rc-f994737d14-20240522)':
     dependencies:
       '@sanity/color': 3.0.6
       react: 19.0.0-rc-f994737d14-20240522
