@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@sanity/preview-kit':
-        specifier: 5.0.62
-        version: 5.0.62(@sanity/client@6.19.1)(react@19.0.0-rc-f994737d14-20240522)
+        specifier: 5.0.63-canary.0
+        version: 5.0.63-canary.0(@sanity/client@6.19.1)(react@19.0.0-rc-f994737d14-20240522)
       react:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-f994737d14-20240522
@@ -27,19 +27,19 @@ packages:
   '@sanity/eventsource@5.0.2':
     resolution: {integrity: sha512-/B9PMkUvAlUrpRq0y+NzXgRv5lYCLxZNsBJD2WXVnqZYOfByL9oQBV7KiTaARuObp5hcQYuPfOAVjgXe3hrixA==}
 
-  '@sanity/preview-kit-compat@1.5.0':
-    resolution: {integrity: sha512-LdRiPV/+zmg7KR5Fi38YuLVQ4x6S5HSYnl2whPPGwzAdIqSf+K6qLgcTr0G+7h/WnqC4Lt0erv/VETNtAAtbuQ==}
-    engines: {node: '>=18'}
-    peerDependencies:
-      '@sanity/client': ^6.19.0
-      react: ^18.3 || >=19.0.0-rc
-
-  '@sanity/preview-kit@5.0.62':
-    resolution: {integrity: sha512-uKti13H0Cs6GD8mDP87r5jZ8hc+jZ8c3mHSszkTD8K9WLM0m29gNjj99oCTUAcxXP6QdugXjigxkTVtYjA/Y3g==}
+  '@sanity/preview-kit-compat@1.5.1':
+    resolution: {integrity: sha512-JWG0PXieBtiKAS5Tpbf7NcsxRnAk+kqgFTNrZ6X0RhYfHDIJwZhumIwqbdIqNs7leqZozdwI8NKgSPep6u3uDQ==}
     engines: {node: '>=18'}
     peerDependencies:
       '@sanity/client': ^6.19.1
-      react: ^18.0.0
+      react: ^18.3 || >=19.0.0-rc
+
+  '@sanity/preview-kit@5.0.63-canary.0':
+    resolution: {integrity: sha512-7MVCZFNGT/CxZV7kEoHvZFSofJskYbmUKM/wBeTbTssI1cZxQbknqkLR4EwvJpfkwTlssz3GK2mq0Mqi0rFt3g==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      '@sanity/client': ^6.19.1
+      react: ^18.0.0 || >=19.0.0-rc
     peerDependenciesMeta:
       react:
         optional: true
@@ -164,15 +164,15 @@ snapshots:
       event-source-polyfill: 1.0.31
       eventsource: 2.0.2
 
-  '@sanity/preview-kit-compat@1.5.0(@sanity/client@6.19.1)(react@19.0.0-rc-f994737d14-20240522)':
+  '@sanity/preview-kit-compat@1.5.1(@sanity/client@6.19.1)(react@19.0.0-rc-f994737d14-20240522)':
     dependencies:
       '@sanity/client': 6.19.1
       react: 19.0.0-rc-f994737d14-20240522
 
-  '@sanity/preview-kit@5.0.62(@sanity/client@6.19.1)(react@19.0.0-rc-f994737d14-20240522)':
+  '@sanity/preview-kit@5.0.63-canary.0(@sanity/client@6.19.1)(react@19.0.0-rc-f994737d14-20240522)':
     dependencies:
       '@sanity/client': 6.19.1
-      '@sanity/preview-kit-compat': 1.5.0(@sanity/client@6.19.1)(react@19.0.0-rc-f994737d14-20240522)
+      '@sanity/preview-kit-compat': 1.5.1(@sanity/client@6.19.1)(react@19.0.0-rc-f994737d14-20240522)
       mendoza: 3.0.7
     optionalDependencies:
       react: 19.0.0-rc-f994737d14-20240522
