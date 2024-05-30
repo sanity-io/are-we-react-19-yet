@@ -29,15 +29,13 @@ jobs:
           cache: pnpm
           node-version: lts/*
       - run: pnpm install
-      - run: pnpm test -- --max-concurrency=2 --test-timeout=30000 --reporter=json --outputFile=./result.json
+      - run: pnpm test -- --max-concurrency=2 --test-timeout=30000 --reporter=json --outputFile=./result.json || true
       - uses: actions/upload-artifact@v4
-        if: always()
         with:
           name: report
           path: test/result.json
           if-no-files-found: error
       - run: pnpm upload
-        if: always()
         env:
           NEXT_PUBLIC_SANITY_DATASET: ${{secrets.NEXT_PUBLIC_SANITY_DATASET}}
           NEXT_PUBLIC_SANITY_PROJECT_ID: ${{secrets.NEXT_PUBLIC_SANITY_PROJECT_ID}}
