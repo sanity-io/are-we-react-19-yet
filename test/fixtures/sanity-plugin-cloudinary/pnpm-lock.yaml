@@ -15,8 +15,8 @@ importers:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522)
       sanity-plugin-cloudinary:
-        specifier: 1.1.2
-        version: 1.1.2(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(sanity@3.44.0(@types/node@20.12.13)(@types/react@18.3.3)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)(styled-components@5.3.11(@babel/core@7.24.6)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)))(styled-components@5.3.11(@babel/core@7.24.6)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522))
+        specifier: 1.1.3
+        version: 1.1.3(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(sanity@3.44.0(@types/node@20.12.13)(@types/react@18.3.3)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)(styled-components@5.3.11(@babel/core@7.24.6)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)))(styled-components@5.3.11(@babel/core@7.24.6)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522))
 
 packages:
 
@@ -2993,8 +2993,8 @@ packages:
     resolution: {integrity: sha512-Vsx6IPuMepvfaX2/jOFuUrJaloHvSmXavS9SL3iJhhIPAu20VfumCtdH5kpKlXKL1pBgCAZhWHXfLC4Fyg7qFg==}
     engines: {node: '>=14.18'}
 
-  sanity-plugin-cloudinary@1.1.2:
-    resolution: {integrity: sha512-3gquGLB5hCaDdBnZTD4OVDe+V25Az+VfaiNapwqscsKL7JkQtuNexXnHnJPBNRU/oF65vzkMWyCCy4Kz8s3F1g==}
+  sanity-plugin-cloudinary@1.1.3:
+    resolution: {integrity: sha512-eaeTnIzumE34iI1iqPDxX/LWzlIAsEYB0khyGKzRFQfJ2qvET0L69T0UrEHo1LSDm3qLoa10Mm6xHI+sf6gRZw==}
     engines: {node: '>=14'}
     peerDependencies:
       react: ^18
@@ -4652,6 +4652,14 @@ snapshots:
       - react
       - supports-color
 
+  '@sanity/client@6.19.1':
+    dependencies:
+      '@sanity/eventsource': 5.0.2
+      get-it: 8.5.0(debug@3.2.7)
+      rxjs: 7.8.1
+    transitivePeerDependencies:
+      - debug
+
   '@sanity/client@6.19.1(debug@3.2.7)':
     dependencies:
       '@sanity/eventsource': 5.0.2
@@ -4663,7 +4671,7 @@ snapshots:
   '@sanity/client@6.19.1(debug@4.3.4)':
     dependencies:
       '@sanity/eventsource': 5.0.2
-      get-it: 8.5.0(debug@3.2.7)
+      get-it: 8.5.0(debug@4.3.4)
       rxjs: 7.8.1
     transitivePeerDependencies:
       - debug
@@ -4828,7 +4836,7 @@ snapshots:
 
   '@sanity/presentation@1.15.11(@sanity/client@6.19.1(debug@4.3.4))(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(styled-components@5.3.11(@babel/core@7.24.6)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522))':
     dependencies:
-      '@sanity/client': 6.19.1(debug@4.3.4)
+      '@sanity/client': 6.19.1
       '@sanity/icons': 3.0.0(react@19.0.0-rc-f994737d14-20240522)
       '@sanity/preview-url-secret': 1.6.16(@sanity/client@6.19.1(debug@4.3.4))
       '@sanity/ui': 2.1.14(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(styled-components@5.3.11(@babel/core@7.24.6)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522))
@@ -4850,7 +4858,7 @@ snapshots:
 
   '@sanity/preview-url-secret@1.6.16(@sanity/client@6.19.1(debug@4.3.4))':
     dependencies:
-      '@sanity/client': 6.19.1(debug@4.3.4)
+      '@sanity/client': 6.19.1
       '@sanity/uuid': 3.0.2
 
   '@sanity/schema@3.44.0(debug@3.2.7)':
@@ -6766,7 +6774,7 @@ snapshots:
     dependencies:
       '@sanity/diff-match-patch': 3.1.1
 
-  sanity-plugin-cloudinary@1.1.2(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(sanity@3.44.0(@types/node@20.12.13)(@types/react@18.3.3)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)(styled-components@5.3.11(@babel/core@7.24.6)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)))(styled-components@5.3.11(@babel/core@7.24.6)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)):
+  sanity-plugin-cloudinary@1.1.3(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)(sanity@3.44.0(@types/node@20.12.13)(@types/react@18.3.3)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)(styled-components@5.3.11(@babel/core@7.24.6)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)))(styled-components@5.3.11(@babel/core@7.24.6)(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react-is@18.3.1)(react@19.0.0-rc-f994737d14-20240522)):
     dependencies:
       '@sanity/icons': 2.11.8(react@19.0.0-rc-f994737d14-20240522)
       '@sanity/incompatible-plugin': 1.0.4(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
@@ -6793,7 +6801,7 @@ snapshots:
       '@sanity/bifur-client': 0.4.0
       '@sanity/block-tools': 3.44.0
       '@sanity/cli': 3.44.0(react@19.0.0-rc-f994737d14-20240522)
-      '@sanity/client': 6.19.1(debug@4.3.4)
+      '@sanity/client': 6.19.1
       '@sanity/color': 3.0.6
       '@sanity/diff': 3.44.0
       '@sanity/diff-match-patch': 3.1.1
