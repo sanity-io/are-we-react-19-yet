@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@sanity/preview-kit':
-        specifier: 5.0.61
-        version: 5.0.61(@sanity/client@6.19.1)(react@19.0.0-rc-f994737d14-20240522)
+        specifier: 5.0.62
+        version: 5.0.62(@sanity/client@6.19.1)(react@19.0.0-rc-f994737d14-20240522)
       react:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-f994737d14-20240522
@@ -34,11 +34,11 @@ packages:
       '@sanity/client': ^6.19.0
       react: ^18.3 || >=19.0.0-rc
 
-  '@sanity/preview-kit@5.0.61':
-    resolution: {integrity: sha512-u/Maiep1oesyqS0fAnALZMW4TMBpZnwH7r/LqpSDnlx0ehU3rijt7FMYS4o/WdY8zzxWZI6zoBHcc1D8x8tQnA==}
+  '@sanity/preview-kit@5.0.62':
+    resolution: {integrity: sha512-uKti13H0Cs6GD8mDP87r5jZ8hc+jZ8c3mHSszkTD8K9WLM0m29gNjj99oCTUAcxXP6QdugXjigxkTVtYjA/Y3g==}
     engines: {node: '>=18'}
     peerDependencies:
-      '@sanity/client': ^6.19.0
+      '@sanity/client': ^6.19.1
       react: ^18.0.0
     peerDependenciesMeta:
       react:
@@ -169,7 +169,7 @@ snapshots:
       '@sanity/client': 6.19.1
       react: 19.0.0-rc-f994737d14-20240522
 
-  '@sanity/preview-kit@5.0.61(@sanity/client@6.19.1)(react@19.0.0-rc-f994737d14-20240522)':
+  '@sanity/preview-kit@5.0.62(@sanity/client@6.19.1)(react@19.0.0-rc-f994737d14-20240522)':
     dependencies:
       '@sanity/client': 6.19.1
       '@sanity/preview-kit-compat': 1.5.0(@sanity/client@6.19.1)(react@19.0.0-rc-f994737d14-20240522)
