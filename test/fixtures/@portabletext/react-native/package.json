@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "@portabletext/react-native": "1.1.12",
-    "react": ">=19.0.0-rc",
-    "react-native": "^0.74 || >=0.75.0-nightly"
-  },
-  "packageManager": "pnpm@9.0.4"
-}
