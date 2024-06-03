@@ -62,7 +62,7 @@ importers:
     devDependencies:
       '@sanity/prettier-config':
         specifier: 1.0.2
-        version: 1.0.2(prettier@3.2.5)
+        version: 1.0.2(prettier@3.3.0)
       '@tailwindcss/forms':
         specifier: 0.5.7
         version: 0.5.7(tailwindcss@3.4.3)
@@ -82,11 +82,11 @@ importers:
         specifier: 8.4.38
         version: 8.4.38
       prettier:
-        specifier: 3.2.5
-        version: 3.2.5
+        specifier: 3.3.0
+        version: 3.3.0
       prettier-plugin-tailwindcss:
         specifier: 0.6.1
-        version: 0.6.1(prettier@3.2.5)
+        version: 0.6.1(prettier@3.3.0)
       tailwindcss:
         specifier: 3.4.3
         version: 3.4.3
@@ -3819,8 +3819,8 @@ packages:
       prettier-plugin-svelte:
         optional: true
 
-  prettier@3.2.5:
-    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
+  prettier@3.3.0:
+    resolution: {integrity: sha512-J9odKxERhCQ10OC2yb93583f6UnYutOeiV5i0zEDS7UGTdUt0u+y8erxl3lBKvwo/JHyyoEdXjwp4dke9oyZ/g==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -6072,7 +6072,7 @@ snapshots:
       groq-js: 1.9.0
       node-machine-id: 1.1.12
       pkg-dir: 5.0.0
-      prettier: 3.2.5
+      prettier: 3.3.0
       semver: 7.6.2
       silver-fleece: 1.1.0
       validate-npm-package-name: 3.0.0
@@ -6267,10 +6267,10 @@ snapshots:
       - react-is
       - styled-components
 
-  '@sanity/prettier-config@1.0.2(prettier@3.2.5)':
+  '@sanity/prettier-config@1.0.2(prettier@3.3.0)':
     dependencies:
-      prettier: 3.2.5
-      prettier-plugin-packagejson: 2.5.0(prettier@3.2.5)
+      prettier: 3.3.0
+      prettier-plugin-packagejson: 2.5.0(prettier@3.3.0)
 
   '@sanity/preview-kit-compat@1.5.0(@sanity/client@6.19.1)(react@18.3.1)':
     dependencies:
@@ -8986,18 +8986,18 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-plugin-packagejson@2.5.0(prettier@3.2.5):
+  prettier-plugin-packagejson@2.5.0(prettier@3.3.0):
     dependencies:
       sort-package-json: 2.10.0
       synckit: 0.9.0
     optionalDependencies:
-      prettier: 3.2.5
+      prettier: 3.3.0
 
-  prettier-plugin-tailwindcss@0.6.1(prettier@3.2.5):
+  prettier-plugin-tailwindcss@0.6.1(prettier@3.3.0):
     dependencies:
-      prettier: 3.2.5
+      prettier: 3.3.0
 
-  prettier@3.2.5: {}
+  prettier@3.3.0: {}
 
   pretty-ms@7.0.1:
     dependencies:
