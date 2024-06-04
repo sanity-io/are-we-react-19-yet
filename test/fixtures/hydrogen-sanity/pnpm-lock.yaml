@@ -360,8 +360,8 @@ packages:
   turbo-stream@2.1.0:
     resolution: {integrity: sha512-muUMPf3BT7N6PeJJn91Wf+8oXEkwktNJZ9kBjIm0QzhFYPGJ7xqgQMblRQcscysb2v7VhY9AB+bOQbHaIUXyGA==}
 
-  type-fest@4.18.3:
-    resolution: {integrity: sha512-Q08/0IrpvM+NMY9PA2rti9Jb+JejTddwmwmVQGskAlhtcrw1wsRzoR6ode6mR+OAabNa75w/dxedSUY2mlphaQ==}
+  type-fest@4.19.0:
+    resolution: {integrity: sha512-CN2l+hWACRiejlnr68vY0/7734Kzu+9+TOslUXbSCQ1ruY9XIHDBSceVXCcHm/oXrdzhtLMMdJEKfemf1yXiZQ==}
     engines: {node: '>=16'}
 
   use-isomorphic-layout-effect@1.1.2:
@@ -494,7 +494,7 @@ snapshots:
       graphql: 16.8.1
       react: 19.0.0-rc-f994737d14-20240522
       react-dom: 19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522)
-      type-fest: 4.18.3
+      type-fest: 4.19.0
       worktop: 0.7.3
     transitivePeerDependencies:
       - '@types/react'
@@ -509,7 +509,7 @@ snapshots:
       react: 19.0.0-rc-f994737d14-20240522
       source-map-support: 0.5.21
       tiny-invariant: 1.3.3
-      type-fest: 4.18.3
+      type-fest: 4.19.0
       use-resize-observer: 9.1.0(react-dom@19.0.0-rc-f994737d14-20240522(react@19.0.0-rc-f994737d14-20240522))(react@19.0.0-rc-f994737d14-20240522)
     transitivePeerDependencies:
       - '@types/react'
@@ -730,7 +730,7 @@ snapshots:
 
   turbo-stream@2.1.0: {}
 
-  type-fest@4.18.3: {}
+  type-fest@4.19.0: {}
 
   use-isomorphic-layout-effect@1.1.2(react@19.0.0-rc-f994737d14-20240522):
     dependencies:
