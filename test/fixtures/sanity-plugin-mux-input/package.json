@@ -2,7 +2,7 @@
   "dependencies": {
     "react": ">=19.0.0-rc",
     "react-dom": ">=19.0.0-rc",
-    "sanity-plugin-mux-input": "2.3.4"
+    "sanity-plugin-mux-input": "2.3.5"
   },
   "packageManager": "pnpm@9.0.4"
 }
