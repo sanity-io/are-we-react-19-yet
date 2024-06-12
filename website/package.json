@@ -20,7 +20,7 @@
     "@vercel/speed-insights": "1.0.12",
     "bright": "0.8.5",
     "date-fns": "3.6.0",
-    "next": "14.2.3",
+    "next": "14.2.4",
     "next-sanity": "9.4.0-canary.1",
     "react": "18.3.1",
     "react-dom": "18.3.1",
