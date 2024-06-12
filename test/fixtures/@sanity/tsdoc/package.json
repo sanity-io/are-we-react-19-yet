@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@sanity/tsdoc": "1.0.70",
+    "@sanity/tsdoc": "1.0.72",
     "react": ">=19.0.0-rc",
     "react-dom": ">=19.0.0-rc"
   },
