@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@sanity/preview-kit':
         specifier: 5.1.0
-        version: 5.1.0(@sanity/client@6.19.1)(react@19.0.0-rc-f994737d14-20240522)
+        version: 5.1.0(@sanity/client@6.19.2)(react@19.0.0-rc-f994737d14-20240522)
       react:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-f994737d14-20240522
@@ -20,8 +20,8 @@ importers:
 
 packages:
 
-  '@sanity/client@6.19.1':
-    resolution: {integrity: sha512-D3ZDc1xj0a+lAnsAd5oXc4+JStJ92Z1GlkgL2+6PoKcqiK6xAQUXwcrUwgniWzzSmafXxBJYokpg/i1VuI/mCA==}
+  '@sanity/client@6.19.2':
+    resolution: {integrity: sha512-ejahyoKyXbQkjM5JpsVZ/do3lncfO1pyAZxZ62rGaZvUEyRT5BTQF+BNasCghMh771zou/RDzneSpKUPGBjtmQ==}
     engines: {node: '>=14.18'}
 
   '@sanity/eventsource@5.0.2':
@@ -73,8 +73,8 @@ packages:
       debug:
         optional: true
 
-  get-it@8.5.0:
-    resolution: {integrity: sha512-OHrFT+2Nxk7PbzSnRHUMFjF83zqCvfc/t5l+ysSEK1MhvN26BtRt/AcZeA7uDs8TGtVPDKdGqLeqENKsM6GTDg==}
+  get-it@8.6.0:
+    resolution: {integrity: sha512-ZFNZc3eKkYRHI5a7p3SAc3s0eBJgLL+qqpF7wpoFbTdzbHKC/XHu+6ot9RZTe6aoYGmZqf3Mdl62XdgiWJ7/ZQ==}
     engines: {node: '>=14.0.0'}
 
   inherits@2.0.4:
@@ -149,10 +149,10 @@ packages:
 
 snapshots:
 
-  '@sanity/client@6.19.1':
+  '@sanity/client@6.19.2':
     dependencies:
       '@sanity/eventsource': 5.0.2
-      get-it: 8.5.0
+      get-it: 8.6.0
       rxjs: 7.8.1
     transitivePeerDependencies:
       - debug
@@ -164,15 +164,15 @@ snapshots:
       event-source-polyfill: 1.0.31
       eventsource: 2.0.2
 
-  '@sanity/preview-kit-compat@1.5.1(@sanity/client@6.19.1)(react@19.0.0-rc-f994737d14-20240522)':
+  '@sanity/preview-kit-compat@1.5.1(@sanity/client@6.19.2)(react@19.0.0-rc-f994737d14-20240522)':
     dependencies:
-      '@sanity/client': 6.19.1
+      '@sanity/client': 6.19.2
       react: 19.0.0-rc-f994737d14-20240522
 
-  '@sanity/preview-kit@5.1.0(@sanity/client@6.19.1)(react@19.0.0-rc-f994737d14-20240522)':
+  '@sanity/preview-kit@5.1.0(@sanity/client@6.19.2)(react@19.0.0-rc-f994737d14-20240522)':
     dependencies:
-      '@sanity/client': 6.19.1
-      '@sanity/preview-kit-compat': 1.5.1(@sanity/client@6.19.1)(react@19.0.0-rc-f994737d14-20240522)
+      '@sanity/client': 6.19.2
+      '@sanity/preview-kit-compat': 1.5.1(@sanity/client@6.19.2)(react@19.0.0-rc-f994737d14-20240522)
       mendoza: 3.0.7
     optionalDependencies:
       react: 19.0.0-rc-f994737d14-20240522
@@ -193,7 +193,7 @@ snapshots:
 
   follow-redirects@1.15.6: {}
 
-  get-it@8.5.0:
+  get-it@8.6.0:
     dependencies:
       decompress-response: 7.0.0
       follow-redirects: 1.15.6
