@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@sanity/rich-date-input": "3.0.1",
+    "@sanity/rich-date-input": "3.0.3",
     "react": ">=19.0.0-rc",
     "react-dom": ">=19.0.0-rc"
   },
