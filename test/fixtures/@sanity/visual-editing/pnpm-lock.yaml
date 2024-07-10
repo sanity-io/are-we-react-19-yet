@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@sanity/visual-editing':
         specifier: 2.1.6
-        version: 2.1.6(@sanity/client@6.19.2)(next@15.0.0-rc.0(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)
+        version: 2.1.6(@sanity/client@6.20.2)(next@15.0.0-rc.0(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)
       next:
         specifier: '>=15.0.0-rc'
         version: 15.0.0-rc.0(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)
@@ -196,8 +196,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@sanity/client@6.19.2':
-    resolution: {integrity: sha512-ejahyoKyXbQkjM5JpsVZ/do3lncfO1pyAZxZ62rGaZvUEyRT5BTQF+BNasCghMh771zou/RDzneSpKUPGBjtmQ==}
+  '@sanity/client@6.20.2':
+    resolution: {integrity: sha512-ZMYMdz9PevFdt9IOv9EXFvyxawLd5JduGxz5a3NyrA/llJoW5FnnRXcw+zl2wxXDRILzva8Kyx89uq6LRrltzA==}
     engines: {node: '>=14.18'}
 
   '@sanity/eventsource@5.0.2':
@@ -254,8 +254,8 @@ packages:
     resolution: {integrity: sha512-8SFQbg/0hQ9xy3UNTB0YEnsNBbWfhf7RtnzpL7TkBiTBRfrQ9Fxcnz7VJsleJpyp6rVLvXiuORqjlHi5q+PYuA==}
     engines: {node: '>=10.16.0'}
 
-  caniuse-lite@1.0.30001632:
-    resolution: {integrity: sha512-udx3o7yHJfUxMLkGohMlVHCvFvWmirKh9JAH/d7WOLPetlH+LTL5cocMZ0t7oZx/mdlOWXti97xLZWc8uURRHg==}
+  caniuse-lite@1.0.30001641:
+    resolution: {integrity: sha512-Phv5thgl67bHYo1TtMY/MurjkHhV4EDaCosezRXgZ8jzA/Ub+wjxAvbGvjoFENStinwi5kCyOYV3mi5tOGykwA==}
 
   client-only@0.0.1:
     resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==}
@@ -304,8 +304,8 @@ packages:
       debug:
         optional: true
 
-  get-it@8.6.0:
-    resolution: {integrity: sha512-ZFNZc3eKkYRHI5a7p3SAc3s0eBJgLL+qqpF7wpoFbTdzbHKC/XHu+6ot9RZTe6aoYGmZqf3Mdl62XdgiWJ7/ZQ==}
+  get-it@8.6.3:
+    resolution: {integrity: sha512-I7AKP1Xl2q2j4ucvU0yMtiM+xZKgzD1Fvyh1YcZCT66i+wNrxJAonV+H1yynB3gerZ17uA00IXg61LVLdDeiCg==}
     engines: {node: '>=14.0.0'}
 
   graceful-fs@4.2.11:
@@ -567,10 +567,10 @@ snapshots:
   '@next/swc-win32-x64-msvc@15.0.0-rc.0':
     optional: true
 
-  '@sanity/client@6.19.2':
+  '@sanity/client@6.20.2':
     dependencies:
       '@sanity/eventsource': 5.0.2
-      get-it: 8.6.0
+      get-it: 8.6.3
       rxjs: 7.8.1
     transitivePeerDependencies:
       - debug
@@ -582,9 +582,9 @@ snapshots:
       event-source-polyfill: 1.0.31
       eventsource: 2.0.2
 
-  '@sanity/preview-url-secret@1.6.18(@sanity/client@6.19.2)':
+  '@sanity/preview-url-secret@1.6.18(@sanity/client@6.20.2)':
     dependencies:
-      '@sanity/client': 6.19.2
+      '@sanity/client': 6.20.2
       '@sanity/uuid': 3.0.2
 
   '@sanity/uuid@3.0.2':
@@ -592,16 +592,16 @@ snapshots:
       '@types/uuid': 8.3.4
       uuid: 8.3.2
 
-  '@sanity/visual-editing@2.1.6(@sanity/client@6.19.2)(next@15.0.0-rc.0(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)':
+  '@sanity/visual-editing@2.1.6(@sanity/client@6.20.2)(next@15.0.0-rc.0(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)':
     dependencies:
-      '@sanity/preview-url-secret': 1.6.18(@sanity/client@6.19.2)
+      '@sanity/preview-url-secret': 1.6.18(@sanity/client@6.20.2)
       '@vercel/stega': 0.1.2
       react: 19.0.0-rc-fb9a90fa48-20240614
       react-dom: 19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614)
       scroll-into-view-if-needed: 3.1.0
       valibot: 0.31.1
     optionalDependencies:
-      '@sanity/client': 6.19.2
+      '@sanity/client': 6.20.2
       next: 15.0.0-rc.0(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)
 
   '@swc/helpers@0.5.11':
@@ -620,7 +620,7 @@ snapshots:
     dependencies:
       streamsearch: 1.1.0
 
-  caniuse-lite@1.0.30001632: {}
+  caniuse-lite@1.0.30001641: {}
 
   client-only@0.0.1: {}
 
@@ -661,7 +661,7 @@ snapshots:
 
   follow-redirects@1.15.6: {}
 
-  get-it@8.6.0:
+  get-it@8.6.3:
     dependencies:
       decompress-response: 7.0.0
       follow-redirects: 1.15.6
@@ -691,7 +691,7 @@ snapshots:
       '@next/env': 15.0.0-rc.0
       '@swc/helpers': 0.5.11
       busboy: 1.6.0
-      caniuse-lite: 1.0.30001632
+      caniuse-lite: 1.0.30001641
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 19.0.0-rc-fb9a90fa48-20240614

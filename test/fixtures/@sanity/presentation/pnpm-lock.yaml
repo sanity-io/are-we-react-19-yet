@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@sanity/presentation':
         specifier: 1.16.2
-        version: 1.16.2(@sanity/client@6.19.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react-is@18.3.1)(react@19.0.0-rc-fb9a90fa48-20240614)(styled-components@6.1.11(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))
+        version: 1.16.2(@sanity/client@6.20.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react-is@18.3.1)(react@19.0.0-rc-fb9a90fa48-20240614)(styled-components@6.1.11(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))
       react:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-fb9a90fa48-20240614
@@ -35,23 +35,23 @@ packages:
   '@emotion/unitless@0.8.1':
     resolution: {integrity: sha512-KOEGMu6dmJZtpadb476IsZBclKvILjopjUii3V+7MnXIQCYh8W3NgNcgwo21n9LXZX6EDIKvqfjYxXebDwxKmQ==}
 
-  '@floating-ui/core@1.6.2':
-    resolution: {integrity: sha512-+2XpQV9LLZeanU4ZevzRnGFg2neDeKHgFLjP6YLW+tly0IvrhqT4u8enLGjLH3qeh85g19xY5rsAusfwTdn5lg==}
+  '@floating-ui/core@1.6.4':
+    resolution: {integrity: sha512-a4IowK4QkXl4SCWTGUR0INAfEOX3wtsYw3rKK5InQEHMGObkR8Xk44qYQD9P4r6HHw0iIfK6GUKECmY8sTkqRA==}
 
-  '@floating-ui/dom@1.6.5':
-    resolution: {integrity: sha512-Nsdud2X65Dz+1RHjAIP0t8z5e2ff/IRbei6BqFrl1urT8sDVzM1HMQ+R0XcU5ceRfyO3I6ayeqIfh+6Wb8LGTw==}
+  '@floating-ui/dom@1.6.7':
+    resolution: {integrity: sha512-wmVfPG5o2xnKDU4jx/m4w5qva9FWHcnZ8BvzEe90D/RpwsJaTAVYPEPdQ8sbr/N8zZTAHlZUTQdqg8ZUbzHmng==}
 
-  '@floating-ui/react-dom@2.1.0':
-    resolution: {integrity: sha512-lNzj5EQmEKn5FFKc04+zasr09h/uX8RtJRNj5gUXsSQIXHVWTVh+hVAg1vOMCexkX8EgvemMvIFpQfkosnVNyA==}
+  '@floating-ui/react-dom@2.1.1':
+    resolution: {integrity: sha512-4h84MJt3CHrtG18mGsXuLCHMrug49d7DFkU0RMIyshRveBeyV2hmV/pDaF2Uxtu8kgq5r46llp5E5FQiR0K2Yg==}
     peerDependencies:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
 
-  '@floating-ui/utils@0.2.2':
-    resolution: {integrity: sha512-J4yDIIthosAsRZ5CPYP/jQvUAQtlZTTD/4suA08/FEnlxqW3sKS9iAhgsa9VYLZ6vDHn/ixJgIqRQPotoBjxIw==}
+  '@floating-ui/utils@0.2.4':
+    resolution: {integrity: sha512-dWO2pw8hhi+WrXq1YJy2yCuWoL20PddgGaqTgVe4cOS9Q6qklXCiA1tJEqX6BEwRNSCP84/afac9hd4MS+zEUA==}
 
-  '@sanity/client@6.19.2':
-    resolution: {integrity: sha512-ejahyoKyXbQkjM5JpsVZ/do3lncfO1pyAZxZ62rGaZvUEyRT5BTQF+BNasCghMh771zou/RDzneSpKUPGBjtmQ==}
+  '@sanity/client@6.20.2':
+    resolution: {integrity: sha512-ZMYMdz9PevFdt9IOv9EXFvyxawLd5JduGxz5a3NyrA/llJoW5FnnRXcw+zl2wxXDRILzva8Kyx89uq6LRrltzA==}
     engines: {node: '>=14.18'}
 
   '@sanity/color@3.0.6':
@@ -61,8 +61,8 @@ packages:
   '@sanity/eventsource@5.0.2':
     resolution: {integrity: sha512-/B9PMkUvAlUrpRq0y+NzXgRv5lYCLxZNsBJD2WXVnqZYOfByL9oQBV7KiTaARuObp5hcQYuPfOAVjgXe3hrixA==}
 
-  '@sanity/icons@3.2.0':
-    resolution: {integrity: sha512-550sRrW0Y99mt9NrVmpzk8FjR3/i2ZhJjjoGY1GUu33Mp+v98tNtBU32BXb4/caV+M1/f0dMXbNpnagdkbXo5Q==}
+  '@sanity/icons@3.3.0':
+    resolution: {integrity: sha512-xLOn1sneanShXXBt/OLasCded5Oe2JLnInqDuEHi0NAQzoYQNHSmRj/yCsrl7f3T8YoiJKxaS2U2jrEvMlmSPw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       react: ^18.3 || >=19.0.0-rc
@@ -79,8 +79,8 @@ packages:
     peerDependencies:
       '@sanity/client': ^6.20.1
 
-  '@sanity/ui@2.6.1':
-    resolution: {integrity: sha512-Kyp54oT9WHz5TU4tSwWkMMIfijjhzNtCUn0MGBJ1BvG26Vzy42WndsZKTRxGxq569wBtmtgrtbtaGVDnwZjL3Q==}
+  '@sanity/ui@2.6.3':
+    resolution: {integrity: sha512-qyNaIlfRvLQ21Z4+PP61qZ/Rjbk2UqqC/YTS9AmeRvetL9WEuUYFbMrprdKzAAUcWOqabBZVLjrU9F01nDEtmw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       react: ^18
@@ -103,8 +103,8 @@ packages:
   '@types/lodash.isequal@4.5.8':
     resolution: {integrity: sha512-uput6pg4E/tj2LGxCZo9+y27JNyB2OZuuI/T5F+ylVDYuqICLG2/ktjxx0v6GvVntAf8TvEzeQLcV0ffRirXuA==}
 
-  '@types/lodash@4.17.5':
-    resolution: {integrity: sha512-MBIOHVZqVqgfro1euRDWX7OO0fBVUUMrN6Pwm8LQsz8cWhEpihlvR70ENj3f40j58TNxZaWv2ndSkInykNBBJw==}
+  '@types/lodash@4.17.6':
+    resolution: {integrity: sha512-OpXEVoCKSS3lQqjx9GGGOapBeuW5eUboYHRlHP9urXPX25IKZ6AnP5ZRxtVf63iieUbsHxLn8NQ5Nlftc6yzAA==}
 
   '@types/stylis@4.2.5':
     resolution: {integrity: sha512-1Xve+NMN7FWjY14vLoY5tL3BVEQ/n42YLwaqJIPYhotZ9uBHt87VceMwWQpzmdEt2TNXIorIFG+YeCUUW7RInw==}
@@ -177,8 +177,8 @@ packages:
       react-dom:
         optional: true
 
-  get-it@8.6.0:
-    resolution: {integrity: sha512-ZFNZc3eKkYRHI5a7p3SAc3s0eBJgLL+qqpF7wpoFbTdzbHKC/XHu+6ot9RZTe6aoYGmZqf3Mdl62XdgiWJ7/ZQ==}
+  get-it@8.6.3:
+    resolution: {integrity: sha512-I7AKP1Xl2q2j4ucvU0yMtiM+xZKgzD1Fvyh1YcZCT66i+wNrxJAonV+H1yynB3gerZ17uA00IXg61LVLdDeiCg==}
     engines: {node: '>=14.0.0'}
 
   hast-util-parse-selector@2.2.5:
@@ -379,27 +379,27 @@ snapshots:
 
   '@emotion/unitless@0.8.1': {}
 
-  '@floating-ui/core@1.6.2':
+  '@floating-ui/core@1.6.4':
     dependencies:
-      '@floating-ui/utils': 0.2.2
+      '@floating-ui/utils': 0.2.4
 
-  '@floating-ui/dom@1.6.5':
+  '@floating-ui/dom@1.6.7':
     dependencies:
-      '@floating-ui/core': 1.6.2
-      '@floating-ui/utils': 0.2.2
+      '@floating-ui/core': 1.6.4
+      '@floating-ui/utils': 0.2.4
 
-  '@floating-ui/react-dom@2.1.0(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)':
+  '@floating-ui/react-dom@2.1.1(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)':
     dependencies:
-      '@floating-ui/dom': 1.6.5
+      '@floating-ui/dom': 1.6.7
       react: 19.0.0-rc-fb9a90fa48-20240614
       react-dom: 19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614)
 
-  '@floating-ui/utils@0.2.2': {}
+  '@floating-ui/utils@0.2.4': {}
 
-  '@sanity/client@6.19.2':
+  '@sanity/client@6.20.2':
     dependencies:
       '@sanity/eventsource': 5.0.2
-      get-it: 8.6.0
+      get-it: 8.6.3
       rxjs: 7.8.1
     transitivePeerDependencies:
       - debug
@@ -413,16 +413,16 @@ snapshots:
       event-source-polyfill: 1.0.31
       eventsource: 2.0.2
 
-  '@sanity/icons@3.2.0(react@19.0.0-rc-fb9a90fa48-20240614)':
+  '@sanity/icons@3.3.0(react@19.0.0-rc-fb9a90fa48-20240614)':
     dependencies:
       react: 19.0.0-rc-fb9a90fa48-20240614
 
-  '@sanity/presentation@1.16.2(@sanity/client@6.19.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react-is@18.3.1)(react@19.0.0-rc-fb9a90fa48-20240614)(styled-components@6.1.11(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))':
+  '@sanity/presentation@1.16.2(@sanity/client@6.20.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react-is@18.3.1)(react@19.0.0-rc-fb9a90fa48-20240614)(styled-components@6.1.11(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))':
     dependencies:
-      '@sanity/client': 6.19.2
-      '@sanity/icons': 3.2.0(react@19.0.0-rc-fb9a90fa48-20240614)
-      '@sanity/preview-url-secret': 1.6.18(@sanity/client@6.19.2)
-      '@sanity/ui': 2.6.1(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react-is@18.3.1)(react@19.0.0-rc-fb9a90fa48-20240614)(styled-components@6.1.11(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))
+      '@sanity/client': 6.20.2
+      '@sanity/icons': 3.3.0(react@19.0.0-rc-fb9a90fa48-20240614)
+      '@sanity/preview-url-secret': 1.6.18(@sanity/client@6.20.2)
+      '@sanity/ui': 2.6.3(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react-is@18.3.1)(react@19.0.0-rc-fb9a90fa48-20240614)(styled-components@6.1.11(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))
       '@sanity/uuid': 3.0.2
       '@types/lodash.isequal': 4.5.8
       fast-deep-equal: 3.1.3
@@ -440,16 +440,16 @@ snapshots:
       - react-is
       - styled-components
 
-  '@sanity/preview-url-secret@1.6.18(@sanity/client@6.19.2)':
+  '@sanity/preview-url-secret@1.6.18(@sanity/client@6.20.2)':
     dependencies:
-      '@sanity/client': 6.19.2
+      '@sanity/client': 6.20.2
       '@sanity/uuid': 3.0.2
 
-  '@sanity/ui@2.6.1(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react-is@18.3.1)(react@19.0.0-rc-fb9a90fa48-20240614)(styled-components@6.1.11(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))':
+  '@sanity/ui@2.6.3(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react-is@18.3.1)(react@19.0.0-rc-fb9a90fa48-20240614)(styled-components@6.1.11(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))':
     dependencies:
-      '@floating-ui/react-dom': 2.1.0(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)
+      '@floating-ui/react-dom': 2.1.1(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)
       '@sanity/color': 3.0.6
-      '@sanity/icons': 3.2.0(react@19.0.0-rc-fb9a90fa48-20240614)
+      '@sanity/icons': 3.3.0(react@19.0.0-rc-fb9a90fa48-20240614)
       csstype: 3.1.3
       framer-motion: 11.0.8(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)
       react: 19.0.0-rc-fb9a90fa48-20240614
@@ -473,9 +473,9 @@ snapshots:
 
   '@types/lodash.isequal@4.5.8':
     dependencies:
-      '@types/lodash': 4.17.5
+      '@types/lodash': 4.17.6
 
-  '@types/lodash@4.17.5': {}
+  '@types/lodash@4.17.6': {}
 
   '@types/stylis@4.2.5': {}
 
@@ -525,7 +525,7 @@ snapshots:
       react: 19.0.0-rc-fb9a90fa48-20240614
       react-dom: 19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614)
 
-  get-it@8.6.0:
+  get-it@8.6.3:
     dependencies:
       decompress-response: 7.0.0
       follow-redirects: 1.15.6
