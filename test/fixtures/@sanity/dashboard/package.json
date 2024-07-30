@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@sanity/dashboard": "3.1.6",
+    "@sanity/dashboard": "4.0.0",
     "react": ">=19.0.0-rc",
     "react-dom": ">=19.0.0-rc"
   },
