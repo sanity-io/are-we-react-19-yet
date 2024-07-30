@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "hydrogen-sanity": "4.0.4",
+    "hydrogen-sanity": "4.0.5",
     "react": ">=19.0.0-rc",
     "react-dom": ">=19.0.0-rc"
   },
