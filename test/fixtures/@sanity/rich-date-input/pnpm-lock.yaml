@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@sanity/rich-date-input':
-        specifier: 3.0.3
-        version: 3.0.3(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react-is@18.3.1)(react@19.0.0-rc-fb9a90fa48-20240614)(sanity@3.49.0(@types/node@20.14.10)(@types/react@18.3.3)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(styled-components@6.1.11(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)))(styled-components@6.1.11(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))
+        specifier: 3.0.4
+        version: 3.0.4(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react-is@18.3.1)(react@19.0.0-rc-fb9a90fa48-20240614)(sanity@3.49.0(@types/node@20.14.10)(@types/react@18.3.3)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(styled-components@6.1.11(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)))(styled-components@6.1.11(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))
       react:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-fb9a90fa48-20240614
@@ -1201,8 +1201,8 @@ packages:
     peerDependencies:
       '@sanity/client': ^6.20.1
 
-  '@sanity/rich-date-input@3.0.3':
-    resolution: {integrity: sha512-feKzAQ+w7klSykUWLJHNzq2XpEQQ6YdYBjTASlRXAXjUtFHHZEnIP2s7CbRBYqNxnutRKyPvf0oqKFp8goIohw==}
+  '@sanity/rich-date-input@3.0.4':
+    resolution: {integrity: sha512-tJd6cY6lw1LQX8msaNolRb2cNP8ums/z8hcs90VFlnaJ28lPypQ7cOzicYvvfzoVz8YXaRM5nwsg1Cclq09gow==}
     engines: {node: '>=14'}
     peerDependencies:
       react: ^18
@@ -4986,7 +4986,7 @@ snapshots:
       '@sanity/client': 6.20.2(debug@4.3.5)
       '@sanity/uuid': 3.0.2
 
-  '@sanity/rich-date-input@3.0.3(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react-is@18.3.1)(react@19.0.0-rc-fb9a90fa48-20240614)(sanity@3.49.0(@types/node@20.14.10)(@types/react@18.3.3)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(styled-components@6.1.11(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)))(styled-components@6.1.11(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))':
+  '@sanity/rich-date-input@3.0.4(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react-is@18.3.1)(react@19.0.0-rc-fb9a90fa48-20240614)(sanity@3.49.0(@types/node@20.14.10)(@types/react@18.3.3)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(styled-components@6.1.11(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)))(styled-components@6.1.11(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))':
     dependencies:
       '@sanity/icons': 2.11.8(react@19.0.0-rc-fb9a90fa48-20240614)
       '@sanity/incompatible-plugin': 1.0.4(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)
