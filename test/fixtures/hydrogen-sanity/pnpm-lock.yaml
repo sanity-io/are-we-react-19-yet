@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       hydrogen-sanity:
-        specifier: 4.0.4
-        version: 4.0.4(@remix-run/react@2.10.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@sanity/client@6.20.2)(@shopify/hydrogen@2024.4.7(@remix-run/react@2.10.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@remix-run/server-runtime@2.10.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@shopify/remix-oxygen@2.0.4(@remix-run/server-runtime@2.10.2)(@shopify/oxygen-workers-types@4.1.4))(groq@3.49.0)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)
+        specifier: 4.0.5
+        version: 4.0.5(@remix-run/react@2.10.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@sanity/client@6.20.2)(@shopify/hydrogen@2024.4.7(@remix-run/react@2.10.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@remix-run/server-runtime@2.10.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@shopify/remix-oxygen@2.0.4(@remix-run/server-runtime@2.10.2)(@shopify/oxygen-workers-types@4.1.4))(groq@3.49.0)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)
       react:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-fb9a90fa48-20240614
@@ -219,12 +219,12 @@ packages:
     resolution: {integrity: sha512-P6qK4/3qSKwjL8WfR5o4wChQkIpjVqrkBKRmgLj2jjW2f6xQN8ZJPhYhrNOuelBa5HSDMaKO7CsGr3hnd2FLeQ==}
     engines: {node: '>=18'}
 
-  hydrogen-sanity@4.0.4:
-    resolution: {integrity: sha512-afM3ZTWpxGR7keASCQ8aLvzy/Z+X8D8Q5Lco+vw2nVnrpF3uS3a5aMMTvbPBDEmBJE1G4/6u3+GGkDbwd0Wx3A==}
+  hydrogen-sanity@4.0.5:
+    resolution: {integrity: sha512-Eborf4j9qYyNPsvKX9hg04KX2ka99MMplmalOYmNmrszcHTNQUcKh0pqOodSKPqztdimRypxwYYzavcsRPLwCA==}
     engines: {node: '>=18'}
     peerDependencies:
       '@sanity/client': ^6.18.0
-      '@shopify/hydrogen': ^2023.7.0 || ~2024.1.0 || ~2024.4.0
+      '@shopify/hydrogen': ^2023.7.0 || ~2024.1.0 || ~2024.4.0 || ~2024.7.0
       '@shopify/remix-oxygen': ^1.0.0 || ^2.0.0
       groq: ^3.41.0
       react: ^18.0.0
@@ -580,7 +580,7 @@ snapshots:
 
   groq@3.49.0: {}
 
-  hydrogen-sanity@4.0.4(@remix-run/react@2.10.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@sanity/client@6.20.2)(@shopify/hydrogen@2024.4.7(@remix-run/react@2.10.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@remix-run/server-runtime@2.10.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@shopify/remix-oxygen@2.0.4(@remix-run/server-runtime@2.10.2)(@shopify/oxygen-workers-types@4.1.4))(groq@3.49.0)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614):
+  hydrogen-sanity@4.0.5(@remix-run/react@2.10.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@sanity/client@6.20.2)(@shopify/hydrogen@2024.4.7(@remix-run/react@2.10.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@remix-run/server-runtime@2.10.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@shopify/remix-oxygen@2.0.4(@remix-run/server-runtime@2.10.2)(@shopify/oxygen-workers-types@4.1.4))(groq@3.49.0)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614):
     dependencies:
       '@sanity/client': 6.20.2
       '@sanity/preview-url-secret': 1.6.18(@sanity/client@6.20.2)
