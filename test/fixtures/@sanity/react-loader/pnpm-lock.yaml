@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@sanity/react-loader':
         specifier: 1.10.4
-        version: 1.10.4(@sanity/client@6.20.2)(react@19.0.0-rc-fb9a90fa48-20240614)
+        version: 1.10.4(@sanity/client@6.21.1)(react@19.0.0-rc-fb9a90fa48-20240614)
       react:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-fb9a90fa48-20240614
@@ -20,8 +20,8 @@ importers:
 
 packages:
 
-  '@sanity/client@6.20.2':
-    resolution: {integrity: sha512-ZMYMdz9PevFdt9IOv9EXFvyxawLd5JduGxz5a3NyrA/llJoW5FnnRXcw+zl2wxXDRILzva8Kyx89uq6LRrltzA==}
+  '@sanity/client@6.21.1':
+    resolution: {integrity: sha512-j6OnE6Ytso0c5imjuIviglJDKXgd3jCVyPmZO+GpqWDtPWSXPucqH/mFyHcs5+kWyfAfkY5G1R2+Er0L7Sb0hA==}
     engines: {node: '>=14.18'}
 
   '@sanity/core-loader@1.6.20':
@@ -141,7 +141,7 @@ packages:
 
 snapshots:
 
-  '@sanity/client@6.20.2':
+  '@sanity/client@6.21.1':
     dependencies:
       '@sanity/eventsource': 5.0.2
       get-it: 8.6.3
@@ -149,9 +149,9 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@sanity/core-loader@1.6.20(@sanity/client@6.20.2)':
+  '@sanity/core-loader@1.6.20(@sanity/client@6.21.1)':
     dependencies:
-      '@sanity/client': 6.20.2
+      '@sanity/client': 6.21.1
 
   '@sanity/eventsource@5.0.2':
     dependencies:
@@ -160,10 +160,10 @@ snapshots:
       event-source-polyfill: 1.0.31
       eventsource: 2.0.2
 
-  '@sanity/react-loader@1.10.4(@sanity/client@6.20.2)(react@19.0.0-rc-fb9a90fa48-20240614)':
+  '@sanity/react-loader@1.10.4(@sanity/client@6.21.1)(react@19.0.0-rc-fb9a90fa48-20240614)':
     dependencies:
-      '@sanity/client': 6.20.2
-      '@sanity/core-loader': 1.6.20(@sanity/client@6.20.2)
+      '@sanity/client': 6.21.1
+      '@sanity/core-loader': 1.6.20(@sanity/client@6.21.1)
       react: 19.0.0-rc-fb9a90fa48-20240614
 
   '@types/event-source-polyfill@1.0.5': {}
