@@ -20,5 +20,5 @@
     "@sanity/prettier-config": "^1.0.2",
     "prettier": "^3.3.2"
   },
-  "packageManager": "pnpm@9.5.0"
+  "packageManager": "pnpm@9.6.0"
 }
