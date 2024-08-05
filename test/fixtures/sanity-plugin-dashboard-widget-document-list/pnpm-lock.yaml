@@ -15,8 +15,8 @@ importers:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614)
       sanity-plugin-dashboard-widget-document-list:
-        specifier: 1.0.1
-        version: 1.0.1(uy6epn5anc2rl2kkv2hs4vsjk4)
+        specifier: 2.0.0
+        version: 2.0.0(uy6epn5anc2rl2kkv2hs4vsjk4)
 
 packages:
 
@@ -3054,10 +3054,6 @@ packages:
     peerDependencies:
       rxjs: 7.x
 
-  rxjs@6.6.7:
-    resolution: {integrity: sha512-hTdwr+7yYNIT5n4AMYp85KA6yw2Va0FLa3Rguvbpa4W3I5xynaBZo41cM3XM+4Q6fRMj3sBYIR1VAmZMXYJvRQ==}
-    engines: {npm: '>=2.0.0'}
-
   rxjs@7.8.1:
     resolution: {integrity: sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==}
 
@@ -3074,11 +3070,11 @@ packages:
     resolution: {integrity: sha512-Vsx6IPuMepvfaX2/jOFuUrJaloHvSmXavS9SL3iJhhIPAu20VfumCtdH5kpKlXKL1pBgCAZhWHXfLC4Fyg7qFg==}
     engines: {node: '>=14.18'}
 
-  sanity-plugin-dashboard-widget-document-list@1.0.1:
-    resolution: {integrity: sha512-/ZGewhsNG51PV+a2YfhYYmZE1ALCnFrsHf8ZjbixuBQyDH1cruOSxoyy6gEbURz4p8pcs8AfZsAvxlkGMvXdVQ==}
-    engines: {node: '>=14'}
+  sanity-plugin-dashboard-widget-document-list@2.0.0:
+    resolution: {integrity: sha512-PZtnFS3XpziAwDu+LcmubZF73GWxV1NWSmpELhfl3/sYfX0TQWR6kayd+1hQPIC53oGDx7LWi+qGw8Jbf1ydiQ==}
+    engines: {node: '>=18'}
     peerDependencies:
-      '@sanity/dashboard': ^3.0.0-v3-studio.8
+      '@sanity/dashboard': ^4.0.0
       react: ^18
       sanity: ^3.0.0
 
@@ -3344,9 +3340,6 @@ packages:
   tsconfig-paths@4.2.0:
     resolution: {integrity: sha512-NoZ4roiN7LnbKn9QqE1amc9DJfzvZXxF4xDavcOWt1BPkdx+m+0gJuPM+S0vCe7zTJMYUP0R8pO2XMr+Y8oLIg==}
     engines: {node: '>=6'}
-
-  tslib@1.14.1:
-    resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
 
   tslib@2.6.2:
     resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
@@ -6981,10 +6974,6 @@ snapshots:
     dependencies:
       rxjs: 7.8.1
 
-  rxjs@6.6.7:
-    dependencies:
-      tslib: 1.14.1
-
   rxjs@7.8.1:
     dependencies:
       tslib: 2.6.3
@@ -6999,14 +6988,14 @@ snapshots:
     dependencies:
       '@sanity/diff-match-patch': 3.1.1
 
-  sanity-plugin-dashboard-widget-document-list@1.0.1(uy6epn5anc2rl2kkv2hs4vsjk4):
+  sanity-plugin-dashboard-widget-document-list@2.0.0(uy6epn5anc2rl2kkv2hs4vsjk4):
     dependencies:
       '@sanity/dashboard': 3.1.6(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react-is@18.3.1)(react@19.0.0-rc-fb9a90fa48-20240614)(sanity@3.52.4(@types/node@22.0.2)(@types/react@18.3.3)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(styled-components@6.1.12(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)))(styled-components@6.1.12(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))
       '@sanity/incompatible-plugin': 1.0.4(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)
-      '@sanity/ui': 1.9.3(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react-is@18.3.1)(react@19.0.0-rc-fb9a90fa48-20240614)(styled-components@6.1.12(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))
+      '@sanity/ui': 2.8.8(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react-is@18.3.1)(react@19.0.0-rc-fb9a90fa48-20240614)(styled-components@6.1.12(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))
       lodash: 4.17.21
       react: 19.0.0-rc-fb9a90fa48-20240614
-      rxjs: 6.6.7
+      rxjs: 7.8.1
       sanity: 3.52.4(@types/node@22.0.2)(@types/react@18.3.3)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(styled-components@6.1.12(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))
     transitivePeerDependencies:
       - react-dom
@@ -7421,8 +7410,6 @@ snapshots:
       json5: 2.2.3
       minimist: 1.2.8
       strip-bom: 3.0.0
-
-  tslib@1.14.1: {}
 
   tslib@2.6.2: {}
 
