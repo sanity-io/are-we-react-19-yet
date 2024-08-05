@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@sanity/plugin-kit": "4.0.17",
+    "@sanity/plugin-kit": "4.0.18",
     "react": ">=19.0.0-rc",
     "react-dom": ">=19.0.0-rc"
   },
