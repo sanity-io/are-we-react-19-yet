@@ -2,7 +2,7 @@
   "dependencies": {
     "react": ">=19.0.0-rc",
     "react-dom": ">=19.0.0-rc",
-    "sanity-plugin-internationalized-array": "2.0.0"
+    "sanity-plugin-internationalized-array": "2.1.0"
   },
   "packageManager": "pnpm@9.6.0"
 }
