@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@sanity/client':
         specifier: ^6.18.3
-        version: 6.21.1
+        version: 6.21.3
       execa:
         specifier: ^9.1.0
         version: 9.3.0
@@ -313,8 +313,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@sanity/client@6.21.1':
-    resolution: {integrity: sha512-j6OnE6Ytso0c5imjuIviglJDKXgd3jCVyPmZO+GpqWDtPWSXPucqH/mFyHcs5+kWyfAfkY5G1R2+Er0L7Sb0hA==}
+  '@sanity/client@6.21.3':
+    resolution: {integrity: sha512-oE2+4kKRTZhFCc4IIsojkzKF0jIhsSYSRxkPZjScZ1k/EQ3Y2tEcQYiKwvvotzaXoaWsIL3RTpulE+R4iBYiBw==}
     engines: {node: '>=14.18'}
 
   '@sanity/eventsource@5.0.2':
@@ -341,6 +341,9 @@ packages:
   '@types/eventsource@1.1.15':
     resolution: {integrity: sha512-XQmGcbnxUNa06HR3VBVkc9+A2Vpi9ZyLJcdS5dwaQQ/4ZMWFO+5c90FnMUpbtMZwB/FChoYHwuVg8TvkECacTA==}
 
+  '@types/follow-redirects@1.14.4':
+    resolution: {integrity: sha512-GWXfsD0Jc1RWiFmMuMFCpXMzi9L7oPDVwxUnZdg89kDNnqsRfUKXEtUYtA98A6lig1WXH/CYY/fvPW9HuN5fTA==}
+
   '@types/fs-extra@11.0.4':
     resolution: {integrity: sha512-yTbItCNreRooED33qjunPthRcSjERP1r4MqCZc7wv0u2sUkzTFp45tgUfS5+r7FrZPdmCCNflLhVSP/o+SemsQ==}
 
@@ -349,6 +352,9 @@ packages:
 
   '@types/node@22.5.1':
     resolution: {integrity: sha512-KkHsxej0j9IW1KKOOAA/XBA0z08UFSrRQHErzEfA3Vgq57eXIMYboIlHJuYIfd+lwCQjtKqUu3UnmKbtUc9yRw==}
+
+  '@types/progress-stream@2.0.5':
+    resolution: {integrity: sha512-5YNriuEZkHlFHHepLIaxzq3atGeav1qCTGzB74HKWpo66qjfostF+rHc785YYYHeBytve8ZG3ejg42jEIfXNiQ==}
 
   '@vitest/expect@2.0.5':
     resolution: {integrity: sha512-yHZtwuP7JZivj65Gxoi8upUN2OzHTi3zVfjwdpu2WrvCZPLwsJ2Ey5ILIPccoW23dd/zQBlJ4/dhi7DWNyXCpA==}
@@ -521,8 +527,8 @@ packages:
   get-func-name@2.0.2:
     resolution: {integrity: sha512-8vXOvuE167CtIc3OyItco7N/dpRtBbYOsPsXCz7X/PMnlGjYjSGuZJgM1Y7mmew7BKf9BqvLX2tnOVy1BBUsxQ==}
 
-  get-it@8.6.3:
-    resolution: {integrity: sha512-I7AKP1Xl2q2j4ucvU0yMtiM+xZKgzD1Fvyh1YcZCT66i+wNrxJAonV+H1yynB3gerZ17uA00IXg61LVLdDeiCg==}
+  get-it@8.6.5:
+    resolution: {integrity: sha512-o1hjPwrb/icm3WJbCweTSq8mKuDfJlqwbFauI+Pdgid99at/BFaBXFBJZE+uqvHyOVARE4z680S44vrDm8SsCw==}
     engines: {node: '>=14.0.0'}
 
   get-stdin@9.0.0:
@@ -852,8 +858,8 @@ packages:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
     engines: {node: '>=8.0'}
 
-  tslib@2.6.3:
-    resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
+  tslib@2.7.0:
+    resolution: {integrity: sha512-gLXCKdN1/j47AiHiOkJN69hJmcbGTHI0ImLmbYLHykhgeN0jVGola9yVjFgzCUklsZQMW55o+dW7IXv3RCXDzA==}
 
   tunnel-agent@0.6.0:
     resolution: {integrity: sha512-McnNiV1l8RYeY8tBgEpuodCC1mLUdbSN+CYBL7kJsJNInOP8UjDDEwdk6Mw60vdLLrr5NHKZhMAOSrR2NZuQ+w==}
@@ -1155,10 +1161,10 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.19.2':
     optional: true
 
-  '@sanity/client@6.21.1':
+  '@sanity/client@6.21.3':
     dependencies:
       '@sanity/eventsource': 5.0.2
-      get-it: 8.6.3
+      get-it: 8.6.5
       rxjs: 7.8.1
     transitivePeerDependencies:
       - debug
@@ -1185,6 +1191,10 @@ snapshots:
 
   '@types/eventsource@1.1.15': {}
 
+  '@types/follow-redirects@1.14.4':
+    dependencies:
+      '@types/node': 22.5.1
+
   '@types/fs-extra@11.0.4':
     dependencies:
       '@types/jsonfile': 6.1.4
@@ -1199,7 +1209,10 @@ snapshots:
   '@types/node@22.5.1':
     dependencies:
       undici-types: 6.19.8
-    optional: true
+
+  '@types/progress-stream@2.0.5':
+    dependencies:
+      '@types/node': 22.5.1
 
   '@vitest/expect@2.0.5':
     dependencies:
@@ -1399,8 +1412,10 @@ snapshots:
 
   get-func-name@2.0.2: {}
 
-  get-it@8.6.3:
+  get-it@8.6.5:
     dependencies:
+      '@types/follow-redirects': 1.14.4
+      '@types/progress-stream': 2.0.5
       decompress-response: 7.0.0
       follow-redirects: 1.15.6
       is-retry-allowed: 2.2.0
@@ -1611,7 +1626,7 @@ snapshots:
 
   rxjs@7.8.1:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   safe-buffer@5.1.2: {}
 
@@ -1683,7 +1698,7 @@ snapshots:
   synckit@0.9.1:
     dependencies:
       '@pkgr/core': 0.1.1
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   through2@2.0.5:
     dependencies:
@@ -1702,7 +1717,7 @@ snapshots:
     dependencies:
       is-number: 7.0.0
 
-  tslib@2.6.3: {}
+  tslib@2.7.0: {}
 
   tunnel-agent@0.6.0:
     dependencies:
@@ -1712,8 +1727,7 @@ snapshots:
 
   typescript@5.5.3: {}
 
-  undici-types@6.19.8:
-    optional: true
+  undici-types@6.19.8: {}
 
   undici@5.28.4:
     dependencies:
