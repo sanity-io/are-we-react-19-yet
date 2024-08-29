@@ -5,5 +5,5 @@
     "react": ">=19.0.0-rc",
     "react-dom": ">=19.0.0-rc"
   },
-  "packageManager": "pnpm@9.6.0"
+  "packageManager": "pnpm@9.9.0"
 }
