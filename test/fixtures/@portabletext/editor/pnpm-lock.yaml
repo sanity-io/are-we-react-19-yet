@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@portabletext/editor':
-        specifier: 1.0.11
-        version: 1.0.11(@sanity/block-tools@3.52.4)(@sanity/schema@3.52.4)(@sanity/types@3.52.4)(@sanity/util@3.52.4)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(rxjs@7.8.1)(styled-components@6.1.12(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))
+        specifier: 1.0.19
+        version: 1.0.19(@sanity/block-tools@3.52.4)(@sanity/schema@3.52.4)(@sanity/types@3.52.4)(@sanity/util@3.52.4)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(rxjs@7.8.1)(styled-components@6.1.12(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))
       react:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-fb9a90fa48-20240614
@@ -32,8 +32,8 @@ packages:
   '@juggle/resize-observer@3.4.0':
     resolution: {integrity: sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==}
 
-  '@portabletext/editor@1.0.11':
-    resolution: {integrity: sha512-hlgfYLZoaKvJbPgBtZY0V5U/svNRoP7Pl4gH9hS2al+GZER5TvxBDSxgwf1953wXXP/NcmcivvchR002NgqieA==}
+  '@portabletext/editor@1.0.19':
+    resolution: {integrity: sha512-ZNOvErcy2OYchsHVpVtJdhGb12YI6m0vOSubKu8t1X6wllkJPNyduW6xxLbmJiv/Z/+Ua1gVEvczdkfsU2qvvQ==}
     engines: {node: '>=18'}
     peerDependencies:
       '@sanity/block-tools': ^3.47.1
@@ -79,12 +79,6 @@ packages:
 
   '@types/eventsource@1.1.15':
     resolution: {integrity: sha512-XQmGcbnxUNa06HR3VBVkc9+A2Vpi9ZyLJcdS5dwaQQ/4ZMWFO+5c90FnMUpbtMZwB/FChoYHwuVg8TvkECacTA==}
-
-  '@types/is-hotkey@0.1.10':
-    resolution: {integrity: sha512-RvC8KMw5BCac1NvRRyaHgMMEtBaZ6wh0pyPTBu7izn4Sj/AX9Y4aXU5c7rX8PnM/knsuUpC1IeoBkANtxBypsQ==}
-
-  '@types/lodash@4.17.7':
-    resolution: {integrity: sha512-8wTvZawATi/lsmNu10/j2hk1KEP0IvjubqPE3cu1Xz7xfXXt5oCq3SNUz4fMIP4XGF9Ky+Ue2tBA3hcS7LSBlA==}
 
   '@types/prop-types@15.7.12':
     resolution: {integrity: sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==}
@@ -277,15 +271,15 @@ packages:
   shallowequal@1.1.0:
     resolution: {integrity: sha512-y0m1JoUZSlPAjXVtPPW70aZWfIL/dSP7AFkRnniLCrK/8MDKog3TySTBmckD+RObVxH0v4Tox67+F14PdED2oQ==}
 
-  slate-react@0.101.0:
-    resolution: {integrity: sha512-GAwAi9cT8pWLt65p6Fab33UXH2MKE1NRzHhqAnV+32u20vy4dre/dIGyyqrFyOp3lgBBitgjyo6N2g26y63gOA==}
+  slate-react@0.108.0:
+    resolution: {integrity: sha512-vzQuQ1t/gR+1pJh9ABbU4rgckPK0A1AZV5iVKO3isBpJ9z5xPCXf6hqnCNIogMvLU0pZIjjyQJVSL2OtxrQ/xA==}
     peerDependencies:
       react: '>=18.2.0'
       react-dom: '>=18.2.0'
       slate: '>=0.99.0'
 
-  slate@0.100.0:
-    resolution: {integrity: sha512-cK+xwLBrbQof4rEfTzgC8loBWsDFEXq8nOBY7QahwY59Zq4bsBNcwiMw2VIzTv+WGNsmyHp4eAk/HJbz2aAUkQ==}
+  slate@0.103.0:
+    resolution: {integrity: sha512-eCUOVqUpADYMZ59O37QQvUdnFG+8rin0OGQAXNHvHbQeVJ67Bu0spQbcy621vtf8GQUXTEQBlk6OP9atwwob4w==}
 
   source-map-js@1.2.0:
     resolution: {integrity: sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg==}
@@ -344,7 +338,7 @@ snapshots:
 
   '@juggle/resize-observer@3.4.0': {}
 
-  '@portabletext/editor@1.0.11(@sanity/block-tools@3.52.4)(@sanity/schema@3.52.4)(@sanity/types@3.52.4)(@sanity/util@3.52.4)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(rxjs@7.8.1)(styled-components@6.1.12(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))':
+  '@portabletext/editor@1.0.19(@sanity/block-tools@3.52.4)(@sanity/schema@3.52.4)(@sanity/types@3.52.4)(@sanity/util@3.52.4)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(rxjs@7.8.1)(styled-components@6.1.12(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))':
     dependencies:
       '@portabletext/patches': 1.1.0
       '@sanity/block-tools': 3.52.4
@@ -356,8 +350,8 @@ snapshots:
       lodash: 4.17.21
       react: 19.0.0-rc-fb9a90fa48-20240614
       rxjs: 7.8.1
-      slate: 0.100.0
-      slate-react: 0.101.0(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(slate@0.100.0)
+      slate: 0.103.0
+      slate-react: 0.108.0(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(slate@0.103.0)
       styled-components: 6.1.12(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)
     transitivePeerDependencies:
       - react-dom
@@ -430,10 +424,6 @@ snapshots:
   '@types/event-source-polyfill@1.0.5': {}
 
   '@types/eventsource@1.1.15': {}
-
-  '@types/is-hotkey@0.1.10': {}
-
-  '@types/lodash@4.17.7': {}
 
   '@types/prop-types@15.7.12': {}
 
@@ -595,11 +585,9 @@ snapshots:
 
   shallowequal@1.1.0: {}
 
-  slate-react@0.101.0(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(slate@0.100.0):
+  slate-react@0.108.0(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(slate@0.103.0):
     dependencies:
       '@juggle/resize-observer': 3.4.0
-      '@types/is-hotkey': 0.1.10
-      '@types/lodash': 4.17.7
       direction: 1.0.4
       is-hotkey: 0.2.0
       is-plain-object: 5.0.0
@@ -607,10 +595,10 @@ snapshots:
       react: 19.0.0-rc-fb9a90fa48-20240614
       react-dom: 19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614)
       scroll-into-view-if-needed: 3.1.0
-      slate: 0.100.0
+      slate: 0.103.0
       tiny-invariant: 1.3.1
 
-  slate@0.100.0:
+  slate@0.103.0:
     dependencies:
       immer: 10.1.1
       is-plain-object: 5.0.0
