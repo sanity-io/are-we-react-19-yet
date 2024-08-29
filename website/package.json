@@ -15,7 +15,7 @@
     "@sanity/preview-url-secret": "1.6.19",
     "@sanity/vision": "3.56.0",
     "@types/node": "20.12.13",
-    "@types/react": "18.3.3",
+    "@types/react": "18.3.4",
     "@types/react-dom": "18.3.0",
     "@vercel/speed-insights": "1.0.12",
     "bright": "0.8.5",
