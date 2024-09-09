@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@sanity/tsdoc':
-        specifier: 1.0.102
-        version: 1.0.102(@types/babel__core@7.20.5)(@types/node@22.0.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react-is@18.3.1)(react@19.0.0-rc-fb9a90fa48-20240614)(sanity@3.52.4(@types/node@22.0.2)(@types/react@18.3.3)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(styled-components@6.1.12(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(terser@5.31.3))(styled-components@6.1.12(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(terser@5.31.3)
+        specifier: 1.0.103
+        version: 1.0.103(@types/babel__core@7.20.5)(@types/node@22.0.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react-is@18.3.1)(react@19.0.0-rc-fb9a90fa48-20240614)(sanity@3.52.4(@types/node@22.0.2)(@types/react@18.3.3)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(styled-components@6.1.12(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(terser@5.31.3))(styled-components@6.1.12(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(terser@5.31.3)
       react:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-fb9a90fa48-20240614
@@ -1538,12 +1538,12 @@ packages:
   '@sanity/mutator@3.52.4':
     resolution: {integrity: sha512-ggCKewrVqAMHQWEHTG4IQgIujN+tDCMLCcLsnZ5Z5KVo2q+6v03L/4yY9g2hPTLYCsKFWtIHC7fjSTL8WBkVvg==}
 
-  '@sanity/pkg-utils@6.11.0':
-    resolution: {integrity: sha512-QvHensutKr4juGsU3L97KxcCeBRwqvJVVnDldycf5I4Ftl4g8DEROyB1oWU+5JCV1L47TQKxOtlnDcuq3fK1sg==}
+  '@sanity/pkg-utils@6.11.1':
+    resolution: {integrity: sha512-HYmZStWTAgUpuGzeffTxbMbTv+Ib6Ix2ZQo1pT1FmlZxPhiupNyuQrl/zOu1TV/+I0x9+X8ipdKaI8Tbie7y/A==}
     engines: {node: '>=18.17.0'}
     hasBin: true
     peerDependencies:
-      typescript: 5.4.x || 5.5.x
+      typescript: 5.4.x || 5.5.x || 5.6.x
 
   '@sanity/presentation@1.16.2':
     resolution: {integrity: sha512-mEMHpMNPLG8C5qyNmKir9/I3p9gvC7joYbRdwe0HxGVmFHU28aKhkEFCDJrDwp/Bm5Z7ps8fF1wi5mCt5cBymQ==}
@@ -1566,8 +1566,8 @@ packages:
     peerDependencies:
       react: ^18.2 || >=19.0.0-rc
 
-  '@sanity/tsdoc@1.0.102':
-    resolution: {integrity: sha512-1zLDnCVlOMSPjrIUnfMcYGpYhIr19FTzNoZ0rnxodb/JtI9X//iN8aEuleBpPDekPDJKY2C8S8C7MOu90niLMg==}
+  '@sanity/tsdoc@1.0.103':
+    resolution: {integrity: sha512-waN+skICcbzUdWTO6FAGlEUAUsvaVGhQKYt3MM+vnTzzMBEWdl8SolpR3aYRUOkuzrhfzqdnip744uwShkJevQ==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     peerDependencies:
@@ -6234,7 +6234,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@sanity/pkg-utils@6.11.0(@types/babel__core@7.20.5)(@types/node@22.0.2)(typescript@5.6.2)':
+  '@sanity/pkg-utils@6.11.1(@types/babel__core@7.20.5)(@types/node@22.0.2)(typescript@5.6.2)':
     dependencies:
       '@babel/core': 7.25.2
       '@babel/preset-typescript': 7.24.7(@babel/core@7.25.2)
@@ -6334,7 +6334,7 @@ snapshots:
       rxjs: 7.8.1
       typeid-js: 0.3.0
 
-  '@sanity/tsdoc@1.0.102(@types/babel__core@7.20.5)(@types/node@22.0.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react-is@18.3.1)(react@19.0.0-rc-fb9a90fa48-20240614)(sanity@3.52.4(@types/node@22.0.2)(@types/react@18.3.3)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(styled-components@6.1.12(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(terser@5.31.3))(styled-components@6.1.12(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(terser@5.31.3)':
+  '@sanity/tsdoc@1.0.103(@types/babel__core@7.20.5)(@types/node@22.0.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react-is@18.3.1)(react@19.0.0-rc-fb9a90fa48-20240614)(sanity@3.52.4(@types/node@22.0.2)(@types/react@18.3.3)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(styled-components@6.1.12(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(terser@5.31.3))(styled-components@6.1.12(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(terser@5.31.3)':
     dependencies:
       '@microsoft/api-extractor': 7.47.7(@types/node@22.0.2)
       '@microsoft/api-extractor-model': 7.29.6(@types/node@22.0.2)
@@ -6345,7 +6345,7 @@ snapshots:
       '@sanity/client': 6.21.3(debug@4.3.6)
       '@sanity/color': 3.0.6
       '@sanity/icons': 3.4.0(react@19.0.0-rc-fb9a90fa48-20240614)
-      '@sanity/pkg-utils': 6.11.0(@types/babel__core@7.20.5)(@types/node@22.0.2)(typescript@5.6.2)
+      '@sanity/pkg-utils': 6.11.1(@types/babel__core@7.20.5)(@types/node@22.0.2)(typescript@5.6.2)
       '@sanity/ui': 2.8.9(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react-is@18.3.1)(react@19.0.0-rc-fb9a90fa48-20240614)(styled-components@6.1.12(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))
       '@types/cpx': 1.5.5
       '@vitejs/plugin-react': 4.3.1(vite@5.4.3(@types/node@22.0.2)(terser@5.31.3))
