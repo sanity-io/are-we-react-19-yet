@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "@sanity/react-loader": "1.10.6",
+    "@sanity/react-loader": "1.10.6-canary.3",
     "react": ">=19.0.0-rc",
     "react-dom": ">=19.0.0-rc"
   },
-  "packageManager": "pnpm@9.10.0"
+  "packageManager": "pnpm@9.0.4"
 }
