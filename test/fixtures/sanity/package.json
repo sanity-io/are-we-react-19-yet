@@ -2,7 +2,7 @@
   "dependencies": {
     "react": ">=19.0.0-rc",
     "react-dom": ">=19.0.0-rc",
-    "sanity": "3.57.1"
+    "sanity": "3.60.0"
   },
   "packageManager": "pnpm@9.10.0"
 }
