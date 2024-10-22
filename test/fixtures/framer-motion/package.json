@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "framer-motion": "11.11.9",
+    "react": ">=19.0.0-rc",
+    "react-dom": ">=19.0.0-rc"
+  },
+  "packageManager": "pnpm@9.0.4"
+}
