@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@sanity/document-internationalization": "3.0.1",
+    "@sanity/document-internationalization": "3.1.0",
     "react": ">=19.0.0-rc",
     "react-dom": ">=19.0.0-rc"
   },
