@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       hydrogen-sanity:
-        specifier: 4.1.0
-        version: 4.1.0(@remix-run/react@2.11.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@sanity/client@6.21.3)(@shopify/hydrogen@2024.7.4(@remix-run/react@2.11.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@remix-run/server-runtime@2.11.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@shopify/remix-oxygen@2.0.6(@remix-run/server-runtime@2.11.2)(@shopify/oxygen-workers-types@4.1.4))(groq@3.56.0)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)
+        specifier: 4.2.1
+        version: 4.2.1(@remix-run/react@2.11.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@sanity/client@6.22.2)(@shopify/hydrogen@2024.7.4(@remix-run/react@2.11.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@remix-run/server-runtime@2.11.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(xstate@5.18.2))(@shopify/remix-oxygen@2.0.6(@remix-run/server-runtime@2.11.2)(@shopify/oxygen-workers-types@4.1.4))(groq@3.56.0)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)
       react:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-fb9a90fa48-20240614
@@ -57,41 +57,58 @@ packages:
       typescript:
         optional: true
 
-  '@sanity/client@6.21.3':
-    resolution: {integrity: sha512-oE2+4kKRTZhFCc4IIsojkzKF0jIhsSYSRxkPZjScZ1k/EQ3Y2tEcQYiKwvvotzaXoaWsIL3RTpulE+R4iBYiBw==}
+  '@sanity/client@6.22.2':
+    resolution: {integrity: sha512-GrLmwREcw4Us6kBaqoXyLVVl7xAELf/4Qzvv0nGxIIqCkDWQof6nL55ar6m1W9hF+eHKyRTkktWSkZ/+RklCuw==}
     engines: {node: '>=14.18'}
 
-  '@sanity/core-loader@1.6.22':
-    resolution: {integrity: sha512-GBZy7zwn478BQ6QuH5SO2QCjnmTG/bvUKSNiGN0WNktvjfA2ACG3v5ORCTo9ParQ4Njc0SyobxjTmMxce0DyOA==}
+  '@sanity/comlink@1.1.1':
+    resolution: {integrity: sha512-hmjL8X9/muInbO4Fko6rn9WOZhZWMPKz5n3FHttb/KurKaHbkhcon/jIkZ8DowxW75wkUDp8m/nkBZznJ58HIA==}
+    engines: {node: '>=18'}
+
+  '@sanity/core-loader@1.7.6':
+    resolution: {integrity: sha512-yFpQop+FSxRFG3Rf2gh4N6zFdkbidIULI1HSALvzeuMRHn4uHcFL4SjLA+ffMyVA4xEiomeSo4PmnWVVgLP+NQ==}
     engines: {node: '>=18'}
     peerDependencies:
-      '@sanity/client': ^6.21.2
+      '@sanity/client': ^6.22.2
+
+  '@sanity/diff-match-patch@3.1.1':
+    resolution: {integrity: sha512-dSZqGeYjHKGIkqAzGqLcG92LZyJGX+nYbs/FWawhBbTBDWi21kvQ0hsL3DJThuFVWtZMWTQijN3z6Cnd44Pf2g==}
+    engines: {node: '>=14.18'}
 
   '@sanity/eventsource@5.0.2':
     resolution: {integrity: sha512-/B9PMkUvAlUrpRq0y+NzXgRv5lYCLxZNsBJD2WXVnqZYOfByL9oQBV7KiTaARuObp5hcQYuPfOAVjgXe3hrixA==}
 
-  '@sanity/preview-url-secret@1.6.20':
-    resolution: {integrity: sha512-+UB02o1it0Dg7r73ewe+gyDAX/McmyJYcbEQYaEvwOi8VAxXUSyugyjJVKDIlljiyEkG8K4g3DV1tz2SL3N+tw==}
+  '@sanity/mutate@0.10.1-canary.5':
+    resolution: {integrity: sha512-ce5xQJhqvbFnYejUEUlpR8VNq9RqMYYnasVdtZPBoD2gJpHpwSMXhpvWHcZM3gtNDcQEkHT/ttPDluMghbF8aw==}
     engines: {node: '>=18'}
     peerDependencies:
-      '@sanity/client': ^6.21.2
+      xstate: ^5.18.2
+    peerDependenciesMeta:
+      xstate:
+        optional: true
 
-  '@sanity/react-loader@1.10.6':
-    resolution: {integrity: sha512-kQOIzChygYLGFE/cmVQfWaNWJLPEXz8j3cRkzLKcekSjnHNz304pIkGD8Lp+RQa9VYsmyx2+Vv0HTfE5GDbQXA==}
+  '@sanity/preview-url-secret@2.0.0':
+    resolution: {integrity: sha512-JfStdSb8KT0RzePtGbUIZewNNHNNbvYHwsW4WzYEmgPTfgZnPAIMFYUFSHAKKFyKQ3tqzARRQm3uURpoSTyIkA==}
     engines: {node: '>=18'}
     peerDependencies:
-      '@sanity/client': ^6.21.2
+      '@sanity/client': ^6.22.2
+
+  '@sanity/react-loader@1.10.14':
+    resolution: {integrity: sha512-I6LoW3BBORQsM20RyFqXXebKWTuYfIkE5rmTsfgXycLtZZ6k5RCsdS7sqfubx/9eHemFdm8rPnJPUsPx0rk8RQ==}
+    engines: {node: '>=18'}
+    peerDependencies:
+      '@sanity/client': ^6.22.2
       react: ^18.3 || >=19.0.0-rc
 
   '@sanity/uuid@3.0.2':
     resolution: {integrity: sha512-vzdhqOrX7JGbMyK40KuIwwyXHm7GMLOGuYgn3xlC09e4ZVNofUO5mgezQqnRv0JAMthIRhofqs9f6ufUjMKOvw==}
 
-  '@sanity/visual-editing@2.1.9':
-    resolution: {integrity: sha512-tPXsnwFqujMDXiJGoB9nU4ZQ81x1YE2IKV2wZHOXurjsdw+zC8EDhpozzDJxnSxI5h2RFzgO+ZcQJRdSamULBA==}
+  '@sanity/visual-editing@2.4.2':
+    resolution: {integrity: sha512-HyvDmc33U27jMm/b7AUxShtdbJaXtE2FzSh3DAC4bbWq59iGoSbHTHRWq7xIZpWVH76xgkLh+RgVsyr8lI/+8g==}
     engines: {node: '>=18'}
     peerDependencies:
       '@remix-run/react': '>= 2'
-      '@sanity/client': ^6.21.2
+      '@sanity/client': ^6.22.2
       '@sveltejs/kit': '>= 2'
       next: '>= 13 || >=14.3.0-canary.0 <14.3.0 || >=15.0.0-rc'
       react: ^18.3 || >=19.0.0-rc
@@ -202,6 +219,9 @@ packages:
     resolution: {integrity: sha512-6IvPrADQyyPGLpMnUh6kfKiqy7SrbXbjoUuZ90WMBJKErzv2pCiwlGEXjRX9/54OnTq+XFVnkOnOMzclLI5aEA==}
     engines: {node: '>=10'}
 
+  dom-walk@0.1.2:
+    resolution: {integrity: sha512-6QvTW9mrGeIegrFXdtQi9pk7O/nSK6lSdXW2eqUspN5LWD7UTji2Fqw5V2YLjBpHEoU9Xl/eUWNpDeZvoyOv2w==}
+
   event-source-polyfill@1.0.31:
     resolution: {integrity: sha512-4IJSItgS/41IxN5UVAVuAyczwZF7ZIEsM1XAoUzIHA6A+xzusEZUutdXz2Nr+MQPLxfTiCvqE79/C8HT8fKFvA==}
 
@@ -222,6 +242,16 @@ packages:
     resolution: {integrity: sha512-o1hjPwrb/icm3WJbCweTSq8mKuDfJlqwbFauI+Pdgid99at/BFaBXFBJZE+uqvHyOVARE4z680S44vrDm8SsCw==}
     engines: {node: '>=14.0.0'}
 
+  get-random-values-esm@1.0.2:
+    resolution: {integrity: sha512-HMSDTgj1HPFAuZG0FqxzHbYt5JeEGDUeT9r1RLXhS6RZQS8rLRjokgjZ0Pd28CN0lhXlRwfH6eviZqZEJ2kIoA==}
+
+  get-random-values@1.2.2:
+    resolution: {integrity: sha512-lMyPjQyl0cNNdDf2oR+IQ/fM3itDvpoHy45Ymo2r0L1EjazeSl13SfbKZs7KtZ/3MDCeueiaJiuOEfKqRTsSgA==}
+    engines: {node: 10 || 12 || >=14}
+
+  global@4.4.0:
+    resolution: {integrity: sha512-wv/LAoHdRE3BeTGz53FAamhGlPLhlssK45usmGFThIi4XqnBmjKQ16u+RNbP7WvigRZDxUsM0J3gcQ5yicaL0w==}
+
   graphql@16.9.0:
     resolution: {integrity: sha512-GGTKBX4SD7Wdb8mqeDLni2oaRGYQWjWHGKPQ24ZMnUtKfcsVoiv4uX8+LJr1K6U5VW2Lu1BwJnj7uiori0YtRw==}
     engines: {node: ^12.22.0 || ^14.16.0 || ^16.0.0 || >=17.0.0}
@@ -230,8 +260,11 @@ packages:
     resolution: {integrity: sha512-r4L0U0oLkEysu5ZuB6kW9nhfXupec9NhRDRr/zzj4GuSDLgaqtDStPJu6a8G8Cp1Gc1ZOFGSTUHWEyBalKmCbQ==}
     engines: {node: '>=18'}
 
-  hydrogen-sanity@4.1.0:
-    resolution: {integrity: sha512-vpticIWDN/sM1vbPfYUZQbfZPrCShkzu3Aqop9lWgyrLWS6ysmYZ3lePx/DYDZTdviPKC60gaqLaeGZW/0LmGQ==}
+  hotscript@1.0.13:
+    resolution: {integrity: sha512-C++tTF1GqkGYecL+2S1wJTfoH6APGAsbb7PAWQ3iVIwgG/EFseAfEVOKFgAFq4yK3+6j1EjUD4UQ9dRJHX/sSQ==}
+
+  hydrogen-sanity@4.2.1:
+    resolution: {integrity: sha512-AxfgceN4cSFHGPbXcEtxPGuUy+ZOfU8/ooPyJ8kaExN3mhCHqkmpX/9/O8PZaZkYyn1Jqfjy0rSSqetmaXjAag==}
     engines: {node: '>=18'}
     peerDependencies:
       '@sanity/client': ^6.18.0
@@ -260,12 +293,28 @@ packages:
   lit@2.8.0:
     resolution: {integrity: sha512-4Sc3OFX9QHOJaHbmTMk28SYgVxLN3ePDjg7hofEft2zWlehFL3LiAuapWc4U/kYwMYJSh2hTCPZ6/LIC7ii0MA==}
 
+  mendoza@3.0.7:
+    resolution: {integrity: sha512-KtLgsCl5dFjRPUVSVV9KxpUr2BfZgLv8uqxg/hCsI7JIWsesHABSbl0MQwxNHAg24KtzSQ6vrPsgeNnoq4UImg==}
+    engines: {node: '>=14.18'}
+
   mimic-response@3.1.0:
     resolution: {integrity: sha512-z0yWI+4FDrrweS8Zmt4Ej5HdJmky15+L2e6Wgn3+iK5fWzb6T3fhNFq2+MeTRb064c6Wr4N/wv0DzQTjNzHNGQ==}
     engines: {node: '>=10'}
 
+  min-document@2.19.0:
+    resolution: {integrity: sha512-9Wy1B3m3f66bPPmU5hdA4DR4PB2OfDU/+GS3yAB7IQozE3tqXaVv2zOjgla7MEGSRv95+ILmOuvhLkOK6wJtCQ==}
+
+  nanoid@5.0.8:
+    resolution: {integrity: sha512-TcJPw+9RV9dibz1hHUzlLVy8N4X9TnwirAjrU08Juo6BNKggzVfP2ZJ/3ZUSq15Xl5i85i+Z89XBO90pB2PghQ==}
+    engines: {node: ^18 || >=20}
+    hasBin: true
+
   process-nextick-args@2.0.1:
     resolution: {integrity: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==}
+
+  process@0.11.10:
+    resolution: {integrity: sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A==}
+    engines: {node: '>= 0.6.0'}
 
   progress-stream@2.0.0:
     resolution: {integrity: sha512-xJwOWR46jcXUq6EH9yYyqp+I52skPySOeHfkxOZ2IY1AiBi/sFJhbhAKHoV3OTw/omQ45KTio9215dRJ2Yxd3Q==}
@@ -356,6 +405,11 @@ packages:
   undici-types@6.19.8:
     resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
 
+  use-effect-event@1.0.2:
+    resolution: {integrity: sha512-9c8AAmtQja4LwJXI0EQPhQCip6dmrcSe0FMcTUZBeGh/XTCOLgw3Qbt0JdUT8Rcrm/ZH+Web7MIcMdqgQKdXJg==}
+    peerDependencies:
+      react: ^18.3 || ^19.0.0-0
+
   use-isomorphic-layout-effect@1.1.2:
     resolution: {integrity: sha512-49L8yCO3iGT/ZF9QttjwLF/ZD9Iwto5LnH5LmEdk/6cFmXddqi2ulF0edxTwjj+7mqvpVVGQWvbXZdn32wRSHA==}
     peerDependencies:
@@ -379,6 +433,10 @@ packages:
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
+  uuid@10.0.0:
+    resolution: {integrity: sha512-8XkAphELsDnEGrDxUOHB3RGvXz6TeuYSGEZBOjtTtPm2lwhGBjLgOzLHB63IUWfBpNucQjND6d3AOudO+H3RWQ==}
+    hasBin: true
+
   uuid@8.3.2:
     resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
     hasBin: true
@@ -389,6 +447,9 @@ packages:
   worktop@0.7.3:
     resolution: {integrity: sha512-WBHP1hk8pLP7ahAw13fugDWcO0SUAOiCD6DHT/bfLWoCIA/PL9u7GKdudT2nGZ8EGR1APbGCAI6ZzKG1+X+PnQ==}
     engines: {node: '>=12'}
+
+  xstate@5.18.2:
+    resolution: {integrity: sha512-hab5VOe29D0agy8/7dH1lGw+7kilRQyXwpaChoMu4fe6rDP+nsHYhDYKfS2O4iXE7myA98TW6qMEudj/8NXEkA==}
 
   xtend@4.0.2:
     resolution: {integrity: sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==}
@@ -431,7 +492,7 @@ snapshots:
       source-map: 0.7.4
       turbo-stream: 2.3.0
 
-  '@sanity/client@6.21.3':
+  '@sanity/client@6.22.2':
     dependencies:
       '@sanity/eventsource': 5.0.2
       get-it: 8.6.5
@@ -439,9 +500,18 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@sanity/core-loader@1.6.22(@sanity/client@6.21.3)':
+  '@sanity/comlink@1.1.1':
     dependencies:
-      '@sanity/client': 6.21.3
+      rxjs: 7.8.1
+      uuid: 10.0.0
+      xstate: 5.18.2
+
+  '@sanity/core-loader@1.7.6(@sanity/client@6.22.2)':
+    dependencies:
+      '@sanity/client': 6.22.2
+      '@sanity/comlink': 1.1.1
+
+  '@sanity/diff-match-patch@3.1.1': {}
 
   '@sanity/eventsource@5.0.2':
     dependencies:
@@ -450,15 +520,28 @@ snapshots:
       event-source-polyfill: 1.0.31
       eventsource: 2.0.2
 
-  '@sanity/preview-url-secret@1.6.20(@sanity/client@6.21.3)':
+  '@sanity/mutate@0.10.1-canary.5(xstate@5.18.2)':
     dependencies:
-      '@sanity/client': 6.21.3
+      '@sanity/client': 6.22.2
+      '@sanity/diff-match-patch': 3.1.1
+      hotscript: 1.0.13
+      mendoza: 3.0.7
+      nanoid: 5.0.8
+      rxjs: 7.8.1
+    optionalDependencies:
+      xstate: 5.18.2
+    transitivePeerDependencies:
+      - debug
+
+  '@sanity/preview-url-secret@2.0.0(@sanity/client@6.22.2)':
+    dependencies:
+      '@sanity/client': 6.22.2
       '@sanity/uuid': 3.0.2
 
-  '@sanity/react-loader@1.10.6(@sanity/client@6.21.3)(react@19.0.0-rc-fb9a90fa48-20240614)':
+  '@sanity/react-loader@1.10.14(@sanity/client@6.22.2)(react@19.0.0-rc-fb9a90fa48-20240614)':
     dependencies:
-      '@sanity/client': 6.21.3
-      '@sanity/core-loader': 1.6.22(@sanity/client@6.21.3)
+      '@sanity/client': 6.22.2
+      '@sanity/core-loader': 1.7.6(@sanity/client@6.22.2)
       react: 19.0.0-rc-fb9a90fa48-20240614
 
   '@sanity/uuid@3.0.2':
@@ -466,23 +549,31 @@ snapshots:
       '@types/uuid': 8.3.4
       uuid: 8.3.2
 
-  '@sanity/visual-editing@2.1.9(@remix-run/react@2.11.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@sanity/client@6.21.3)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)':
+  '@sanity/visual-editing@2.4.2(@remix-run/react@2.11.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@sanity/client@6.22.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)':
     dependencies:
-      '@sanity/preview-url-secret': 1.6.20(@sanity/client@6.21.3)
+      '@sanity/comlink': 1.1.1
+      '@sanity/mutate': 0.10.1-canary.5(xstate@5.18.2)
+      '@sanity/preview-url-secret': 2.0.0(@sanity/client@6.22.2)
       '@vercel/stega': 0.1.2
+      get-random-values-esm: 1.0.2
       react: 19.0.0-rc-fb9a90fa48-20240614
       react-dom: 19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614)
+      rxjs: 7.8.1
       scroll-into-view-if-needed: 3.1.0
+      use-effect-event: 1.0.2(react@19.0.0-rc-fb9a90fa48-20240614)
       valibot: 0.31.1
+      xstate: 5.18.2
     optionalDependencies:
       '@remix-run/react': 2.11.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)
-      '@sanity/client': 6.21.3
+      '@sanity/client': 6.22.2
+    transitivePeerDependencies:
+      - debug
 
-  '@shopify/hydrogen-react@2024.7.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)':
+  '@shopify/hydrogen-react@2024.7.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(xstate@5.18.2)':
     dependencies:
       '@google/model-viewer': 1.12.1
       '@xstate/fsm': 2.1.0
-      '@xstate/react': 3.2.2(@xstate/fsm@2.1.0)(react@19.0.0-rc-fb9a90fa48-20240614)
+      '@xstate/react': 3.2.2(@xstate/fsm@2.1.0)(react@19.0.0-rc-fb9a90fa48-20240614)(xstate@5.18.2)
       graphql: 16.9.0
       react: 19.0.0-rc-fb9a90fa48-20240614
       react-dom: 19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614)
@@ -492,11 +583,11 @@ snapshots:
       - '@types/react'
       - xstate
 
-  '@shopify/hydrogen@2024.7.4(@remix-run/react@2.11.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@remix-run/server-runtime@2.11.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)':
+  '@shopify/hydrogen@2024.7.4(@remix-run/react@2.11.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@remix-run/server-runtime@2.11.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(xstate@5.18.2)':
     dependencies:
       '@remix-run/react': 2.11.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)
       '@remix-run/server-runtime': 2.11.2
-      '@shopify/hydrogen-react': 2024.7.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)
+      '@shopify/hydrogen-react': 2024.7.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(xstate@5.18.2)
       content-security-policy-builder: 2.2.0
       react: 19.0.0-rc-fb9a90fa48-20240614
       source-map-support: 0.5.21
@@ -543,13 +634,14 @@ snapshots:
 
   '@xstate/fsm@2.1.0': {}
 
-  '@xstate/react@3.2.2(@xstate/fsm@2.1.0)(react@19.0.0-rc-fb9a90fa48-20240614)':
+  '@xstate/react@3.2.2(@xstate/fsm@2.1.0)(react@19.0.0-rc-fb9a90fa48-20240614)(xstate@5.18.2)':
     dependencies:
       react: 19.0.0-rc-fb9a90fa48-20240614
       use-isomorphic-layout-effect: 1.1.2(react@19.0.0-rc-fb9a90fa48-20240614)
       use-sync-external-store: 1.2.2(react@19.0.0-rc-fb9a90fa48-20240614)
     optionalDependencies:
       '@xstate/fsm': 2.1.0
+      xstate: 5.18.2
     transitivePeerDependencies:
       - '@types/react'
 
@@ -566,6 +658,8 @@ snapshots:
   decompress-response@7.0.0:
     dependencies:
       mimic-response: 3.1.0
+
+  dom-walk@0.1.2: {}
 
   event-source-polyfill@1.0.31: {}
 
@@ -585,17 +679,32 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
+  get-random-values-esm@1.0.2:
+    dependencies:
+      get-random-values: 1.2.2
+
+  get-random-values@1.2.2:
+    dependencies:
+      global: 4.4.0
+
+  global@4.4.0:
+    dependencies:
+      min-document: 2.19.0
+      process: 0.11.10
+
   graphql@16.9.0: {}
 
   groq@3.56.0: {}
 
-  hydrogen-sanity@4.1.0(@remix-run/react@2.11.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@sanity/client@6.21.3)(@shopify/hydrogen@2024.7.4(@remix-run/react@2.11.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@remix-run/server-runtime@2.11.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@shopify/remix-oxygen@2.0.6(@remix-run/server-runtime@2.11.2)(@shopify/oxygen-workers-types@4.1.4))(groq@3.56.0)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614):
+  hotscript@1.0.13: {}
+
+  hydrogen-sanity@4.2.1(@remix-run/react@2.11.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@sanity/client@6.22.2)(@shopify/hydrogen@2024.7.4(@remix-run/react@2.11.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@remix-run/server-runtime@2.11.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(xstate@5.18.2))(@shopify/remix-oxygen@2.0.6(@remix-run/server-runtime@2.11.2)(@shopify/oxygen-workers-types@4.1.4))(groq@3.56.0)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614):
     dependencies:
-      '@sanity/client': 6.21.3
-      '@sanity/preview-url-secret': 1.6.20(@sanity/client@6.21.3)
-      '@sanity/react-loader': 1.10.6(@sanity/client@6.21.3)(react@19.0.0-rc-fb9a90fa48-20240614)
-      '@sanity/visual-editing': 2.1.9(@remix-run/react@2.11.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@sanity/client@6.21.3)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)
-      '@shopify/hydrogen': 2024.7.4(@remix-run/react@2.11.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@remix-run/server-runtime@2.11.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)
+      '@sanity/client': 6.22.2
+      '@sanity/preview-url-secret': 2.0.0(@sanity/client@6.22.2)
+      '@sanity/react-loader': 1.10.14(@sanity/client@6.22.2)(react@19.0.0-rc-fb9a90fa48-20240614)
+      '@sanity/visual-editing': 2.4.2(@remix-run/react@2.11.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@sanity/client@6.22.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)
+      '@shopify/hydrogen': 2024.7.4(@remix-run/react@2.11.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@remix-run/server-runtime@2.11.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(xstate@5.18.2)
       '@shopify/remix-oxygen': 2.0.6(@remix-run/server-runtime@2.11.2)(@shopify/oxygen-workers-types@4.1.4)
       groq: 3.56.0
       react: 19.0.0-rc-fb9a90fa48-20240614
@@ -603,6 +712,7 @@ snapshots:
     transitivePeerDependencies:
       - '@remix-run/react'
       - '@sveltejs/kit'
+      - debug
       - next
       - svelte
 
@@ -628,9 +738,19 @@ snapshots:
       lit-element: 3.3.3
       lit-html: 2.8.0
 
+  mendoza@3.0.7: {}
+
   mimic-response@3.1.0: {}
 
+  min-document@2.19.0:
+    dependencies:
+      dom-walk: 0.1.2
+
+  nanoid@5.0.8: {}
+
   process-nextick-args@2.0.1: {}
+
+  process@0.11.10: {}
 
   progress-stream@2.0.0:
     dependencies:
@@ -718,6 +838,10 @@ snapshots:
 
   undici-types@6.19.8: {}
 
+  use-effect-event@1.0.2(react@19.0.0-rc-fb9a90fa48-20240614):
+    dependencies:
+      react: 19.0.0-rc-fb9a90fa48-20240614
+
   use-isomorphic-layout-effect@1.1.2(react@19.0.0-rc-fb9a90fa48-20240614):
     dependencies:
       react: 19.0.0-rc-fb9a90fa48-20240614
@@ -734,6 +858,8 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
+  uuid@10.0.0: {}
+
   uuid@8.3.2: {}
 
   valibot@0.31.1: {}
@@ -741,5 +867,7 @@ snapshots:
   worktop@0.7.3:
     dependencies:
       regexparam: 2.0.2
+
+  xstate@5.18.2: {}
 
   xtend@4.0.2: {}
