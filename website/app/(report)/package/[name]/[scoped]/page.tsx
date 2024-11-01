@@ -4,28 +4,20 @@ import {SharedPackageReport, generateSharedMetadata} from '../../Shared'
 
 export async function generateMetadata({
   params,
-  searchParams: {lastLiveEventId},
 }: {
-  params: {name: string; scoped: string}
-  searchParams: {[key: string]: string | string[] | undefined}
+  params: Promise<{name: string; scoped: string}>
 }): Promise<Metadata> {
+  const {name, scoped} = await params
   return generateSharedMetadata({
-    name: `${decodeURIComponent(params.name)}/${params.scoped}`,
-    lastLiveEventId,
+    name: `${decodeURIComponent(name)}/${scoped}`,
   })
 }
 
 export default async function PackageReport({
   params,
-  searchParams: {lastLiveEventId},
 }: {
-  params: {name: string; scoped: string}
-  searchParams: {[key: string]: string | string[] | undefined}
+  params: Promise<{name: string; scoped: string}>
 }) {
-  return (
-    <SharedPackageReport
-      name={`${decodeURIComponent(params.name)}/${params.scoped}`}
-      lastLiveEventId={lastLiveEventId}
-    />
-  )
+  const {name, scoped} = await params
+  return <SharedPackageReport name={`${decodeURIComponent(name)}/${scoped}`} />
 }

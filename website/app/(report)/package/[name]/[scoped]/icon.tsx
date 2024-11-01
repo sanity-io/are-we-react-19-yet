@@ -1,7 +1,7 @@
 import {ImageResponse} from 'next/og'
 
 import {packageQuery} from '@/sanity/lib/queries'
-import {sanityFetch} from '@/sanity/lib/fetch'
+import {sanityFetch} from '@/sanity/lib/live'
 import type {PackageQueryResult} from '@/sanity.types'
 
 import {Favicon} from '../../Shared'
@@ -14,12 +14,12 @@ export const size = {
 }
 export const contentType = 'image/png'
 
-export default async function Icon({params}: {params: {name: string; scoped: string}}) {
-  const [report] = await sanityFetch<PackageQueryResult>({
+export default async function Icon({params}: {params: Promise<{name: string; scoped: string}>}) {
+  const {name, scoped} = await params
+  const {data: report} = await sanityFetch({
     query: packageQuery,
-    params: {name: `${decodeURIComponent(params.name)}/${params.scoped}`},
+    params: {name: `${decodeURIComponent(name)}/${scoped}`},
     stega: false,
-    lastLiveEventId: undefined,
   })
 
   return new ImageResponse(<Favicon pass={report?.package?.pass ?? false} />, {...size})

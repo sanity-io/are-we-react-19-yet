@@ -1,21 +1,15 @@
 import type {Metadata} from 'next'
 
-import type {ReportQueryResult} from '@/sanity.types'
 import {reportQuery} from '@/sanity/lib/queries'
-import {sanityFetch} from '@/sanity/lib/fetch'
+import {sanityFetch} from '@/sanity/lib/live'
 
 import Report from './Report'
 import {Footer} from './Footer'
 
-export async function generateMetadata({
-  searchParams: {lastLiveEventId},
-}: {
-  searchParams: {[key: string]: string | string[] | undefined}
-}): Promise<Metadata> {
-  const [report] = await sanityFetch<ReportQueryResult>({
+export async function generateMetadata(): Promise<Metadata> {
+  const {data: report} = await sanityFetch({
     query: reportQuery,
     stega: false,
-    lastLiveEventId,
   })
   let title = 'Are We React 19 Yet?'
   if (report && report.total > 0) {
@@ -27,15 +21,8 @@ export async function generateMetadata({
   return {title}
 }
 
-export default async function Page({
-  searchParams: {lastLiveEventId},
-}: {
-  searchParams: {[key: string]: string | string[] | undefined}
-}) {
-  const [report, LiveSubscription] = await sanityFetch<ReportQueryResult>({
-    query: reportQuery,
-    lastLiveEventId,
-  })
+export default async function Page() {
+  const {data: report} = await sanityFetch({query: reportQuery})
   return (
     <>
       <main className="container mx-auto px-5">
@@ -51,15 +38,9 @@ export default async function Page({
             </h2>
           )}
         </section>
-        {report?.test && (
-          <Report
-            test={report.test}
-            lastLiveEventId={Array.isArray(lastLiveEventId) ? lastLiveEventId[0] : lastLiveEventId}
-          />
-        )}
+        {report?.test && <Report test={report.test} />}
       </main>
       {report?.updatedAt && <Footer dateString={report.updatedAt} />}
-      <LiveSubscription />
     </>
   )
 }

@@ -16,7 +16,7 @@ export default defineConfig({
   schema: {types},
   scheduledPublishing: {enabled: false},
   plugins: [
-    presentationTool({previewUrl: {previewMode: {enable: '/api/draft'}}}),
+    presentationTool({previewUrl: {previewMode: {enable: '/api/draft-mode/enable'}}}),
     structureTool(),
     visionTool({defaultApiVersion: apiVersion}),
   ],

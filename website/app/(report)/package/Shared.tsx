@@ -1,30 +1,22 @@
 import {CheckmarkCircleIcon, CloseCircleIcon} from '@sanity/icons'
-import {stegaClean} from '@sanity/client/stega'
+import {stegaClean} from 'next-sanity'
 import {Code} from 'bright'
 import {notFound} from 'next/navigation'
 import type {Metadata} from 'next'
 import Link from 'next/link'
 
-import {sanityFetch} from '@/sanity/lib/fetch'
+import {sanityFetch} from '@/sanity/lib/live'
 import {packageQuery} from '@/sanity/lib/queries'
-import type {PackageQueryResult} from '@/sanity.types'
 
 import {Footer} from '../Footer'
 
 Code.theme = 'github-dark-dimmed'
 
-export async function generateSharedMetadata({
-  name,
-  lastLiveEventId,
-}: {
-  name: string
-  lastLiveEventId: string | string[] | null | undefined
-}): Promise<Metadata> {
-  const [report] = await sanityFetch<PackageQueryResult>({
+export async function generateSharedMetadata({name}: {name: string}): Promise<Metadata> {
+  const {data: report} = await sanityFetch({
     query: packageQuery,
     params: {name},
     stega: false,
-    lastLiveEventId,
   })
   let title = 'Are We React 19 Yet?'
   if (report?.package?.name && report?.package?.version) {
@@ -33,17 +25,10 @@ export async function generateSharedMetadata({
   return {title}
 }
 
-export async function SharedPackageReport({
-  name,
-  lastLiveEventId,
-}: {
-  name: string
-  lastLiveEventId: string | string[] | null | undefined
-}) {
-  const [report, LiveSubscription] = await sanityFetch<PackageQueryResult>({
+export async function SharedPackageReport({name}: {name: string}) {
+  const {data: report} = await sanityFetch({
     query: packageQuery,
     params: {name},
-    lastLiveEventId,
   })
   if (!report?.package) {
     notFound()
@@ -57,13 +42,7 @@ export async function SharedPackageReport({
 
   return (
     <>
-      <Link
-        className="sticky left-2 top-2 rounded bg-white px-2 py-1"
-        href={{
-          pathname: '/',
-          query: {lastLiveEventId},
-        }}
-      >
+      <Link className="sticky left-2 top-2 rounded bg-white px-2 py-1" href="/">
         Back
       </Link>
       <main className="container mx-auto px-5">
@@ -104,7 +83,6 @@ ${report.package.log}`}</Code>
         )}
       </main>
       {report?.updatedAt && <Footer dateString={report.updatedAt} />}
-      <LiveSubscription />
     </>
   )
 }
