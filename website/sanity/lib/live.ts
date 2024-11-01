@@ -8,4 +8,8 @@ if (!token) {
   throw new Error('The `SANITY_API_READ_TOKEN` environment variable is required.')
 }
 
-export const {sanityFetch, SanityLive} = defineLive({client, serverToken: token})
+export const {sanityFetch, SanityLive} = defineLive({
+  client,
+  serverToken: token,
+  browserToken: token,
+})
