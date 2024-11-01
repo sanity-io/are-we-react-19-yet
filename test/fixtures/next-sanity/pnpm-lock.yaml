@@ -14,12 +14,6 @@ importers:
       next-sanity:
         specifier: 9.8.8
         version: 9.8.8(hvwx22tu5fci7yampmippzd5ea)
-      react:
-        specifier: '>=19.0.0-rc'
-        version: 19.0.0-rc-fb9a90fa48-20240614
-      react-dom:
-        specifier: '>=19.0.0-rc'
-        version: 19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614)
 
 packages:
 
