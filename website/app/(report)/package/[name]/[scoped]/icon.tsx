@@ -3,7 +3,7 @@ import {ImageResponse} from 'next/og'
 import {packageQuery} from '@/sanity/lib/queries'
 import {sanityFetch} from '@/sanity/lib/live'
 
-import {Favicon} from '../../Shared'
+import {Favicon} from '../../../Favicon'
 
 export const runtime = 'edge'
 
