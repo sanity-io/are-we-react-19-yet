@@ -4,5 +4,5 @@
     "react-dom": ">=19.0.0-rc",
     "sanity-plugin-utils": "1.6.5"
   },
-  "packageManager": "pnpm@9.10.0"
+  "packageManager": "pnpm@9.12.3"
 }
