@@ -1,6 +1,21 @@
 import type {Metadata} from 'next'
 
 import {SharedPackageReport, generateSharedMetadata} from '../Shared'
+import {sanityFetch} from '@/sanity/lib/live'
+import {packageNamesQuery} from '@/sanity/lib/queries'
+
+export async function generateStaticParams() {
+  const {data} = await sanityFetch({
+    query: packageNamesQuery,
+    stega: false,
+    perspective: 'published',
+  })
+  return (
+    data
+      ?.filter((name) => typeof name === 'string' && !name.includes('/'))
+      .map((name) => ({name})) ?? []
+  )
+}
 
 export async function generateMetadata({
   params,

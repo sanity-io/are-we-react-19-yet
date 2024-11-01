@@ -190,6 +190,9 @@ export type PackageQueryResult = {
     testJson: string | null
   } | null
 } | null
+// Variable: packageNamesQuery
+// Query: *[_type == "report" && defined(test)] | order(_createdAt desc)[0].test[].name
+export type PackageNamesQueryResult = Array<string | null> | null
 
 // Query TypeMap
 import '@sanity/client'
@@ -197,5 +200,6 @@ declare module '@sanity/client' {
   interface SanityQueries {
     '\n  *[_type == "report" && defined(test)] | order(_createdAt desc)[0]{\n    "updatedAt": coalesce(_updatedAt, _createdAt),\n    "test": coalesce(test[]{\n      _key,\n      name,\n      version,\n      "pass": coalesce(pass, false)\n    }, []),\n    "total": coalesce(count(test), 0),\n    "passing": coalesce(count(test[pass == true]), 0),\n  }\n': ReportQueryResult
     '\n*[_type == "report" && defined(test)] | order(_createdAt desc)[0]{\n  _id,\n  "updatedAt": coalesce(_updatedAt, _createdAt),\n  "package": test[name == $name][0]{name, version, pass, log, testJson},\n}': PackageQueryResult
+    '\n  *[_type == "report" && defined(test)] | order(_createdAt desc)[0].test[].name\n': PackageNamesQueryResult
   }
 }

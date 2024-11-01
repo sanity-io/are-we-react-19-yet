@@ -20,3 +20,7 @@ export const packageQuery = defineQuery(`
   "updatedAt": coalesce(_updatedAt, _createdAt),
   "package": test[name == $name][0]{name, version, pass, log, testJson},
 }`)
+
+export const packageNamesQuery = defineQuery(`
+  *[_type == "report" && defined(test)] | order(_createdAt desc)[0].test[].name
+`)
