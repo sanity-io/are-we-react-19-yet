@@ -5,7 +5,7 @@ import {sanityFetch} from '@/sanity/lib/live'
 
 import {Favicon} from './package/Shared'
 
-// export const runtime = 'edge'
+export const runtime = 'edge'
 
 export const size = {
   width: 25,

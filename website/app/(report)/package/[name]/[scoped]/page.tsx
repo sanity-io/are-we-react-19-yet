@@ -15,8 +15,8 @@ export async function generateStaticParams() {
       ?.filter((name) => typeof name === 'string' && name.includes('/'))
       .map((key) => {
         if (typeof key !== 'string') return null
-        const [scope, name] = key.split('/')
-        return {scope, name}
+        const [scoped, name] = key.split('/')
+        return {scoped, name}
       }) ?? []
   )
 }
