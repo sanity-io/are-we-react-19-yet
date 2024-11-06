@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "next": "15",
-    "next-sanity": "9.8.8"
+    "next-sanity": "9.8.10"
   },
   "packageManager": "pnpm@9.12.3"
 }
