@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@sanity/visual-editing':
-        specifier: 2.4.2
-        version: 2.4.2(@sanity/client@6.22.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)
+        specifier: 2.4.4
+        version: 2.4.4(@sanity/client@6.22.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)
       react:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-fb9a90fa48-20240614
@@ -53,8 +53,8 @@ packages:
   '@sanity/uuid@3.0.2':
     resolution: {integrity: sha512-vzdhqOrX7JGbMyK40KuIwwyXHm7GMLOGuYgn3xlC09e4ZVNofUO5mgezQqnRv0JAMthIRhofqs9f6ufUjMKOvw==}
 
-  '@sanity/visual-editing@2.4.2':
-    resolution: {integrity: sha512-HyvDmc33U27jMm/b7AUxShtdbJaXtE2FzSh3DAC4bbWq59iGoSbHTHRWq7xIZpWVH76xgkLh+RgVsyr8lI/+8g==}
+  '@sanity/visual-editing@2.4.4':
+    resolution: {integrity: sha512-pNR63Q7Zc7eaASr3zocfZUYRErmmE129t1V6ybKpxiqIcMIkSUIgYA66mEcYTRJuiAtv+bPJ8Izg3Cni7I80rQ==}
     engines: {node: '>=18'}
     peerDependencies:
       '@remix-run/react': '>= 2'
@@ -298,7 +298,7 @@ snapshots:
       '@types/uuid': 8.3.4
       uuid: 8.3.2
 
-  '@sanity/visual-editing@2.4.2(@sanity/client@6.22.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)':
+  '@sanity/visual-editing@2.4.4(@sanity/client@6.22.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)':
     dependencies:
       '@sanity/comlink': 1.1.1
       '@sanity/mutate': 0.10.1-canary.5(xstate@5.18.2)
