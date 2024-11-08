@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@portabletext/editor':
-        specifier: 1.5.5
-        version: 1.5.5(@sanity/block-tools@3.56.0)(@sanity/schema@3.56.0)(@sanity/types@3.56.0)(@sanity/util@3.56.0)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(rxjs@7.8.1)(styled-components@6.1.12(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))
+        specifier: 1.6.1
+        version: 1.6.1(@sanity/block-tools@3.56.0)(@sanity/schema@3.56.0)(@sanity/types@3.56.0)(@sanity/util@3.56.0)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(rxjs@7.8.1)(styled-components@6.1.12(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))
       react:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-fb9a90fa48-20240614
@@ -32,8 +32,8 @@ packages:
   '@juggle/resize-observer@3.4.0':
     resolution: {integrity: sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==}
 
-  '@portabletext/editor@1.5.5':
-    resolution: {integrity: sha512-crwkyqaR7r1cXse1r4Xa7vbAxfff+pTn4Inr0JrpFePIi02OBQsf9wgNqrjq7vxUT9ucrLs3/A60UpOijSAjAQ==}
+  '@portabletext/editor@1.6.1':
+    resolution: {integrity: sha512-BU15vrwNeki+GAgxaQUz9iX0Vjl4LsleBwm7DSAZyozi/IB7wfSwCq5CAFIJfA0Hl46uLJP1Pr7EkLQjrhJMlw==}
     engines: {node: '>=18'}
     peerDependencies:
       '@sanity/block-tools': ^3.63.0
@@ -262,10 +262,10 @@ packages:
   progress-stream@2.0.0:
     resolution: {integrity: sha512-xJwOWR46jcXUq6EH9yYyqp+I52skPySOeHfkxOZ2IY1AiBi/sFJhbhAKHoV3OTw/omQ45KTio9215dRJ2Yxd3Q==}
 
-  react-compiler-runtime@19.0.0-beta-9ee70a1-20241017:
-    resolution: {integrity: sha512-hVrlYbVacwEdZi08RUxSwIzZR2/+WxUsWRa7mjViRhqcqUYK+7u8UEVZoJrF5/gsCHMU9PhJRvolygSCaaE0nA==}
+  react-compiler-runtime@19.0.0-beta-63b359f-20241101:
+    resolution: {integrity: sha512-XxxpP4gqvvn2TQLWFTTqCKcbNFNJhsj+1tT2IFTiR0e13yTm1EF+qm4JSSsaSq++QZ+bIYh2exXsCN3fthd7VA==}
     peerDependencies:
-      react: ^18.2.0 || ^19.0.0
+      react: ^17.0.0 || ^18.0.0 || ^19.0.0
 
   react-dom@19.0.0-rc-fb9a90fa48-20240614:
     resolution: {integrity: sha512-PoEsPe32F7KPLYOBvZfjylEI1B67N44PwY3lyvpmBkhlluLnLz0jH8q2Wg9YidAi6z0k3iUnNRm5x10wurzt9Q==}
@@ -395,7 +395,7 @@ snapshots:
 
   '@juggle/resize-observer@3.4.0': {}
 
-  '@portabletext/editor@1.5.5(@sanity/block-tools@3.56.0)(@sanity/schema@3.56.0)(@sanity/types@3.56.0)(@sanity/util@3.56.0)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(rxjs@7.8.1)(styled-components@6.1.12(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))':
+  '@portabletext/editor@1.6.1(@sanity/block-tools@3.56.0)(@sanity/schema@3.56.0)(@sanity/types@3.56.0)(@sanity/util@3.56.0)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(rxjs@7.8.1)(styled-components@6.1.12(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))':
     dependencies:
       '@portabletext/patches': 1.1.0
       '@sanity/block-tools': 3.56.0
@@ -408,7 +408,7 @@ snapshots:
       lodash: 4.17.21
       lodash.startcase: 4.4.0
       react: 19.0.0-rc-fb9a90fa48-20240614
-      react-compiler-runtime: 19.0.0-beta-9ee70a1-20241017(react@19.0.0-rc-fb9a90fa48-20240614)
+      react-compiler-runtime: 19.0.0-beta-63b359f-20241101(react@19.0.0-rc-fb9a90fa48-20240614)
       rxjs: 7.8.1
       slate: 0.110.2
       slate-dom: 0.111.0(slate@0.110.2)
@@ -642,7 +642,7 @@ snapshots:
       speedometer: 1.0.0
       through2: 2.0.5
 
-  react-compiler-runtime@19.0.0-beta-9ee70a1-20241017(react@19.0.0-rc-fb9a90fa48-20240614):
+  react-compiler-runtime@19.0.0-beta-63b359f-20241101(react@19.0.0-rc-fb9a90fa48-20240614):
     dependencies:
       react: 19.0.0-rc-fb9a90fa48-20240614
 
