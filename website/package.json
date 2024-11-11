@@ -33,7 +33,7 @@
     "autoprefixer": "^10.4.20",
     "babel-plugin-react-compiler": "beta",
     "eslint": "^9.14.0",
-    "eslint-config-next": "^15.0.2",
+    "eslint-config-next": "^15.0.3",
     "eslint-plugin-react-compiler": "beta",
     "postcss": "^8.4.47",
     "prettier": "^3.3.3",
