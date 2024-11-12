@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@sanity/visual-editing':
-        specifier: 2.5.2
-        version: 2.5.2(@sanity/client@6.22.3)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)
+        specifier: 2.6.0
+        version: 2.6.0(@sanity/client@6.22.3)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)
       react:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-fb9a90fa48-20240614
@@ -44,21 +44,21 @@ packages:
       xstate:
         optional: true
 
-  '@sanity/preview-url-secret@2.0.2':
-    resolution: {integrity: sha512-5e8kdGLMGxWYajeu1uuZ60zvqy7JhAdxDnRr8U5sY5WNCZx3321debTvg35ZD1Cwc9TWn6oOo/DS5G7cEN6BWA==}
+  '@sanity/preview-url-secret@2.0.3':
+    resolution: {integrity: sha512-31Gzq8RsI2uSuoPkOi8RjkhNINQuQ8y3lKgnP1wYEeF6bjt3QnxF6wnUDQWRgs1YT1tZVw6c6xDcrQjoD1NZUQ==}
     engines: {node: '>=18'}
     peerDependencies:
-      '@sanity/client': ^6.22.3
+      '@sanity/client': ^6.22.4
 
   '@sanity/uuid@3.0.2':
     resolution: {integrity: sha512-vzdhqOrX7JGbMyK40KuIwwyXHm7GMLOGuYgn3xlC09e4ZVNofUO5mgezQqnRv0JAMthIRhofqs9f6ufUjMKOvw==}
 
-  '@sanity/visual-editing@2.5.2':
-    resolution: {integrity: sha512-bDuzyyC+UPHHZnsBHcCaTO9bWhBvxpo/QlMZ4upAfdN/Rx9qP8vmBnR17CF0YrtAABnAYP/fuKNR+Ud7vHy+vQ==}
+  '@sanity/visual-editing@2.6.0':
+    resolution: {integrity: sha512-2qJWrf/Att+/ziD7dftkzRtnPIKyifZS43Ep93NBq1Ud0MMpBtwkobN8ThCki3RHINOoHNnzWUiDVZouzTMruQ==}
     engines: {node: '>=18'}
     peerDependencies:
       '@remix-run/react': '>= 2'
-      '@sanity/client': ^6.22.3
+      '@sanity/client': ^6.22.4
       '@sveltejs/kit': '>= 2'
       next: '>= 13 || >=14.3.0-canary.0 <14.3.0 || >=15.0.0-rc'
       react: ^18.3 || >=19.0.0-rc
@@ -286,7 +286,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@sanity/preview-url-secret@2.0.2(@sanity/client@6.22.3)':
+  '@sanity/preview-url-secret@2.0.3(@sanity/client@6.22.3)':
     dependencies:
       '@sanity/client': 6.22.3
       '@sanity/uuid': 3.0.2
@@ -296,11 +296,11 @@ snapshots:
       '@types/uuid': 8.3.4
       uuid: 8.3.2
 
-  '@sanity/visual-editing@2.5.2(@sanity/client@6.22.3)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)':
+  '@sanity/visual-editing@2.6.0(@sanity/client@6.22.3)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)':
     dependencies:
       '@sanity/comlink': 1.1.1
       '@sanity/mutate': 0.11.0-canary.2(xstate@5.18.2)
-      '@sanity/preview-url-secret': 2.0.2(@sanity/client@6.22.3)
+      '@sanity/preview-url-secret': 2.0.3(@sanity/client@6.22.3)
       '@vercel/stega': 0.1.2
       get-random-values-esm: 1.0.2
       react: 19.0.0-rc-fb9a90fa48-20240614
