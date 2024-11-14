@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "framer-motion": "11.11.13",
+    "framer-motion": "11.11.17",
     "react": ">=19.0.0-rc",
     "react-dom": ">=19.0.0-rc"
   },
