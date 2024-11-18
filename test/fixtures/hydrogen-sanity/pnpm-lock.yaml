@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       hydrogen-sanity:
-        specifier: 4.3.1
-        version: 4.3.1(@remix-run/react@2.11.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@sanity/client@6.22.2)(@shopify/hydrogen@2024.7.4(@remix-run/react@2.11.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@remix-run/server-runtime@2.11.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(xstate@5.18.2))(@shopify/remix-oxygen@2.0.6(@remix-run/server-runtime@2.11.2)(@shopify/oxygen-workers-types@4.1.4))(groq@3.56.0)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)
+        specifier: 4.3.2
+        version: 4.3.2(@remix-run/react@2.11.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@sanity/client@6.22.2)(@shopify/hydrogen@2024.7.4(@remix-run/react@2.11.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@remix-run/server-runtime@2.11.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(xstate@5.18.2))(@shopify/remix-oxygen@2.0.6(@remix-run/server-runtime@2.11.2)(@shopify/oxygen-workers-types@4.1.4))(groq@3.56.0)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)
       react:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-fb9a90fa48-20240614
@@ -263,8 +263,8 @@ packages:
   hotscript@1.0.13:
     resolution: {integrity: sha512-C++tTF1GqkGYecL+2S1wJTfoH6APGAsbb7PAWQ3iVIwgG/EFseAfEVOKFgAFq4yK3+6j1EjUD4UQ9dRJHX/sSQ==}
 
-  hydrogen-sanity@4.3.1:
-    resolution: {integrity: sha512-N5HdXKuzsEGp6br/9DTURx4z2OW9xlDYEUlTmeb4D2iUZdOJ7h5Ow1D5vdoHCIyDhReP6HZDQh1Pvw2VPXtKQg==}
+  hydrogen-sanity@4.3.2:
+    resolution: {integrity: sha512-nKU0hSXsV+D4zKrxKMlfg5I8m30qejUKZ4RCEXInqQs81lMfFUazakOb1TPO/LZukJy8mbDQXE5uT3AN8dO+oQ==}
     engines: {node: '>=18'}
     peerDependencies:
       '@sanity/client': ^6.18.0
@@ -698,7 +698,7 @@ snapshots:
 
   hotscript@1.0.13: {}
 
-  hydrogen-sanity@4.3.1(@remix-run/react@2.11.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@sanity/client@6.22.2)(@shopify/hydrogen@2024.7.4(@remix-run/react@2.11.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@remix-run/server-runtime@2.11.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(xstate@5.18.2))(@shopify/remix-oxygen@2.0.6(@remix-run/server-runtime@2.11.2)(@shopify/oxygen-workers-types@4.1.4))(groq@3.56.0)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614):
+  hydrogen-sanity@4.3.2(@remix-run/react@2.11.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@sanity/client@6.22.2)(@shopify/hydrogen@2024.7.4(@remix-run/react@2.11.2(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))(@remix-run/server-runtime@2.11.2)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614)(xstate@5.18.2))(@shopify/remix-oxygen@2.0.6(@remix-run/server-runtime@2.11.2)(@shopify/oxygen-workers-types@4.1.4))(groq@3.56.0)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614):
     dependencies:
       '@sanity/client': 6.22.2
       '@sanity/preview-url-secret': 2.0.0(@sanity/client@6.22.2)
