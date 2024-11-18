@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@sanity/presentation':
-        specifier: 1.18.2
-        version: 1.18.2(@sanity/client@6.21.3)(@sanity/color@3.0.6)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react-is@18.3.1)(react@19.0.0-rc-fb9a90fa48-20240614)(styled-components@6.1.12(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))
+        specifier: 1.18.3
+        version: 1.18.3(@sanity/client@6.21.3)(@sanity/color@3.0.6)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react-is@18.3.1)(react@19.0.0-rc-fb9a90fa48-20240614)(styled-components@6.1.12(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))
       react:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-fb9a90fa48-20240614
@@ -58,8 +58,8 @@ packages:
     resolution: {integrity: sha512-2TjYEvOftD0v7ukx3Csdh9QIu44P2z7NDJtlC3qITJRYV36J7R6Vfd3trVhFnN77/7CZrGjqngrtohv8VqO5nw==}
     engines: {node: '>=18.0.0'}
 
-  '@sanity/comlink@1.1.2':
-    resolution: {integrity: sha512-NFdoNub1P2VLQo7S/LpvY5spTfmIZpHRB2IBlIobkE+L/MbFM2Ur2PBUoNr4d+hnFKEB/8thySUZXYfUIcytmw==}
+  '@sanity/comlink@1.1.3':
+    resolution: {integrity: sha512-Lx1YwziLLqzPUFuJDqmtS0zF2LbYZjDdJ6n6P9toUCrizw1F+/dqnJL2a2YZPKmBlW7+gfnJKxwMlK4DmbThTg==}
     engines: {node: '>=18'}
 
   '@sanity/eventsource@5.0.2':
@@ -78,8 +78,8 @@ packages:
       '@sanity/color': ^2.0 || ^3.0 || ^3.0.0-beta
       react: ^18.3 || >=19.0.0-rc
 
-  '@sanity/presentation@1.18.2':
-    resolution: {integrity: sha512-pjEdgDH6DFT5vyNiuTrBjgqK2cvNTs7jT6CMrypcydr+URCd/4WpadQjrw/WhTLUlqiTcgmuU+Fja8xFgMp4Ag==}
+  '@sanity/presentation@1.18.3':
+    resolution: {integrity: sha512-CtjLY59DU0VMM+lhWjyrlleu6/H2FYxi4G9vFURRh5gHOczLHtHew8t+sA3tteHY6XIg7PBR1O4J0iXbcmoG6A==}
     engines: {node: '>=16.14'}
     peerDependencies:
       '@sanity/client': ^6.22.4
@@ -446,7 +446,7 @@ snapshots:
 
   '@sanity/color@3.0.6': {}
 
-  '@sanity/comlink@1.1.2':
+  '@sanity/comlink@1.1.3':
     dependencies:
       rxjs: 7.8.1
       uuid: 10.0.0
@@ -468,10 +468,10 @@ snapshots:
       '@sanity/color': 3.0.6
       react: 19.0.0-rc-fb9a90fa48-20240614
 
-  '@sanity/presentation@1.18.2(@sanity/client@6.21.3)(@sanity/color@3.0.6)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react-is@18.3.1)(react@19.0.0-rc-fb9a90fa48-20240614)(styled-components@6.1.12(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))':
+  '@sanity/presentation@1.18.3(@sanity/client@6.21.3)(@sanity/color@3.0.6)(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react-is@18.3.1)(react@19.0.0-rc-fb9a90fa48-20240614)(styled-components@6.1.12(react-dom@19.0.0-rc-fb9a90fa48-20240614(react@19.0.0-rc-fb9a90fa48-20240614))(react@19.0.0-rc-fb9a90fa48-20240614))':
     dependencies:
       '@sanity/client': 6.21.3
-      '@sanity/comlink': 1.1.2
+      '@sanity/comlink': 1.1.3
       '@sanity/icons': 3.4.0(react@19.0.0-rc-fb9a90fa48-20240614)
       '@sanity/logos': 2.1.13(@sanity/color@3.0.6)(react@19.0.0-rc-fb9a90fa48-20240614)
       '@sanity/preview-url-secret': 2.0.3(@sanity/client@6.21.3)
