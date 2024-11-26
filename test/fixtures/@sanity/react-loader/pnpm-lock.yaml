@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@sanity/react-loader':
-        specifier: 1.10.20
-        version: 1.10.20(@sanity/client@6.21.3)(react@19.0.0-rc-fb9a90fa48-20240614)
+        specifier: 1.10.21
+        version: 1.10.21(@sanity/client@6.21.3)(react@19.0.0-rc-fb9a90fa48-20240614)
       react:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-fb9a90fa48-20240614
@@ -24,12 +24,12 @@ packages:
     resolution: {integrity: sha512-oE2+4kKRTZhFCc4IIsojkzKF0jIhsSYSRxkPZjScZ1k/EQ3Y2tEcQYiKwvvotzaXoaWsIL3RTpulE+R4iBYiBw==}
     engines: {node: '>=14.18'}
 
-  '@sanity/comlink@1.1.3':
-    resolution: {integrity: sha512-Lx1YwziLLqzPUFuJDqmtS0zF2LbYZjDdJ6n6P9toUCrizw1F+/dqnJL2a2YZPKmBlW7+gfnJKxwMlK4DmbThTg==}
+  '@sanity/comlink@1.1.4':
+    resolution: {integrity: sha512-3Mi6jzLyZhA5luDznIdeurr6Bzr+D6Z1nrB2ayqUrcsjpndYrr6ny6UnBQybJFwXyynYZVhmHhLQlziEzH31lw==}
     engines: {node: '>=18'}
 
-  '@sanity/core-loader@1.7.12':
-    resolution: {integrity: sha512-YXjVzoqbhmp7DzAVGx7BBPUq6E9u1ItRAtvwO2favTq29d+IgQ2gkTWJMAo/0dfSs30eEuggtZrS8Z7t5iTKLw==}
+  '@sanity/core-loader@1.7.13':
+    resolution: {integrity: sha512-E3agrdL6QH/iHxQFcWADHiTfACobBuN8AtrjqVoC1lz2Q7/lTASsJGhM83ti0k+YqsKuZD+gpiBc8TDH7Kalzg==}
     engines: {node: '>=18'}
     peerDependencies:
       '@sanity/client': ^6.22.5
@@ -37,8 +37,8 @@ packages:
   '@sanity/eventsource@5.0.2':
     resolution: {integrity: sha512-/B9PMkUvAlUrpRq0y+NzXgRv5lYCLxZNsBJD2WXVnqZYOfByL9oQBV7KiTaARuObp5hcQYuPfOAVjgXe3hrixA==}
 
-  '@sanity/react-loader@1.10.20':
-    resolution: {integrity: sha512-ztafIM/gnKnf6ttNIoGqv9xEOcdsQ3vNi8u1IUl4f3KVb4b1uz3lI2iCLAfMadz5PoUzacMRMeDCc1UGLRI70Q==}
+  '@sanity/react-loader@1.10.21':
+    resolution: {integrity: sha512-rlMxwrt23ecMloQEZwB+TP5es/EVNesoN2YcLdbZ/cm54Be8YKUAV1gnkMEX/Mn1vUOvL2d5+6Qt6qcYbhvmPw==}
     engines: {node: '>=18'}
     peerDependencies:
       '@sanity/client': ^6.22.5
@@ -172,16 +172,16 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@sanity/comlink@1.1.3':
+  '@sanity/comlink@1.1.4':
     dependencies:
       rxjs: 7.8.1
       uuid: 10.0.0
       xstate: 5.19.0
 
-  '@sanity/core-loader@1.7.12(@sanity/client@6.21.3)':
+  '@sanity/core-loader@1.7.13(@sanity/client@6.21.3)':
     dependencies:
       '@sanity/client': 6.21.3
-      '@sanity/comlink': 1.1.3
+      '@sanity/comlink': 1.1.4
 
   '@sanity/eventsource@5.0.2':
     dependencies:
@@ -190,10 +190,10 @@ snapshots:
       event-source-polyfill: 1.0.31
       eventsource: 2.0.2
 
-  '@sanity/react-loader@1.10.20(@sanity/client@6.21.3)(react@19.0.0-rc-fb9a90fa48-20240614)':
+  '@sanity/react-loader@1.10.21(@sanity/client@6.21.3)(react@19.0.0-rc-fb9a90fa48-20240614)':
     dependencies:
       '@sanity/client': 6.21.3
-      '@sanity/core-loader': 1.7.12(@sanity/client@6.21.3)
+      '@sanity/core-loader': 1.7.13(@sanity/client@6.21.3)
       react: 19.0.0-rc-fb9a90fa48-20240614
 
   '@types/event-source-polyfill@1.0.5': {}
