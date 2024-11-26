@@ -2,7 +2,7 @@
   "dependencies": {
     "react": ">=19.0.0-rc",
     "react-dom": ">=19.0.0-rc",
-    "sanity-plugin-cloudinary": "1.1.4"
+    "sanity-plugin-cloudinary": "1.1.5"
   },
   "packageManager": "pnpm@9.14.2"
 }
