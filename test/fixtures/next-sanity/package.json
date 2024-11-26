@@ -3,5 +3,5 @@
     "next": "15",
     "next-sanity": "9.8.16"
   },
-  "packageManager": "pnpm@9.13.2"
+  "packageManager": "pnpm@9.14.2"
 }
