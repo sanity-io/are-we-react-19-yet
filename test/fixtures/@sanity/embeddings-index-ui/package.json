@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@sanity/embeddings-index-ui": "1.1.8",
+    "@sanity/embeddings-index-ui": "2.0.0",
     "react": ">=19.0.0-rc",
     "react-dom": ">=19.0.0-rc"
   },
