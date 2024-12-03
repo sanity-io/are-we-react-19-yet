@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@sanity/icons':
-        specifier: 3.4.0
-        version: 3.4.0(react@19.0.0-rc-fb9a90fa48-20240614)
+        specifier: 3.5.0
+        version: 3.5.0(react@19.0.0-rc-fb9a90fa48-20240614)
       react:
         specifier: '>=19.0.0-rc'
         version: 19.0.0-rc-fb9a90fa48-20240614
@@ -20,8 +20,8 @@ importers:
 
 packages:
 
-  '@sanity/icons@3.4.0':
-    resolution: {integrity: sha512-X8BMM68w3y5cuCLpPwV7jGhVNGgAL/FA3UI6JaRCsyVOahA6aBOeKdjFs5MHtKi8cmrKwq1a98h/HbrK56kszA==}
+  '@sanity/icons@3.5.0':
+    resolution: {integrity: sha512-OXZILmwd1lZybwO4RYSY3fr6Kn6MePWOjBJRWDiw5lu9W+DmYO87P82S8nD5y/toQvWr53eNQfRzob2PLo+ZOA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       react: ^18.3 || >=19.0.0-rc
@@ -40,7 +40,7 @@ packages:
 
 snapshots:
 
-  '@sanity/icons@3.4.0(react@19.0.0-rc-fb9a90fa48-20240614)':
+  '@sanity/icons@3.5.0(react@19.0.0-rc-fb9a90fa48-20240614)':
     dependencies:
       react: 19.0.0-rc-fb9a90fa48-20240614
 
