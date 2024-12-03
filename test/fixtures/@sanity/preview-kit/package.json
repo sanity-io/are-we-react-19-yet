@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@sanity/preview-kit": "5.1.19",
+    "@sanity/preview-kit": "5.1.20",
     "react": ">=19.0.0-rc",
     "react-dom": ">=19.0.0-rc"
   },
