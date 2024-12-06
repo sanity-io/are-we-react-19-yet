@@ -41,7 +41,7 @@ for (const pkg of packageNames) {
           'react-dom': '^19.0.0',
           'react-is': '^19.0.0',
         },
-        packageManager: 'pnpm@9.0.4',
+        packageManager: 'pnpm@9.14.4',
       },
       null,
       2,
