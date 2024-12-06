@@ -16,6 +16,7 @@
     "@types/node": "^20.12.13",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
+    "@types/react-is": "^19.0.0",
     "@vercel/speed-insights": "^1.0.14",
     "bright": "^0.8.5",
     "date-fns": "^4.1.0",
@@ -23,6 +24,7 @@
     "next-sanity": "^9.8.25",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-is": "^19.0.0",
     "sanity": "^3.66.1",
     "styled-components": "^6.1.13"
   },
@@ -52,6 +54,14 @@
         "react-dom",
         "react-is"
       ]
+    },
+    "overrides": {
+      "@types/react": "$@types/react",
+      "@types/react-dom": "$@types/react-dom",
+      "@types/react-is": "$@types/react-is",
+      "react": "$react",
+      "react-dom": "$react-dom",
+      "react-is": "$react-is"
     }
   }
 }
