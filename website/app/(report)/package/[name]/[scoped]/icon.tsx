@@ -18,6 +18,7 @@ export default async function Icon({params}: {params: Promise<{name: string; sco
   const {data: report} = await sanityFetch({
     query: packageQuery,
     params: {name: `${decodeURIComponent(name)}/${scoped}`},
+    perspective: 'published',
     stega: false,
   })
 

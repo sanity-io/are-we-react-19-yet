@@ -34,8 +34,12 @@ for (const pkg of packageNames) {
     JSON.stringify(
       {
         dependencies: {
-          'react': '>=19.0.0-rc',
-          'react-dom': '>=19.0.0-rc',
+          '@types/react': '^19.0.0',
+          '@types/react-dom': '^19.0.0',
+          '@types/react-is': '^19.0.0',
+          'react': '^19.0.0',
+          'react-dom': '^19.0.0',
+          'react-is': '^19.0.0',
         },
         packageManager: 'pnpm@9.0.4',
       },
