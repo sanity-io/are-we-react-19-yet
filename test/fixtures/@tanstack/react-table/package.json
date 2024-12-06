@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@tanstack/react-virtual": "3.11.0",
+    "@tanstack/react-table": "8.20.5",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@types/react-is": "^19.0.0",
