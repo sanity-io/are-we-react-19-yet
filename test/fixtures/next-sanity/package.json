@@ -1,7 +1,13 @@
 {
   "dependencies": {
-    "next": "15",
-    "next-sanity": "9.8.24"
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.1",
+    "@types/react-is": "^19.0.0",
+    "next": "^15.0.4",
+    "next-sanity": "9.8.24",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-is": "^19.0.0"
   },
   "packageManager": "pnpm@9.14.4"
 }
