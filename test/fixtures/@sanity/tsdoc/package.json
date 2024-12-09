@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@sanity/tsdoc": "1.0.147",
+    "@sanity/tsdoc": "1.0.150",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@types/react-is": "^19.0.0",
