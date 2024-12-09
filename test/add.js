@@ -11,6 +11,10 @@ if (packageNames.length === 0) {
   process.exit(1)
 }
 
+const {packageManager} = JSON.parse(
+  await readFile(new URL(`./package.json`, import.meta.url), 'utf-8'),
+)
+
 for (const pkg of packageNames) {
   let pkgName = pkg
   let distTag = 'latest'
@@ -41,7 +45,7 @@ for (const pkg of packageNames) {
           'react-dom': '^19.0.0',
           'react-is': '^19.0.0',
         },
-        packageManager: 'pnpm@9.14.4',
+        packageManager,
       },
       null,
       2,
