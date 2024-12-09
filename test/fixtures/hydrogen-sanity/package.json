@@ -1,9 +1,9 @@
 {
   "dependencies": {
-    "hydrogen-sanity": "4.3.2",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@types/react-is": "^19.0.0",
+    "hydrogen-sanity": "4.3.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-is": "^19.0.0"
