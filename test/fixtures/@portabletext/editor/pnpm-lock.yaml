@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@portabletext/editor':
-        specifier: 1.15.2
-        version: 1.15.2(@sanity/block-tools@3.66.1)(@sanity/schema@3.66.1)(@sanity/types@3.66.1)(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rxjs@7.8.1)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
+        specifier: 1.15.3
+        version: 1.15.3(@sanity/block-tools@3.66.1)(@sanity/schema@3.66.1)(@sanity/types@3.66.1)(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rxjs@7.8.1)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
       '@types/react':
         specifier: ^19.0.0
         version: 19.0.1
@@ -44,8 +44,8 @@ packages:
   '@juggle/resize-observer@3.4.0':
     resolution: {integrity: sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==}
 
-  '@portabletext/editor@1.15.2':
-    resolution: {integrity: sha512-0bstT68di717y92AYsMdLz69bK32Q+CgCZ/bjrbe2ow3gGP5PMqKbIjOeuuvP8zcixq7O9ZlLGcDI9sVAFjdrw==}
+  '@portabletext/editor@1.15.3':
+    resolution: {integrity: sha512-IlpEdSCR5O3W2AowbloCQ4hXOxfhmze0+75Q5qxubwkAWZOKb0/ByQdTV9ZjwoRc4DU/TtnOTsY3aHPXCPvpEA==}
     engines: {node: '>=18'}
     peerDependencies:
       '@sanity/block-tools': ^3.66.1
@@ -408,7 +408,7 @@ snapshots:
 
   '@juggle/resize-observer@3.4.0': {}
 
-  '@portabletext/editor@1.15.2(@sanity/block-tools@3.66.1)(@sanity/schema@3.66.1)(@sanity/types@3.66.1)(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rxjs@7.8.1)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))':
+  '@portabletext/editor@1.15.3(@sanity/block-tools@3.66.1)(@sanity/schema@3.66.1)(@sanity/types@3.66.1)(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rxjs@7.8.1)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))':
     dependencies:
       '@portabletext/patches': 1.1.0
       '@sanity/block-tools': 3.66.1
