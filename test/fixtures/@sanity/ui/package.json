@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@sanity/ui": "2.10.6",
+    "@sanity/ui": "2.10.7",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@types/react-is": "^19.0.0",
