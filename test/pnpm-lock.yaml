@@ -27,8 +27,8 @@ importers:
         specifier: ^0.11.1
         version: 0.11.1(vitest@2.1.8(@types/node@22.10.1))
       zx:
-        specifier: ^8.1.1
-        version: 8.2.4
+        specifier: 8.1.1
+        version: 8.1.1
     devDependencies:
       '@sanity/prettier-config':
         specifier: ^1.0.3
@@ -896,8 +896,8 @@ packages:
     resolution: {integrity: sha512-GQHQqAopRhwU8Kt1DDM8NjibDXHC8eoh1erhGAJPEyveY9qqVeXvVikNKrDz69sHowPMorbPUrH/mx8c50eiBQ==}
     engines: {node: '>=18'}
 
-  zx@8.2.4:
-    resolution: {integrity: sha512-g9wVU+5+M+zVen/3IyAZfsZFmeqb6vDfjqFggakviz5uLK7OAejOirX+jeTOkyvAh/OYRlCgw+SdqzN7F61QVQ==}
+  zx@8.1.1:
+    resolution: {integrity: sha512-JYAyM06wK+KLy07MkipBTghtd3zsYBxTH44Fh3p932ntDKdT5jxziEK51siPG+rqT+MWV1yK9mCM1/CB92PV7Q==}
     engines: {node: '>= 12.17.0'}
     hasBin: true
 
@@ -1656,7 +1656,7 @@ snapshots:
 
   yoctocolors@2.1.1: {}
 
-  zx@8.2.4:
+  zx@8.1.1:
     optionalDependencies:
       '@types/fs-extra': 11.0.4
       '@types/node': 22.10.1
