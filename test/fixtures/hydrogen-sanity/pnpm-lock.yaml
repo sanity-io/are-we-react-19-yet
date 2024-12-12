@@ -88,8 +88,8 @@ packages:
   '@sanity/eventsource@5.0.2':
     resolution: {integrity: sha512-/B9PMkUvAlUrpRq0y+NzXgRv5lYCLxZNsBJD2WXVnqZYOfByL9oQBV7KiTaARuObp5hcQYuPfOAVjgXe3hrixA==}
 
-  '@sanity/mutate@0.11.0-canary.3':
-    resolution: {integrity: sha512-zZQo3rsjsTZBlRi+D3S90MebvzWNtdRzb6A0s07gEO2PtCtc5LEUSyPCLvIZiv6e2YMjBmMmuref4IB8VixKnw==}
+  '@sanity/mutate@0.11.0-canary.4':
+    resolution: {integrity: sha512-82jU3PvxQepY+jVJU1WaXQOf2Q9Q/fOCE2ksJZ4cnH3/WFOsg7RceYoOWb1XKthchTCD9zSBS9DRmb7FQ0Jlsg==}
     engines: {node: '>=18'}
     peerDependencies:
       xstate: ^5.19.0
@@ -112,8 +112,8 @@ packages:
   '@sanity/uuid@3.0.2':
     resolution: {integrity: sha512-vzdhqOrX7JGbMyK40KuIwwyXHm7GMLOGuYgn3xlC09e4ZVNofUO5mgezQqnRv0JAMthIRhofqs9f6ufUjMKOvw==}
 
-  '@sanity/visual-editing@2.10.6':
-    resolution: {integrity: sha512-+edG4S6o4s7VOJJMSLDHea1X7tds566bfgG5aHEdLqkV9RFd8Bkri5IoWtffKXfPQa9GfoozqsYQzVNPhaEPGw==}
+  '@sanity/visual-editing@2.10.7':
+    resolution: {integrity: sha512-CvpISyKoAsnd9E7je8JKJm/9Ixw/xKCEa9UX1mBzc9TfQ/IsdSED8BqTE6IfXSnLnMYRMg6FtLupfH/D7ZJrxQ==}
     engines: {node: '>=18'}
     peerDependencies:
       '@remix-run/react': '>= 2'
@@ -319,6 +319,9 @@ packages:
   lit@2.8.0:
     resolution: {integrity: sha512-4Sc3OFX9QHOJaHbmTMk28SYgVxLN3ePDjg7hofEft2zWlehFL3LiAuapWc4U/kYwMYJSh2hTCPZ6/LIC7ii0MA==}
 
+  lodash-es@4.17.21:
+    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
+
   lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
 
@@ -430,8 +433,8 @@ packages:
   turbo-stream@2.4.0:
     resolution: {integrity: sha512-FHncC10WpBd2eOmGwpmQsWLDoK4cqsA/UT/GqNoaKOQnT8uzhtCbg3EoUDMvqpOSAI0S26mr0rkjzbOO6S3v1g==}
 
-  type-fest@4.30.0:
-    resolution: {integrity: sha512-G6zXWS1dLj6eagy6sVhOMQiLtJdxQBHIA9Z6HFUNLOlr6MFOgzV8wvmidtPONfPtEUv0uZsy77XJNzTAfwPDaA==}
+  type-fest@4.30.1:
+    resolution: {integrity: sha512-ojFL7eDMX2NF0xMbDwPZJ8sb7ckqtlAi1GsmgsFXvErT9kFTk1r0DuQKvrCh73M6D4nngeHJmvogF9OluXs7Hw==}
     engines: {node: '>=16'}
 
   undici-types@6.20.0:
@@ -554,12 +557,13 @@ snapshots:
       event-source-polyfill: 1.0.31
       eventsource: 2.0.2
 
-  '@sanity/mutate@0.11.0-canary.3(xstate@5.19.0)':
+  '@sanity/mutate@0.11.0-canary.4(xstate@5.19.0)':
     dependencies:
       '@sanity/client': 6.24.1
       '@sanity/diff-match-patch': 3.1.1
       hotscript: 1.0.13
       lodash: 4.17.21
+      lodash-es: 4.17.21
       mendoza: 3.0.8
       rxjs: 7.8.1
     optionalDependencies:
@@ -585,10 +589,10 @@ snapshots:
       '@types/uuid': 8.3.4
       uuid: 8.3.2
 
-  '@sanity/visual-editing@2.10.6(@remix-run/react@2.15.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@sanity/client@6.24.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@sanity/visual-editing@2.10.7(@remix-run/react@2.15.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@sanity/client@6.24.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
       '@sanity/comlink': 2.0.1
-      '@sanity/mutate': 0.11.0-canary.3(xstate@5.19.0)
+      '@sanity/mutate': 0.11.0-canary.4(xstate@5.19.0)
       '@sanity/preview-url-secret': 2.0.5(@sanity/client@6.24.1)
       '@vercel/stega': 0.1.2
       get-random-values-esm: 1.0.2
@@ -614,7 +618,7 @@ snapshots:
       graphql: 16.9.0
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
-      type-fest: 4.30.0
+      type-fest: 4.30.1
       worktop: 0.7.3
     transitivePeerDependencies:
       - '@types/react'
@@ -628,7 +632,7 @@ snapshots:
       content-security-policy-builder: 2.2.0
       react: 19.0.0
       source-map-support: 0.5.21
-      type-fest: 4.30.0
+      type-fest: 4.30.1
       use-resize-observer: 9.1.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       worktop: 0.7.3
     transitivePeerDependencies:
@@ -754,7 +758,7 @@ snapshots:
       '@sanity/client': 6.24.1
       '@sanity/preview-url-secret': 2.0.5(@sanity/client@6.24.1)
       '@sanity/react-loader': 1.10.28(react@19.0.0)
-      '@sanity/visual-editing': 2.10.6(@remix-run/react@2.15.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@sanity/client@6.24.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@sanity/visual-editing': 2.10.7(@remix-run/react@2.15.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@sanity/client@6.24.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@shopify/hydrogen': 2024.10.1(@remix-run/react@2.15.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@remix-run/server-runtime@2.15.1)(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(xstate@5.19.0)
       '@shopify/remix-oxygen': 2.0.9(@remix-run/server-runtime@2.15.1)(@shopify/oxygen-workers-types@4.1.6)
       groq: 3.67.1
@@ -789,6 +793,8 @@ snapshots:
       '@lit/reactive-element': 1.6.3
       lit-element: 3.3.3
       lit-html: 2.8.0
+
+  lodash-es@4.17.21: {}
 
   lodash@4.17.21: {}
 
@@ -892,7 +898,7 @@ snapshots:
 
   turbo-stream@2.4.0: {}
 
-  type-fest@4.30.0: {}
+  type-fest@4.30.1: {}
 
   undici-types@6.20.0: {}
 
