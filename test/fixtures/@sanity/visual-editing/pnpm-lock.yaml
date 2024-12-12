@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@sanity/visual-editing':
-        specifier: 2.10.6
-        version: 2.10.6(@sanity/client@6.24.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        specifier: 2.10.7
+        version: 2.10.7(@sanity/client@6.24.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@types/react':
         specifier: ^19.0.0
         version: 19.0.1
@@ -47,8 +47,8 @@ packages:
   '@sanity/eventsource@5.0.2':
     resolution: {integrity: sha512-/B9PMkUvAlUrpRq0y+NzXgRv5lYCLxZNsBJD2WXVnqZYOfByL9oQBV7KiTaARuObp5hcQYuPfOAVjgXe3hrixA==}
 
-  '@sanity/mutate@0.11.0-canary.3':
-    resolution: {integrity: sha512-zZQo3rsjsTZBlRi+D3S90MebvzWNtdRzb6A0s07gEO2PtCtc5LEUSyPCLvIZiv6e2YMjBmMmuref4IB8VixKnw==}
+  '@sanity/mutate@0.11.0-canary.4':
+    resolution: {integrity: sha512-82jU3PvxQepY+jVJU1WaXQOf2Q9Q/fOCE2ksJZ4cnH3/WFOsg7RceYoOWb1XKthchTCD9zSBS9DRmb7FQ0Jlsg==}
     engines: {node: '>=18'}
     peerDependencies:
       xstate: ^5.19.0
@@ -65,8 +65,8 @@ packages:
   '@sanity/uuid@3.0.2':
     resolution: {integrity: sha512-vzdhqOrX7JGbMyK40KuIwwyXHm7GMLOGuYgn3xlC09e4ZVNofUO5mgezQqnRv0JAMthIRhofqs9f6ufUjMKOvw==}
 
-  '@sanity/visual-editing@2.10.6':
-    resolution: {integrity: sha512-+edG4S6o4s7VOJJMSLDHea1X7tds566bfgG5aHEdLqkV9RFd8Bkri5IoWtffKXfPQa9GfoozqsYQzVNPhaEPGw==}
+  '@sanity/visual-editing@2.10.7':
+    resolution: {integrity: sha512-CvpISyKoAsnd9E7je8JKJm/9Ixw/xKCEa9UX1mBzc9TfQ/IsdSED8BqTE6IfXSnLnMYRMg6FtLupfH/D7ZJrxQ==}
     engines: {node: '>=18'}
     peerDependencies:
       '@remix-run/react': '>= 2'
@@ -181,6 +181,9 @@ packages:
 
   isarray@1.0.0:
     resolution: {integrity: sha512-VLghIWNM6ELQzo7zwmcg0NmTVyWKYjvIeM83yjp0wRDTmUnrM678fQbcKBo6n2CJEF0szoG//ytg+TKla89ALQ==}
+
+  lodash-es@4.17.21:
+    resolution: {integrity: sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==}
 
   lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
@@ -310,12 +313,13 @@ snapshots:
       event-source-polyfill: 1.0.31
       eventsource: 2.0.2
 
-  '@sanity/mutate@0.11.0-canary.3(xstate@5.19.0)':
+  '@sanity/mutate@0.11.0-canary.4(xstate@5.19.0)':
     dependencies:
       '@sanity/client': 6.24.1
       '@sanity/diff-match-patch': 3.1.1
       hotscript: 1.0.13
       lodash: 4.17.21
+      lodash-es: 4.17.21
       mendoza: 3.0.8
       rxjs: 7.8.1
     optionalDependencies:
@@ -333,10 +337,10 @@ snapshots:
       '@types/uuid': 8.3.4
       uuid: 8.3.2
 
-  '@sanity/visual-editing@2.10.6(@sanity/client@6.24.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@sanity/visual-editing@2.10.7(@sanity/client@6.24.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
       '@sanity/comlink': 2.0.1
-      '@sanity/mutate': 0.11.0-canary.3(xstate@5.19.0)
+      '@sanity/mutate': 0.11.0-canary.4(xstate@5.19.0)
       '@sanity/preview-url-secret': 2.0.5(@sanity/client@6.24.1)
       '@vercel/stega': 0.1.2
       get-random-values-esm: 1.0.2
@@ -435,6 +439,8 @@ snapshots:
   is-retry-allowed@2.2.0: {}
 
   isarray@1.0.0: {}
+
+  lodash-es@4.17.21: {}
 
   lodash@4.17.21: {}
 
