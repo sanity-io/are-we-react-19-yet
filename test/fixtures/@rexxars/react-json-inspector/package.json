@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@rexxars/react-json-inspector": "8.0.1",
+    "@rexxars/react-json-inspector": "9.0.1",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@types/react-is": "^19.0.0",
