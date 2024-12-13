@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@sanity/preview-kit':
-        specifier: 5.1.23
-        version: 5.1.23(@sanity/client@6.24.1)(react@19.0.0)
+        specifier: 5.1.24
+        version: 5.1.24(@sanity/client@6.24.1)(react@19.0.0)
       '@types/react':
         specifier: ^19.0.0
         version: 19.0.1
@@ -50,8 +50,8 @@ packages:
       '@sanity/client': ^6.24.1
       react: ^18.3 || >=19.0.0-rc
 
-  '@sanity/preview-kit@5.1.23':
-    resolution: {integrity: sha512-3qgf6kEB0a2iOrRFnkoIZxpYWwTkRKWM6lMn7+PiIixUMaF5cJqn7knrk2m4iULb8S+MqdSdBn7Mfx1YZ7Y4SA==}
+  '@sanity/preview-kit@5.1.24':
+    resolution: {integrity: sha512-9No+8+4fRBzYdSWEzhk3Vz5fPnKNydKaPJ30nct+uHn+w9N1Vhqbni5Ws4KH1vfoVlJKlyJenGIsC7R6g27Q4Q==}
     engines: {node: '>=18'}
     peerDependencies:
       '@sanity/client': ^6.24.1
@@ -228,7 +228,7 @@ snapshots:
       '@sanity/comlink': 2.0.1
       react: 19.0.0
 
-  '@sanity/preview-kit@5.1.23(@sanity/client@6.24.1)(react@19.0.0)':
+  '@sanity/preview-kit@5.1.24(@sanity/client@6.24.1)(react@19.0.0)':
     dependencies:
       '@sanity/client': 6.24.1
       '@sanity/preview-kit-compat': 1.5.25(@sanity/client@6.24.1)(react@19.0.0)
