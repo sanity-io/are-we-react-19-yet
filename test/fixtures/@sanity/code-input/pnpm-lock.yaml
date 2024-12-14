@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@sanity/code-input':
-        specifier: 5.0.0
-        version: 5.0.0(@babel/runtime@7.26.0)(@codemirror/lint@6.8.4)(@codemirror/theme-one-dark@6.1.2)(@emotion/is-prop-valid@1.2.2)(@lezer/common@1.2.3)(codemirror@6.0.1(@lezer/common@1.2.3))(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(sanity@3.67.1(@emotion/is-prop-valid@1.2.2)(@types/node@22.10.2)(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0)))(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
+        specifier: 5.1.0
+        version: 5.1.0(@babel/runtime@7.26.0)(@codemirror/lint@6.8.4)(@codemirror/theme-one-dark@6.1.2)(@emotion/is-prop-valid@1.2.2)(@lezer/common@1.2.3)(codemirror@6.0.1(@lezer/common@1.2.3))(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(sanity@3.67.1(@emotion/is-prop-valid@1.2.2)(@types/node@22.10.2)(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0)))(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
       '@types/react':
         specifier: ^19.0.0
         version: 19.0.1
@@ -1073,12 +1073,12 @@ packages:
     resolution: {integrity: sha512-k5aW5C8RdqVGnvuX0KZ+AAIlhYueb6sx3edhKkIMmr2UfD8vSTSW3oAXVt+/WlBstlMIqvkc5RCLLWZQcF3gaA==}
     engines: {node: '>=14.18'}
 
-  '@sanity/code-input@5.0.0':
-    resolution: {integrity: sha512-mF4BlJzaTJCNai2obRdc8IJTNZtVH9aiZTTpdNMABGTnJhv0gNHhhVo5+SEI1rPAhFogRRu8VtVzEcWFnyGkFQ==}
-    engines: {node: '>=14'}
+  '@sanity/code-input@5.1.0':
+    resolution: {integrity: sha512-mnRytIZF3a6oVfeiBeY0K6rVHUkiDRk4RdDQwND3MAaO6xc4FUEYjdIJBNq9Se6Gh8wZRDjFoJ8JEO7ozK/hDQ==}
+    engines: {node: '>=18'}
     peerDependencies:
-      react: ^18
-      react-dom: ^18
+      react: ^18 || >=19.0.0-0
+      react-dom: ^18 || >=19.0.0-0
       sanity: ^3
       styled-components: ^5.2 || ^6
 
@@ -4912,7 +4912,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@sanity/code-input@5.0.0(@babel/runtime@7.26.0)(@codemirror/lint@6.8.4)(@codemirror/theme-one-dark@6.1.2)(@emotion/is-prop-valid@1.2.2)(@lezer/common@1.2.3)(codemirror@6.0.1(@lezer/common@1.2.3))(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(sanity@3.67.1(@emotion/is-prop-valid@1.2.2)(@types/node@22.10.2)(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0)))(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))':
+  '@sanity/code-input@5.1.0(@babel/runtime@7.26.0)(@codemirror/lint@6.8.4)(@codemirror/theme-one-dark@6.1.2)(@emotion/is-prop-valid@1.2.2)(@lezer/common@1.2.3)(codemirror@6.0.1(@lezer/common@1.2.3))(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(sanity@3.67.1(@emotion/is-prop-valid@1.2.2)(@types/node@22.10.2)(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0)))(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))':
     dependencies:
       '@codemirror/autocomplete': 6.18.3(@codemirror/language@6.10.6)(@codemirror/state@6.5.0)(@codemirror/view@6.35.3)(@lezer/common@1.2.3)
       '@codemirror/commands': 6.7.1
