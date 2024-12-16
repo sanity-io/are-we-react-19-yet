@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@sanity/incompatible-plugin": "1.0.4",
+    "@sanity/incompatible-plugin": "1.0.5",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@types/react-is": "^19.0.0",
