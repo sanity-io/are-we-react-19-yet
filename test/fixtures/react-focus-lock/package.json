@@ -5,7 +5,7 @@
     "@types/react-is": "^19.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-focus-lock": "2.13.2",
+    "react-focus-lock": "2.13.5",
     "react-is": "^19.0.0"
   },
   "packageManager": "pnpm@9.15.0"
