@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@portabletext/editor':
-        specifier: 1.16.2
-        version: 1.16.2(@sanity/block-tools@3.67.1)(@sanity/schema@3.67.1)(@sanity/types@3.67.1)(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rxjs@7.8.1)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
+        specifier: 1.16.3
+        version: 1.16.3(@sanity/block-tools@3.67.1)(@sanity/schema@3.67.1)(@sanity/types@3.67.1)(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rxjs@7.8.1)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
       '@types/react':
         specifier: ^19.0.0
         version: 19.0.1
@@ -44,8 +44,8 @@ packages:
   '@juggle/resize-observer@3.4.0':
     resolution: {integrity: sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==}
 
-  '@portabletext/editor@1.16.2':
-    resolution: {integrity: sha512-9rWSsIBD2qf7tpB3/rkhrX+WKbG5If1LOI1x6wVHtADWUyX+XIIEIHDBzsWuSA83jTTcNHN/Uc0BmLwCQBKkCg==}
+  '@portabletext/editor@1.16.3':
+    resolution: {integrity: sha512-xMxyVTBCgajrIW9JNLxflq0g/vtMdTzyD1K7w1gVmt0KGPYssBdOkERGrxw1SED66kMB2FgRAgJpVOSFdevNHA==}
     engines: {node: '>=18'}
     peerDependencies:
       '@sanity/block-tools': ^3.67.1
@@ -274,8 +274,8 @@ packages:
   progress-stream@2.0.0:
     resolution: {integrity: sha512-xJwOWR46jcXUq6EH9yYyqp+I52skPySOeHfkxOZ2IY1AiBi/sFJhbhAKHoV3OTw/omQ45KTio9215dRJ2Yxd3Q==}
 
-  react-compiler-runtime@19.0.0-beta-37ed2a7-20241206:
-    resolution: {integrity: sha512-9e6rCpVylr9EnVocgYAjft7+2v01BDpajeHKRoO+oc9pKcAMTpstHtHvE/TSVbyf4FvzCGjfKcfHM9XGTXI6Tw==}
+  react-compiler-runtime@19.0.0-beta-201e55d-20241215:
+    resolution: {integrity: sha512-jBEo/UqVgiz6veJjhQMoNaGQLKUQwzMQpiYrA4XsGVOC2sElDF0oMjic5107LitP988yHrqDDZwZirS4OAEqyA==}
     peerDependencies:
       react: ^17.0.0 || ^18.0.0 || ^19.0.0
 
@@ -410,7 +410,7 @@ snapshots:
 
   '@juggle/resize-observer@3.4.0': {}
 
-  '@portabletext/editor@1.16.2(@sanity/block-tools@3.67.1)(@sanity/schema@3.67.1)(@sanity/types@3.67.1)(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rxjs@7.8.1)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))':
+  '@portabletext/editor@1.16.3(@sanity/block-tools@3.67.1)(@sanity/schema@3.67.1)(@sanity/types@3.67.1)(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rxjs@7.8.1)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))':
     dependencies:
       '@portabletext/patches': 1.1.0
       '@sanity/block-tools': 3.67.1
@@ -422,7 +422,7 @@ snapshots:
       lodash: 4.17.21
       lodash.startcase: 4.4.0
       react: 19.0.0
-      react-compiler-runtime: 19.0.0-beta-37ed2a7-20241206(react@19.0.0)
+      react-compiler-runtime: 19.0.0-beta-201e55d-20241215(react@19.0.0)
       rxjs: 7.8.1
       slate: 0.112.0
       slate-dom: 0.111.0(slate@0.112.0)
@@ -654,7 +654,7 @@ snapshots:
       speedometer: 1.0.0
       through2: 2.0.5
 
-  react-compiler-runtime@19.0.0-beta-37ed2a7-20241206(react@19.0.0):
+  react-compiler-runtime@19.0.0-beta-201e55d-20241215(react@19.0.0):
     dependencies:
       react: 19.0.0
 
