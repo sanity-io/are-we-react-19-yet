@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@sanity/assist": "3.0.8",
+    "@sanity/assist": "3.0.9",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@types/react-is": "^19.0.0",
