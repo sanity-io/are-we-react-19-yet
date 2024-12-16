@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@sanity/ui-workshop": "2.0.19",
+    "@sanity/ui-workshop": "2.0.20",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@types/react-is": "^19.0.0",
