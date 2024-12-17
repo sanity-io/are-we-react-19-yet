@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@sanity/color-input": "4.0.1",
+    "@sanity/color-input": "4.0.2",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@types/react-is": "^19.0.0",
