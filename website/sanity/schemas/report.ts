@@ -11,7 +11,6 @@ export default defineType({
       name: 'test',
       type: 'array',
       options: {sortable: false},
-      readOnly: true,
       of: [
         defineArrayMember({
           type: 'object',
