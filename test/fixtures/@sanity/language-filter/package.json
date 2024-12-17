@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@sanity/language-filter": "4.0.2",
+    "@sanity/language-filter": "4.0.3",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@types/react-is": "^19.0.0",
