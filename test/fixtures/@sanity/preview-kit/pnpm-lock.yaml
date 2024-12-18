@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@sanity/preview-kit':
-        specifier: 5.1.24
-        version: 5.1.24(@sanity/client@6.24.1)(react@19.0.0)
+        specifier: 5.1.25
+        version: 5.1.25(@sanity/client@6.24.1)(react@19.0.0)
       '@types/react':
         specifier: ^19.0.0
         version: 19.0.2
@@ -36,22 +36,22 @@ packages:
     resolution: {integrity: sha512-k5aW5C8RdqVGnvuX0KZ+AAIlhYueb6sx3edhKkIMmr2UfD8vSTSW3oAXVt+/WlBstlMIqvkc5RCLLWZQcF3gaA==}
     engines: {node: '>=14.18'}
 
-  '@sanity/comlink@2.0.1':
-    resolution: {integrity: sha512-Sdl0qCHwtKxEZ7Xa2xjKYslosmPteWB3p81u84X8PdTocVqp036S6r3vgQJPHlcEiEaJgMjpEJkjUaR8Jx5BcA==}
+  '@sanity/comlink@2.0.2':
+    resolution: {integrity: sha512-8FUwaBrfjsQYWuoS8t+krllLQH0/khd6PT9bQ5Ac7xgHQEnZCzOXSxx+ENL0daCIdpqCpIu7nYUA2qLUUpQqEg==}
     engines: {node: '>=18'}
 
   '@sanity/eventsource@5.0.2':
     resolution: {integrity: sha512-/B9PMkUvAlUrpRq0y+NzXgRv5lYCLxZNsBJD2WXVnqZYOfByL9oQBV7KiTaARuObp5hcQYuPfOAVjgXe3hrixA==}
 
-  '@sanity/preview-kit-compat@1.5.25':
-    resolution: {integrity: sha512-ghOAnT1TPidgbr36oVOaHgfEUq7vQhYgWdhW+IOSplQAzqGyzaWiE0CvWOfdSAm3RjMBwPdc+JDQLtSQq+X2jg==}
+  '@sanity/preview-kit-compat@1.5.27':
+    resolution: {integrity: sha512-KDqfpaONNSl1GPabyG7RobudFDygyO3blL5B0Kpj9ZsLb0ZP7gwJJElp8RGYQqP1DainsbHn62cWuNjfFsTaPQ==}
     engines: {node: '>=18'}
     peerDependencies:
       '@sanity/client': ^6.24.1
       react: ^18.3 || >=19.0.0-rc
 
-  '@sanity/preview-kit@5.1.24':
-    resolution: {integrity: sha512-9No+8+4fRBzYdSWEzhk3Vz5fPnKNydKaPJ30nct+uHn+w9N1Vhqbni5Ws4KH1vfoVlJKlyJenGIsC7R6g27Q4Q==}
+  '@sanity/preview-kit@5.1.25':
+    resolution: {integrity: sha512-uJvfPdAc0c8Ax9gGoFCLEYpqnNkPw//yPB/uAGv955iMGQgB/g7BjsVKZDf7Izrak+3KJS7y97YSFfw74krXpQ==}
     engines: {node: '>=18'}
     peerDependencies:
       '@sanity/client': ^6.24.1
@@ -209,7 +209,7 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@sanity/comlink@2.0.1':
+  '@sanity/comlink@2.0.2':
     dependencies:
       rxjs: 7.8.1
       uuid: 10.0.0
@@ -222,16 +222,16 @@ snapshots:
       event-source-polyfill: 1.0.31
       eventsource: 2.0.2
 
-  '@sanity/preview-kit-compat@1.5.25(@sanity/client@6.24.1)(react@19.0.0)':
+  '@sanity/preview-kit-compat@1.5.27(@sanity/client@6.24.1)(react@19.0.0)':
     dependencies:
       '@sanity/client': 6.24.1
-      '@sanity/comlink': 2.0.1
+      '@sanity/comlink': 2.0.2
       react: 19.0.0
 
-  '@sanity/preview-kit@5.1.24(@sanity/client@6.24.1)(react@19.0.0)':
+  '@sanity/preview-kit@5.1.25(@sanity/client@6.24.1)(react@19.0.0)':
     dependencies:
       '@sanity/client': 6.24.1
-      '@sanity/preview-kit-compat': 1.5.25(@sanity/client@6.24.1)(react@19.0.0)
+      '@sanity/preview-kit-compat': 1.5.27(@sanity/client@6.24.1)(react@19.0.0)
       mendoza: 3.0.8
     optionalDependencies:
       react: 19.0.0
