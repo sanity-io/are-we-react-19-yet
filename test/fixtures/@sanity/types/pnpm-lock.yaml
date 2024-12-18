@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@sanity/types':
-        specifier: 3.68.0
-        version: 3.68.0
+        specifier: 3.68.1
+        version: 3.68.1
       '@types/react':
         specifier: ^19.0.0
         version: 19.0.2
@@ -39,8 +39,8 @@ packages:
   '@sanity/eventsource@5.0.2':
     resolution: {integrity: sha512-/B9PMkUvAlUrpRq0y+NzXgRv5lYCLxZNsBJD2WXVnqZYOfByL9oQBV7KiTaARuObp5hcQYuPfOAVjgXe3hrixA==}
 
-  '@sanity/types@3.68.0':
-    resolution: {integrity: sha512-OusUI2A9TLERj2XQXbNgiAGpEK1pdUziVKZpQKlRuts75rXFPbNZ06K/vVHR64dqsm050SSvMSEA+h5RNdNyzw==}
+  '@sanity/types@3.68.1':
+    resolution: {integrity: sha512-MWHlBQsk4x5puyPw/VhBR9ycvT/Ek+aElefIz9H1F2LPrEFBL5Rl+5A3Fy35fxx6948b6pAE7smOj6VzO7Ym5A==}
 
   '@types/event-source-polyfill@1.0.5':
     resolution: {integrity: sha512-iaiDuDI2aIFft7XkcwMzDWLqo7LVDixd2sR6B4wxJut9xcp/Ev9bO4EFg4rm6S9QxATLBj5OPxdeocgmhjwKaw==}
@@ -193,7 +193,7 @@ snapshots:
       event-source-polyfill: 1.0.31
       eventsource: 2.0.2
 
-  '@sanity/types@3.68.0':
+  '@sanity/types@3.68.1':
     dependencies:
       '@sanity/client': 6.24.1
       '@types/react': 18.3.17
