@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@portabletext/editor':
-        specifier: 1.17.0
-        version: 1.17.0(@sanity/block-tools@3.68.0)(@sanity/schema@3.68.0)(@sanity/types@3.68.0)(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rxjs@7.8.1)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
+        specifier: 1.17.1
+        version: 1.17.1(@sanity/block-tools@3.68.0)(@sanity/schema@3.68.0)(@sanity/types@3.68.0)(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rxjs@7.8.1)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
       '@types/react':
         specifier: ^19.0.0
         version: 19.0.2
@@ -44,19 +44,19 @@ packages:
   '@juggle/resize-observer@3.4.0':
     resolution: {integrity: sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==}
 
-  '@portabletext/editor@1.17.0':
-    resolution: {integrity: sha512-CkzgxPDZRYrR9kSYjja0s/IgSJ0JANGMIQ4UXd9zSK/2y59q/D5n/UNPRRs58LgRGBm+ldpwdyK6qgLkyGr+Kw==}
+  '@portabletext/editor@1.17.1':
+    resolution: {integrity: sha512-TtLw1wvvmGI6rcOsTa3j6SlgIvs5kQ0isLQb6Mno+vT5pJ/0o/TV+aYk4+b3Pnf0cRMG/F7Ecd174Hv8wVZ2ZA==}
     engines: {node: '>=18'}
     peerDependencies:
-      '@sanity/block-tools': ^3.67.1
-      '@sanity/schema': ^3.67.1
-      '@sanity/types': ^3.67.1
+      '@sanity/block-tools': ^3.68.0
+      '@sanity/schema': ^3.68.0
+      '@sanity/types': ^3.68.0
       react: ^16.9 || ^17 || ^18 || ^19
       rxjs: ^7.8.1
       styled-components: ^6.1.13
 
-  '@portabletext/patches@1.1.0':
-    resolution: {integrity: sha512-2qn4WaRc23m5qRwclT3sAyuHwTyjxCb4Lg0BQyhp7CABd83HtnPPYoP6hycREs6HRdWA48H3sU5gqUVPoxJxdg==}
+  '@portabletext/patches@1.1.1':
+    resolution: {integrity: sha512-FXeVdLvSJ3JmZzS0dbxEFJZXplFo7K27/Twv0/dX/l86tfhhUkDSqaTlWcigxuibvohjdEYp2mB8Ucgao/JzIQ==}
 
   '@sanity/block-tools@3.68.0':
     resolution: {integrity: sha512-RD9SYjgpMFsS4JVKKy/JtQAJme6nwZP9SnCsUhDnh9GAHDJ+TgH5all8pcBjpbeByEjC8gCtf3Gb3ytVqjSpAg==}
@@ -410,9 +410,9 @@ snapshots:
 
   '@juggle/resize-observer@3.4.0': {}
 
-  '@portabletext/editor@1.17.0(@sanity/block-tools@3.68.0)(@sanity/schema@3.68.0)(@sanity/types@3.68.0)(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rxjs@7.8.1)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))':
+  '@portabletext/editor@1.17.1(@sanity/block-tools@3.68.0)(@sanity/schema@3.68.0)(@sanity/types@3.68.0)(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rxjs@7.8.1)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))':
     dependencies:
-      '@portabletext/patches': 1.1.0
+      '@portabletext/patches': 1.1.1
       '@sanity/block-tools': 3.68.0
       '@sanity/schema': 3.68.0
       '@sanity/types': 3.68.0
@@ -435,7 +435,7 @@ snapshots:
       - react-dom
       - supports-color
 
-  '@portabletext/patches@1.1.0':
+  '@portabletext/patches@1.1.1':
     dependencies:
       '@sanity/diff-match-patch': 3.1.2
       lodash: 4.17.21
