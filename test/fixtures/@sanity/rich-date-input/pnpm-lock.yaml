@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@sanity/rich-date-input':
-        specifier: 3.0.4
-        version: 3.0.4(@emotion/is-prop-valid@1.2.2)(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(sanity@3.67.1(@emotion/is-prop-valid@1.2.2)(@types/node@22.10.2)(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0)))(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
+        specifier: 3.0.5
+        version: 3.0.5(@emotion/is-prop-valid@1.2.2)(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(sanity@3.67.1(@emotion/is-prop-valid@1.2.2)(@types/node@22.10.2)(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0)))(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
       '@types/react':
         specifier: ^19.0.0
         version: 19.0.1
@@ -1014,12 +1014,6 @@ packages:
   '@sanity/generate-help-url@3.0.0':
     resolution: {integrity: sha512-wtMYcV5GIDIhVyF/jjmdwq1GdlK07dRL40XMns73VbrFI7FteRltxv48bhYVZPcLkRXb0SHjpDS/icj9/yzbVA==}
 
-  '@sanity/icons@2.11.8':
-    resolution: {integrity: sha512-C4ViXtk6eyiNTQ5OmxpfmcK6Jw+LLTi9zg9XBUD15DzC4xTHaGW9SVfUa43YtPGs3WC3M0t0K59r0GDjh52HIg==}
-    engines: {node: '>=14.0.0'}
-    peerDependencies:
-      react: ^18
-
   '@sanity/icons@3.5.3':
     resolution: {integrity: sha512-vI633N44QeSuUoYDZqI7vx6IAfgZshUPSnJHJUBODQdxW8064yEqtcROHP/FThp400RmXUGncWZNBoGbwbhl5w==}
     engines: {node: '>=14.0.0'}
@@ -1078,11 +1072,11 @@ packages:
     peerDependencies:
       '@sanity/client': ^6.23.0
 
-  '@sanity/rich-date-input@3.0.4':
-    resolution: {integrity: sha512-tJd6cY6lw1LQX8msaNolRb2cNP8ums/z8hcs90VFlnaJ28lPypQ7cOzicYvvfzoVz8YXaRM5nwsg1Cclq09gow==}
+  '@sanity/rich-date-input@3.0.5':
+    resolution: {integrity: sha512-BRvcl+IBfmDsgLJ5Oktzg+c1RX13/+Muhpg3vZyB1QGV3WBi6qmzSBF33P2hMhuodOPuOlXE8OFydLpN6DEYzQ==}
     engines: {node: '>=14'}
     peerDependencies:
-      react: ^18
+      react: ^18 || ^19
       sanity: ^3
 
   '@sanity/schema@3.67.1':
@@ -4674,10 +4668,6 @@ snapshots:
 
   '@sanity/generate-help-url@3.0.0': {}
 
-  '@sanity/icons@2.11.8(react@19.0.0)':
-    dependencies:
-      react: 19.0.0
-
   '@sanity/icons@3.5.3(react@19.0.0)':
     dependencies:
       react: 19.0.0
@@ -4803,9 +4793,9 @@ snapshots:
       '@sanity/client': 6.24.1(debug@4.4.0)
       '@sanity/uuid': 3.0.2
 
-  '@sanity/rich-date-input@3.0.4(@emotion/is-prop-valid@1.2.2)(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(sanity@3.67.1(@emotion/is-prop-valid@1.2.2)(@types/node@22.10.2)(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0)))(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))':
+  '@sanity/rich-date-input@3.0.5(@emotion/is-prop-valid@1.2.2)(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(sanity@3.67.1(@emotion/is-prop-valid@1.2.2)(@types/node@22.10.2)(@types/react@19.0.1)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0)))(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))':
     dependencies:
-      '@sanity/icons': 2.11.8(react@19.0.0)
+      '@sanity/icons': 3.5.3(react@19.0.0)
       '@sanity/incompatible-plugin': 1.0.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@sanity/ui': 2.10.11(@emotion/is-prop-valid@1.2.2)(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
       '@vvo/tzdb': 6.154.0
