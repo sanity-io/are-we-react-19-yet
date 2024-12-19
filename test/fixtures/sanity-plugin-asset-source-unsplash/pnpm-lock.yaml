@@ -27,8 +27,8 @@ importers:
         specifier: ^19.0.0
         version: 19.0.0
       sanity-plugin-asset-source-unsplash:
-        specifier: 3.0.1
-        version: 3.0.1(@emotion/is-prop-valid@1.2.2)(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(sanity@3.68.0(@emotion/is-prop-valid@1.2.2)(@types/babel__core@7.20.5)(@types/node@22.10.2)(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(terser@5.37.0))(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
+        specifier: 3.0.2
+        version: 3.0.2(@emotion/is-prop-valid@1.2.2)(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(sanity@3.68.0(@emotion/is-prop-valid@1.2.2)(@types/babel__core@7.20.5)(@types/node@22.10.2)(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(terser@5.37.0))(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
 
 packages:
 
@@ -1357,12 +1357,6 @@ packages:
 
   '@sanity/generate-help-url@3.0.0':
     resolution: {integrity: sha512-wtMYcV5GIDIhVyF/jjmdwq1GdlK07dRL40XMns73VbrFI7FteRltxv48bhYVZPcLkRXb0SHjpDS/icj9/yzbVA==}
-
-  '@sanity/icons@2.11.8':
-    resolution: {integrity: sha512-C4ViXtk6eyiNTQ5OmxpfmcK6Jw+LLTi9zg9XBUD15DzC4xTHaGW9SVfUa43YtPGs3WC3M0t0K59r0GDjh52HIg==}
-    engines: {node: '>=14.0.0'}
-    peerDependencies:
-      react: ^18
 
   '@sanity/icons@3.5.3':
     resolution: {integrity: sha512-vI633N44QeSuUoYDZqI7vx6IAfgZshUPSnJHJUBODQdxW8064yEqtcROHP/FThp400RmXUGncWZNBoGbwbhl5w==}
@@ -3358,8 +3352,8 @@ packages:
   react-is@19.0.0:
     resolution: {integrity: sha512-H91OHcwjZsbq3ClIDHMzBShc1rotbfACdWENsmEf0IFvZ3FgGPtdHMcsv45bQ1hAbgdfiA8SnxTKfDS+x/8m2g==}
 
-  react-photo-album@2.3.1:
-    resolution: {integrity: sha512-c7ofDx2DAbQa9AW9wUWOBX9zUKf/QjvdQK+fPNKEiKprks/n8t4c2viyBZ6EWpQLFLU0ad3yVBTgFvxEZ46/Iw==}
+  react-photo-album@2.4.1:
+    resolution: {integrity: sha512-dzqP5QbYAugA0uZTl3qsVldckzDXYDkDOvA8CpACl51hSEfhJmCfwhbnI4WBHnETQHv48nnNQ1jhrulst8njLA==}
     engines: {node: '>=12'}
     peerDependencies:
       react: '>=16.8.0'
@@ -3553,11 +3547,11 @@ packages:
     resolution: {integrity: sha512-1OOTx/Uw0J3rwNkI4J/4XJfTGb2Rze/gl5jJGRw+M2hRGkp1QEu2wFHiC9adj83ABYthOczBCBpTHHeZluctdw==}
     engines: {node: '>=18.2'}
 
-  sanity-plugin-asset-source-unsplash@3.0.1:
-    resolution: {integrity: sha512-xlwmtoZPbfbXcoEkeH67AnWoUvUWBICNvShFgkB1TlZAWZ2hKRFUm968aHa1kkjsbHnrBBkSqkhKcYFM/giC5Q==}
+  sanity-plugin-asset-source-unsplash@3.0.2:
+    resolution: {integrity: sha512-T6gOTJCVjtGhEKYtyxPrq+FwYABjTI2qQD8S07P6Ar4QUM9xHdTt/+7Q2hKryZbBJ1adp6Zk1X5Cfut7A96DLw==}
     engines: {node: '>=18'}
     peerDependencies:
-      react: ^18
+      react: ^18 || ^19
       sanity: ^3
       styled-components: ^6.1
 
@@ -5687,10 +5681,6 @@ snapshots:
       - supports-color
 
   '@sanity/generate-help-url@3.0.0': {}
-
-  '@sanity/icons@2.11.8(react@19.0.0)':
-    dependencies:
-      react: 19.0.0
 
   '@sanity/icons@3.5.3(react@19.0.0)':
     dependencies:
@@ -7899,7 +7889,7 @@ snapshots:
 
   react-is@19.0.0: {}
 
-  react-photo-album@2.3.1(react@19.0.0):
+  react-photo-album@2.4.1(react@19.0.0):
     dependencies:
       react: 19.0.0
 
@@ -8132,14 +8122,14 @@ snapshots:
     dependencies:
       '@sanity/diff-match-patch': 3.1.2
 
-  sanity-plugin-asset-source-unsplash@3.0.1(@emotion/is-prop-valid@1.2.2)(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(sanity@3.68.0(@emotion/is-prop-valid@1.2.2)(@types/babel__core@7.20.5)(@types/node@22.10.2)(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(terser@5.37.0))(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0)):
+  sanity-plugin-asset-source-unsplash@3.0.2(@emotion/is-prop-valid@1.2.2)(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(sanity@3.68.0(@emotion/is-prop-valid@1.2.2)(@types/babel__core@7.20.5)(@types/node@22.10.2)(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(terser@5.37.0))(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0)):
     dependencies:
-      '@sanity/icons': 2.11.8(react@19.0.0)
+      '@sanity/icons': 3.5.3(react@19.0.0)
       '@sanity/incompatible-plugin': 1.0.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@sanity/ui': 2.10.11(@emotion/is-prop-valid@1.2.2)(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
       react: 19.0.0
       react-infinite-scroll-component: 6.1.0(react@19.0.0)
-      react-photo-album: 2.3.1(react@19.0.0)
+      react-photo-album: 2.4.1(react@19.0.0)
       rxjs: 7.8.1
       sanity: 3.68.0(@emotion/is-prop-valid@1.2.2)(@types/babel__core@7.20.5)(@types/node@22.10.2)(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(terser@5.37.0)
       styled-components: 6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
