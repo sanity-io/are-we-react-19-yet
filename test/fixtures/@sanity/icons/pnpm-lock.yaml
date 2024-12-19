@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@sanity/icons':
-        specifier: 3.5.4
-        version: 3.5.4(react@19.0.0)
+        specifier: 3.5.5
+        version: 3.5.5(react@19.0.0)
       '@types/react':
         specifier: ^19.0.0
         version: 19.0.2
@@ -32,8 +32,8 @@ importers:
 
 packages:
 
-  '@sanity/icons@3.5.4':
-    resolution: {integrity: sha512-FnEPolIsaaB8pmZybQPw3dwYlo9KCo3eh0Y3iCwOWAo3wchfdiKlff1iECkFJus0I2sCzTPbm8yM+M3CIM/77A==}
+  '@sanity/icons@3.5.5':
+    resolution: {integrity: sha512-lCMvDovgU3epRcotGx60yNjw2NTNgxPnTY3wa2plCjY4dmLqm0kLuS7y4M4iy+7plwlVnIkfoZM+aVTK6f4rAw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       react: ^18.3 || ^19.0.0-0
@@ -74,7 +74,7 @@ packages:
 
 snapshots:
 
-  '@sanity/icons@3.5.4(react@19.0.0)':
+  '@sanity/icons@3.5.5(react@19.0.0)':
     dependencies:
       react: 19.0.0
       react-compiler-runtime: 19.0.0-beta-201e55d-20241215(react@19.0.0)

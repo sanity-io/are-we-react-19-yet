@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@sanity/icons": "3.5.4",
+    "@sanity/icons": "3.5.5",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@types/react-is": "^19.0.0",
