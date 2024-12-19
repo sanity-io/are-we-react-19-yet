@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@portabletext/editor':
         specifier: 1.17.1
-        version: 1.17.1(@sanity/block-tools@3.68.0)(@sanity/schema@3.68.0)(@sanity/types@3.68.0)(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rxjs@7.8.1)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
+        version: 1.17.1(@sanity/block-tools@3.68.1)(@sanity/schema@3.68.1)(@sanity/types@3.68.1)(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rxjs@7.8.1)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
       '@types/react':
         specifier: ^19.0.0
         version: 19.0.2
@@ -58,8 +58,8 @@ packages:
   '@portabletext/patches@1.1.1':
     resolution: {integrity: sha512-FXeVdLvSJ3JmZzS0dbxEFJZXplFo7K27/Twv0/dX/l86tfhhUkDSqaTlWcigxuibvohjdEYp2mB8Ucgao/JzIQ==}
 
-  '@sanity/block-tools@3.68.0':
-    resolution: {integrity: sha512-RD9SYjgpMFsS4JVKKy/JtQAJme6nwZP9SnCsUhDnh9GAHDJ+TgH5all8pcBjpbeByEjC8gCtf3Gb3ytVqjSpAg==}
+  '@sanity/block-tools@3.68.1':
+    resolution: {integrity: sha512-WD4a/wNySfb8YQ/qkOkzQm3K6mT+65FLZQ2oaP1Mn1fnVaf2ZF/fhFdnSudAmzOaV8FEzIaz5KXInnNoaGhI0w==}
 
   '@sanity/client@6.24.1':
     resolution: {integrity: sha512-k5aW5C8RdqVGnvuX0KZ+AAIlhYueb6sx3edhKkIMmr2UfD8vSTSW3oAXVt+/WlBstlMIqvkc5RCLLWZQcF3gaA==}
@@ -75,11 +75,11 @@ packages:
   '@sanity/generate-help-url@3.0.0':
     resolution: {integrity: sha512-wtMYcV5GIDIhVyF/jjmdwq1GdlK07dRL40XMns73VbrFI7FteRltxv48bhYVZPcLkRXb0SHjpDS/icj9/yzbVA==}
 
-  '@sanity/schema@3.68.0':
-    resolution: {integrity: sha512-XMu+gU2LVFZSxrfjvh89fdzpvTFF9DVborJ3Ub8FYbsHFs5XyNyQ4JwWMJ0zgMzhWpsBLs05em172HitnfcKhQ==}
+  '@sanity/schema@3.68.1':
+    resolution: {integrity: sha512-atTO+T4+RXIO5kTf19CLcsV5uLp4H51D0Blv0p4UydB4ZWq3ynYTAPuBOL/WzH9+2SKJeRItp+zg1RAkNB3I5A==}
 
-  '@sanity/types@3.68.0':
-    resolution: {integrity: sha512-OusUI2A9TLERj2XQXbNgiAGpEK1pdUziVKZpQKlRuts75rXFPbNZ06K/vVHR64dqsm050SSvMSEA+h5RNdNyzw==}
+  '@sanity/types@3.68.1':
+    resolution: {integrity: sha512-MWHlBQsk4x5puyPw/VhBR9ycvT/Ek+aElefIz9H1F2LPrEFBL5Rl+5A3Fy35fxx6948b6pAE7smOj6VzO7Ym5A==}
 
   '@types/event-source-polyfill@1.0.5':
     resolution: {integrity: sha512-iaiDuDI2aIFft7XkcwMzDWLqo7LVDixd2sR6B4wxJut9xcp/Ev9bO4EFg4rm6S9QxATLBj5OPxdeocgmhjwKaw==}
@@ -410,12 +410,12 @@ snapshots:
 
   '@juggle/resize-observer@3.4.0': {}
 
-  '@portabletext/editor@1.17.1(@sanity/block-tools@3.68.0)(@sanity/schema@3.68.0)(@sanity/types@3.68.0)(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rxjs@7.8.1)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))':
+  '@portabletext/editor@1.17.1(@sanity/block-tools@3.68.1)(@sanity/schema@3.68.1)(@sanity/types@3.68.1)(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rxjs@7.8.1)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))':
     dependencies:
       '@portabletext/patches': 1.1.1
-      '@sanity/block-tools': 3.68.0
-      '@sanity/schema': 3.68.0
-      '@sanity/types': 3.68.0
+      '@sanity/block-tools': 3.68.1
+      '@sanity/schema': 3.68.1
+      '@sanity/types': 3.68.1
       '@xstate/react': 5.0.0(@types/react@19.0.2)(react@19.0.0)(xstate@5.19.0)
       debug: 4.4.0
       get-random-values-esm: 1.0.2
@@ -440,9 +440,9 @@ snapshots:
       '@sanity/diff-match-patch': 3.1.2
       lodash: 4.17.21
 
-  '@sanity/block-tools@3.68.0':
+  '@sanity/block-tools@3.68.1':
     dependencies:
-      '@sanity/types': 3.68.0
+      '@sanity/types': 3.68.1
       '@types/react': 18.3.17
       get-random-values-esm: 1.0.2
       lodash: 4.17.21
@@ -468,10 +468,10 @@ snapshots:
 
   '@sanity/generate-help-url@3.0.0': {}
 
-  '@sanity/schema@3.68.0':
+  '@sanity/schema@3.68.1':
     dependencies:
       '@sanity/generate-help-url': 3.0.0
-      '@sanity/types': 3.68.0
+      '@sanity/types': 3.68.1
       arrify: 2.0.1
       groq-js: 1.14.2
       humanize-list: 1.0.1
@@ -482,7 +482,7 @@ snapshots:
       - debug
       - supports-color
 
-  '@sanity/types@3.68.0':
+  '@sanity/types@3.68.1':
     dependencies:
       '@sanity/client': 6.24.1
       '@types/react': 18.3.17
