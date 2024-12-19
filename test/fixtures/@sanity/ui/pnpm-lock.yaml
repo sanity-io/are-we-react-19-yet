@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@sanity/ui':
-        specifier: 2.10.11
-        version: 2.10.11(@emotion/is-prop-valid@1.2.2)(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
+        specifier: 2.10.12
+        version: 2.10.12(@emotion/is-prop-valid@1.2.2)(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
       '@types/react':
         specifier: ^19.0.0
         version: 19.0.2
@@ -66,8 +66,8 @@ packages:
     peerDependencies:
       react: ^18.3 || ^19.0.0-0
 
-  '@sanity/ui@2.10.11':
-    resolution: {integrity: sha512-yq4JzfitBpspgAgoVBIXerQN2W1yBhGCyHYHuNboXXk7KCx2CpRPqeYbHBmmQQodcymOYKF2Wj/LH8baEg5PKA==}
+  '@sanity/ui@2.10.12':
+    resolution: {integrity: sha512-e7NzH/b8E5O+NxPsmodpgCDek8cWBa9ujF5sQr8E/eVzRSF4use+PmbgJZUJCY/xX+bbl0sOaWw4+Bdjy7mM5A==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       react: ^18 || >=19.0.0-0
@@ -289,7 +289,7 @@ snapshots:
       react: 19.0.0
       react-compiler-runtime: 19.0.0-beta-201e55d-20241215(react@19.0.0)
 
-  '@sanity/ui@2.10.11(@emotion/is-prop-valid@1.2.2)(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))':
+  '@sanity/ui@2.10.12(@emotion/is-prop-valid@1.2.2)(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))':
     dependencies:
       '@floating-ui/react-dom': 2.1.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@sanity/color': 3.0.6
