@@ -6,7 +6,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-is": "^19.0.0",
-    "sanity-plugin-asset-source-unsplash": "3.0.1"
+    "sanity-plugin-asset-source-unsplash": "3.0.2"
   },
   "packageManager": "pnpm@9.15.0"
 }
