@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@sanity/presentation": "1.19.13",
+    "@sanity/presentation": "1.19.14",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@types/react-is": "^19.0.0",
