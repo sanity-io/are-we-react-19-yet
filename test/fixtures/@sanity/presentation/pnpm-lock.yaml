@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@sanity/presentation':
-        specifier: 1.19.14
-        version: 1.19.14(@emotion/is-prop-valid@1.2.2)(@sanity/color@3.0.6)(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
+        specifier: 1.19.16
+        version: 1.19.16(@emotion/is-prop-valid@1.2.2)(@sanity/color@3.0.6)(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
       '@types/react':
         specifier: ^19.0.0
         version: 19.0.2
@@ -84,8 +84,8 @@ packages:
       '@sanity/color': ^2.0 || ^3.0 || ^3.0.0-beta
       react: ^18.3 || >=19.0.0-rc
 
-  '@sanity/presentation@1.19.14':
-    resolution: {integrity: sha512-lPAAvU9imz/fTCmjI9B6C7VAgBiIgX143Nn4JFndySe9V+MHuJC5EPJre1p/M0xC4vdWtjEUA/r57QdlGEdt5w==}
+  '@sanity/presentation@1.19.16':
+    resolution: {integrity: sha512-qxrhHkUcLrW1zk8+jjzc1K8co8Hn+GM4oBpLXub4vZbIRHeUzxfIRlP3IwgAIWTpzV+CWLGVWsTJQU2E6WvFqw==}
     engines: {node: '>=16.14'}
 
   '@sanity/preview-url-secret@2.0.5':
@@ -476,7 +476,7 @@ snapshots:
       '@sanity/color': 3.0.6
       react: 19.0.0
 
-  '@sanity/presentation@1.19.14(@emotion/is-prop-valid@1.2.2)(@sanity/color@3.0.6)(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))':
+  '@sanity/presentation@1.19.16(@emotion/is-prop-valid@1.2.2)(@sanity/color@3.0.6)(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))':
     dependencies:
       '@sanity/client': 6.24.1
       '@sanity/comlink': 2.0.3
