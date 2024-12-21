@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@sanity/color-input':
-        specifier: 4.0.2
-        version: 4.0.2(@emotion/is-prop-valid@1.2.2)(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(sanity@3.68.1(@emotion/is-prop-valid@1.2.2)(@types/babel__core@7.20.5)(@types/node@22.10.2)(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(terser@5.37.0))(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
+        specifier: 4.0.3
+        version: 4.0.3(@emotion/is-prop-valid@1.2.2)(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(sanity@3.68.1(@emotion/is-prop-valid@1.2.2)(@types/babel__core@7.20.5)(@types/node@22.10.2)(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(terser@5.37.0))(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
       '@types/react':
         specifier: ^19.0.0
         version: 19.0.2
@@ -1337,8 +1337,8 @@ packages:
     resolution: {integrity: sha512-YeqJjmtlecJX8iNC1U33eSU/NiNQ5q9EJEPc1hZ5zACg+YenyZuVofJbj4GNkKoyFUNZwU98V8ZvVEgTdbYQmg==}
     engines: {node: '>=18'}
 
-  '@sanity/color-input@4.0.2':
-    resolution: {integrity: sha512-4FMaIVouv8cQzyIs8AkZvGTTKzvgJxGtX795nlO1k35YfZgeEhakxwLLYgjkaEzVyCwYVTRqSOjtqjvAesKWJA==}
+  '@sanity/color-input@4.0.3':
+    resolution: {integrity: sha512-5/iYVNRhmxJxpvkLdEK4FJU6sg7PjBHsdtfFCMS3Hj3N8a6jdXeMTwFqCum4ZwTq6Jb9I/87sSSC2FI66fiq2g==}
     engines: {node: '>=18'}
     peerDependencies:
       react: ^18.3 || ^19
@@ -5652,7 +5652,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@sanity/color-input@4.0.2(@emotion/is-prop-valid@1.2.2)(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(sanity@3.68.1(@emotion/is-prop-valid@1.2.2)(@types/babel__core@7.20.5)(@types/node@22.10.2)(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(terser@5.37.0))(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))':
+  '@sanity/color-input@4.0.3(@emotion/is-prop-valid@1.2.2)(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(sanity@3.68.1(@emotion/is-prop-valid@1.2.2)(@types/babel__core@7.20.5)(@types/node@22.10.2)(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(terser@5.37.0))(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))':
     dependencies:
       '@sanity/icons': 3.5.5(react@19.0.0)
       '@sanity/incompatible-plugin': 1.0.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
