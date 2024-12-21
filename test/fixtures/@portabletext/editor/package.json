@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@portabletext/editor": "1.17.1",
+    "@portabletext/editor": "1.18.5",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@types/react-is": "^19.0.0",
