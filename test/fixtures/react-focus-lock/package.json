@@ -8,5 +8,5 @@
     "react-focus-lock": "2.13.5",
     "react-is": "^19.0.0"
   },
-  "packageManager": "pnpm@9.15.0"
+  "packageManager": "pnpm@9.15.1"
 }
