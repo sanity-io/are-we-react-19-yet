@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@sanity/react-loader':
-        specifier: 1.10.30
-        version: 1.10.30(react@19.0.0)
+        specifier: 1.10.31
+        version: 1.10.31(react@19.0.0)
       '@types/react':
         specifier: ^19.0.0
         version: 19.0.2
@@ -36,19 +36,19 @@ packages:
     resolution: {integrity: sha512-k5aW5C8RdqVGnvuX0KZ+AAIlhYueb6sx3edhKkIMmr2UfD8vSTSW3oAXVt+/WlBstlMIqvkc5RCLLWZQcF3gaA==}
     engines: {node: '>=14.18'}
 
-  '@sanity/comlink@2.0.2':
-    resolution: {integrity: sha512-8FUwaBrfjsQYWuoS8t+krllLQH0/khd6PT9bQ5Ac7xgHQEnZCzOXSxx+ENL0daCIdpqCpIu7nYUA2qLUUpQqEg==}
+  '@sanity/comlink@2.0.3':
+    resolution: {integrity: sha512-ibYxXGlAssMZUHgL958W28rOetHuXSJjzhfj3T+ipI+scDhsGOZ9AjN5Gd3XENk2RdAE9hhzBJPttJKLpTw5YQ==}
     engines: {node: '>=18'}
 
-  '@sanity/core-loader@1.7.21':
-    resolution: {integrity: sha512-DeZn2czD3uqSbZzeZD3UggtV49l9qMZx9f1n7QLgD5Fj+o3ZmUbYWIWE/5PGH95Jnpg80rDap6vuAvPyMp9sWQ==}
+  '@sanity/core-loader@1.7.22':
+    resolution: {integrity: sha512-O5gUZAMVemqIcLzlQdAyb0ZrqIrl4o73hDInmVbHXzw/dmL7NWuTYYKEblKpAR85putmDCgOm2uMj1NCDczKaA==}
     engines: {node: '>=18'}
 
   '@sanity/eventsource@5.0.2':
     resolution: {integrity: sha512-/B9PMkUvAlUrpRq0y+NzXgRv5lYCLxZNsBJD2WXVnqZYOfByL9oQBV7KiTaARuObp5hcQYuPfOAVjgXe3hrixA==}
 
-  '@sanity/react-loader@1.10.30':
-    resolution: {integrity: sha512-V9Xj3kwd7c4NfIEt5+8QB+ZpCdvA2lU5QGalkn6S/1101Xkk3z8Q+tsSPQ1yHWVJ9VOMYDbOv8sYX/RkwhlmcA==}
+  '@sanity/react-loader@1.10.31':
+    resolution: {integrity: sha512-hxJ/6psjyozee9O0iKEYSctgC1wbxEV1d+4XzVj3I7EvDuL0paKL6K8G70voP54nW+hh25VpxYQlhk+KEQBnmQ==}
     engines: {node: '>=18'}
     peerDependencies:
       react: ^18.3 || >=19.0.0-rc
@@ -177,8 +177,8 @@ packages:
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
-  uuid@10.0.0:
-    resolution: {integrity: sha512-8XkAphELsDnEGrDxUOHB3RGvXz6TeuYSGEZBOjtTtPm2lwhGBjLgOzLHB63IUWfBpNucQjND6d3AOudO+H3RWQ==}
+  uuid@11.0.3:
+    resolution: {integrity: sha512-d0z310fCWv5dJwnX1Y/MncBAqGMKEzlBb1AOf7z9K8ALnd0utBX/msg/fA0+sbyN1ihbMsLhrBlnl1ak7Wa0rg==}
     hasBin: true
 
   xstate@5.19.0:
@@ -198,16 +198,16 @@ snapshots:
     transitivePeerDependencies:
       - debug
 
-  '@sanity/comlink@2.0.2':
+  '@sanity/comlink@2.0.3':
     dependencies:
       rxjs: 7.8.1
-      uuid: 10.0.0
+      uuid: 11.0.3
       xstate: 5.19.0
 
-  '@sanity/core-loader@1.7.21':
+  '@sanity/core-loader@1.7.22':
     dependencies:
       '@sanity/client': 6.24.1
-      '@sanity/comlink': 2.0.2
+      '@sanity/comlink': 2.0.3
     transitivePeerDependencies:
       - debug
 
@@ -218,10 +218,10 @@ snapshots:
       event-source-polyfill: 1.0.31
       eventsource: 2.0.2
 
-  '@sanity/react-loader@1.10.30(react@19.0.0)':
+  '@sanity/react-loader@1.10.31(react@19.0.0)':
     dependencies:
       '@sanity/client': 6.24.1
-      '@sanity/core-loader': 1.7.21
+      '@sanity/core-loader': 1.7.22
       react: 19.0.0
     transitivePeerDependencies:
       - debug
@@ -345,7 +345,7 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  uuid@10.0.0: {}
+  uuid@11.0.3: {}
 
   xstate@5.19.0: {}
 
