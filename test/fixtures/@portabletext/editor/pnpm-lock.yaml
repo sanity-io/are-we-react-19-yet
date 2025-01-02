@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@portabletext/editor':
-        specifier: 1.18.5
-        version: 1.18.5(@sanity/block-tools@3.68.3)(@sanity/schema@3.68.3(@types/react@19.0.2))(@sanity/types@3.68.3(@types/react@19.0.2))(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rxjs@7.8.1)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
+        specifier: 1.18.7
+        version: 1.18.7(@sanity/block-tools@3.68.3)(@sanity/schema@3.68.3(@types/react@19.0.2))(@sanity/types@3.68.3(@types/react@19.0.2))(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rxjs@7.8.1)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
       '@types/react':
         specifier: ^19.0.0
         version: 19.0.2
@@ -44,8 +44,8 @@ packages:
   '@juggle/resize-observer@3.4.0':
     resolution: {integrity: sha512-dfLbk+PwWvFzSxwk3n5ySL0hfBog779o8h68wK/7/APo/7cgyWp5jcXockbxdk5kFRkbeXWm4Fbi9FrdN381sA==}
 
-  '@portabletext/editor@1.18.5':
-    resolution: {integrity: sha512-ubHLFz6Z+7gG5Ptk8CqaVMF0xxTusOMp4fAHxh2R//olLX9gKfcUBv6VzlQhnxIYRGVeHB+FmOXUkI9z5cGmDg==}
+  '@portabletext/editor@1.18.7':
+    resolution: {integrity: sha512-WMDm2TQBXxu/c/GGYGl1Wkn9bm4CDBNmiKzxRUCbrk6gs5FQJt908Q+adYaA51zorvVHHXmNY8BUL2nqqP8pyQ==}
     engines: {node: '>=18'}
     peerDependencies:
       '@sanity/block-tools': ^3.68.3
@@ -118,11 +118,11 @@ packages:
   '@types/stylis@4.2.5':
     resolution: {integrity: sha512-1Xve+NMN7FWjY14vLoY5tL3BVEQ/n42YLwaqJIPYhotZ9uBHt87VceMwWQpzmdEt2TNXIorIFG+YeCUUW7RInw==}
 
-  '@xstate/react@5.0.0':
-    resolution: {integrity: sha512-MkYMpmqqCdK43wSl/V/jSpsvumzV4RSG2ZOUEAIrg/w36BJpyufMrsR0rz7POX5ICF5s3xzP9q7Hd5TyM5SSyQ==}
+  '@xstate/react@5.0.1':
+    resolution: {integrity: sha512-6JK6tcQdAIydu28wnfhY5JJNS8LGRoVZko0CiYaC3405352Mfc5pDPdBAKVFx1OnIJvyj5Hw3/MyQQ2fBTGCcQ==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-0
-      xstate: ^5.19.0
+      xstate: ^5.19.1
     peerDependenciesMeta:
       xstate:
         optional: true
@@ -276,10 +276,10 @@ packages:
   progress-stream@2.0.0:
     resolution: {integrity: sha512-xJwOWR46jcXUq6EH9yYyqp+I52skPySOeHfkxOZ2IY1AiBi/sFJhbhAKHoV3OTw/omQ45KTio9215dRJ2Yxd3Q==}
 
-  react-compiler-runtime@19.0.0-beta-201e55d-20241215:
-    resolution: {integrity: sha512-jBEo/UqVgiz6veJjhQMoNaGQLKUQwzMQpiYrA4XsGVOC2sElDF0oMjic5107LitP988yHrqDDZwZirS4OAEqyA==}
+  react-compiler-runtime@19.0.0-beta-55955c9-20241229:
+    resolution: {integrity: sha512-I8niUyydqnPVMjqsOEfFwiRlWbndSjgwGhbm5GZuKev3b0HAcUAqAoHNIpp0XSHInlwfn4Zvtbva5TLupEOw+Q==}
     peerDependencies:
-      react: ^17.0.0 || ^18.0.0 || ^19.0.0
+      react: ^17.0.0 || ^18.0.0 || ^19.0.0 || ^0.0.0-experimental
 
   react-dom@19.0.0:
     resolution: {integrity: sha512-4GV5sHFG0e/0AD4X+ySy6UJd3jVl1iNsNHdpad0qhABJ11twS3TTBnseqsKurKcsNqCEFeGL3uLpVChpIO3QfQ==}
@@ -393,8 +393,8 @@ packages:
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
-  xstate@5.19.0:
-    resolution: {integrity: sha512-Juh1MjeRaVWr1IRxXYvQMMRFMrei6vq6+AfP6Zk9D9YV0ZuvubN0aM6s2ITwUrq+uWtP1NTO8kOZmsM/IqeOiQ==}
+  xstate@5.19.1:
+    resolution: {integrity: sha512-vFt3q9EBnO/qTTf9AG/5GosGwdDEftw5VOd3ytfSwUQRvkj6oJkxeBQaCqJUANjHrkK341jMkEZP0zeqrx2tww==}
 
   xtend@4.0.2:
     resolution: {integrity: sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==}
@@ -412,26 +412,26 @@ snapshots:
 
   '@juggle/resize-observer@3.4.0': {}
 
-  '@portabletext/editor@1.18.5(@sanity/block-tools@3.68.3)(@sanity/schema@3.68.3(@types/react@19.0.2))(@sanity/types@3.68.3(@types/react@19.0.2))(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rxjs@7.8.1)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))':
+  '@portabletext/editor@1.18.7(@sanity/block-tools@3.68.3)(@sanity/schema@3.68.3(@types/react@19.0.2))(@sanity/types@3.68.3(@types/react@19.0.2))(@types/react@19.0.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(rxjs@7.8.1)(styled-components@6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0))':
     dependencies:
       '@portabletext/patches': 1.1.1
       '@sanity/block-tools': 3.68.3
       '@sanity/schema': 3.68.3(@types/react@19.0.2)
       '@sanity/types': 3.68.3(@types/react@19.0.2)
-      '@xstate/react': 5.0.0(@types/react@19.0.2)(react@19.0.0)(xstate@5.19.0)
+      '@xstate/react': 5.0.1(@types/react@19.0.2)(react@19.0.0)(xstate@5.19.1)
       debug: 4.4.0
       get-random-values-esm: 1.0.2
       lodash: 4.17.21
       lodash.startcase: 4.4.0
       react: 19.0.0
-      react-compiler-runtime: 19.0.0-beta-201e55d-20241215(react@19.0.0)
+      react-compiler-runtime: 19.0.0-beta-55955c9-20241229(react@19.0.0)
       rxjs: 7.8.1
       slate: 0.112.0
       slate-dom: 0.111.0(slate@0.112.0)
       slate-react: 0.112.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(slate-dom@0.111.0(slate@0.112.0))(slate@0.112.0)
       styled-components: 6.1.13(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       use-effect-event: 1.0.2(react@19.0.0)
-      xstate: 5.19.0
+      xstate: 5.19.1
     transitivePeerDependencies:
       - '@types/react'
       - react-dom
@@ -536,13 +536,13 @@ snapshots:
 
   '@types/stylis@4.2.5': {}
 
-  '@xstate/react@5.0.0(@types/react@19.0.2)(react@19.0.0)(xstate@5.19.0)':
+  '@xstate/react@5.0.1(@types/react@19.0.2)(react@19.0.0)(xstate@5.19.1)':
     dependencies:
       react: 19.0.0
       use-isomorphic-layout-effect: 1.2.0(@types/react@19.0.2)(react@19.0.0)
       use-sync-external-store: 1.4.0(react@19.0.0)
     optionalDependencies:
-      xstate: 5.19.0
+      xstate: 5.19.1
     transitivePeerDependencies:
       - '@types/react'
 
@@ -664,7 +664,7 @@ snapshots:
       speedometer: 1.0.0
       through2: 2.0.5
 
-  react-compiler-runtime@19.0.0-beta-201e55d-20241215(react@19.0.0):
+  react-compiler-runtime@19.0.0-beta-55955c9-20241229(react@19.0.0):
     dependencies:
       react: 19.0.0
 
@@ -793,6 +793,6 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  xstate@5.19.0: {}
+  xstate@5.19.1: {}
 
   xtend@4.0.2: {}
