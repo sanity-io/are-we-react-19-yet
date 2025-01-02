@@ -8,5 +8,5 @@
     "react-is": "^19.0.0",
     "sanity-plugin-user-select-input": "2.0.1"
   },
-  "packageManager": "pnpm@9.15.1"
+  "packageManager": "pnpm@9.15.2"
 }
