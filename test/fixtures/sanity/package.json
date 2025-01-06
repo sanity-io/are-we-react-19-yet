@@ -8,5 +8,5 @@
     "react-is": "^19.0.0",
     "sanity": "3.68.3"
   },
-  "packageManager": "pnpm@9.15.2"
+  "packageManager": "pnpm@9.15.3"
 }
