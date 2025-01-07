@@ -8,5 +8,5 @@
     "react-is": "^19.0.0",
     "sanity-plugin-iframe-pane": "3.1.6"
   },
-  "packageManager": "pnpm@9.15.2"
+  "packageManager": "pnpm@9.15.3"
 }
