@@ -27,8 +27,8 @@ importers:
         specifier: ^19.0.0
         version: 19.0.0
       sanity-plugin-internationalized-array:
-        specifier: 3.1.0
-        version: 3.1.0(@emotion/is-prop-valid@1.2.2)(@types/react@19.0.3)(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(sanity@3.68.3(@emotion/is-prop-valid@1.2.2)(@types/babel__core@7.20.5)(@types/node@22.10.5)(@types/react@19.0.3)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(styled-components@6.1.14(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(terser@5.37.0))(styled-components@6.1.14(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
+        specifier: 3.1.1
+        version: 3.1.1(@emotion/is-prop-valid@1.2.2)(@types/react@19.0.3)(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(sanity@3.68.3(@emotion/is-prop-valid@1.2.2)(@types/babel__core@7.20.5)(@types/node@22.10.5)(@types/react@19.0.3)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(styled-components@6.1.14(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(terser@5.37.0))(styled-components@6.1.14(react-dom@19.0.0(react@19.0.0))(react@19.0.0))
 
 packages:
 
@@ -3554,8 +3554,8 @@ packages:
     resolution: {integrity: sha512-1OOTx/Uw0J3rwNkI4J/4XJfTGb2Rze/gl5jJGRw+M2hRGkp1QEu2wFHiC9adj83ABYthOczBCBpTHHeZluctdw==}
     engines: {node: '>=18.2'}
 
-  sanity-plugin-internationalized-array@3.1.0:
-    resolution: {integrity: sha512-mf+BFF9EcvKrF8fHOMfp2lah7m5H+7mdPC4SmivwVDvKcR16CzYmEI9tGx5CeGw+xK044EPaWFVUdApLN/Z7uA==}
+  sanity-plugin-internationalized-array@3.1.1:
+    resolution: {integrity: sha512-ohu8ev5VUAmWGZOESmelhj01oydckgtTK0wDTaZvNs+O0mRJijkKZEqj5uJFP/e2fRClyRje36RLUCA4d6MmFw==}
     engines: {node: '>=14'}
     peerDependencies:
       react: ^18.3 || ^19
@@ -8134,7 +8134,7 @@ snapshots:
     dependencies:
       '@sanity/diff-match-patch': 3.1.2
 
-  sanity-plugin-internationalized-array@3.1.0(@emotion/is-prop-valid@1.2.2)(@types/react@19.0.3)(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(sanity@3.68.3(@emotion/is-prop-valid@1.2.2)(@types/babel__core@7.20.5)(@types/node@22.10.5)(@types/react@19.0.3)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(styled-components@6.1.14(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(terser@5.37.0))(styled-components@6.1.14(react-dom@19.0.0(react@19.0.0))(react@19.0.0)):
+  sanity-plugin-internationalized-array@3.1.1(@emotion/is-prop-valid@1.2.2)(@types/react@19.0.3)(react-dom@19.0.0(react@19.0.0))(react-is@19.0.0)(react@19.0.0)(sanity@3.68.3(@emotion/is-prop-valid@1.2.2)(@types/babel__core@7.20.5)(@types/node@22.10.5)(@types/react@19.0.3)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(styled-components@6.1.14(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(terser@5.37.0))(styled-components@6.1.14(react-dom@19.0.0(react@19.0.0))(react@19.0.0)):
     dependencies:
       '@sanity/icons': 3.5.7(react@19.0.0)
       '@sanity/incompatible-plugin': 1.0.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
