@@ -41,10 +41,10 @@ jobs:
         with:
           body: I ran `pnpm format` 🧑‍💻
           branch: actions/prettier-test
-          commit-message: 'chore(prettier): 🤖 ✨'
+          commit-message: "chore(prettier): 🤖 ✨"
           labels: 🤖 bot
           sign-commits: true
-          title: 'chore(prettier): 🤖 ✨'
+          title: "chore(prettier): 🤖 ✨"
           token: ${{ steps.generate-token.outputs.token }}
 
   website:
@@ -74,8 +74,8 @@ jobs:
         with:
           body: I ran `pnpm format` 🧑‍💻
           branch: actions/prettier-website
-          commit-message: 'chore(prettier): 🤖 ✨'
+          commit-message: "chore(prettier): 🤖 ✨"
           labels: 🤖 bot
           sign-commits: true
-          title: 'chore(prettier): 🤖 ✨'
+          title: "chore(prettier): 🤖 ✨"
           token: ${{ steps.generate-token.outputs.token }}

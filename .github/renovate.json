@@ -1,7 +1,19 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "local>sanity-io/renovate-config"
+  "extends": ["local>sanity-io/renovate-config"],
+  "ignorePresets": [
+    "github>sanity-io/renovate-config:group-non-major",
+    ":ignoreModulesAndTests"
   ],
-  "ignorePresets": ["github>sanity-io/renovate-config:group-non-major", ":ignoreModulesAndTests"]
+  "packageRules": [
+    {
+      "matchFileNames": [
+        "test/fixtures/@portabletext/editor/package.json",
+        "test/fixtures/@portabletext/react/package.json",
+        "test/fixtures/@rexxars/react-json-inspector/package.json",
+        "test/fixtures/@sanity/assist/package.json"
+      ],
+      "enabled": false
+    }
+  ]
 }

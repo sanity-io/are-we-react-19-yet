@@ -2,10 +2,10 @@
 name: Test PR
 
 on:
-  pull_request: 
+  pull_request:
     branches: [main]
     paths:
-      - 'test/**'
+      - "test/**"
   workflow_dispatch:
 
 permissions:

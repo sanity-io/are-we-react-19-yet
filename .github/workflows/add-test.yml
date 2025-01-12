@@ -33,10 +33,10 @@ jobs:
           private-key: ${{ secrets.ECOSPARK_APP_PRIVATE_KEY }}
       - uses: peter-evans/create-pull-request@67ccf781d68cd99b580ae25a5c18a1cc84ffff1f # v7
         with:
-          branch: 'actions/add-test'
+          branch: "actions/add-test"
           branch-suffix: random
-          commit-message: 'chore(test): add ${{ github.event.inputs.packages }}'
+          commit-message: "chore(test): add ${{ github.event.inputs.packages }}"
           labels: 🤖 bot
           sign-commits: true
-          title: 'chore(test): add ${{ github.event.inputs.packages }}'
+          title: "chore(test): add ${{ github.event.inputs.packages }}"
           token: ${{ steps.generate-token.outputs.token }}
