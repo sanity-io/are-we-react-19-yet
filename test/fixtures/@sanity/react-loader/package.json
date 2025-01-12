@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@sanity/react-loader": "1.10.31",
+    "@sanity/react-loader": "1.10.34",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "@types/react-is": "^19.0.0",
