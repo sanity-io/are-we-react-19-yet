@@ -63,7 +63,7 @@ export default function Report(props: {test: Exclude<ReportQueryResult, null>['t
             <Link
               key={test._key}
               data-sanity-edit-target
-              className={`group relative rounded-md bg-white p-3 shadow-sm ring-1 ring-slate-200 hover:shadow-md hover:ring-blue-500`}
+              className={`group relative rounded-md bg-white p-3 shadow-xs ring-1 ring-slate-200 hover:shadow-md hover:ring-blue-500`}
               href={stegaClean(`/package/${test.name}`)}
               title={test.name || ''}
             >

@@ -17,6 +17,7 @@ export default async function Icon({params}: {params: Promise<{name: string}>}) 
   const {data: report} = await sanityFetch({
     query: packageQuery,
     params,
+    perspective: 'published',
     stega: false,
   })
 

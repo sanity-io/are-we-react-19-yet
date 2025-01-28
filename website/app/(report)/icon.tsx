@@ -16,6 +16,7 @@ export const contentType = 'image/png'
 export default async function Icon() {
   const {data} = await sanityFetch({
     query: reportQuery,
+    perspective: 'published',
     stega: false,
   })
   const passing = (data && data.total > 0 && data.passing === data.total) || false
