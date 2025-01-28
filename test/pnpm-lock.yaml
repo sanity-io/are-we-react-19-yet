@@ -582,8 +582,8 @@ packages:
     resolution: {integrity: sha512-bZsjR/iRjl1Nk1UkjGpAzLNfQtzuijhn2g+pbZb98HQ1Gk8vM9hfbxeMBP+M2/UUdwj0RqGG3mlvk2MsAqwvEw==}
     engines: {node: 20 || >=22}
 
-  loupe@3.1.2:
-    resolution: {integrity: sha512-23I4pFZHmAemUnz8WZXbYRSKYj801VDaNv9ETuMh7IrMc7VuVVSo+Z9iLE3ni30+U48iDWfi30d3twAXBYmnCg==}
+  loupe@3.1.3:
+    resolution: {integrity: sha512-kkIp7XSkP78ZxJEsSxW3712C6teJVoeHHwgo9zJ380de7IYyJ2ISlxojcH2pC5OFLewESmnRi/+XCDIEEVyoug==}
 
   lru-cache@11.0.2:
     resolution: {integrity: sha512-123qHRfJBmo2jXDbo/a5YOQrJoHF/GNQTLzQ5+IdK5pWpceK17yRc6ozlWd25FxvGKQbIUs91fDFkXmDHTKcyA==}
@@ -1179,7 +1179,7 @@ snapshots:
   '@vitest/utils@3.0.4':
     dependencies:
       '@vitest/pretty-format': 3.0.4
-      loupe: 3.1.2
+      loupe: 3.1.3
       tinyrainbow: 2.0.0
 
   ansi-regex@5.0.1: {}
@@ -1207,7 +1207,7 @@ snapshots:
       assertion-error: 2.0.1
       check-error: 2.1.1
       deep-eql: 5.0.2
-      loupe: 3.1.2
+      loupe: 3.1.3
       pathval: 2.0.0
 
   check-error@2.1.1: {}
@@ -1371,7 +1371,7 @@ snapshots:
     dependencies:
       '@isaacs/cliui': 8.0.2
 
-  loupe@3.1.2: {}
+  loupe@3.1.3: {}
 
   lru-cache@11.0.2: {}
 
