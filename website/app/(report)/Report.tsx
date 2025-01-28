@@ -33,8 +33,8 @@ export default function Report(props: {test: Exclude<ReportQueryResult, null>['t
   return (
     <>
       <fieldset className="px-4 pb-6">
-        <legend className="text-sm font-semibold leading-6 text-gray-900">Filter</legend>
-        <div className="mt-6 space-y-6 sm:flex sm:items-center sm:space-x-10 sm:space-y-0">
+        <legend className="text-sm leading-6 font-semibold text-gray-900">Filter</legend>
+        <div className="mt-6 space-y-6 sm:flex sm:items-center sm:space-y-0 sm:space-x-10">
           {filters.map((filter) => (
             <div key={filter.id} className="flex items-center">
               <input
@@ -46,7 +46,7 @@ export default function Report(props: {test: Exclude<ReportQueryResult, null>['t
               />
               <label
                 htmlFor={filter.id}
-                className="ml-3 block text-sm font-medium leading-6 text-gray-900"
+                className="ml-3 block text-sm leading-6 font-medium text-gray-900"
               >
                 {filter.title}
               </label>
@@ -54,7 +54,7 @@ export default function Report(props: {test: Exclude<ReportQueryResult, null>['t
           ))}
         </div>
       </fieldset>
-      <section className="grid grid-cols-1 gap-4 p-4 text-sm leading-6 sm:grid-cols-2 sm:px-8 sm:pb-8 sm:pt-6 lg:grid-cols-1 lg:p-4 xl:grid-cols-2 xl:px-8 xl:pb-8 xl:pt-6">
+      <section className="grid grid-cols-1 gap-4 p-4 text-sm leading-6 sm:grid-cols-2 sm:px-8 sm:pt-6 sm:pb-8 lg:grid-cols-1 lg:p-4 xl:grid-cols-2 xl:px-8 xl:pt-6 xl:pb-8">
         {filtered.map((test) => {
           if (!test._key) throw new Error('No key')
           if (!test.name) throw new Error('No name')
@@ -63,12 +63,12 @@ export default function Report(props: {test: Exclude<ReportQueryResult, null>['t
             <Link
               key={test._key}
               data-sanity-edit-target
-              className={`group relative rounded-md bg-white p-3 shadow-xs ring-1 ring-slate-200 hover:shadow-md hover:ring-blue-500`}
+              className={`group relative rounded-md bg-white p-3 ring-1 shadow-xs ring-slate-200 hover:shadow-md hover:ring-blue-500`}
               href={stegaClean(`/package/${test.name}`)}
               title={test.name || ''}
             >
               <span
-                className={`absolute left-1.5 top-1.5 -z-0 scale-150 text-4xl opacity-25 ${test.pass ? 'text-green-800' : 'text-red-800'}`}
+                className={`absolute top-1.5 left-1.5 -z-0 scale-150 text-4xl opacity-25 ${test.pass ? 'text-green-800' : 'text-red-800'}`}
               >
                 {test.pass ? <CheckmarkCircleIcon /> : <CloseCircleIcon />}
               </span>

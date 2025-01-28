@@ -42,17 +42,17 @@ export async function SharedPackageReport({name}: {name: string}) {
 
   return (
     <>
-      <Link className="sticky left-2 top-2 rounded-sm bg-white px-2 py-1" href="/">
+      <Link className="sticky top-2 left-2 rounded-sm bg-white px-2 py-1" href="/">
         Back
       </Link>
       <main className="container mx-auto px-5">
-        <section className="mb-8 mt-16 flex flex-col items-center">
-          <h1 className="text-balance text-2xl font-bold leading-tight tracking-tighter lg:pr-8 lg:text-4xl">
+        <section className="mt-16 mb-8 flex flex-col items-center">
+          <h1 className="text-2xl leading-tight font-bold tracking-tighter text-balance lg:pr-8 lg:text-4xl">
             {report.package.name}@{report.package.version}
           </h1>
-          <h2 className="relative mt-5 text-pretty text-center text-lg">
+          <h2 className="relative mt-5 text-center text-lg text-pretty">
             <span
-              className={`absolute -left-0.5 -top-1 -z-0 text-4xl ${report.package.pass ? 'text-green-800' : 'text-red-800'}`}
+              className={`absolute -top-1 -left-0.5 -z-0 text-4xl ${report.package.pass ? 'text-green-800' : 'text-red-800'}`}
             >
               {report.package.pass ? <CheckmarkCircleIcon /> : <CloseCircleIcon />}
             </span>
