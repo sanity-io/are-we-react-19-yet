@@ -1,10 +1,10 @@
 {
   "dependencies": {
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.1",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
     "@types/react-is": "^19.0.0",
-    "next": "^15.0.4",
-    "next-sanity": "9.8.42",
+    "next": "^15.1.6",
+    "next-sanity": "9.8.43",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-is": "^19.0.0"

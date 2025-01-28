@@ -1,6 +1,9 @@
 {
   "private": true,
   "packageManager": "pnpm@9.15.3",
+  "scripts": {
+    "update": "find . -name \"package.json\" -not -path \"*/node_modules/*\" -execdir sh -c 'echo \"📦 Updating $(pwd)\" && pnpm up --latest'"
+  },
   "dependencies": {
     "@types/node": "^20.12.12"
   }

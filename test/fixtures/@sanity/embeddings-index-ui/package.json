@@ -1,8 +1,8 @@
 {
   "dependencies": {
     "@sanity/embeddings-index-ui": "2.0.1",
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
     "@types/react-is": "^19.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
