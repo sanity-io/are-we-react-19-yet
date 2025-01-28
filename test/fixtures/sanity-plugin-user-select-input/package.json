@@ -6,6 +6,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-is": "^19.0.0",
+    "sanity": "^3.71.2",
     "sanity-plugin-user-select-input": "2.0.1"
   },
   "packageManager": "pnpm@9.15.4"

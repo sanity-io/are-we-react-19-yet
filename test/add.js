@@ -44,6 +44,7 @@ for (const pkg of packageNames) {
           'react': '^19.0.0',
           'react-dom': '^19.0.0',
           'react-is': '^19.0.0',
+          'sanity': '^3.71.2',
         },
         packageManager,
       },
