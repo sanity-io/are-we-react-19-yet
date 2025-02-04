@@ -19,7 +19,7 @@ importers:
         version: 19.0.0
       hydrogen-sanity:
         specifier: 4.3.2
-        version: 4.3.2(@remix-run/react@2.15.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@sanity/client@6.27.2)(@shopify/hydrogen@2024.10.1(@remix-run/react@2.15.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@remix-run/server-runtime@2.15.2)(@types/react@19.0.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(xstate@5.19.2))(@shopify/remix-oxygen@2.0.9(@remix-run/server-runtime@2.15.2)(@shopify/oxygen-workers-types@4.1.6))(groq@3.72.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+        version: 4.3.2(@remix-run/react@2.15.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@sanity/client@6.27.2)(@shopify/hydrogen@2024.10.1(@remix-run/react@2.15.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@remix-run/server-runtime@2.15.3)(@types/react@19.0.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(xstate@5.19.2))(@shopify/remix-oxygen@2.0.10(@remix-run/server-runtime@2.15.3)(@shopify/oxygen-workers-types@4.1.6))(groq@3.73.0)(react-dom@19.0.0(react@19.0.0))(react-router@6.29.0(react@19.0.0))(react@19.0.0)
       react:
         specifier: ^19.0.0
         version: 19.0.0
@@ -45,8 +45,8 @@ packages:
   '@lit/reactive-element@1.6.3':
     resolution: {integrity: sha512-QuTgnG52Poic7uM1AN5yJ09QMe0O28e10XzSvWDz02TJiiKee4stsiownEIadWm8nYzyDAyT+gKzUoZmiWQtsQ==}
 
-  '@remix-run/react@2.15.2':
-    resolution: {integrity: sha512-NAAMsSgoC/sdOgovUewwRCE/RUm3F+MBxxZKfwu3POCNeHaplY5qGkH/y8PUXvdN1EBG7Z0Ko43dyzCfcEy5PA==}
+  '@remix-run/react@2.15.3':
+    resolution: {integrity: sha512-AynCltIk8KLlxV9a+4dORtEMNtF5wJAzBNBZLJMdw3FCJNQZRYQSen8rDnIovOOiz9UNZ2SmBTFERiFMKS16jw==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       react: ^18.0.0
@@ -56,12 +56,12 @@ packages:
       typescript:
         optional: true
 
-  '@remix-run/router@1.21.0':
-    resolution: {integrity: sha512-xfSkCAchbdG5PnbrKqFWwia4Bi61nH+wm8wLEqfHDyp7Y3dZzgqS2itV8i4gAq9pC2HsTpwyBC6Ds8VHZ96JlA==}
+  '@remix-run/router@1.22.0':
+    resolution: {integrity: sha512-MBOl8MeOzpK0HQQQshKB7pABXbmyHizdTpqnrIseTbsv0nAepwC2ENZa1aaBExNQcpLoXmWthhak8SABLzvGPw==}
     engines: {node: '>=14.0.0'}
 
-  '@remix-run/server-runtime@2.15.2':
-    resolution: {integrity: sha512-OqiPcvEnnU88B8b1LIWHHkQ3Tz2GDAmQ1RihFNQsbrFKpDsQLkw0lJlnfgKA/uHd0CEEacpfV7C9qqJT3V6Z2g==}
+  '@remix-run/server-runtime@2.15.3':
+    resolution: {integrity: sha512-taHBe1DEqxZNjjj6OfkSYbup+sZPjbTgUhykaI+nHqrC2NDQuTiisBXhLwtx60GctONR/x0lWhF7R9ZGC5WsHw==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       typescript: ^5.1.0
@@ -77,8 +77,8 @@ packages:
     resolution: {integrity: sha512-I1F57GKL69xoJUF9/4XTMvXFJZ7BnaFmTBIaiRvXaovJEZ677p5f+UkURPG/dd9L63+OnTV0SNmhTjIIzNexdw==}
     engines: {node: '>=18'}
 
-  '@sanity/core-loader@1.7.31':
-    resolution: {integrity: sha512-AwVDPUR0/kkRW+iXaATed3yvMUmnzBZoBSiopT3nyg8okv8G9t30Wo6gnuh066xh0fVIfulQzGrAIj6GSUOBMA==}
+  '@sanity/core-loader@1.7.32':
+    resolution: {integrity: sha512-gWxTvzXVPCcIWkTZ07oLq2D5/ngAWutfFyndQglds7GrIC2OJeTwslA0VLXJhWmW5hfmnlmT/RINwQYAlSrlHg==}
     engines: {node: '>=18'}
 
   '@sanity/diff-match-patch@3.2.0':
@@ -109,8 +109,8 @@ packages:
     peerDependencies:
       '@sanity/client': ^6.27.2
 
-  '@sanity/react-loader@1.10.40':
-    resolution: {integrity: sha512-PJRgKibOD9nlD1lDEoVCr2dg5mtFDs2pdveL144lj+3Hj8UBhxGIkUiKM5XwdD+mls9n7tIU78CO4XDRzBgWhA==}
+  '@sanity/react-loader@1.10.41':
+    resolution: {integrity: sha512-HkY7VOkk+7HgHye/e4BX5+UJxHarbWdlUXsHLExsIeSG9kwO0YhjefszEE2SFx9Tu8sHbCL/cuLuCgLyl0Hk+w==}
     engines: {node: '>=18'}
     peerDependencies:
       react: ^18.3 || >=19.0.0-rc
@@ -134,8 +134,8 @@ packages:
       '@sanity/types':
         optional: true
 
-  '@sanity/visual-editing@2.12.10':
-    resolution: {integrity: sha512-mrq0xjVXcWifiaJA7b3lLl1VqmxAHtSQ05Xmp4ffneGnwllx3k6j5y9Yn2LWfIwNN+7W4ofWj6TIATkExLFklg==}
+  '@sanity/visual-editing@2.12.12':
+    resolution: {integrity: sha512-begfBEqh5HRu89puaU4IddMCwTSaO4aaPjsL9hYMFvNRr7JbVj3nudQdPEDlCwFJTKMwZNvJvAXQ0/Klgt6+KQ==}
     engines: {node: '>=18'}
     peerDependencies:
       '@remix-run/react': '>= 2'
@@ -144,7 +144,7 @@ packages:
       next: '>= 13 || >=14.3.0-canary.0 <14.3.0 || >=15.0.0-rc'
       react: ^18.3 || >=19.0.0-rc
       react-dom: ^18.3 || >=19.0.0-rc
-      react-router: '>= 7'
+      react-router: '>= 6 || >= 7'
       svelte: '>= 4'
     peerDependenciesMeta:
       '@remix-run/react':
@@ -181,8 +181,8 @@ packages:
   '@shopify/oxygen-workers-types@4.1.6':
     resolution: {integrity: sha512-bc3hUnXZ/whiVjvZcFngJPG1baE/pM2FPw2rCtRh3Xgt/19VO24vqiaU7mmm+tPTjvoK+wUD2GBoNMG+66/aaw==}
 
-  '@shopify/remix-oxygen@2.0.9':
-    resolution: {integrity: sha512-TNQbR5ZPqnlwuaSoNp2irGIoTs/bksDnL4oYyEwusEVpIJh5XX/xc1NdKQerLWLZBhWOdHOTwgKM0fSe4L78CA==}
+  '@shopify/remix-oxygen@2.0.10':
+    resolution: {integrity: sha512-uo27XR2cxrHnoqM2HB2MS6fTcBVgotQUu7T1ZVzeOGMACk3zVt6mwDkAEN15biyR+GSjir2pJGu1ytd0fB696w==}
     peerDependencies:
       '@remix-run/server-runtime': ^2.1.0
       '@shopify/oxygen-workers-types': ^3.17.3 || ^4.1.2
@@ -199,8 +199,8 @@ packages:
   '@types/follow-redirects@1.14.4':
     resolution: {integrity: sha512-GWXfsD0Jc1RWiFmMuMFCpXMzi9L7oPDVwxUnZdg89kDNnqsRfUKXEtUYtA98A6lig1WXH/CYY/fvPW9HuN5fTA==}
 
-  '@types/node@22.12.0':
-    resolution: {integrity: sha512-Fll2FZ1riMjNmlmJOdAyY5pUbkftXslB5DgEzlIuNaiWhXd00FhWxVC/r4yV/4wBb9JfImTu+jiSvXTkJ7F/gA==}
+  '@types/node@22.13.1':
+    resolution: {integrity: sha512-jK8uzQlrvXqEU91UxiK5J7pKHyzgnI1Qnl0QDHIgVGuolJhRb9EEl28Cj9b3rGR8B2lhFCtvIm5os8lFnO/1Ew==}
 
   '@types/progress-stream@2.0.5':
     resolution: {integrity: sha512-5YNriuEZkHlFHHepLIaxzq3atGeav1qCTGzB74HKWpo66qjfostF+rHc785YYYHeBytve8ZG3ejg42jEIfXNiQ==}
@@ -304,8 +304,8 @@ packages:
     resolution: {integrity: sha512-AjqGKbDGUFRKIRCP9tCKiIGHyriz2oHEbPIbEtcSLSs4YjReZOIPQQWek4+6hjw62H9QShXHyaGivGiYVLeYFQ==}
     engines: {node: ^12.22.0 || ^14.16.0 || ^16.0.0 || >=17.0.0}
 
-  groq@3.72.0:
-    resolution: {integrity: sha512-JhzdRHJls4Z3WVka9DnRzMXJyrjfgwtaUxzQKRam+YGGF9xkv61Jf2WhuQFTxr5yVAt8Q4LlcQwtN4yl4uH8cQ==}
+  groq@3.73.0:
+    resolution: {integrity: sha512-kTRG8fPq35pX5/kX5RK/2qWndd0alt7HChRuEMWGeG6sW6XYLmTRBHsxn3lTNBgqU/h1QuIiIqJoxIC/7K0MGg==}
     engines: {node: '>=18'}
 
   hotscript@1.0.13:
@@ -376,15 +376,15 @@ packages:
   react-is@19.0.0:
     resolution: {integrity: sha512-H91OHcwjZsbq3ClIDHMzBShc1rotbfACdWENsmEf0IFvZ3FgGPtdHMcsv45bQ1hAbgdfiA8SnxTKfDS+x/8m2g==}
 
-  react-router-dom@6.28.1:
-    resolution: {integrity: sha512-YraE27C/RdjcZwl5UCqF/ffXnZDxpJdk9Q6jw38SZHjXs7NNdpViq2l2c7fO7+4uWaEfcwfGCv3RSg4e1By/fQ==}
+  react-router-dom@6.29.0:
+    resolution: {integrity: sha512-pkEbJPATRJ2iotK+wUwHfy0xs2T59YPEN8BQxVCPeBZvK7kfPESRc/nyxzdcxR17hXgUPYx2whMwl+eo9cUdnQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       react: '>=16.8'
       react-dom: '>=16.8'
 
-  react-router@6.28.1:
-    resolution: {integrity: sha512-2omQTA3rkMljmrvvo6WtewGdVh45SpL9hGiCI9uUrwGGfNFDIvGK4gYJsKlJoNVi6AQZcopSCballL+QGOm7fA==}
+  react-router@6.29.0:
+    resolution: {integrity: sha512-DXZJoE0q+KyeVw75Ck6GkPxFak63C4fGqZGNijnWgzB/HzSP1ZfTlBj5COaGWwhrMQ/R8bXiq5Ooy4KG+ReyjQ==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       react: '>=16.8'
@@ -522,21 +522,21 @@ snapshots:
     dependencies:
       '@lit-labs/ssr-dom-shim': 1.3.0
 
-  '@remix-run/react@2.15.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@remix-run/react@2.15.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
     dependencies:
-      '@remix-run/router': 1.21.0
-      '@remix-run/server-runtime': 2.15.2
+      '@remix-run/router': 1.22.0
+      '@remix-run/server-runtime': 2.15.3
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
-      react-router: 6.28.1(react@19.0.0)
-      react-router-dom: 6.28.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      react-router: 6.29.0(react@19.0.0)
+      react-router-dom: 6.29.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       turbo-stream: 2.4.0
 
-  '@remix-run/router@1.21.0': {}
+  '@remix-run/router@1.22.0': {}
 
-  '@remix-run/server-runtime@2.15.2':
+  '@remix-run/server-runtime@2.15.3':
     dependencies:
-      '@remix-run/router': 1.21.0
+      '@remix-run/router': 1.22.0
       '@types/cookie': 0.6.0
       '@web3-storage/multipart-parser': 1.0.0
       cookie: 0.6.0
@@ -558,7 +558,7 @@ snapshots:
       uuid: 11.0.5
       xstate: 5.19.2
 
-  '@sanity/core-loader@1.7.31':
+  '@sanity/core-loader@1.7.32':
     dependencies:
       '@sanity/client': 6.27.2
       '@sanity/comlink': 3.0.1
@@ -604,10 +604,10 @@ snapshots:
       '@sanity/client': 6.27.2
       '@sanity/uuid': 3.0.2
 
-  '@sanity/react-loader@1.10.40(react@19.0.0)':
+  '@sanity/react-loader@1.10.41(react@19.0.0)':
     dependencies:
       '@sanity/client': 6.27.2
-      '@sanity/core-loader': 1.7.31
+      '@sanity/core-loader': 1.7.32
       '@sanity/visual-editing-csm': 2.0.2(@sanity/client@6.27.2)
       react: 19.0.0
     transitivePeerDependencies:
@@ -631,7 +631,7 @@ snapshots:
     dependencies:
       '@sanity/client': 6.27.2
 
-  '@sanity/visual-editing@2.12.10(@remix-run/react@2.15.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@sanity/client@6.27.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)':
+  '@sanity/visual-editing@2.12.12(@remix-run/react@2.15.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@sanity/client@6.27.2)(react-dom@19.0.0(react@19.0.0))(react-router@6.29.0(react@19.0.0))(react@19.0.0)':
     dependencies:
       '@sanity/comlink': 3.0.1
       '@sanity/mutate': 0.11.0-canary.4(xstate@5.19.2)
@@ -648,8 +648,9 @@ snapshots:
       valibot: 0.31.1
       xstate: 5.19.2
     optionalDependencies:
-      '@remix-run/react': 2.15.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@remix-run/react': 2.15.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@sanity/client': 6.27.2
+      react-router: 6.29.0(react@19.0.0)
     transitivePeerDependencies:
       - '@sanity/types'
       - debug
@@ -668,10 +669,10 @@ snapshots:
       - '@types/react'
       - xstate
 
-  '@shopify/hydrogen@2024.10.1(@remix-run/react@2.15.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@remix-run/server-runtime@2.15.2)(@types/react@19.0.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(xstate@5.19.2)':
+  '@shopify/hydrogen@2024.10.1(@remix-run/react@2.15.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@remix-run/server-runtime@2.15.3)(@types/react@19.0.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(xstate@5.19.2)':
     dependencies:
-      '@remix-run/react': 2.15.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      '@remix-run/server-runtime': 2.15.2
+      '@remix-run/react': 2.15.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
+      '@remix-run/server-runtime': 2.15.3
       '@shopify/hydrogen-react': 2024.10.1(@types/react@19.0.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(xstate@5.19.2)
       content-security-policy-builder: 2.2.0
       react: 19.0.0
@@ -686,9 +687,9 @@ snapshots:
 
   '@shopify/oxygen-workers-types@4.1.6': {}
 
-  '@shopify/remix-oxygen@2.0.9(@remix-run/server-runtime@2.15.2)(@shopify/oxygen-workers-types@4.1.6)':
+  '@shopify/remix-oxygen@2.0.10(@remix-run/server-runtime@2.15.3)(@shopify/oxygen-workers-types@4.1.6)':
     dependencies:
-      '@remix-run/server-runtime': 2.15.2
+      '@remix-run/server-runtime': 2.15.3
       '@shopify/oxygen-workers-types': 4.1.6
 
   '@types/cookie@0.6.0': {}
@@ -699,15 +700,15 @@ snapshots:
 
   '@types/follow-redirects@1.14.4':
     dependencies:
-      '@types/node': 22.12.0
+      '@types/node': 22.13.1
 
-  '@types/node@22.12.0':
+  '@types/node@22.13.1':
     dependencies:
       undici-types: 6.20.0
 
   '@types/progress-stream@2.0.5':
     dependencies:
-      '@types/node': 22.12.0
+      '@types/node': 22.13.1
 
   '@types/react-dom@19.0.3(@types/react@19.0.8)':
     dependencies:
@@ -793,19 +794,19 @@ snapshots:
 
   graphql@16.10.0: {}
 
-  groq@3.72.0: {}
+  groq@3.73.0: {}
 
   hotscript@1.0.13: {}
 
-  hydrogen-sanity@4.3.2(@remix-run/react@2.15.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@sanity/client@6.27.2)(@shopify/hydrogen@2024.10.1(@remix-run/react@2.15.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@remix-run/server-runtime@2.15.2)(@types/react@19.0.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(xstate@5.19.2))(@shopify/remix-oxygen@2.0.9(@remix-run/server-runtime@2.15.2)(@shopify/oxygen-workers-types@4.1.6))(groq@3.72.0)(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  hydrogen-sanity@4.3.2(@remix-run/react@2.15.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@sanity/client@6.27.2)(@shopify/hydrogen@2024.10.1(@remix-run/react@2.15.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@remix-run/server-runtime@2.15.3)(@types/react@19.0.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(xstate@5.19.2))(@shopify/remix-oxygen@2.0.10(@remix-run/server-runtime@2.15.3)(@shopify/oxygen-workers-types@4.1.6))(groq@3.73.0)(react-dom@19.0.0(react@19.0.0))(react-router@6.29.0(react@19.0.0))(react@19.0.0):
     dependencies:
       '@sanity/client': 6.27.2
       '@sanity/preview-url-secret': 2.1.4(@sanity/client@6.27.2)
-      '@sanity/react-loader': 1.10.40(react@19.0.0)
-      '@sanity/visual-editing': 2.12.10(@remix-run/react@2.15.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@sanity/client@6.27.2)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
-      '@shopify/hydrogen': 2024.10.1(@remix-run/react@2.15.2(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@remix-run/server-runtime@2.15.2)(@types/react@19.0.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(xstate@5.19.2)
-      '@shopify/remix-oxygen': 2.0.9(@remix-run/server-runtime@2.15.2)(@shopify/oxygen-workers-types@4.1.6)
-      groq: 3.72.0
+      '@sanity/react-loader': 1.10.41(react@19.0.0)
+      '@sanity/visual-editing': 2.12.12(@remix-run/react@2.15.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@sanity/client@6.27.2)(react-dom@19.0.0(react@19.0.0))(react-router@6.29.0(react@19.0.0))(react@19.0.0)
+      '@shopify/hydrogen': 2024.10.1(@remix-run/react@2.15.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(@remix-run/server-runtime@2.15.3)(@types/react@19.0.8)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(xstate@5.19.2)
+      '@shopify/remix-oxygen': 2.0.10(@remix-run/server-runtime@2.15.3)(@shopify/oxygen-workers-types@4.1.6)
+      groq: 3.73.0
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
     transitivePeerDependencies:
@@ -867,16 +868,16 @@ snapshots:
 
   react-is@19.0.0: {}
 
-  react-router-dom@6.28.1(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
+  react-router-dom@6.29.0(react-dom@19.0.0(react@19.0.0))(react@19.0.0):
     dependencies:
-      '@remix-run/router': 1.21.0
+      '@remix-run/router': 1.22.0
       react: 19.0.0
       react-dom: 19.0.0(react@19.0.0)
-      react-router: 6.28.1(react@19.0.0)
+      react-router: 6.29.0(react@19.0.0)
 
-  react-router@6.28.1(react@19.0.0):
+  react-router@6.29.0(react@19.0.0):
     dependencies:
-      '@remix-run/router': 1.21.0
+      '@remix-run/router': 1.22.0
       react: 19.0.0
 
   react@19.0.0: {}
