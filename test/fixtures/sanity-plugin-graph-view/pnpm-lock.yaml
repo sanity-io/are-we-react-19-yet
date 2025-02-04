@@ -6463,6 +6463,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  '@sanity/client@6.27.2':
+    dependencies:
+      '@sanity/eventsource': 5.0.2
+      get-it: 8.6.7
+      rxjs: 7.8.1
+    transitivePeerDependencies:
+      - debug
+
   '@sanity/client@6.27.2(debug@4.4.0)':
     dependencies:
       '@sanity/eventsource': 5.0.2
@@ -6691,7 +6699,7 @@ snapshots:
 
   '@sanity/presentation-comlink@1.0.4(@sanity/client@6.27.2(debug@4.4.0))(@sanity/types@3.72.0(@types/react@19.0.8)(debug@4.4.0))':
     dependencies:
-      '@sanity/client': 6.27.2(debug@4.4.0)
+      '@sanity/client': 6.27.2
       '@sanity/comlink': 3.0.1
       '@sanity/visual-editing-types': 1.0.4(@sanity/client@6.27.2(debug@4.4.0))(@sanity/types@3.72.0(@types/react@19.0.8)(debug@4.4.0))
     transitivePeerDependencies:
@@ -6699,7 +6707,7 @@ snapshots:
 
   '@sanity/preview-url-secret@2.1.4(@sanity/client@6.27.2(debug@4.4.0))':
     dependencies:
-      '@sanity/client': 6.27.2(debug@4.4.0)
+      '@sanity/client': 6.27.2
       '@sanity/uuid': 3.0.2
 
   '@sanity/schema@3.72.0(@types/react@19.0.8)(debug@4.4.0)':
@@ -6749,7 +6757,7 @@ snapshots:
 
   '@sanity/types@3.72.0(@types/react@19.0.8)(debug@4.4.0)':
     dependencies:
-      '@sanity/client': 6.27.2(debug@4.4.0)
+      '@sanity/client': 6.27.2
       '@types/react': 19.0.8
     transitivePeerDependencies:
       - debug
@@ -6813,7 +6821,7 @@ snapshots:
 
   '@sanity/visual-editing-types@1.0.4(@sanity/client@6.27.2(debug@4.4.0))(@sanity/types@3.72.0(@types/react@19.0.8)(debug@4.4.0))':
     dependencies:
-      '@sanity/client': 6.27.2(debug@4.4.0)
+      '@sanity/client': 6.27.2
     optionalDependencies:
       '@sanity/types': 3.72.0(@types/react@19.0.8)(debug@4.4.0)
 
@@ -8113,12 +8121,24 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  get-it@8.6.7(debug@4.4.0):
+  get-it@8.6.7:
     dependencies:
       '@types/follow-redirects': 1.14.4
       '@types/progress-stream': 2.0.5
       decompress-response: 7.0.0
       follow-redirects: 1.15.9(debug@2.6.9)
+      is-retry-allowed: 2.2.0
+      progress-stream: 2.0.0
+      tunnel-agent: 0.6.0
+    transitivePeerDependencies:
+      - debug
+
+  get-it@8.6.7(debug@4.4.0):
+    dependencies:
+      '@types/follow-redirects': 1.14.4
+      '@types/progress-stream': 2.0.5
+      decompress-response: 7.0.0
+      follow-redirects: 1.15.9(debug@4.4.0)
       is-retry-allowed: 2.2.0
       progress-stream: 2.0.0
       tunnel-agent: 0.6.0
@@ -9673,7 +9693,7 @@ snapshots:
       '@sanity/asset-utils': 2.2.1
       '@sanity/bifur-client': 0.4.1
       '@sanity/cli': 3.72.0(@types/babel__core@7.20.5)(@types/node@22.12.0)(@types/react@19.0.8)(react@19.0.0)(typescript@5.4.2)
-      '@sanity/client': 6.27.2(debug@4.4.0)
+      '@sanity/client': 6.27.2
       '@sanity/color': 3.0.6
       '@sanity/comlink': 3.0.1
       '@sanity/diff': 3.72.0
