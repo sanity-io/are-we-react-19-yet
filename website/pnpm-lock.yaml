@@ -67,7 +67,7 @@ importers:
         specifier: ^0.5.10
         version: 0.5.10(tailwindcss@4.0.3)
       '@tailwindcss/postcss':
-        specifier: ^4.0.1
+        specifier: ^4.0.3
         version: 4.0.3
       '@tailwindcss/typography':
         specifier: ^0.5.16
@@ -94,7 +94,7 @@ importers:
         specifier: ^0.6.11
         version: 0.6.11(prettier@3.4.2)
       tailwindcss:
-        specifier: ^4.0.1
+        specifier: ^4.0.3
         version: 4.0.3
       typescript:
         specifier: 5.7.3
