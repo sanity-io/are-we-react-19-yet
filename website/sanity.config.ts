@@ -14,7 +14,7 @@ export default defineConfig({
   projectId,
   dataset,
   schema: {types},
-  scheduledPublishing: {enabled: false},
+  releases: {enabled: true},
   plugins: [
     presentationTool({previewUrl: {previewMode: {enable: '/api/draft-mode/enable'}}}),
     structureTool(),
