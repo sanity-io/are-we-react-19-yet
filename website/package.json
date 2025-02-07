@@ -21,12 +21,12 @@
     "bright": "^1.0.0",
     "date-fns": "^4.1.0",
     "next": "canary",
-    "next-sanity": "^9.8.43",
+    "next-sanity": "^9.8.53",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-is": "^19.0.0",
     "sanity": "3.74.1",
-    "styled-components": "^6.1.14"
+    "styled-components": "^6.1.15"
   },
   "devDependencies": {
     "@sanity/prettier-config": "^1.0.3",
