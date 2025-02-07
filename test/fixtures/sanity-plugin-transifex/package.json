@@ -9,5 +9,5 @@
     "sanity": "^3.71.2",
     "sanity-plugin-transifex": "4.0.0"
   },
-  "packageManager": "pnpm@10.2.0"
+  "packageManager": "pnpm@10.2.1"
 }
