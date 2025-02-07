@@ -7,7 +7,7 @@
     "react-dom": "^19.0.0",
     "react-is": "^19.0.0",
     "sanity": "^3.71.2",
-    "sanity-plugin-mux-input": "2.4.1"
+    "sanity-plugin-mux-input": "2.5.0"
   },
   "packageManager": "pnpm@10.2.0"
 }
