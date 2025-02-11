@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@sanity/orderable-document-list": "1.2.2",
+    "@sanity/orderable-document-list": "1.2.3",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "@types/react-is": "^19.0.0",
