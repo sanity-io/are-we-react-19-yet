@@ -9,5 +9,5 @@
     "sanity": "^3.71.2",
     "sanity-plugin-user-select-input": "2.0.1"
   },
-  "packageManager": "pnpm@10.2.1"
+  "packageManager": "pnpm@10.3.0"
 }
