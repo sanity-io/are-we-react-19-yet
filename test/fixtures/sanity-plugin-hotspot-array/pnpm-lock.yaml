@@ -3682,6 +3682,7 @@ packages:
   sanity@3.76.3:
     resolution: {integrity: sha512-THP0NG/x2fcttzNKip0sj2fmsTeon1eppEqhhRgk6fd0b4GO0RS36J1D5/+jI6K436XgLaSgdd8NZa5bwVF9mg==}
     engines: {node: '>=18'}
+    deprecated: This version is using an experimental version of the Sanity HTTP API and we strongly recommend upgrading to latest
     hasBin: true
     peerDependencies:
       react: ^18 || ^19.0.0

@@ -9,5 +9,5 @@
     "sanity": "^3.71.2",
     "sanity-plugin-hotspot-array": "2.1.2"
   },
-  "packageManager": "pnpm@9.15.5"
+  "packageManager": "pnpm@9.15.6"
 }
