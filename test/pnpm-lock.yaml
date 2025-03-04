@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@sanity/client':
         specifier: ^6.27.2
-        version: 6.28.0
+        version: 6.28.2
       execa:
         specifier: ^9.5.2
         version: 9.5.2
@@ -22,10 +22,10 @@ importers:
         version: 5.7.3
       vitest:
         specifier: ^3.0.4
-        version: 3.0.7(@types/node@22.13.4)
+        version: 3.0.7(@types/node@22.13.9)
       vitest-github-actions-reporter:
         specifier: ^0.11.1
-        version: 0.11.1(vitest@3.0.7(@types/node@22.13.4))
+        version: 0.11.1(vitest@3.0.7(@types/node@22.13.9))
       zx:
         specifier: 8.1.1
         version: 8.1.1
@@ -311,8 +311,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@sanity/client@6.28.0':
-    resolution: {integrity: sha512-2kXmiOPAfT2/5cxmwIyLv+/1HXbZXwWYAtaPkOoujySVP3tcXYmzTwYbjUXMlRcvs0u28C2afZmSNoK+RDiQqA==}
+  '@sanity/client@6.28.2':
+    resolution: {integrity: sha512-QvgziDPMa1IW1T9ZsBwNgPgtWERQD9vDOIiD2Lpcys38/oeUDDrcu1IW4fl/y2F8wij6zykPoY94VcemS650OQ==}
     engines: {node: '>=14.18'}
 
   '@sanity/eventsource@5.0.2':
@@ -348,8 +348,8 @@ packages:
   '@types/jsonfile@6.1.4':
     resolution: {integrity: sha512-D5qGUYwjvnNNextdU59/+fI+spnwtTFmyQP0h+PfIOSkNfpU6AOICUOkm4i0OnSk+NyjdPJrxCDro0sJsWlRpQ==}
 
-  '@types/node@22.13.4':
-    resolution: {integrity: sha512-ywP2X0DYtX3y08eFVx5fNIw7/uIv8hYUKgXoK8oayJlLnKcRfEYCxWMVE1XagUdVtCJlZT1AU4LXEABW+L1Peg==}
+  '@types/node@22.13.9':
+    resolution: {integrity: sha512-acBjXdRJ3A6Pb3tqnw9HZmyR3Fiol3aGxRCK1x3d+6CDAMjl7I649wpSd+yNURCjbOUGu9tqtLKnTGxmK6CyGw==}
 
   '@types/progress-stream@2.0.5':
     resolution: {integrity: sha512-5YNriuEZkHlFHHepLIaxzq3atGeav1qCTGzB74HKWpo66qjfostF+rHc785YYYHeBytve8ZG3ejg42jEIfXNiQ==}
@@ -684,8 +684,8 @@ packages:
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
-  rxjs@7.8.1:
-    resolution: {integrity: sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==}
+  rxjs@7.8.2:
+    resolution: {integrity: sha512-dhKf903U/PQZY6boNNtAGdWbG85WAbjT/1xYoZIC7FAY0yWapOBQVsVrDl58W86//e1VpMNBtRV4MaXfdMySFA==}
 
   safe-buffer@5.1.2:
     resolution: {integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==}
@@ -1089,11 +1089,11 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.34.9':
     optional: true
 
-  '@sanity/client@6.28.0':
+  '@sanity/client@6.28.2':
     dependencies:
       '@sanity/eventsource': 5.0.2
       get-it: 8.6.7
-      rxjs: 7.8.1
+      rxjs: 7.8.2
     transitivePeerDependencies:
       - debug
 
@@ -1121,26 +1121,26 @@ snapshots:
 
   '@types/follow-redirects@1.14.4':
     dependencies:
-      '@types/node': 22.13.4
+      '@types/node': 22.13.9
 
   '@types/fs-extra@11.0.4':
     dependencies:
       '@types/jsonfile': 6.1.4
-      '@types/node': 22.13.4
+      '@types/node': 22.13.9
     optional: true
 
   '@types/jsonfile@6.1.4':
     dependencies:
-      '@types/node': 22.13.4
+      '@types/node': 22.13.9
     optional: true
 
-  '@types/node@22.13.4':
+  '@types/node@22.13.9':
     dependencies:
       undici-types: 6.20.0
 
   '@types/progress-stream@2.0.5':
     dependencies:
-      '@types/node': 22.13.4
+      '@types/node': 22.13.9
 
   '@vitest/expect@3.0.7':
     dependencies:
@@ -1149,13 +1149,13 @@ snapshots:
       chai: 5.2.0
       tinyrainbow: 2.0.0
 
-  '@vitest/mocker@3.0.7(vite@6.2.0(@types/node@22.13.4))':
+  '@vitest/mocker@3.0.7(vite@6.2.0(@types/node@22.13.9))':
     dependencies:
       '@vitest/spy': 3.0.7
       estree-walker: 3.0.3
       magic-string: 0.30.17
     optionalDependencies:
-      vite: 6.2.0(@types/node@22.13.4)
+      vite: 6.2.0(@types/node@22.13.9)
 
   '@vitest/pretty-format@3.0.7':
     dependencies:
@@ -1478,7 +1478,7 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.34.9
       fsevents: 2.3.3
 
-  rxjs@7.8.1:
+  rxjs@7.8.2:
     dependencies:
       tslib: 2.8.1
 
@@ -1590,13 +1590,13 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite-node@3.0.7(@types/node@22.13.4):
+  vite-node@3.0.7(@types/node@22.13.9):
     dependencies:
       cac: 6.7.14
       debug: 4.4.0
       es-module-lexer: 1.6.0
       pathe: 2.0.3
-      vite: 6.2.0(@types/node@22.13.4)
+      vite: 6.2.0(@types/node@22.13.9)
     transitivePeerDependencies:
       - '@types/node'
       - jiti
@@ -1611,24 +1611,24 @@ snapshots:
       - tsx
       - yaml
 
-  vite@6.2.0(@types/node@22.13.4):
+  vite@6.2.0(@types/node@22.13.9):
     dependencies:
       esbuild: 0.25.0
       postcss: 8.5.3
       rollup: 4.34.9
     optionalDependencies:
-      '@types/node': 22.13.4
+      '@types/node': 22.13.9
       fsevents: 2.3.3
 
-  vitest-github-actions-reporter@0.11.1(vitest@3.0.7(@types/node@22.13.4)):
+  vitest-github-actions-reporter@0.11.1(vitest@3.0.7(@types/node@22.13.9)):
     dependencies:
       '@actions/core': 1.11.1
-      vitest: 3.0.7(@types/node@22.13.4)
+      vitest: 3.0.7(@types/node@22.13.9)
 
-  vitest@3.0.7(@types/node@22.13.4):
+  vitest@3.0.7(@types/node@22.13.9):
     dependencies:
       '@vitest/expect': 3.0.7
-      '@vitest/mocker': 3.0.7(vite@6.2.0(@types/node@22.13.4))
+      '@vitest/mocker': 3.0.7(vite@6.2.0(@types/node@22.13.9))
       '@vitest/pretty-format': 3.0.7
       '@vitest/runner': 3.0.7
       '@vitest/snapshot': 3.0.7
@@ -1644,11 +1644,11 @@ snapshots:
       tinyexec: 0.3.2
       tinypool: 1.0.2
       tinyrainbow: 2.0.0
-      vite: 6.2.0(@types/node@22.13.4)
-      vite-node: 3.0.7(@types/node@22.13.4)
+      vite: 6.2.0(@types/node@22.13.9)
+      vite-node: 3.0.7(@types/node@22.13.9)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 22.13.4
+      '@types/node': 22.13.9
     transitivePeerDependencies:
       - jiti
       - less
@@ -1691,4 +1691,4 @@ snapshots:
   zx@8.1.1:
     optionalDependencies:
       '@types/fs-extra': 11.0.4
-      '@types/node': 22.13.4
+      '@types/node': 22.13.9
