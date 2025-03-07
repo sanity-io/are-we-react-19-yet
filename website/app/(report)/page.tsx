@@ -13,13 +13,13 @@ export async function generateMetadata(): Promise<Metadata> {
   })
   let title = 'Are We React 19 Yet?'
   if (report && report.total > 0) {
-    const percentage = Math.floor((report.passing / report.total) * 100);
+    const percentage = Math.floor((report.passing / report.total) * 100)
     title +=
       report.passing === report.total
         ? ' ✨ YES ✨'
         : percentage > 95
-        ? ` 🤏 Almost (${percentage}% complete)`
-        : ` No (${percentage}% complete)`
+          ? ` 🤏 Almost (${percentage}% complete)`
+          : ` No (${percentage}% complete)`
   }
   return {title}
 }
@@ -32,10 +32,10 @@ export default async function Page() {
         <section className="mt-16 mb-16 flex flex-col items-center lg:mb-12 lg:flex-row lg:justify-between">
           <h1 className="text-center text-6xl leading-tight font-bold tracking-tighter lg:pr-8 lg:text-8xl">
             <span className="block text-sm leading-none tracking-normal">Are We React 19 Yet?</span>
-            {report && report.total > 0 && report.passing === report.total 
-              ? ' ✨ YES ✨' 
-              : Math.floor((report.passing / report.total) * 100) > 95 
-                ? '🤏' 
+            {report && report.total > 0 && report.passing === report.total
+              ? ' ✨ YES ✨'
+              : Math.floor((report.passing / report.total) * 100) > 95
+                ? '🤏'
                 : 'No'}
           </h1>
           {report && report.total > 0 && (
