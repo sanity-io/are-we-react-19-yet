@@ -7,7 +7,7 @@
     "react-dom": "^19.0.0",
     "react-is": "^19.0.0",
     "sanity": "^3.71.2",
-    "sanity-plugin-media": "2.4.2-canary.1"
+    "sanity-plugin-media": "2.4.2-canary.2"
   },
   "packageManager": "pnpm@9.15.7"
 }
