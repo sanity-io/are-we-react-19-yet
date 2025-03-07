@@ -34,7 +34,7 @@ export default async function Page() {
             <span className="block text-sm leading-none tracking-normal">Are We React 19 Yet?</span>
             {report && report.total > 0 && report.passing === report.total
               ? ' ✨ YES ✨'
-              : Math.floor((report.passing / report.total) * 100) > 95
+              : report && Math.floor((report.passing / report.total) * 100) > 95
                 ? '🤏'
                 : 'No'}
           </h1>
