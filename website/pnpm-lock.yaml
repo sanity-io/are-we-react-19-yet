@@ -1817,6 +1817,9 @@ packages:
   '@sanity/mutator@3.78.0':
     resolution: {integrity: sha512-WPBPrIIcdg7QJIeeV8/At79gMDv8T+k06P6m4CBoAYQXZZcD1+9Z/D2yDBr8f5PS4DOQAg92w3NpPH1Q5exI6w==}
 
+  '@sanity/mutator@3.78.1':
+    resolution: {integrity: sha512-jP0AcDwxBUvuUTQDYiYHu2SnaFwTOpuu3ez0NUrqaB/AktcCN/YEyKmhtrEhaMHzheW/PFvQaP23IdwW1AmqyQ==}
+
   '@sanity/next-loader@1.3.4':
     resolution: {integrity: sha512-eQl/nNnhtioze8qvyLwfre/3taCsJHXPGvWNpWs0WcJw+nywk561kgHLjr04jX6zidjYchVMT5+4Id+4KYU/UA==}
     engines: {node: '>=18.18'}
@@ -1883,6 +1886,11 @@ packages:
 
   '@sanity/types@3.78.0':
     resolution: {integrity: sha512-g+FXuNS49AQNFphZOAzIfgyvygRqTNwDGkELRELLP0GydoF73DB94SbtEMPl9sXxkOc2Dj0UdadSYra41vW7+w==}
+    peerDependencies:
+      '@types/react': 18 || 19
+
+  '@sanity/types@3.78.1':
+    resolution: {integrity: sha512-/T7VD+XWYWrpMa0eogeaRTe1BZwW0kcWQb+FXYN3Fu9tSSkM/Q1VW6W0HBcJZcCkK2RzVBqy43bWKbsLgC0iZw==}
     peerDependencies:
       '@types/react': 18 || 19
 
@@ -7674,7 +7682,7 @@ snapshots:
     dependencies:
       '@sanity/asset-utils': 2.2.1
       '@sanity/generate-help-url': 3.0.0
-      '@sanity/mutator': 3.78.0(@types/react@19.0.10)
+      '@sanity/mutator': 3.78.1(@types/react@19.0.10)
       '@sanity/uuid': 3.0.2
       debug: 4.4.0
       file-url: 2.0.2
@@ -7776,6 +7784,17 @@ snapshots:
     dependencies:
       '@sanity/diff-match-patch': 3.2.0
       '@sanity/types': 3.78.0(@types/react@19.0.10)(debug@4.4.0)
+      '@sanity/uuid': 3.0.2
+      debug: 4.4.0
+      lodash: 4.17.21
+    transitivePeerDependencies:
+      - '@types/react'
+      - supports-color
+
+  '@sanity/mutator@3.78.1(@types/react@19.0.10)':
+    dependencies:
+      '@sanity/diff-match-patch': 3.2.0
+      '@sanity/types': 3.78.1(@types/react@19.0.10)(debug@4.4.0)
       '@sanity/uuid': 3.0.2
       debug: 4.4.0
       lodash: 4.17.21
@@ -7919,6 +7938,13 @@ snapshots:
       - debug
 
   '@sanity/types@3.78.0(@types/react@19.0.10)(debug@4.4.0)':
+    dependencies:
+      '@sanity/client': 6.28.2(debug@4.4.0)
+      '@types/react': 19.0.10
+    transitivePeerDependencies:
+      - debug
+
+  '@sanity/types@3.78.1(@types/react@19.0.10)(debug@4.4.0)':
     dependencies:
       '@sanity/client': 6.28.2(debug@4.4.0)
       '@types/react': 19.0.10
