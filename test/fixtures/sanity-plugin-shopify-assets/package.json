@@ -1,13 +1,13 @@
 {
   "dependencies": {
-    "@types/react": "^19.0.8",
-    "@types/react-dom": "^19.0.3",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
     "@types/react-is": "^19.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-is": "^19.0.0",
     "sanity": "^3.71.2",
-    "sanity-plugin-shopify-assets": "1.1.0"
+    "sanity-plugin-shopify-assets": "1.2.0"
   },
   "packageManager": "pnpm@9.15.6"
 }
