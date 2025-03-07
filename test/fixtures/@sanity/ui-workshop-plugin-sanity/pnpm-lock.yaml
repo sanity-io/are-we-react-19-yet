@@ -7733,7 +7733,7 @@ snapshots:
       duplexer: 0.1.2
       glob: 7.2.3
       glob2base: 0.0.12
-      minimatch: 3.0.8
+      minimatch: 3.1.2
       mkdirp: 0.5.6
       resolve: 1.22.10
       safe-buffer: 5.2.1
