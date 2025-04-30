@@ -30,8 +30,8 @@ importers:
         specifier: ^3.71.2
         version: 3.87.0(@emotion/is-prop-valid@1.2.2)(@types/node@22.15.3)(@types/react@19.1.2)(immer@10.1.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(styled-components@6.1.15(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(terser@5.39.0)(yaml@2.7.1)
       sanity-plugin-media:
-        specifier: 3.0.0
-        version: 3.0.0(@sanity/ui@2.15.14(@emotion/is-prop-valid@1.2.2)(react-dom@19.1.0(react@19.1.0))(react-is@19.1.0)(react@19.1.0)(styled-components@6.1.15(react-dom@19.1.0(react@19.1.0))(react@19.1.0)))(@types/react@19.1.2)(react-dom@19.1.0(react@19.1.0))(react-is@19.1.0)(react@19.1.0)(sanity@3.87.0(@emotion/is-prop-valid@1.2.2)(@types/node@22.15.3)(@types/react@19.1.2)(immer@10.1.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(styled-components@6.1.15(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(terser@5.39.0)(yaml@2.7.1))(styled-components@6.1.15(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
+        specifier: 3.0.2
+        version: 3.0.2(@sanity/ui@2.15.14(@emotion/is-prop-valid@1.2.2)(react-dom@19.1.0(react@19.1.0))(react-is@19.1.0)(react@19.1.0)(styled-components@6.1.15(react-dom@19.1.0(react@19.1.0))(react@19.1.0)))(@types/react@19.1.2)(react-dom@19.1.0(react@19.1.0))(react-is@19.1.0)(react@19.1.0)(sanity@3.87.0(@emotion/is-prop-valid@1.2.2)(@types/node@22.15.3)(@types/react@19.1.2)(immer@10.1.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(styled-components@6.1.15(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(terser@5.39.0)(yaml@2.7.1))(styled-components@6.1.15(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
 
 packages:
 
@@ -2163,6 +2163,9 @@ packages:
     resolution: {integrity: sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==}
     engines: {node: '>=0.11'}
 
+  date-fns@4.1.0:
+    resolution: {integrity: sha512-Ukq0owbQXxa/U3EGtsdVBkR1w7KOQ5gIBqdH2hkvknzZPYvBxb/aa6E8L7tmjFtkwZBu3UXBbjIgPo/Ez4xaNg==}
+
   debounce@1.2.1:
     resolution: {integrity: sha512-XRRe6Glud4rd/ZGQfiV1ruXSfbvfJedlV9Y6zOlP+2K04vBYiJEte6stfFkCP03aMnY5tsipamumUjL14fofug==}
 
@@ -3544,8 +3547,8 @@ packages:
       react: ^18.3 || >=19.0.0-0
       rxjs: ^7
 
-  react-select@5.10.0:
-    resolution: {integrity: sha512-k96gw+i6N3ExgDwPIg0lUPmexl1ygPe6u5BdQFNBhkpbwroIgCNXdubtIzHfThYXYYTubwOBafoMnn7ruEP1xA==}
+  react-select@5.10.1:
+    resolution: {integrity: sha512-roPEZUL4aRZDx6DcsD+ZNreVl+fM8VsKn0Wtex1v4IazH60ILp5xhdlp464IsEAlJdXeD+BhDAFsBVMfvLQueA==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
@@ -3723,8 +3726,8 @@ packages:
   safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
 
-  sanity-plugin-media@3.0.0:
-    resolution: {integrity: sha512-913Brh8nXDi7ZHw4PRz6bhV9RIQGJL2HBReM45Wbj1hbLGs/6AtzaFlE8It57iObPhdLmE37fqpFPled+X5Rdw==}
+  sanity-plugin-media@3.0.2:
+    resolution: {integrity: sha512-nH3m/a5fw+mVuQ/r4nu1GptNmw8txvvYdYL8nEaSXfwG71RK4sQCa/RgYuOWbt7OLjI+0WAO/xUZ3/cOrHJgkA==}
     engines: {node: '>=18'}
     peerDependencies:
       '@sanity/ui': ^2.15
@@ -6816,6 +6819,8 @@ snapshots:
     dependencies:
       '@babel/runtime': 7.27.1
 
+  date-fns@4.1.0: {}
+
   debounce@1.2.1: {}
 
   debug@2.6.9:
@@ -8202,7 +8207,7 @@ snapshots:
       rxjs: 7.8.2
       use-effect-event: 1.0.2(react@19.1.0)
 
-  react-select@5.10.0(@types/react@19.1.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
+  react-select@5.10.1(@types/react@19.1.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
       '@babel/runtime': 7.27.1
       '@emotion/cache': 11.14.0
@@ -8420,7 +8425,7 @@ snapshots:
 
   safer-buffer@2.1.2: {}
 
-  sanity-plugin-media@3.0.0(@sanity/ui@2.15.14(@emotion/is-prop-valid@1.2.2)(react-dom@19.1.0(react@19.1.0))(react-is@19.1.0)(react@19.1.0)(styled-components@6.1.15(react-dom@19.1.0(react@19.1.0))(react@19.1.0)))(@types/react@19.1.2)(react-dom@19.1.0(react@19.1.0))(react-is@19.1.0)(react@19.1.0)(sanity@3.87.0(@emotion/is-prop-valid@1.2.2)(@types/node@22.15.3)(@types/react@19.1.2)(immer@10.1.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(styled-components@6.1.15(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(terser@5.39.0)(yaml@2.7.1))(styled-components@6.1.15(react-dom@19.1.0(react@19.1.0))(react@19.1.0)):
+  sanity-plugin-media@3.0.2(@sanity/ui@2.15.14(@emotion/is-prop-valid@1.2.2)(react-dom@19.1.0(react@19.1.0))(react-is@19.1.0)(react@19.1.0)(styled-components@6.1.15(react-dom@19.1.0(react@19.1.0))(react@19.1.0)))(@types/react@19.1.2)(react-dom@19.1.0(react@19.1.0))(react-is@19.1.0)(react@19.1.0)(sanity@3.87.0(@emotion/is-prop-valid@1.2.2)(@types/node@22.15.3)(@types/react@19.1.2)(immer@10.1.1)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(styled-components@6.1.15(react-dom@19.1.0(react@19.1.0))(react@19.1.0))(terser@5.39.0)(yaml@2.7.1))(styled-components@6.1.15(react-dom@19.1.0(react@19.1.0))(react@19.1.0)):
     dependencies:
       '@hookform/resolvers': 3.10.0(react-hook-form@7.54.2(react@19.1.0))
       '@reduxjs/toolkit': 2.6.0(react-redux@9.2.0(@types/react@19.1.2)(react@19.1.0)(redux@5.0.1))(react@19.1.0)
@@ -8432,10 +8437,10 @@ snapshots:
       '@sanity/uuid': 3.0.2
       '@tanem/react-nprogress': 5.0.55(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       copy-to-clipboard: 3.3.3
-      date-fns: 2.30.0
+      date-fns: 4.1.0
       filesize: 9.0.11
       groq: 3.87.0
-      is-hotkey: 0.2.0
+      is-hotkey-esm: 1.0.0
       nanoid: 3.3.11
       pluralize: 8.0.0
       react: 19.1.0
@@ -8445,7 +8450,7 @@ snapshots:
       react-hook-form: 7.54.2(react@19.1.0)
       react-is: 19.1.0
       react-redux: 9.2.0(@types/react@19.1.2)(react@19.1.0)(redux@5.0.1)
-      react-select: 5.10.0(@types/react@19.1.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      react-select: 5.10.1(@types/react@19.1.2)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react-virtuoso: 4.12.5(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       redux: 5.0.1
       redux-observable: 3.0.0-rc.2(redux@5.0.1)(rxjs@7.8.2)
