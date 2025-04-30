@@ -34,7 +34,7 @@
     "@tailwindcss/postcss": "^4.0.12",
     "@tailwindcss/typography": "^0.5.16",
     "babel-plugin-react-compiler": "beta",
-    "eslint": "^9.21.0",
+    "eslint": "^9.25.1",
     "eslint-config-next": "canary",
     "eslint-plugin-react-compiler": "beta",
     "postcss": "^8.5.3",
