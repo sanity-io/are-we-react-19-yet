@@ -9,5 +9,5 @@
     "sanity": "^3.71.2",
     "sanity-plugin-media": "3.0.2"
   },
-  "packageManager": "pnpm@9.15.7"
+  "packageManager": "pnpm@9.15.9"
 }
