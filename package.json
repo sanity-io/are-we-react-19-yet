@@ -1,6 +1,6 @@
 {
   "private": true,
-  "packageManager": "pnpm@9.15.7",
+  "packageManager": "pnpm@9.15.9",
   "scripts": {
     "update-all": "find . -name \"package.json\" -not -path \"*/node_modules/*\" -execdir sh -c 'echo \"📦 Updating $(pwd)\" && pnpm up --latest' \\;"
   },
