@@ -10,7 +10,7 @@
     "typegen": "sanity schema extract && sanity typegen generate"
   },
   "dependencies": {
-    "@sanity/client": "^6.27.2",
+    "@sanity/client": "^7.3.0",
     "@sanity/icons": "^3.5.7",
     "@sanity/vision": "3.87.0",
     "@types/node": "^22.12.0",
