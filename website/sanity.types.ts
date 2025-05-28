@@ -13,6 +13,22 @@
  */
 
 // Source: schema.json
+export type Report = {
+  _id: string
+  _type: 'report'
+  _createdAt: string
+  _updatedAt: string
+  _rev: string
+  test?: Array<{
+    name?: string
+    version?: string
+    pass?: boolean
+    log?: string
+    testJson?: string
+    _key: string
+  }>
+}
+
 export type SanityImagePaletteSwatch = {
   _type: 'sanity.imagePaletteSwatch'
   background?: string
@@ -131,23 +147,8 @@ export type SanityAssetSourceData = {
   url?: string
 }
 
-export type Report = {
-  _id: string
-  _type: 'report'
-  _createdAt: string
-  _updatedAt: string
-  _rev: string
-  test?: Array<{
-    name?: string
-    version?: string
-    pass?: boolean
-    log?: string
-    testJson?: string
-    _key: string
-  }>
-}
-
 export type AllSanitySchemaTypes =
+  | Report
   | SanityImagePaletteSwatch
   | SanityImagePalette
   | SanityImageDimensions
@@ -159,7 +160,6 @@ export type AllSanitySchemaTypes =
   | Geopoint
   | Slug
   | SanityAssetSourceData
-  | Report
 export declare const internalGroqTypeReferenceTo: unique symbol
 // Source: ./sanity/lib/queries.ts
 // Variable: reportQuery
