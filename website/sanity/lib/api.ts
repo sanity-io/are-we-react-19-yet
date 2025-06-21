@@ -29,4 +29,4 @@ export const apiVersion = process.env.NEXT_PUBLIC_SANITY_API_VERSION || '2024-11
 /**
  * Used to configure edit intent links, for Presentation Mode, as well as to configure where the Studio is mounted in the router.
  */
-export const studioUrl = '/studio'
+export const studioUrl = '/studio#'
