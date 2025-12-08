@@ -1,7 +1,7 @@
 import '../globals.css'
 
 import {SpeedInsights} from '@vercel/speed-insights/next'
-import {VisualEditing} from 'next-sanity'
+import {VisualEditing} from 'next-sanity/visual-editing'
 import {Inter} from 'next/font/google'
 import {draftMode} from 'next/headers'
 import {SanityLive} from '@/sanity/lib/live'
