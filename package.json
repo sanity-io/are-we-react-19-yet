@@ -5,6 +5,6 @@
     "update-all": "find . -name \"package.json\" -not -path \"*/node_modules/*\" -execdir sh -c 'echo \"📦 Updating $(pwd)\" && pnpm up --latest' \\;"
   },
   "dependencies": {
-    "@types/node": "^20.12.12"
+    "@types/node": "^20.19.27"
   }
 }
