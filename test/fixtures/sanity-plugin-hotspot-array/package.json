@@ -1,11 +1,11 @@
 {
   "dependencies": {
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0",
-    "@types/react-is": "^19.0.0",
-    "react": "19.2.1",
-    "react-dom": "19.2.1",
-    "react-is": "^19.0.0",
+    "@types/react": "^19.2.10",
+    "@types/react-dom": "^19.2.3",
+    "@types/react-is": "^19.2.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "react-is": "^19.2.4",
     "sanity": "^3.71.2",
     "sanity-plugin-hotspot-array": "2.2.0"
   },
