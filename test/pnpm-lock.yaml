@@ -32,10 +32,10 @@ importers:
     devDependencies:
       '@sanity/prettier-config':
         specifier: ^1.0.3
-        version: 1.0.3(prettier@3.5.3)
+        version: 1.0.3(prettier@3.9.6)
       prettier:
-        specifier: ^3.5.3
-        version: 3.5.3
+        specifier: ^3.9.6
+        version: 3.9.6
 
 packages:
 
@@ -542,6 +542,7 @@ packages:
   glob@11.0.1:
     resolution: {integrity: sha512-zrQDm8XPnYEKawJScsnM0QzobJxlT/kHOOlRTio8IH/GrmxRE5fjllkzdaHclIuNjUQTJYH2xHNIGfdpJkDJUw==}
     engines: {node: 20 || >=22}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   human-signals@8.0.0:
@@ -657,8 +658,8 @@ packages:
       prettier:
         optional: true
 
-  prettier@3.5.3:
-    resolution: {integrity: sha512-QQtaxnoDJeAkDvDKWCLiwIXkTgRhwYDEQCghU9Z6q03iyek/rxRh/2lC3HB7P8sWT2xC/y5JDctPLBIGzHKbhw==}
+  prettier@3.9.6:
+    resolution: {integrity: sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1092,10 +1093,10 @@ snapshots:
       event-source-polyfill: 1.0.31
       eventsource: 2.0.2
 
-  '@sanity/prettier-config@1.0.3(prettier@3.5.3)':
+  '@sanity/prettier-config@1.0.3(prettier@3.9.6)':
     dependencies:
-      prettier: 3.5.3
-      prettier-plugin-packagejson: 2.5.8(prettier@3.5.3)
+      prettier: 3.9.6
+      prettier-plugin-packagejson: 2.5.8(prettier@3.9.6)
 
   '@sec-ant/readable-stream@0.4.1': {}
 
@@ -1402,14 +1403,14 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  prettier-plugin-packagejson@2.5.8(prettier@3.5.3):
+  prettier-plugin-packagejson@2.5.8(prettier@3.9.6):
     dependencies:
       sort-package-json: 2.14.0
       synckit: 0.9.2
     optionalDependencies:
-      prettier: 3.5.3
+      prettier: 3.9.6
 
-  prettier@3.5.3: {}
+  prettier@3.9.6: {}
 
   pretty-ms@9.2.0:
     dependencies:
