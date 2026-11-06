@@ -7,7 +7,7 @@
     "react": "19.2.1",
     "react-dom": "19.2.1",
     "react-is": "^19.0.0",
-    "sanity": "^3.71.2"
+    "sanity": "^3.99.0"
   },
   "packageManager": "pnpm@9.15.9"
 }
