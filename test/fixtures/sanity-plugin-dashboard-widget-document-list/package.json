@@ -6,7 +6,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-is": "^19.0.0",
-    "sanity": "^3.71.2",
+    "sanity": "^3.99.0",
     "sanity-plugin-dashboard-widget-document-list": "2.1.0"
   },
   "packageManager": "pnpm@9.15.9"
